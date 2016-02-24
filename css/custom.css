@@ -1,0 +1,51 @@
+
+.header{
+	padding-top: 200px;
+	padding-bottom: 200px;
+
+}
+
+.footer{
+
+}
+
+.hemingly{
+	height: 800px;
+}
+
+.education{
+	height: 800px;
+}
+
+.miscellaneous{
+	height: 600px;
+}
+
+.vCenter{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.hCenter {
+	margin: 0, auto;
+	width: 380px;
+}
+
+.tCenter{
+	text-align: center;
+}
+
+.eg{
+	border-radius: 4px;
+	height: 250px;
+	width: 500px;
+	box-shadow: 2px 2px 5px #EEE;
+}
+
+
+html{
+	background-color: #F5F4F0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
