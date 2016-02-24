@@ -48,6 +48,8 @@
     padding: 0; }
 }
 
+
+
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
@@ -136,11 +138,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; 
   color: #666;
 }
-h1 { font-size: 4.0rem; line-height: 1;  letter-spacing: -.1rem;}
-h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h1 { font-size: 5.0rem; line-height: 1;  letter-spacing: -.1rem; margin-bottom: 0.3rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; margin-bottom: 0.3rem; }
+h3 { font-size: 1.8rem; line-height: 1.3;  letter-spacing: -.1rem; margin-bottom: 0.3rem; }
 h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.5;  font-weight: 400; color: #888; }
 
 /* Larger than phablet */
@@ -358,6 +360,7 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
+  
 
 
 /* Utilities

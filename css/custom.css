@@ -1,13 +1,15 @@
 
 .header{
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 180px;
+	padding-bottom: 180px;
 
 }
 
-.footer{
-
+@media(max-width: 700px){
+	.header{padding-top: 150px; padding-bottom: 100px;}
 }
+
+
 
 .hemingly{
 	height: 800px;
@@ -18,7 +20,7 @@
 }
 
 .miscellaneous{
-	height: 600px;
+	height: 800px;
 }
 
 .vCenter{
@@ -28,7 +30,7 @@
 }
 .hCenter {
 	margin: 0, auto;
-	width: 380px;
+	width: 375px;
 }
 
 .tCenter{
@@ -37,9 +39,11 @@
 
 .eg{
 	border-radius: 4px;
-	height: 250px;
-	width: 500px;
+    width: 100%;
+    max-width: 450px;
 	box-shadow: 2px 2px 5px #EEE;
+
+
 }
 
 

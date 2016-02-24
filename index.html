@@ -27,6 +27,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="img/favicon.png">
 
+
 </head>
 
 
@@ -34,20 +35,26 @@
 
   <div class="section header">
     <div class ="hCenter container">
-    	<img src="img/head.gif" style="float:left;">   
-    	<h1 >Yitong Zhang</h1><h6>Gainfully unemployed... for now!</h6>
-    	    <div class ="tCenter container">
-		<a href="https://www.facebook.com/yitong.zhang">Facebook</a>
-		<a href="https://twitter.com/Yitong_Zhang">Twitter</a>
-		<a href="https://ca.linkedin.com/in/yitongzhang">LinkedIn</a>
-		<a href="https://www.quora.com/profile/Yitong-Zhang">Quora</a>
-		<a href="https://github.com/yitongzhang">Github</a>
-		<a href="https://news.ycombinator.com/user?id=zy1t">Hacker News</a>
-		<a href="https://www.reddit.com/user/zyitong/">Reddit</a>
-		<a href="https://www.goodreads.com/user/show/13261666-yitong-zhang">Goodreads</a>
-    </div>
+    	<img src="img/head.gif" style="float:left; ">   
+    	<h1 >Yitong Zhang</h1><h6 id="unemployed"></h6>
+    	<div class ="tCenter container">
+			<a href="https://www.facebook.com/yitong.zhang">Facebook</a>
+			<a href="https://twitter.com/Yitong_Zhang">Twitter</a>
+			<a href="https://ca.linkedin.com/in/yitongzhang">LinkedIn</a>
+			<a href="https://www.quora.com/profile/Yitong-Zhang">Quora</a>
+			<a href="https://github.com/yitongzhang">Github</a>
+			<a href="https://news.ycombinator.com/user?id=zy1t">Hacker News</a>
+			<a href="https://www.reddit.com/user/zyitong/">Reddit</a>
+			<a href="https://www.goodreads.com/user/show/13261666-yitong-zhang">Goodreads</a>
+    	</div>
     </div>
   </div>
+
+  <script>
+  	var adjectives = ["Gainfully","Productively","Efficaciously","Industriously","Zealously"]
+	var nouns =["unemployed","jobless","idle","unoccupied"]
+	document.getElementById("unemployed").innerHTML = adjectives[Math.floor(Math.random()*5)] + " " + nouns[Math.floor(Math.random()*4)] + "... for now!"
+  </script>
 
 	<div class="section timeline" >
 		<div class="container">
@@ -100,6 +107,7 @@
 			</div>
 			<div class="row miscellaneous">
 				<div class="vCenter one-half column">
+					<img class="eg" src="img/2.png">
 					<img class="eg" src="img/2.png">
 					<img class="eg" src="img/2.png">
 				</div>
