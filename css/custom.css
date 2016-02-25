@@ -67,8 +67,9 @@
 .eg{
 	border-radius: 4px;
     width: 100%;
-    max-width: 450px;
-	box-shadow: 2px 2px 5px #EEE;
+    max-width: 428px;
+    max-height: 250px;
+	box-shadow: 2px 2px 5px #BBB;
 }
 
 
