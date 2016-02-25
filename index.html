@@ -38,16 +38,23 @@
   <div class="section header">
 		<div class =" container">
 			<div class="row">
-				<div class="one-half column">
-					<img id="headdino" src="img/head.png" style="float:left; ">
-					<img id="headdino" src="img/head.png" style="float:left; "> 
-					<img id="headdino" src="img/head.png" style="float:left; "> 
-					<img id="headdino" src="img/head.png" style="float:left; "> 
-					<img id="headdino" src="img/head.png" style="float:left; "> 
-					<img id="headdino" src="img/head.png" style="float:left; "> 
+				<div class="one-half column ">
+					<div class="headspace"> 
+						<img class="head" id="head6" src="img/head.png">
+						<img class="head" id="head5" src="img/head.png"> 
+						<img class="head" id="head4" src="img/head.png"> 
+						<img class="head" id="head3" src="img/head.png"> 
+						<img class="head" id="head2" src="img/head.png"> 
+						<img class="head" id="head1" src="img/head.png"> 
+					</div>
+
 				</div>
+
 				<div class="one-half column"> 
-					<h1 style="margin-left: -5px;">Yitong Zhang</h1><h6 id="unemployed"></h6>
+					<div class="namespace">
+						<h1 style="margin-left: -5px;">Yitong Zhang</h1><h6 id="unemployed"></h6>
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -141,7 +148,7 @@
 					</div>
 
 					<div class="show show-first">
-						<img id="dino4" class="eg" src="img/4.gif">
+						<img class="eg" src="img/4.gif">
 						<div class="mask">
 							<div class="vCenter">
 								<h3>Teaching assistant</h3>
@@ -182,10 +189,10 @@
 				<div class="vCenter one-half column">
 
 					<div class="show show-first">
-						<img id="dino3" class="eg" src="img/3.png">
+						<img class="eg" src="img/3.gif">
 						<div class="mask">
 							<div class="vCenter">
-								<h3>Teaching assistant</h3>
+								<h3>Cycling</h3>
 								<p>People like my cold emails. I started a company to help indie writers manage their marketing. Ended up helping startups outsource paperwork via Slack.</p>					
 							</div>
 						</div>
@@ -195,7 +202,7 @@
 						<img class="eg" src="img/2.png">
 						<div class="mask">
 							<div class="vCenter">
-								<h3>Teaching assistant</h3>
+								<h3>Social deduction games</h3>
 								<p>People like my cold emails. I started a company to help indie writers manage their marketing. Ended up helping startups outsource paperwork via Slack.</p>					
 							</div>
 						</div>
@@ -205,7 +212,7 @@
 						<img class="eg" src="img/1.png">
 						<div class="mask">
 							<div class="vCenter">
-								<h3>Teaching assistant</h3>
+								<h3>Art</h3>
 								<p>People like my cold emails. I started a company to help indie writers manage their marketing. Ended up helping startups outsource paperwork via Slack.</p>					
 							</div>
 						</div>
@@ -260,31 +267,11 @@
 	<!-- change png-->
 	<script>
 		$(document).ready(function()
-		{
-			$("#dino4").hover(
+		{  
+			$("#head6").hover(
 				function()
 				{
-					$(this).attr("src", "img/4.png");
-				},
-				function()
-				{
-					$(this).attr("src", "img/4.gif");
-				}                         
-			);   
-			$("#dino3").hover(
-				function()
-				{
-					$(this).attr("src", "img/3.gif");
-				},
-				function()
-				{
-					$(this).attr("src", "img/3.png");
-				}                         
-			);   
-			$("#headdino").hover(
-				function()
-				{
-					$(this).attr("src", "img/head.gif");
+					$(this).attr("src", "img/happy.png");
 				},
 				function()
 				{
@@ -292,8 +279,71 @@
 				}                         
 			);   
 		});
-
-
+		$(document).ready(function()
+		{  
+			$("#head5").hover(
+				function()
+				{
+					$(this).attr("src", "img/laughing.png");
+				},
+				function()
+				{
+					$(this).attr("src", "img/head.png");
+				}                         
+			);   
+		});
+		$(document).ready(function()
+		{  
+			$("#head4").hover(
+				function()
+				{
+					$(this).attr("src", "img/surprised.png");
+				},
+				function()
+				{
+					$(this).attr("src", "img/head.png");
+				}                         
+			);   
+		});
+		$(document).ready(function()
+		{  
+			$("#head3").hover(
+				function()
+				{
+					$(this).attr("src", "img/bored.png");
+				},
+				function()
+				{
+					$(this).attr("src", "img/head.png");
+				}                         
+			);   
+		});
+		$(document).ready(function()
+		{  
+			$("#head2").hover(
+				function()
+				{
+					$(this).attr("src", "img/cocky.png");
+				},
+				function()
+				{
+					$(this).attr("src", "img/head.png");
+				}                         
+			);   
+		});
+		$(document).ready(function()
+		{  
+			$("#head1").hover(
+				function()
+				{
+					$(this).attr("src", "img/skeptical.png");
+				},
+				function()
+				{
+					$(this).attr("src", "img/head.png");
+				}                         
+			);   
+		});
 	</script>
 
 </body>
