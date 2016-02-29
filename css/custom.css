@@ -38,7 +38,7 @@
 
 .content{
 	background-color: #EDECEB;
-	margin: 20px 20px 20px 20px;
+	margin: 15px 15px 15px 15px;
 	/*outline: 1px solid #CFCFCF;*/
 }
 
@@ -120,17 +120,16 @@
 
 /*header and footer layout*/
 .header{
-	padding-top: 50px;
-	padding-bottom: 20px;
-
-
-
+	padding-top: 250px;
+	padding-bottom: 220px;
 }
+
 @media(max-width: 700px){
-	.header{padding-top: 50px; padding-bottom: 20px;}
+	.header{padding-top: 120px; padding-bottom: 60px;}
 }
+
 @media(max-width: 400px){
-	.header{padding-top: 50px; padding-bottom: 20px;}
+	.header{padding-top: 100px; padding-bottom: 50px;}
 }
 
 .footer{
@@ -198,6 +197,9 @@
 	}
 }
 
+.sub{
+	color:#999;
+}
 
 .hCenter {
 	margin: 0, auto;
