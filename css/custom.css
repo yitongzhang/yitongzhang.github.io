@@ -1,3 +1,13 @@
+.project-title{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.project:hover h3{
+	color: #0FA0CE
+}
+
 img{
 	max-width: 100%;
 }
@@ -112,18 +122,18 @@ img{
 
 /*section sizes*/
 .hemingly{
-	height: 900px;
+	height: 700px;
 	background-color: #EDECEB;
 	/*background-color: red;*/
 }
 
 .imagestuff{
-	height: 1400px;
+	height: 1100px;
 	background-color: #EDECEB;
 }
 
 .education{
-	height: 600px;
+	height: 500px;
 	background-color: #EDECEB;
 	/*background-color: blue;*/
 }
@@ -149,7 +159,7 @@ img{
 
 @media(max-width: 500px){
 	.imagestuff{
-		height: 1900px;
+		height: 1600px;
 	}
 
 }
