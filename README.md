@@ -1,2 +1,2 @@
 # This is Yitong’s personal site
-[zhayitong.com](www.zhayitong.com0)
+[zhayitong.com](www.zhayitong.com)
