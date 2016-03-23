@@ -128,7 +128,7 @@ img{
 }
 
 .imagestuff{
-	height: 1000px;
+	height: 1200px;
 	background-color: #EDECEB;
 }
 
@@ -139,7 +139,7 @@ img{
 }
 
 .miscellaneous{
-	height: 1000px;
+	height: 1200px;
 	background-color: #EDECEB;
 	/*background-color: green;*/
 }
@@ -149,7 +149,7 @@ img{
 		height: 700px;
 	}
 	.education{
-		height: 650px;
+		height: 550px;
 	}
 	.imagestuff{
 		height: 1100px;
@@ -159,7 +159,7 @@ img{
 
 @media(max-width: 500px){
 	.imagestuff{
-		height: 1700px;
+		height: 2200px;
 	}
 
 }
