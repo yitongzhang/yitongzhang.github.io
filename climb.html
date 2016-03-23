@@ -39,22 +39,18 @@
 
 <h1>Did you climb today?</h1>
 
-<form method=“POST” action=“//api.cloudstitch.com/yitong/submit-climbing-workout/datasources/sheet
-”>
-  Date<br>
-  <input type="date" name="date" value="date"> <br>
-  V0:<br>
-  <input type="number" name="v0" value="v0" min="0"> <br>
-  V1:<br>
-  <input type="number" name="v1" value="v1" min="0"> <br>
-  V2:<br>
-  <input type="number" name="v2" value="v2" min="0"> <br>
-  V3:<br>
-  <input type="number" name="v3" value="v3" min="0"> <br>
-  V4:<br>
-  <input type="number" name="v4" value="v4" min="0"> <br>
-  <br>
-  <input type="submit" value="Submit">
+<form method="POST" action="//api.cloudstitch.com/yitong/submit-climbing-workout/datasources/sheet" class="magic-form">
+  <div class="form-group">
+    <label><b>First Name </b></label>
+    <input name="FirstName" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>Last Name </b></label>
+    <input name="LastName" class="form-control">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="form-btn">Regular Submit</button>
+  </div>
 </form>
 
 </body>
