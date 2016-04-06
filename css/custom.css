@@ -10,6 +10,7 @@
 
 }
 
+
 .othersections{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -50,46 +51,8 @@ img{
 	border-radius: 4px;
 }
 
-@media(max-width: 500px){
-	.project{
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
-	.projectdescription{
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
 
-}
 
-.head{
-	display: inline-block;
-}
-
-@media(max-width: 1133px){
-	#head1{
-		display: none;
-	}
-	.headspace{
-	text-align: center;
-	}
-}
-@media(max-width: 941px){
-	#head1, #head2{
-		display: none;
-	}
-	.headspace{
-	text-align: center;
-	}
-}
-@media(max-width: 751px){
-	#head1, #head2, #head3{
-		display: none;
-	}
-	.headspace{
-		text-align: center;
-	}
-}
 .navbar-fixed {
 	top: 0;
 	z-index: 100;
@@ -98,7 +61,9 @@ img{
 }
 
 #nav_bar{
-	background-color: red;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 
@@ -151,12 +116,27 @@ img{
 
 }
 
+@media(max-width: 500px){
+	.project{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	}
+	.projectdescription{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	}
+
+}
 
 
 /*centering stuff*/
 @media (max-width: 550px){
 	.vCenter{
 		padding-top: 120px;
+	}
+	.rightmargin{
+		margin-right:0px;
+
 	}
 }
 @media(min-width: 550px){
@@ -168,6 +148,13 @@ img{
 }
 
 
+
+@media(max-width: 700px){
+	.leftmargin{
+		margin-left:0px;
+	}
+
+}
 
 .hCenter {
 	margin: 0, auto;
