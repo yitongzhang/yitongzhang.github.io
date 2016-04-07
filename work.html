@@ -31,7 +31,7 @@
 
 	<!-- JS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<script src="cloudstitch.js"></script>
+
 
 	<!-- JQuery
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,84 +41,93 @@
 
 
 <body>
-
+	<script>
+		$(document).ready(function() {
+		  
+		  $(window).scroll(function () {
+		      console.log($(window).scrollTop())
+		    if ($(window).scrollTop() > 160) {
+		      $('#nav_bar').addClass('navbar-fixed');
+		    }
+		    if ($(window).scrollTop() < 161) {
+		      $('#nav_bar').removeClass('navbar-fixed');
+		    }
+		  });
+		});
+	</script>
+	<div id="emptyspace"></div>
 	<div class="section header">
 		<div class ="container">
-			<div class="row sectiontitle">
-				<h3>
-					<a href="#designProjects"># <span class="nav">Selected Works</span></a>  
-					<a href="#otherProjects"># <span class="nav">Other Projects</span></a>
-					<a href="#curriculum"># <span class="nav">Curriculum</span></a>
-				</h3>
-				<h1>Yitong builds products that grow. You should hire him!</h1>	
-				<div class="dash"><h1>—</h1></div>	
-			</div>
-		</div>
-	</div>
-
-	<div class="section curriculum">
-		<div class="container">
 			<div class="row">
+				<div class="leftmargin">
 
-			<div class="sectiontitle">
-				<div class="leftmargin"><h1><a href="#curriculum"># </a><a name="curriculum" style="color: #555;">Curriculum</a></h1> </div>
-				<div class="dash"><h1>—</h1></div>
-			</div>
+					<div id="nav_bar">
+						<h3>
+							<a href="index.html"># <span class="nav">Portfolio</span></a>  
+							<a href="work.html"># <span class="nav">Work with me</span></a>
+						</h3>
+					</div>
+					<h1>What's it like to work with Yitong?</h1>
+					<div class="dash"><h1>—</h1></div>	
+
+				</div>	
 				
-				<div class="twelve columns">
-
-					<div class="title">
-						<h3 class="stickRight">2014 - 2015</h3>
-						<h2>Founder of Hemingly</h2> 
-					</div>
-
-					<h6>I started a <a href="https://www.hemingly.com/" target="_blank">company</a> to help indie writers manage their marketing. Ended up helping startups outsource paperwork via Slack.</h6>
-					
-					<h3>Get customers</h3>
-					<ul>
-						<li>Automated 🤖 lead generation.</li>
-						<li>Closed 15 B2B deals.</li>
-					</ul>
-
-					<h3>Build products</h3>
-					<ul>
-						<li>Interviewed 300+ customers and potential customers.</li>
-						<li>Designed the product & UI of our first webapp.</li>
-						<li>Initiated pivot when the first product did not work.</li>
-						<li>Designed and coded basic landing pages.</li>
-					</ul>
-
-					<h3>Recruit & manage a team of contractors</h3>
-					<ul>
-						<li>Automated contractor recruitment and testing (70+ contractors hired)</li>
-						<li>Delegated 650+ hours of work from customers to contractors</li>
-					</ul>
-
-					<div class="title">
-						<h3 class="stickRight">2012 - 2015</h3>
-						<h2>Student at McGill</h2> 
-					</div>
-
-					<h6>Got my undergrad degree in business. Also spent a lot of time in student clubs.</h6>
-
-					<h3>Bachelor of Commerce</h3>
-					<ul>
-						<li>Took classes in organizational behaviour, finance, econ, etc.</li>
-						<li>Ran a student leadership club, where I met my cofounder Charlie.</li>
-					</ul>
-
-					<h3>Teaching assistant</h3>
-					<ul>
-						<li>Graded papers and exams.☕🖋💯</li>
-						<li>Fielded questions during office hours.</li>
-						<li>Very occasionally substituted for the professor.</li>
-					</ul>
-
-				</div>
 			</div>
-
 		</div>
 	</div>
+
+	<div class="section">
+		<div class="container">
+
+			<div class="othersections">
+
+				<h2 class="leftmargin sectiontitle">1. In depth discussion of your needs</h2>
+				<div class="row">
+					<div class="twelve columns">
+						<p>We'll talk about your objectives, your brand, who are customers are, what they want, etc. This gives me the context needed to come up with design that is both functional and aesthetic.</p>
+						<!-- <img src="http://placehold.it/960x300"> -->
+					</div>
+				</div>
+
+				<h2 class="leftmargin smallsectiontitle">2. 3~5 concepts for your evaluation</h2>
+				<div class="row">
+					<div class="twelve columns">
+						<p>At this stage, I'll submit a few diffferent visions of what your design could be. They will be rough drafts, but should show you a range of concepts to choose from (or combine!)</p>
+						<!-- <img src="http://placehold.it/960x300"> -->
+					</div>
+				</div>
+
+				<h2 class="leftmargin smallsectiontitle">3. Refined design of your chosen concept</h2>
+				<div class="row">
+					<div class="twelve columns">
+						<p>I'll submit a polished design based on your chosen concept. At this stage, we can work together to figure what works and what doesn't before the submission of the final design.</p>
+						<!-- <img src="http://placehold.it/960x300"> -->
+					</div>
+				</div>
+
+				<h2 class="leftmargin smallsectiontitle">4. Final design</h2>
+				<div class="row">
+					<div class="twelve columns">
+						<p>I'll submit the final design based on your feedback from the previous stage. You'll receive both the final image/website and the source files.</p>
+						<!-- <img src="http://placehold.it/960x300"> -->
+					</div>
+				</div>
+
+				<h2 class="leftmargin smallsectiontitle">5. Follow-up consultation after 2 weeks</h2>
+				<div class="row">
+					<div class="twelve columns">
+						<p>After a few weeks “in the wild”, you’ll undoubtedly discover new things about your design. I'll sit down with you and iron out any minor changes you'd like for free.</p>
+						<!-- <img src="http://placehold.it/960x300"> -->
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
 
 	<div class="section footer">
 		<div class="container  tCenter">
@@ -132,6 +141,7 @@
 				<a href="https://www.patreon.com/user?u=2297138" target="_blank">Patreon</a> -
 				<a href="https://github.com/yitongzhang" target="_blank">Github</a> -
 				<a href="https://www.reddit.com/user/draws_gold/" target="_blank">Reddit</a> -
+				<a href="oldsite/index.html" target="_blank">Old site</a> -
 				<a href="https://www.goodreads.com/user/show/13261666-yitong-zhang" target="_blank">Goodreads</a>
 				</p>
 			</div>
