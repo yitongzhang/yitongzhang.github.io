@@ -166,6 +166,8 @@ h6 { font-size: 1.5rem; line-height: 1.5;  font-weight: 400; color: #777; }
 }
 
 p {
+  font-weight: 300;
+  font-family: "Merriweather","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0; }
 
 
