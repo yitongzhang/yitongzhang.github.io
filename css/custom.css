@@ -73,7 +73,7 @@ img{
 }
 
 #nav_bar{
-	background-color: white;
+	background-color: #F0F0F0;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -171,7 +171,7 @@ img{
 }
 
 html{
-	background-color: #fff;
+	background-color: #F0F0F0;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
