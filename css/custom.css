@@ -1,3 +1,14 @@
+.ayearofbooks{
+	background-image: url("../img/ayearofbooksbg.png");
+	background-color: #F0F0F0;
+	background-repeat:no-repeat;
+
+}
+
+.ayearofbooks #nav_bar{
+	background-color: transparent;
+}
+
 .cheat{
 	margin-bottom: 30px;
 }
@@ -15,20 +26,27 @@
 }
 .rightmargin{
 	margin-right:-400px;
+	opacity: 0.9;
 
 }
 
+.rightmargin:hover{
+	opacity: 1;
+	transition: 0.1s;
+}
 
-.othersections{
+
+.othersections img{
 	margin-top: 20px;
 	margin-bottom: 20px;
+	opacity: 0.9;
 }
 
-.project-title{
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
+.othersections img:hover{
+	opacity: 1;
+	transition: 0.1s;
 }
+
 
 
 img{
@@ -44,20 +62,6 @@ img{
 	padding-top: 20px;
 }
 
-.project{
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
-.projectdescription{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.project img{
-	border: 1px solid #DDD;
-	border-radius: 4px;
-}
 
 
 
@@ -124,17 +128,6 @@ img{
 
 }
 
-@media(max-width: 500px){
-	.project{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	}
-	.projectdescription{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	}
-
-}
 
 
 /*centering stuff*/
