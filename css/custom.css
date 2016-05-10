@@ -30,6 +30,12 @@
 
 }
 
+.rightmarginroommate{
+	margin-right:-400px;
+
+}
+
+
 .rightmargin:hover{
 	opacity: 1;
 	transition: 0.1s;
@@ -139,6 +145,12 @@ img{
 		margin-right:0px;
 
 	}
+	.othersections img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 }
 @media(min-width: 550px){
 	.vCenter{
@@ -146,8 +158,8 @@ img{
 		top: 50%;
 		transform: translateY(-50%);
 	}
-}
 
+}
 
 
 @media(max-width: 700px){
