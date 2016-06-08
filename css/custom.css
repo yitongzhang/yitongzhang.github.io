@@ -1,3 +1,19 @@
+.uxnav > button{
+	width: 375px;
+	border-width: 2px;
+	border-color: #555;
+	background-color: #666 ;
+}
+
+.uxnav a{
+	color: white ;
+}
+
+.uxnav{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
 .ayearofbooks{
 	background-image: url("../img/ayearofbooksbg.png");
 	background-color: #F0F0F0;
