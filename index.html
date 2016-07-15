@@ -1,213 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<title>Yitong's portfolio</title>
 
-	<!-- Basic Page Needs
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<meta charset="utf-8">
-	<title>Yitong Zhang</title>
-	<meta name="description" content="Yitong can be reached at zha.yitong@gmail.com">
-	<meta name="author" content="Yitong Zhang">
-
-	<!-- Facebook -->
-	<meta property="og:image" content="http://www.zhayitong.com/img/fb.png" />
-	<!-- Mobile Specific Metas
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- FONT
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-
-	<!-- CSS
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href="css/normalize.css">
+	<!-- css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/skeleton.css">
-	<link rel="stylesheet" href="css/custom.css">
-
-	<!-- Favicon
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<!-- JS
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-	<!-- JQuery
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<script src="js/jquery-1.12.1.min.js"></script>
+	
+	<!-- fonts -->
+	<script src="https://use.typekit.net/pvm0wik.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Fira+Sans:400,500,700">
 
 </head>
 
-
 <body>
-	<script>
-		$(document).ready(function() {
-		  
-		  $(window).scroll(function () {
-		      console.log($(window).scrollTop())
-		    if ($(window).scrollTop() > 160) {
-		      $('#nav_bar').addClass('navbar-fixed');
-		    }
-		    if ($(window).scrollTop() < 161) {
-		      $('#nav_bar').removeClass('navbar-fixed');
-		    }
-		  });
-		});
-	</script>
-	<div id="emptyspace"></div>
-	<div class="section header">
-		<div class ="container">
+<div class="headerbg">
+<div class="container">
+	<header>
+		<nav>
+			<div class="bio six columns">
+				<h1 class="me">Yitong Zhang UI+UX designer</h1>
+				<h6 class="shortBio">I use design &amp; code to solve problems. Previously, I co-founded a company that helped people outsource paperwork.</h6>
+			</div>
+			
+			<ul class="six columns">
+				<li><a href="#footer"><h3>Contact</h3></a></li>
+				<li><a href="#footer"><h3>About</h3></a></li>
+				<li><a href="#case1"><h3>Work</h3></a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+<div class="hack"></div>
+</div>
+<div class="container">
+	<main id="main">
+		<article class="case" id="case1">
+			<div class="topBar">
+				<div class="projectName nine columns">
+					<h3>name of app</h3>
+					<h1>This is an interesting case study</h1>
+				</div>
+				<div class="projectTags three columns">
+					<h2>June 2016</h2>
+					<ul class="skills">
+						<li><h2>UX</h2></li>
+						<li><h2>UI</h2></li>
+						<li><h2>Code</h2></li>
+					</ul>
+				</div>
+			</div>
+			<div class="heroImage">
+				<img src="img/case1.png" alt="case study 1: blah blah">
+			</div>
+			<div class="bottomBar">
+				<div class="description eight columns">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.</p>	
+				</div>
+				<div class="cta four columns">
+					<a href="case1.html">See case study →</a>
+				</div>
+			</div>
+		</article>
+
+		<article class="case" id="case2">
+			<div class="topBar">
+				<div class="projectName nine columns">
+					<h3>name of app</h3>
+					<h1>This is an interesting case study</h1>
+				</div>
+				<div class="projectTags three columns">
+					<h2>June 2016</h2>
+					<ul class="skills">
+						<li><h2>UX</h2></li>
+						<li><h2>UI</h2></li>
+						<li><h2>Code</h2></li>
+					</ul>
+				</div>
+			</div>
+			<div class="heroImage">
+				<img src="img/case2.gif" alt="case study 1: blah blah">
+			</div>
+			<div class="bottomBar">
+				<div class="description eight columns">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.</p>	
+				</div>
+				<div class="cta four columns">
+					<a href="case2.html">See case study →</a>
+				</div>
+			</div>
+		</article>
+
+		<article class="case" id="case3">
+			<div class="topBar">
+				<div class="projectName nine columns">
+					<h3>name of app</h3>
+					<h1>This is an interesting case study</h1>
+				</div>
+				<div class="projectTags three columns">
+					<h2>June 2016</h2>
+					<ul class="skills">
+						<li><h2>UX</h2></li>
+						<li><h2>UI</h2></li>
+						<li><h2>Code</h2></li>
+					</ul>
+				</div>
+			</div>
+			<div class="heroImage">
+				<img src="img/case3.gif" alt="case study 1: blah blah">
+			</div>
+			<div class="bottomBar">
+				<div class="description eight columns">
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.</p>	
+				</div>
+				<div class="cta four columns">
+					<a href="case3.html">See case study →</a>
+				</div>
+			</div>
+		</article>
+
+		<section class="case other">
+			<h1>Other projects</h1>
 			<div class="row">
-				<div class="leftmargin">
-					<div id="nav_bar">
-						<h3>
-							<a href="index.html"># <span class="nav">Portfolio</span></a>  
-							<a href="work.html"># <span class="nav">Work with me</span></a>
-							<a href="about.html"># <span class="nav">About</span></a>
-							<a href="Roommate.html"># <span class="nav">Roommate</span></a>
-						</h3>
+				<article class="smallCase four columns">
+					<h3>name of app</h3>
+					<div class="sidekickImage">
+						<img src="img/smallcase1.png" alt="case study 5: blah blah">
 					</div>
-					<h1>Yitong builds products that grow.</h1>
-					<div class="dash"><h1>—</h1></div>	
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					<a href="case1.html">See case study →</a>
+				</article>
+				<article class="smallCase four columns">
+					<h3>name of app</h3>
+					<div class="sidekickImage">
+						<img src="img/smallcase2.png" alt="case study 6: blah blah">
+					</div>
+					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					<a href="case1.html">See case study →</a>
+				</article>
 
-				</div>	
-				
 			</div>
+		</section>	
+	</main>
+</div>
+
+<div class="footerbg">
+<div class="container">
+	<footer id="footer">
+		<div class="about eight columns">
+			<h3>About Yitong</h3>
+			<p>Getting a cab in NYC is hard. Teamwork is hard. In fact, life in general is pretty hard. As a product designer, I embrace that. Because I believe in design’s potential to untangle the hardest and hairiest problems around us. Good design carries us over the hurdles and enables us to live better, fuller lives &mdash; with our friends, at work and beyond.</p>
+
+			<p>While my passion lies in UI and UX, I love messing with <a href="github.com">code</a> to bring my ideas to life. And as a former <a href="github.com">startup founder</a>, I’m comfortable relentlessly iterating from UI -> UX -> code in search of a better solution.</p>
 		</div>
-	</div>
-
-	<div class="section designPortfolio">
-		<div class="container">
-
-			<div class="sectiontitle">
-				<div class="leftmargin">
-					<h2>Selected Projects</h2> 
-					<div class="dash"><h1>—</h1></div>
-				</div>
+		<div class="contact offset-by-one three columns ">
+			<div class="contact">
+				<h3>Contact</h3>
+				<a href="mailto:zha.yitong@gmail.com" target="_top">zha.yitong@gmail.com</a>
 			</div>
 
-			<div class="row selected 1">
-				<div class="five columns">
-					<h3>Marketing Analytics app for authors</h3>
-					<p>I researched and designed the brand, landing page, web app and stationeries.</p>
-					<a href="http://www.zhayitong.com/oldsite/hemingly2/archive2.html">See live site</a>
-				</div>
-				
-				<div class="seven columns">
-					<div class="rightmargin"><a href="http://www.zhayitong.com/oldsite/hemingly2/archive2.html"><img src="img/test1.png"></a></div>
-				</div>
+			<div class="elsewhere">
+				<h3>Elsewhere</h3>
+					<ul>
+						<li><a href="https://dribbble.com/yitong">Dribbble</a></li>
+						<li><a href="https://github.com/yitongzhang">GitHub</a></li>
+						<li><a href="https://www.linkedin.com/in/yitongzhang">LinkedIn</a></li>
+						<li><a href="">Résumé</a></li>
+						<li><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang">Goodreads</a></li>
+						<li><a href="https://www.patreon.com/user?u=2297138">Patreon</a></li>
+					</ul>
 			</div>
 
-			<div class="row selected 2">
-				<div class="five columns">
-					<h3>On-demand outsourcing service for startups</h3>
-					<p>I designed and built the landing page, instructuon manuals, email templates.</p>	
-					<a href="http://www.zhayitong.com/oldsite/hemingly2/archive1.html">See live site</a>	
-				</div>
-				<div class="seven columns">
-					<div class="rightmargin"><a href="http://www.zhayitong.com/oldsite/hemingly2/archive1.html"><img src="img/test2.png"></a></div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="section otherProjects">
-		<div class="container">
-			<div class="row">
-				<div class="twelve columns">
-					<div class="sectiontitle cheat">
-						<div class="leftmargin">
-							<h2>More Projects</h2> 
-							<div class="dash"><h1>—</h1></div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="othersections">
-				<!-- <h3>Stationeries</h3> -->
-				<div class="row">
-					<div class="four columns">
-						<a href="aiesec.html"><img src="img/1.png"></a>
-					</div>
-
-					<div class="eight columns">
-						<a href="hemingly.html"><img src="img/2.png"></a>
-					</div>
-				</div>
-			</div>
-
-			<div class="othersections">
-				<!-- <h3>Websites</h3> -->
-				<div class="row">
-					<div class="seven columns">
-						<a href="santrovelo.html"><img class="cheat" src="img/3.png"></a>
-						<a href="prototype.html"><img src="img/4.png"></a>
-					</div>
-
-					<div class="five columns">
-						<a href="mountain.html"><img src="img/5.png"></a>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="othersections">
-				<!-- <h3>Miscellaneous</h3> -->
-				<div class="row">
-					<div class="five columns">
-						<a href="workflowy.html"><img src="img/6.png"></a>
-					</div>
-
-					<div class="seven columns">
-						<a href="ayearofbooks.html"><img src="img/7.png"></a>
-					</div>
-				</div>	
-			</div>
 
 		</div>
-
-	</div>
-
-
-	<div class="section footer">
-		<div class="container  tCenter">
-
-			<div class="dash"><h1>—</h1></div>
-			<div class="row">
-				<p>
-				<a href="mailto:zha.yitong@gmail.com" target="_blank">Email</a> -
-				<a href="https://www.dropbox.com/s/rk3a0ljvbk3na1x/yitong-cv.pdf?dl=0">C.V.</a> -
-				<a href="https://ca.linkedin.com/in/yitongzhang" target="_blank">LinkedIn</a> -
-				<a href="https://www.patreon.com/user?u=2297138" target="_blank">Patreon</a> -
-				<a href="https://github.com/yitongzhang" target="_blank">Github</a> -
-				<a href="https://www.reddit.com/user/draws_gold/" target="_blank">Reddit</a> -
-				<a href="oldsite/index.html" target="_blank">Old site</a> -
-				<a href="https://www.goodreads.com/user/show/13261666-yitong-zhang" target="_blank">Goodreads</a>
-				</p>
-			</div>
-		</div>
-	</div>
+	</footer>
+</div>
+</div>
 </body>
 </html>
+
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
