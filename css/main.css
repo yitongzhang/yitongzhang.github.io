@@ -1,105 +1,75 @@
 /*global*/
 html{
-	background-color: #F5F5F5;
-}
-
-body{
 	background-color: white;
 }
 
+body{
+
+}
 
 li{
 	list-style-type: none;
 }
 
-/*header stuff*/
-.hack{
-	height: 1px;
-	width: 100%;
-	position: fixed;
-	background-color: #F5F5F5;
-	position: fixed;
-	top: 0;
+/*me*/
+.meDescribe{
+	margin-bottom: 240px;
+}
 
-}
-.hack.sticky{
-	height: 36px;
-	width: 100%;
-}
+/*header stuff*/
 header h6{
 	display: block;
 }
-
 header{
 	z-index:10;
 	padding-top: 50px;
-	padding-bottom: 110px;
+	padding-bottom: 10px;
 }
 header.sticky {
 	position: fixed;
 	z-index: 10;
 	max-width: 960px;
 	width: 100%;
-	padding-top: 6px;
-	padding-bottom: 2px;
-	line-height: 0;
-	background-color: #F5F5F5;
+	background-color: white;
 }
-
-.me.sticky{
-	padding-top: 12px;
-	padding-bottom: 8px;
-	font-size: 2rem;
-	transition: all 0.2s ease;
-}
-.shortBio{
-	opacity: 0.5;
-}
-.shortBio.sticky{
-	display: none;
-	transition: all 0.2s ease;
-}
-
 header li{
 	margin-left: 20px;
 	float: right;
 	display: inline-block;
-	transition-property: background;
-	transition-duration: 100ms;
-	transition-timing-function: linear;
-	line-height: 0
 }
-
 header li:hover{
 	background-color: yellow;
 }
 
-header ul{
-	margin-top: 13px;
-}
-
 /*case stuff*/
 .case{
-	margin-top: 300px;
+	margin-top: 200px;
+	margin-bottom: 360px;
 }
 
+.projectTags h3, .projectTags ul{
+	float: right
+}
+.projectTags ul{
+	margin-top: 6px;
+	clear: both;
+}
+.projectTags h3{
+	color: #A8A8A8;
+	font-weight: 400;
+}
+.case a{
+	font-size: 1.8rem;
+}
 .case li{
 	display: inline-block;
 }
-
-#case1{
- 	margin-top: 150px;
-}
-
 .cta a{
 	margin-top: 58px;
 	float: right;
 	font-family: "Fira Sans",sans-serif;
 }
-
-
-
-.headerbg, .footerbg, .summaryBg{
+.footerbg, .summaryBg{
 	background-color: #F5F5F5;
 }
 .heroImage{
@@ -108,27 +78,20 @@ header ul{
 .topBar{
 	padding-bottom: 75px;
 }
-
 .bottomBar{
 	margin-top: 16px;
 }
-
-.projectTags h2, .projectTags ul{
-	float: right
-}
-
-.projectTags ul{
-	margin-top: 6px;
-	clear: both;
-}
-
 .other{
 	margin-bottom: 150px;
 }
-
 .other h1{
 	margin-bottom: 30px;
 }
+
+.other img{
+	margin-left: -3px;
+}
+
 /*footer*/
 footer{
 	padding-top: 80px;
@@ -137,7 +100,6 @@ footer{
 .elsewhere{
 	margin-top: 30px;
 }
-
 footer li{
 	line-height: 1.5;
 }
@@ -152,15 +114,12 @@ footer li{
 	font-family: "Fira Sans", sans-serif;
 	margin-right: 20px;
 }
-
-
 .sectionNav{
 	width: 60%;
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 120px;
 }
-
 .showcase{
 	margin-top: -60px;
 }
