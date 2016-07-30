@@ -42,6 +42,11 @@ header li:hover{
 }
 
 /*case stuff*/
+
+.heroImage a:hover{
+	background-color: red;
+}
+
 .case{
 	margin-top: 200px;
 	margin-bottom: 360px;
