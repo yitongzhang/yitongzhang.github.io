@@ -1,0 +1,107 @@
+/*meDescribe*/
+.meDescribe li{
+	display: inline-block;
+}
+
+.meDescribe{
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+
+.nav ul{
+float: right;
+}
+
+
+/*case*/
+.case{
+	margin-bottom: 100px;
+}
+
+.case h3{
+	display: inline-block;
+}
+
+/*projectTags*/
+.projectTags li{
+	display: inline-block;
+	line-height: 1.2;
+}
+
+.projectTags{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.projectTags h3, li{
+	color: #727272;
+}
+
+.summary{
+	margin-top: 20px;
+}
+.shortSummary{
+	display: none;
+}
+
+.cta{
+	margin-top: 20px;
+}
+
+/*otherProjects*/
+.otherProjects{
+	margin-bottom: 100px;
+}
+
+.smallTitle{
+	margin-top: 10px;
+}
+
+.smallTitle h1{
+	display: inline;
+}
+.smallTitle h3{
+	display: inline;
+	float: right;
+	margin-top: 4px;
+}
+
+.otherProjects p{
+	clear: both;
+	margin-top: 20px;
+}
+
+/*footer*/
+.footerbg{
+	background-color: #F5F5F5;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+footer a{
+	line-height: 1.8;
+}
+
+
+@media (max-width: 1100px) and (min-width: 550px)  {
+	.summary{
+		display: none;
+	}
+	.shortSummary{
+		display: block;
+	}
+	.projectTags{
+		display: none;
+	}
+}
+
+@media (max-width: 650px) and (min-width: 550px){
+	.shortSummary{
+		display: none;
+	}
+}
+
+
+
