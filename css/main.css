@@ -1,11 +1,6 @@
-.client{
-}
 
 
-.line{
-	padding-left: 10px;
-	width: 100%
-}
+
 
 /*meDescribe*/
 .meDescribe li{
@@ -17,13 +12,30 @@
 	margin-bottom: 200px;
 }
 
-
 .nav ul{
 float: right;
 }
 
+.nav a{
+	font-size: 1.8rem; 
+	font-family:"ff-meta-SC-web-pro";
+	font-weight: 400; 
+	text-transform: lowercase; 
+	margin-bottom: 0;
+}
+
 
 /*case*/
+.line{
+	padding-left: 10px;
+	width: 100%
+}
+
+table{
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
 .case{
 	margin-bottom: 100px;
 }
@@ -75,6 +87,7 @@ float: right;
 	display: inline;
 	float: right;
 	margin-top: 4px;
+	color: #727272;
 }
 
 .otherProjects p{
@@ -93,6 +106,10 @@ footer a{
 	line-height: 1.8;
 }
 
+.smallContact{
+	display: none;
+}
+
 
 @media (max-width: 1100px) and (min-width: 550px)  {
 	.summary{
@@ -104,6 +121,13 @@ footer a{
 	.projectTags{
 		display: none;
 	}
+	.bigContact{
+		display: none;
+	}
+	.smallContact{
+		display: block;
+	}
+
 }
 
 @media (max-width: 650px) and (min-width: 550px){
@@ -116,6 +140,7 @@ footer a{
 	.smallTitle h3{
 		display: none;
 	}
+
 }
 
 
