@@ -20,6 +20,10 @@ float: right;
 	margin-bottom: 0;
 }
 
+.top{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
 
 /*case*/
 .line{
@@ -142,4 +146,60 @@ footer a{
 }
 
 
+/*caseStudy typography*/
+
+.caseStudy .bigP{
+	font-family:"ff-meta-serif-web-pro";
+	font-size:2.6rem;
+	line-height: 1.8;
+	color: #222;
+}
+
+.caseStudy p{
+	font-family:"ff-meta-serif-web-pro";
+	font-size:1.8rem;
+	line-height: 1.8;
+	color: #222;
+}
+
+.caseStudy .projectComments{
+	margin-top: 10px;
+}
+
+.caseStudy nav li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.caseStudy nav ul{
+	text-align: center;
+}
+
+.caseStudy nav{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+
+.caseStudy header{
+	padding-top: 80px;
+	margin-bottom: 40px;
+
+}
+
+.caseStudy .grey{
+	background-color: #F5F5F5;
+}
+
+.caseStudy .greyLine{
+	border-bottom: solid 2px #F5F5F5;
+}
+
+.caseStudy main{
+	margin-top: 40px;
+}
+
+.caseStudy .hero{
+	margin-bottom: 40px;
+}
 
