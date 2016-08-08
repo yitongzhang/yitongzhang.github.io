@@ -2,18 +2,20 @@
 var navDistance = $("nav").offset().top;
 
 try{
-	var oneDistance = $("#section1").offset().top;
-	var twoDistance = $("#section2").offset().top;
-	var threeDistance = $("#section3").offset().top;
-	var fourDistance = $("#section4").offset().top;
-	var fiveDistance = $("#section5").offset().top;
-	var fiveDistance = $("#section6").offset().top;
+	var oneDistance = $("#section1").offset().top-100;
+	var twoDistance = $("#section2").offset().top-100;
+	var threeDistance = $("#section3").offset().top-100;
+	var fourDistance = $("#section4").offset().top-100;
+	var fiveDistance = $("#section5").offset().top-100;
+	var fiveDistance = $("#section6").offset().top-100;
 }
 
 catch(err) {
     console.log("fewer sections than expected")
 }
 
+console.log(typeof oneDistance)
+console.log(oneDistance)
 $(window).scroll(function() {
 
 if ($(this).scrollTop() > navDistance){  
@@ -26,6 +28,14 @@ if ($(this).scrollTop() > navDistance){
   }
 
 try{
+	if ($(this).scrollTop() > navDistance){  
+		$('#section1Nav').css("background-color","white");
+		$('#section2Nav').css("background-color","white");
+		$('#section3Nav').css("background-color","white");
+		$('#section4Nav').css("background-color","white");
+		$('#section5Nav').css("background-color","white");
+		$('#section6Nav').css("background-color","white");
+	}
 	if ($(this).scrollTop() > oneDistance){  
 		$('#section1Nav').css("background-color","yellow");
 		$('#section2Nav').css("background-color","white");
