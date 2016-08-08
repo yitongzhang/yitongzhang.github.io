@@ -12,7 +12,6 @@
 	<!-- fonts -->
 	<script src="https://use.typekit.net/pvm0wik.js"></script>
 	<script>try{Typekit.load({ async: false });}catch(e){}</script>
-	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Fira+Sans:400,500,700">
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
@@ -31,19 +30,6 @@
 <div class="grey">
 <div class="container">
 <header class="row">
-
-	<!-- 	<div class="meDescribe top row">
-		<div class="three columns offset-by-one">
-			<h1>Yitong Zhang</h1>
-		</div>
-		<div class="nav seven columns">
-			<ul>
-				<li><a href="#case1">work</a> /</li>
-				<li><a href="#footer">about</a> /</li>
-				<li><a href="mailto:zha.yitong@gmail.com">email</a></li>
-			</ul>
-		</div>
-	</div> -->
 
 	<div class="largeSummary">
 		<div class="ten columns offset-by-one">
@@ -74,19 +60,19 @@
 </div>
 </div>
 
-<div class="greyLine">
+<nav class="greyLine">
 <div class="container">
-<nav class="row">
+<div class="row">
 	<ul class="ten columns offset-by-one">
-		<li><a href="#challenge">The challenge</a></li>
-		<li><a href="#narrow">Narrowing down the scope</a></li>
-		<li><a href="#concepts">Generating rough concepts</a></li>
-		<li><a href="#UI">Translating concepts into UI</a></li>
-		<li><a href="#takeaways">Takeaways</a></li>
+		<li id="section1Nav"><a href="#section1">The challenge</a></li>
+		<li id="section2Nav"><a href="#section2">Research &amp; definition</a></li>
+		<li id="section3Nav"><a href="#section3">Concepts generation</a></li>
+		<li id="section4Nav"><a href="#section4">UI Development</a></li>
+		<li id="section5Nav"><a href="#section5">Takeaways</a></li>
 	</ul>
+</div>
+</div>
 </nav>
-</div>
-</div>
 
 <div class="container">
 <main class="row">
@@ -94,22 +80,26 @@
 		<img src="img/showcase.png" alt="screenshots of the final app">
 	</div>
 
-	<div class="eight columns offset-by-one">
-		<h1>The challenge</h1>
+	<div class="mainText seven columns offset-by-one">
+		<h1 id="section1">The challenge</h1>
 
-		<p>Smart device makers promise a better, more convenient home. But with the proliferation of different device makers and apps, the bloat of toggles and settings start overshadowing the benefits of the devices. Our goal is therefore to design a single app to manage all device.</p>
+		<p>Smart device makers promise a better, more convenient home. But the proliferation of different device makers, apps and interfaces has only made the connected home more complicated to manage. My team was challenged to design a solution to bring fulfill the smart home's promise of simplicity.</p>
 
-		<h1>Narrowing down the scope</h1>
+		<h1 id="section2">Narrowing down the scope</h1>
 
 		<p>Since we only had 6 weeks part-time to complete the challenge, we aggressively focused the scope of our app so that we could iterate as many times as possible over a small number of features. </p>
 
-		<p>To narrow things down, we talked to different kinds of home owners to find one that had a profile suitable for a small-scope app. After a few conversations, we eliminated some red-herring user types like the Gadget Geek and Work Warriors. What we did find interesting, however, are the following groups</p>
+		<p>To narrow things down, we talked to different kinds of home owners to find one that had a profile suitable for a small-scope app. After a few conversations, we eliminated some red-herring user types like the Gadget Geek and Work Warriors.<label for="sn-other-persona" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-other-persona" class="margin-toggle"/><span class="sidenote">Although interesting for their high disposable income and tech-savviness, these uses didn’t care for a more simple and unified home.</span>
+
+		What we did find interesting, however, are the following groups</p>
 
 		<p>Savvy homemakers: people who use tech to make their home life more interesting and to bring their family together.</p>
 
 		<p>Tech-saturated professional: people who work in and own a lot of tech, but are tired of their devices demanding so much their time and attention.</p>
 
-		<p>In the end, we chose the tech-saturated professional because we found it a fascinating challenge to design technology for someone who is tired of technology. Also given our limited time, getting testing data for this user type was going to be much easier.</p>
+		<p>In the end, we chose the tech-saturated professional because we found it a fascinating challenge to design technology for someone who is tired of technology. Also given our limited time, getting testing data<label for="sn-user-data" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-data" class="margin-toggle"/><span class="sidenote">Ended up with 20+ user tests done because every person in our coworking space fit the mould</span>
+
+		for this user type was going to be much easier.</p>
 
 		<p>To quickly access the data we’ve gathered from our research, we created a persona and problem statement.</p>
 
@@ -125,9 +115,11 @@
 
 		<p>Accessible on the go: John’s always on the go. Our app accounts for divided attention.</p>
 
-		<h1>Generating rough concepts</h1>
+		<h1 id="section3">Generating rough concepts</h1>
 
-		<p>To get both conceptual and usability feedback, we tested using a mix of paper and Axure prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
+		<p>To get both conceptual and usability feedback, we tested using a mix of paper and Axure<label for="sn-paper-axure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paper-axure" class="margin-toggle"/><span class="sidenote"> Using paper gave us valuable concept feedback because users could physically spread out the screens to compare and contrast them. Axure, on the other hand, gave us good usability feedback thanks to its higher fidelity.</span>
+
+	 	prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
 
 		<p>Based on Intrude only when important - In-app notifications:</p>
 
@@ -148,12 +140,16 @@
 		<p>Goal: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</p>
 
 		<p>Results: Inconclusive. Some prefered a device-first design for its straightforwardness, while others liked the speed of the function-first design. 🤔</p>
+		
+		<p>The first two concepts were quickly implemented in our final wireframes, but the mixed feedback made it hard to decide on the dashboard design.Therefore, we chose to move on to the UI phase while generating versions of both dashboard styles to test.</p>
 
-		<p>The first two concepts were quickly implemented in our final wireframes, but the mixed feedback made it hard to decide on the dashboard design. Therefore, we chose to move on to the UI phase while generating versions of both dashboard styles to test.</p>
+		<h1 id="section4">Translating concepts into UI</h1>
 
-		<h1>Translating concepts into UI</h1>
+		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home-toggles, users would prefer something that was quick to use over something clear but more cumbersome.<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote"> Just like snapchat, I thought our app could be harder to learn if it made a frequently used function really quick to use</span>
 
-		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home-toggles, users would prefer something that was quick to use over something clear but more cumbersome. </p>
+		</p>	
+
+
 
 		<p>Based on our wireframes , we designed UI concepts that reflect everything we learned thus far. I based my visual explorations mostly on the following:</p>
 
@@ -163,6 +159,8 @@
 		</ol>
 
 		<p>[carousel, with chosen UI first and other discarded UIs later]</p>
+
+		<a href="test.com">ALLAAmong all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app”</a>
 
 		<p>Among all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app” because I did not want to overwhelm the user with both an unfamiliar UI and a unfamiliar dashboard design.</p>
 
@@ -202,7 +200,7 @@
 
 		<p>In our final design, </p>
 
-		<h1>Takeaways</h1>
+		<h1 id="section5">Takeaways</h1>
 
 		<p>Onboarding can be used not only for features, but mental model</p>
 
@@ -230,32 +228,6 @@
 	
 	</div>
 
-		<div class="projectComments comments two columns">
-			<h3>my role</h3>
-			<p>Research, prototype and high fidelity UI</p>
-			<h3>time</h3>
-			<p>6 weeks</p>
-			<h3>team</h3>
-			<p>Andi, Atanas and Preunky</p>
-		</div>
-
-		<div class="projectComments comments two columns">
-			<h3>my role</h3>
-			<p>Research, prototype and high fidelity UI</p>
-			<h3>time</h3>
-			<p>6 weeks</p>
-			<h3>team</h3>
-			<p>Andi, Atanas and Preunky</p>
-		</div>
-		<div class="projectComments comments two columns">
-			<h3>my role</h3>
-			<p>Research, prototype and high fidelity UI</p>
-			<h3>time</h3>
-			<p>6 weeks</p>
-			<h3>team</h3>
-			<p>Andi, Atanas and Preunky</p>
-		</div>
-
 </main>
 </div>
 
@@ -265,57 +237,8 @@
 </div>
 
 
-
-<!-- <div class="footerbg">
-<div class="container">
-	<footer id="footer">
-		<div class="about six columns">
-			<h1>About Yitong</h1>
-			<p>Getting a cab in NYC is hard. Teamwork is hard. In fact, life in general is pretty hard. As a product designer, I embrace that. Because I believe in design’s potential to untangle the hardest and hairiest problems around us. Good design carries us over the hurdles and enables us to live better, fuller lives &mdash; with our friends, at work and beyond.</p>
-
-			<p>While my passion lies in UI and UX, I love messing with <a href="github.com">code</a> to bring my ideas to life. And as a former <a href="github.com">startup founder</a>, I’m comfortable relentlessly iterating from UI → UX → code in search of a better solution.</p>
-		</div>
-
-		<div class="bigContact two columns">
-			<h1>Contact</h1>
-			<ul>
-				<li><a href="mailto:zha.yitong@gmail.com" target="_top">zha.yitong@gmail.com</a></li>
-				<li><a href="tel:+15145729337">+1 514 572 9337</a></li>
-			</ul>
-		</div>
-		<div class="smallContact two columns">
-			<h1>Contact</h1>
-			<ul>
-				<li><a href="mailto:zha.yitong@gmail.com" target="_top">Email</a></li>
-				<li><a href="tel:+15145729337">Phone</a></li>
-			</ul>
-		</div>
-
-		<div class="work two columns">
-			<h1>Work</h1>
-				<ul>
-					<li><a href="https://dribbble.com/yitong">Dribbble</a></li>
-					<li><a href="https://github.com/yitongzhang">GitHub</a></li>
-					<li><a href="https://www.linkedin.com/in/yitongzhang">LinkedIn</a></li>
-					<li><a href="">Résumé</a></li>
-				</ul>
-		</div>
-
-		<div class="fun two columns">
-			<h1>Fun</h1>
-				<ul>
-					<li><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang">Goodreads</a></li>
-					<li><a href="https://www.patreon.com/user?u=2297138">Patreon</a></li>
-				</ul>
-		</div>
-
-		</div>
-	</footer>
-</div>
-</div>
- -->
 </body>
 </html>
 
-<!-- <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script> -->
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
