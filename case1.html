@@ -63,14 +63,15 @@
 </div>
 
 <nav class="greyLine">
+<a href="index.html" class="pull-left">← Home</a>
+<a href="case2.html" class="pull-right">Next case →</a>
 <div class="container">
 <div class="row">
 	<ul class="ten columns offset-by-one">
-		<li id="section1Nav"><a href="#section1">The challenge</a></li>
-		<li id="section2Nav"><a href="#section2">Research &amp; definition</a></li>
-		<li id="section3Nav"><a href="#section3">Concepts generation</a></li>
-		<li id="section4Nav"><a href="#section4">UI Development</a></li>
-		<li id="section5Nav"><a href="#section5">Takeaways</a></li>
+		<li id="section1Nav"><a href="#section1">Research &amp; definition</a></li>
+		<li id="section2Nav"><a href="#section2">UX Concepts</a></li>
+		<li id="section3Nav"><a href="#section3">UI Development</a></li>
+		<li id="section4Nav"><a href="#section4">Takeaways</a></li>
 	</ul>
 </div>
 </div>
@@ -83,32 +84,31 @@
 	</div>
 
 	<div class="mainText seven columns offset-by-one">
-		<h1 id="section1">The challenge</h1>
+		<h1>The challenge</h1>
 
 		<p>Smart device makers promise a better, more convenient home. But the proliferation of different device makers, apps and interfaces has only made the connected home more complicated to manage. My team was challenged to design a solution to bring fulfill the smart home's promise of simplicity.</p>
 
-		<h1 id="section2">Narrowing down the scope</h1>
+		<h1 id="section1">Research and problem definition</h1>
 
-		<p>Since we only had 6 weeks part-time to complete the challenge, we aggressively focused the scope of our app so that we could iterate as many times as possible over a small number of features. </p>
+		<p>Having only 6 weeks part-time to complete the project, we our first priority was to aggressively narrow the scope of our app. By the numbers of features in control, we would have the time to work on multiple iterations.</p>
 
-		<p>To narrow things down, we talked to different kinds of home owners to find one that had a profile suitable for a small-scope app. After a few conversations, we eliminated some red-herring user types like the Gadget Geek and Work Warriors.<label for="sn-other-persona" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-other-persona" class="margin-toggle"/><span class="sidenote">Although interesting for their high disposable income and tech-savviness, these uses didn’t care for a more simple and unified home.</span>
-
-		What we did find interesting, however, are the following groups</p>
+		<p>To do this, we talked to different kinds of home owners to find one that had a profile suitable for a small-scope app. After a few conversations, we managed to eliminated some red-herring user types like the Gadget Geek and Work Warriors.<label for="sn-other-persona" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-other-persona" class="margin-toggle"/><span class="sidenote">Although interesting for their high disposable income and tech-savviness, these uses didn’t care for a more simple and unified home.</span> What we did find interesting, however, are the following groups:</p>
 
 		<p>Savvy homemakers: people who use tech to make their home life more interesting and to bring their family together.</p>
 
 		<p>Tech-saturated professional: people who work in and own a lot of tech, but are tired of their devices demanding so much their time and attention.</p>
 
-		<p>In the end, we chose the tech-saturated professional because we found it a fascinating challenge to design technology for someone who is tired of technology. Also given our limited time, getting testing data<label for="sn-user-data" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-data" class="margin-toggle"/><span class="sidenote">Ended up with 20+ user tests done because every person in our coworking space fit the mould</span>
-
-		for this user type was going to be much easier.</p>
+		<p>We ended up choosing the tech-saturated professional because we found it a fascinating challenge to design technology for someone who is tired of technology. Also, given our limited time, getting testing data<label for="sn-user-data" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-data" class="margin-toggle"/><span class="sidenote">Since our classroom was based out of a coworking space, it was easy to get over 20 users to test and interview.</span> for this user type was going to be much easier.</p>
 
 		<p>To quickly access the data we’ve gathered from our research, we created a persona and problem statement.</p>
 
-		<p>[insert persona card + problem statement]</p>
+		<figure>
+			<img src="img/personas.png" alt="2 potential personas">
+		</figure>
+		
+		<p>In the same vein, we also created 4 guiding design principles to act as fence posts for our design exploration.</p>
 
-		<p>In order to keep our solution relevant to the tech-saturated professional, we created 5 guiding principles to act as fence posts for our design exploration space</p>
-
+		<div class="bigP">
 		<p>Utilitarian: John views his devices as tools, not toys. Our app should reflect that.</p>
 
 		<p>Intrude only when important: John is inundated with notifications. Our app should not exacerbate that. </p>
@@ -116,42 +116,62 @@
 		<p>Anticipate, don’t ask: John is tired of micromanaging his tech. Our app works for the user, not the reverse. </p>
 
 		<p>Accessible on the go: John’s always on the go. Our app accounts for divided attention.</p>
+		</div>
 
-		<h1 id="section3">Generating rough concepts</h1>
+		<h1 id="section2">Generating rough concepts</h1>
 
-		<p>To get both conceptual and usability feedback, we tested using a mix of paper and Axure<label for="sn-paper-axure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paper-axure" class="margin-toggle"/><span class="sidenote"> Using paper gave us valuable concept feedback because users could physically spread out the screens to compare and contrast them. Axure, on the other hand, gave us good usability feedback thanks to its higher fidelity.</span>
+		<p>To get both conceptual and usability feedback, we tested using a mix of paper and Axure prototypes.<label for="sn-paper-axure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paper-axure" class="margin-toggle"/><span class="sidenote"> The former gave us valuable concept feedback because users could physically move the screens to compare them. The latter gave us good usability feedback thanks to its higher fidelity.</span> prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
 
-	 	prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
+		</div>
 
-		<p>Based on Intrude only when important - In-app notifications:</p>
+		<div class="row">
+			<div class="four columns offset-by-one">
+				<p>In-app notifications:</p>
+				<ul>
+					<li>Goal: 2 tiered notifications: system for important things. In app for minor things.</li>
+					<li>Principle: Based on Intrude only when important.</li>
+					<li>Result: Almost universally positive feedback from users. 😄</li>
+				</ul>	
+			</div>
+			<figure class="three columns">
+				<img src="http://placehold.it/300x520" alt="mockup1">
+			</figure>
+		</div>
+		<div class="row">
+			<div class="four columns offset-by-one">
+				<p>Function groups</p>
+				<ul>
+					<li>Goal: Group many device functions into categories that match our users’ daily schedule to reduce steps needed to adjust their home.</li>
+					<li>Principle: Based on “anticipate, don’t ask”</li>
+					<li>Result: Users loved it, but wanted to see what was being changed every time. 🙂</li>
+				</ul>
+			</div>
+			<figure class="three columns">
+				<img src="http://placehold.it/300x520" alt="mockup1">
+			</figure>
+		</div>
+		<div class="row">
+			<div class="four columns offset-by-one">
+				<p>Function-first dashboard</p>
+				<ul>
+					<li>Goal: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</li>
+					<li>Principle: Based on easily accessible on the go</li>
+					<li>Results: Inconclusive. Some prefered a device-first design for its straightforwardness, while others liked the speed of the function-first design. 🤔</li>
+				</ul>
+			</div>
+			<figure class="three columns">
+				<img src="http://placehold.it/300x520" alt="mockup1">
+			</figure>
+		</div>
 
-		<p>Goal: 2 tiered notifications: system for important things. In app for minor things.</p>
 
-		<p>Result: Almost universally positive feedback from users. 😄</p>
+		<div class="mainText seven columns offset-by-one">
+		<p>The first two concepts were quickly implemented in our final wireframes, but the mixed feedback on the third made it hard to decide on the dashboard design. Because of our limited time<label for="sn-time" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-time" class="margin-toggle"/><span class="sidenote">Looking back, a quick user test of just this screen would have taken very little time. But given our inexperience, we just didn't think of testing individual parts of the app.</span>, we chose to move on to the UI phase while generating versions of both dashboard styles to test in the next phase.</p>
 
-		<p>Based on “anticipate, don’t ask” - Function groups:</p>
+		<h1 id="section3">Translating concepts into UI</h1>
 
-		<p>Which and how principle was used: </p>
-
-		<p>Goal: Group many device functions into categories that match our users’ daily schedule to reduce steps needed to adjust their home.</p>
-
-		<p>Result: Users loved it, but wanted to see what was being changed every time. 🙂</p>
-
-		<p>Based on easily accessible on the go - function-first dashboard</p>
-
-		<p>Goal: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</p>
-
-		<p>Results: Inconclusive. Some prefered a device-first design for its straightforwardness, while others liked the speed of the function-first design. 🤔</p>
-		
-		<p>The first two concepts were quickly implemented in our final wireframes, but the mixed feedback made it hard to decide on the dashboard design.Therefore, we chose to move on to the UI phase while generating versions of both dashboard styles to test.</p>
-
-		<h1 id="section4">Translating concepts into UI</h1>
-
-		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home-toggles, users would prefer something that was quick to use over something clear but more cumbersome.<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote"> Just like snapchat, I thought our app could be harder to learn if it made a frequently used function really quick to use</span>
-
+		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home devices, users would prefer something that is quick to use over something clear but more cumbersome.<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote"> Just like snapchat, my theory our app could be harder to learn if it made a frequently used function really quick to use</span>
 		</p>	
-
-
 
 		<p>Based on our wireframes , we designed UI concepts that reflect everything we learned thus far. I based my visual explorations mostly on the following:</p>
 
@@ -159,10 +179,9 @@
 		<li>The home that our persona would likely own</li>
 		<li>Differentiation from competitors</li>
 		</ol>
-
-		<p>[carousel, with chosen UI first and other discarded UIs later]</p>
-
-		<a href="test.com">ALLAAmong all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app”</a>
+		<figure>
+			<img src="img/tempshow1.5.png" alt="different UI concepts">
+		</figure>
 
 		<p>Among all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app” because I did not want to overwhelm the user with both an unfamiliar UI and a unfamiliar dashboard design.</p>
 
@@ -170,7 +189,9 @@
 
 		<p>While we got a lot of feedback on different UI parts, our primary concern was to test the function vs. device based dashboard</p>
 
-		<p>[my dashbaord vs preunky’s dashboard]</p>
+		<figure>
+			<img src="img/tempshow1.6.png" alt="different UI concepts">
+		</figure>
 
 		<p>After 7 interviews, many flaws in the functional approach came to light: </p>
 
@@ -202,7 +223,7 @@
 
 		<p>In our final design, </p>
 
-		<h1 id="section5">Takeaways</h1>
+		<h1 id="section4">Takeaways</h1>
 
 		<p>Onboarding can be used not only for features, but mental model</p>
 

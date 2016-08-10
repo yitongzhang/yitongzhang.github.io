@@ -143,19 +143,6 @@ footer a{
 	}
 }
 
-@media (max-width: 650px) and (min-width: 550px){
-	.shortSummary{
-		display: none;
-	}
-}
-
-@media (max-width: 680px) and (min-width: 550px){
-	.smallTitle h3{
-		display: none;
-	}
-
-}
-
 
 /*caseStudy*/
 
@@ -236,11 +223,31 @@ nav.sticky {
 	margin-top: 40px;
 }
 
-.caseStudy .hero{
-	margin-bottom: 40px;
+.caseStudy main li{
+	font-family:"ff-meta-serif-web-pro";
+	font-size:1.8rem;
+	line-height: 2.2;
+	color: #222;
+	margin-left: 40px;
 }
 
+.caseStudy main ol{
+	list-style-type: decimal;
+	margin-bottom: 20px;
+}
 
+.caseStudy main ul{
+	list-style-type: square;
+	margin-bottom: 20px;
+}
+
+.caseStudy .hero{
+	margin-bottom: 20px;
+}
+
+.caseStudy figure{
+	margin-bottom: 20px;
+}
 
 .caseStudy main a{
 	font-family:"ff-meta-serif-web-pro";
@@ -251,8 +258,19 @@ nav.sticky {
 	color: #222;
 }
 
+.caseStudy main span a{
+	font-family:"ff-meta-web-pro";
+	font-size:1.4rem;
+	line-height: 1.6;
+	font-weight: 500;
+	color: #222;
+}
 
-
+nav .pull-right, nav .pull-left{
+	margin: 0 20px;
+	opacity: 0.5;
+	line-height: 1;
+}
 
 
 /*side note and underline from tufte-css*/
@@ -358,3 +376,35 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 
 
+@media (max-width: 650px) and (min-width: 550px){
+	.shortSummary{
+		display: none;
+	}
+}
+
+@media (max-width: 680px) and (min-width: 550px){
+	.smallTitle h3{
+		display: none;
+	}
+
+}
+
+@media (max-width: 680px){
+	nav .row{
+		display: none;
+	}
+	.caseStudy .bigP{
+		font-family:"ff-meta-serif-web-pro";
+		font-size:2.2rem;
+		line-height: 1.8;
+		color: #222;
+	}
+
+}
+
+@media (min-width: 680px){
+	nav .smallRow{
+		display: none;
+	}
+
+}

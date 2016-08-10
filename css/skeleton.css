@@ -146,15 +146,15 @@ a:hover{
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+.full-width {
   width: 100%;
   box-sizing: border-box; }
-.u-max-full-width {
+.max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
-.u-pull-right {
+.pull-right {
   float: right; }
-.u-pull-left {
+.pull-left {
   float: left; }
 
 
