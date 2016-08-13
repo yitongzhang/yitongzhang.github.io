@@ -145,10 +145,6 @@ footer a{
 
 
 /*caseStudy*/
-
-
-
-
 .caseStudy .bigP{
 	font-family:"ff-meta-serif-web-pro";
 	font-size:2.6rem;
@@ -164,7 +160,13 @@ footer a{
 }
 
 .caseStudy h1{
-	padding-top: 80px;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+.caseStudy h2{
+	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .caseStudy .projectComments{
@@ -272,6 +274,10 @@ nav .pull-right, nav .pull-left{
 	line-height: 1;
 }
 
+.caseStudy main div .attention{
+	font-weight: 700;
+	color: black;
+}
 
 /*side note and underline from tufte-css*/
 

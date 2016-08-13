@@ -110,13 +110,14 @@ body {
   font-size: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
   font-family: "ff-meta-web-pro",sans-serif;
   font-weight: 500;
   margin-bottom: 0.8rem;
   color: #222;}
 
-h1 { font-size: 2.6rem;}
-h2 { font-size: 1.8rem;}
+h1 { font-size: 2.8rem;}
+h2 { font-size: 2.4rem; font-family:"ff-meta-serif-web-pro";}
 h3 { font-size: 1.8rem; font-family:"ff-meta-SC-web-pro"; text-transform: lowercase; margin-bottom: 0;}
 h4 { font-size: 1.4rem;}
 h5 { font-size: 1.3rem;}
