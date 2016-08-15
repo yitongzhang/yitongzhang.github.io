@@ -162,12 +162,21 @@ footer a{
 .caseStudy h1{
 	padding-top: 70px;
 	padding-bottom: 20px;
+	font-size: 3.8rem;
 }
 
 .caseStudy h2{
 	padding-top: 40px;
 	padding-top: 20px;
+	font-size: 3.2rem;
 }
+
+.caseStudy footer h1{
+	font-size: 3.2rem;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 
 .caseStudy .projectComments{
 	margin-top: 10px;
@@ -299,6 +308,9 @@ body{
                          position: relative; }
 
 
+.marginnote{
+	margin-top: 40px;
+}
 
 .table-caption { float:right;
                  clear:right;
