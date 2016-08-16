@@ -118,6 +118,11 @@ table{
 
 
 /*footer*/
+.caseFoot{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
 .footerbg{
 	background-color: #F5F5F5;
 	padding-bottom: 40px;
@@ -304,6 +309,10 @@ nav .pull-right, nav .pull-left{
 	font-weight: 700 !important;
 }
 
+.mainText{
+	margin-bottom: 160px;
+}
+
 /*side note and underline from tufte-css*/
 
 body{
@@ -370,6 +379,12 @@ body{
 	border-top: 1px solid rgba(0, 0, 0, 0.7);
 	max-width: 70px;
 	margin-left: 0px;
+}
+
+
+#footer h1{
+	text-align: left;
+
 }
 
 
