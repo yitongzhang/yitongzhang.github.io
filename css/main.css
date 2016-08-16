@@ -1,3 +1,7 @@
+.date{
+	margin-top: 10px;
+}
+
 .sansSmallcaps{
 	font-family: "ff-meta-SC-web-pro";
 }
@@ -287,9 +291,8 @@ nav .pull-right, nav .pull-left{
 	line-height: 1;
 }
 
-.caseStudy main div .attention{
-	font-weight: 700;
-	color: black;
+.caseStudy .attention{
+	font-weight: 700 !important;
 }
 
 /*side note and underline from tufte-css*/
