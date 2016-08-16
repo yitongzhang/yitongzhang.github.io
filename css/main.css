@@ -210,11 +210,16 @@ footer a{
 
 .caseStudy nav ul{
 	text-align: center;
+	margin-top: -15px;
+}
+
+.caseStudy nav .pull-left , .caseStudy nav .pull-right  {
+
+	margin-top: 32px;
 }
 
 .caseStudy nav{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	height: 80px;
 	background-color: white;
 }
 

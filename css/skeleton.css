@@ -153,10 +153,9 @@ a:hover{
 .max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
-.pull-right {
-  float: right; }
-.pull-left {
-  float: left; }
+
+.pull-right { float: right;}
+.pull-left { float: left;}
 
 
 /* Misc
