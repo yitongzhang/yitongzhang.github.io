@@ -1,3 +1,7 @@
+.divider{
+	margin-bottom: 100px;
+}
+
 .smallDescribeSmall{
 	display: none;
 }
@@ -497,15 +501,13 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	.index .cta, .smallDescribe{
 		display: none;
 	}
-
-	.otherProjects{
-		margin-top: 200px;
-	}
 	.smallDescribeSmall{
 		display: block;
 	}
 
-
+	.divider{
+		margin-bottom: 80px;
+	}
 
 
 }
