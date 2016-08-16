@@ -24,6 +24,10 @@ header a{
 	margin-bottom: 200px;
 }
 
+.meDescribe h1{
+	margin-top: -8px;
+}
+
 .nav ul{
 float: right;
 }
