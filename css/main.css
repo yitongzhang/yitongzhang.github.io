@@ -252,6 +252,7 @@ nav.sticky {
 
 .caseStudy main{
 	margin-top: 40px;
+	margin-bottom: 80px;
 }
 
 .caseStudy main li{
@@ -309,9 +310,6 @@ nav .pull-right, nav .pull-left{
 	font-weight: 700 !important;
 }
 
-.mainText{
-	margin-bottom: 160px;
-}
 
 /*side note and underline from tufte-css*/
 
