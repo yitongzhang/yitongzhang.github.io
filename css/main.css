@@ -1,3 +1,7 @@
+.smallDescribeSmall{
+	display: none;
+}
+
 .date{
 	margin-top: 10px;
 }
@@ -482,3 +486,27 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	.noteLine{display: none;}
 	.sidenote:before {top: -0.2rem;}
 }
+
+
+@media(max-width: 550px){
+
+	article{
+		margin-bottom: 80px;
+	}
+
+	.index .cta, .smallDescribe{
+		display: none;
+	}
+
+	.otherProjects{
+		margin-top: 200px;
+	}
+	.smallDescribeSmall{
+		display: block;
+	}
+
+
+
+
+}
+
