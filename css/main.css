@@ -162,13 +162,15 @@ footer a{
 .caseStudy h1{
 	padding-top: 70px;
 	padding-bottom: 20px;
-	font-size: 3.8rem;
+
+	text-align: center;
 }
 
 .caseStudy h2{
-	padding-top: 40px;
 	padding-top: 20px;
-	font-size: 3.2rem;
+	padding-bottom: 20px;
+
+	text-align: center;
 }
 
 .caseStudy footer h1{
@@ -239,7 +241,7 @@ nav.sticky {
 	font-size:1.8rem;
 	line-height: 2.2;
 	color: #222;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 .caseStudy main ol{
@@ -252,12 +254,14 @@ nav.sticky {
 	margin-bottom: 20px;
 }
 
-.caseStudy .hero{
+.hero{
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .caseStudy figure{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .caseStudy main a{
@@ -294,6 +298,8 @@ body{
 	counter-reset: sidenote-counter;
 }
 
+
+
 .sidenote, .marginnote { float: right;
                          clear: right;
                          margin-right: -40%;
@@ -327,15 +333,34 @@ body{
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
                                            font-family: "ff-meta-web-pro";
                                            position: relative;
-                                           vertical-align: baseline; }
+                                           vertical-align: baseline;
+                                           background-color: white;
+                                           margin-right: 5px; }
 
 .sidenote-number:after { content: counter(sidenote-counter);
-                         font-size: 1.4rem;
-                         top: -0.5rem;
-                         left: 0.1rem; }
+                         font-size: 1.2rem;
+                         top: -0.6rem;
+                         padding-left: 5px;
+                         padding-right: 5px;
+                         padding-top: 0px;
+                         padding-bottom: 3px;
+                         /*background-color: rgba(0, 0, 0, 0.2);*/
+
+                     }
 
 .sidenote:before { content: counter(sidenote-counter) " ";
-                   top: -0.5rem; }
+                   top: 1rem;
+                   background-color: white; }
+
+.noteLine{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.7);
+	max-width: 70px;
+	margin-left: 0px;
+}
+
+
 
 input.margin-toggle { display: none; }
 
@@ -425,4 +450,10 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 		display: none;
 	}
 
+}
+
+@media(max-width: 760px){
+	.sidenote-number:after {margin-left: 2px; border: 1px solid rgba(0, 0, 0, 0.2);}
+	.noteLine{display: none;}
+	.sidenote:before {top: -0.2rem;}
 }

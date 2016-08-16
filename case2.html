@@ -84,31 +84,31 @@
 		<img src="img/showcase2.png" alt="screenshots of the final app">	
 	</div>
 
-	<div class="hero seven columns offset-by-one">
-		<h1>Core problem</h1>
+	<div class="mainText six columns offset-by-three">
+		<h1 id="section1">Core problem</h1>
 
 		<p>After talking to both renters and leasing offices, we found that core challenge was to balance the conflicting desires of each user group. On one hand, renters want the freedom to book any time they want. With research, we found that it’s because: </p>
 
 		<ul>
-		<li>they want to organize their touring schedule efficiently<label for="sn-efficiently" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-efficiently" class="margin-toggle"/><span class="sidenote">This is especially important for out-of-towners who often only fly in for a weekend to do all of their touring.</span> around their free time.</li>
+		<li>they want to organize their touring schedule efficiently<label for="sn-efficiently" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-efficiently" class="margin-toggle"/><span class="sidenote alternate">This is especially important for out-of-towners who often only fly in for a weekend to do all of their touring.</span> around their free time.</li>
 		<li>they are used to the instant booking features of consumer apps like OpenTable</li>
 		</ul>
 
 		<p>On the other hands, Leasing offices want maintain control over tour booking because: </p>
 
 		<ul>
-		<li>As salespeople, they want quality leads<label for="sn-leads" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-leads" class="margin-toggle"/><span class="sidenote">Usually, this means that the renter's budget, move in date and size preference are a good fit with what the building can provide.</span> that are likely to sign a lease.</li>
-		<li>they don’t always know in advance how many agents are in the office for any given day<label for="sn-day" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-day" class="margin-toggle"/><span class="sidenote">Because leasing offices are open seven days a week, employees take days off irregularly.</span>.</li>
+		<li>As salespeople, they want quality leads<label for="sn-leads" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-leads" class="margin-toggle"/><span class="sidenote alternate">Usually, this means that the renter's budget, move in date and size preference are a good fit with what the building can provide.</span> that are likely to sign a lease.</li>
+		<li>they don’t always know in advance how many agents are in the office for any given day<label for="sn-day" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-day" class="margin-toggle"/><span class="sidenote alternate">Because leasing offices are open seven days a week, employees take days off irregularly.</span>.</li>
 		<li>they have a working routine that they don’t want to change without a really compelling reason.</li>
 		</ul>
 
 		<p>In this scenario, one side’s freedom comes at the expense of the other side’s control. Working with Aptamigo, we tried to find the best way to give each side what they want.</p>
 
-		<h1>Managing direct oppositions</h1>
+		<h1 id="section2">Managing direct oppositions</h1>
 
 		<h2>High lead quality without annoying questionnaires</h2>
 
-		<p>As a first step, we developed a search and filter system that was strict enough to give leasing offices quality leads, but so strict that renters feel overencumbered with questionnaires.<label for="sn-questionnaires" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-questionnaires" class="margin-toggle"/><span class="sidenote"><a href="http://www.apartmentlist.com" target="_blank">apartmentlist.com</a> is a website that tries to control lead quality by making renters fill a 10 question form upfront. We want to achieve the same goal, without the encumbrance</span> To do that, we first separated the form fields into 3 stages so that it seem less long.</p>
+		<p>As a first step, we developed a search and filter system that was strict enough to give leasing offices quality leads, but so strict that renters feel overencumbered with questionnaires.<label for="sn-questionnaires" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-questionnaires" class="margin-toggle"/><span class="sidenote alternate">apartmentlist.com is a website that tries to control lead quality by making renters fill a 10 question form upfront. We want to achieve the same goal, without the encumbrance</span> To do that, we first separated the form fields into 3 stages so that it seem less long.</p>
 		<figure>
 			<img src="img/hiddenMenu.gif" alt="A hidden menu">
 		</figure>
@@ -116,7 +116,7 @@
 		<p>Then, we implemented general form field best practices</p>
 
 		<figure>
-			<label for="mn-filters" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-filters" class="margin-toggle"/><span class="marginnote">We used smart defaults, displayed fields conditionally, organized selections in groups, allowed multiple selections and much more.</span>
+			<label for="mn-filters" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-filters" class="margin-toggle"/><span class="marginnote alternate">We used smart defaults, displayed fields conditionally, organized selections in groups, allowed multiple selections and much more.</span>
 			<img src="img/filters.gif" alt="Good filters menu">
 		</figure>
 
@@ -129,7 +129,7 @@
 		<li>Create the illusion of instant booking with a Doodle-style calendar where renters can indicate their availabilities and let agents book within those times.</li>
 
 		<figure>
-			<label for="mn-booking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-booking" class="margin-toggle"/><span class="marginnote">We had mixed feedback from renters on this one. While some liked it, others found it unexpected. We kept it in the end because agents really liked it.</span>
+			<label for="mn-booking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-booking" class="margin-toggle"/><span class="marginnote alternate">We had mixed feedback from renters on this one. While some liked it, others found it unexpected. We kept it in the end because agents really liked it.</span>
 			<img src="img/booking.png" alt="Doodle style booking">
 		</figure>
 
@@ -137,17 +137,17 @@
 		</ul>
 
 		<figure>
-			<label for="mn-groupBooking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-groupBooking" class="margin-toggle"/><span class="marginnote">This screen unfortunately did not make v1 because we didn't manage to test it.</span>
+			<label for="mn-groupBooking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-groupBooking" class="margin-toggle"/><span class="marginnote alternate">This screen unfortunately did not make v1 because we didn't manage to test it.</span>
 			<img src="img/groupBooking.png" alt="Group booking">
 		</figure>
 
-		<h1>Changing expectations:</h1>
+		<h1 id="section3">Changing expectations</h1>
 
 		<p>In our interviews, we found that manxy of the problems between the renters and leasing offices were due to a matter of habit and expectation, rather than conflict of interest.</p>
 
 		<h2>Renter: overcoming simplistic expectations</h2>
 
-		<p>For example, many renters were frustrated because they were comparing the apartment search process to finding a restaurant on OpenTable. To combat this over-simplistic perception, we displayed tips to help renters understand how each filter is necessary and useful<label for="sn-useful" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-useful" class="margin-toggle"/><span class="sidenote">For example: specifying a move in date range can help your leasing agent find you a better price, depending on market fluctuations.</span> in the process.</p>
+		<p>For example, many renters were frustrated because they were comparing the apartment search process to finding a restaurant on OpenTable. To combat this over-simplistic perception, we displayed tips to help renters understand how each filter is necessary and useful<label for="sn-useful" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-useful" class="margin-toggle"/><span class="sidenote alternate">For example: specifying a move in date range can help your leasing agent find you a better price, depending on market fluctuations.</span> in the process.</p>
 
 		<h2>Agents: preserving the routine</h2>
 
@@ -155,25 +155,21 @@
 
 		<p>Email may seem archaic and inefficient on the surface, but the agents we talked to were extremely adept at staying on top of their inbox. By using emails, we played to our users’ competence and reduced development time.</p>
 
-		<h1>Conclusion: The self-serve apartment search platform</h1>
+		<h1 id="section4">Conclusion: self-serve apartment search</h1>
 
-		<p>Although there are still many areas where we could improve, the design was deemed by renters and leasing agents to be significantly better than their current workflow. And that was good enough for us to ship a first version. </p>
-
-		<p>For a next version, I hope to improve the following 2 points. </p>
-
-		<ul>
-		<li>Increase listing differentiation: many renters expressed that they had trouble narrowing down their choices because they were overwhelmed by the torrent of similar pictures and amenities.</li>
-		<li>Develop a direct booking system: with more time, I hope that we’ll be able to make deals with leasing offices so that we can integrate directly into their calendar system to provide direct booking.</li>
-		</ul>
-
-		<h1>Takeaways</h1>
+		<p>Although there are still many areas where we could improve, the design was deemed by renters and leasing agents to be significantly better than their current workflow. And that was good enough for us to ship a first version. For a next version, I hope to improve the following 2 points. </p>
 
 		<ol>
-		<li><p><strong>Managing opposing desires</strong>: Sometimes, conflicts of interests are actually conflicts of expectation. Both sides can get what they want if expectations are addressed. As for real oppositions of interest, both sides can still be balanced with the correct compromises.</p></li>
-		<li><p><strong>Understanding unstated problems</strong> Often, what users said was totally different from what they actually believed, either because they couldn’t talk freely in an open office or simply because they were unaware of their own behaviour. To understand their true beliefs and motivations, I’ve learned techniques such as: observing their behaviour<label for="sn-behaviour" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-behaviour" class="margin-toggle"/><span class="sidenote">This is especially important when interviewing juniors who often can't speak freely within earshot of their managers.</span> and reducing the level of discomfort by having conversations about prototypes instead of people.</p></li>
+		<li>Increase listing differentiation: many renters expressed that they had trouble narrowing down their choices because they were overwhelmed by the torrent of similar pictures and amenities.</li>
+		<li>Develop a direct booking system: with more time, I hope that we’ll be able to make deals with leasing offices so that we can integrate directly into their calendar system to provide direct booking.</li>
 		</ol>
-
-
+		
+		<p>As for myself, I've learned 2 main lesssons in this project. </p>
+	
+		<ol>
+		<li><p><strong>Managing opposing desires</strong>: Sometimes, conflicts of interests are actually conflicts of expectation. Both sides can get what they want if expectations are addressed. As for real oppositions of interest, both sides can still be balanced with the correct compromises.</p></li>
+		<li><p><strong>Understanding unstated problems</strong> Often, what users said was totally different from what they actually believed, either because they couldn’t talk freely in an open office or simply because they were unaware of their own behaviour. To understand their true beliefs and motivations, I’ve learned techniques such as: observing their behaviour<label for="sn-behaviour" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-behaviour" class="margin-toggle"/><span class="sidenote alternate">This is especially important when interviewing juniors who can't speak freely within earshot of their managers.</span> and reducing the level of discomfort by having conversations about prototypes instead of people.</p></li>
+		</ol>
 
 	</div>
 
@@ -183,16 +179,18 @@
 </div>
 </div>
 
-<!-- <div class="footerbg">
+<div class="footerbg">
 <div class="container">
 	<footer id="footer" class="ten columns offset-by-one">
-		<h1>test</h1>
+	<br>
+	<br>
 	</footer>
 </div>
-</div> -->
+</div>
 
 </body>
 </html>
 
 <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/case.js"></script>

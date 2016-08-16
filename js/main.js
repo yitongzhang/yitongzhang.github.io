@@ -1,4 +1,3 @@
-
 var navDistance = $("nav").offset().top;
 
 try{
@@ -14,17 +13,17 @@ catch(err) {
     console.log("fewer sections than expected")
 }
 
-console.log(typeof oneDistance)
-console.log(oneDistance)
+
+
 $(window).scroll(function() {
 
 if ($(this).scrollTop() > navDistance){  
     $('nav').addClass("sticky");
-    console.log("added");
+
   }
   else{
     $('nav').removeClass("sticky");
-    console.log("removed");
+
   }
 
 try{
