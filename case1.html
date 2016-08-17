@@ -44,7 +44,7 @@
 
 		<div class="eight columns offset-by-one">
 
-			<p class="bigP">Smart devices purport to make our home life more simple, but busy homeowners quickly become saturated by the large amount of settings and toggles. As part of <span class="serifSmallcaps"><a href="http://www.designation.io" target="_blank">designation</a></span>, I was challenged with designing a universal remote control app for smart home. Our solution, BUNDL, focused on merging settings and devices into toggle groups, enabling users to make use of all their devices in concert, with never more than 2 clicks.
+			<p class="bigP">Smart devices claim to make our home life more simple, but busy homeowners quickly become overwhlemed by the large amount of settings. As part of <span class="serifSmallcaps"><a href="http://www.designation.io" target="_blank">designation</a></span>, I swas challenged with designing a universal remote control app for smart home. Our app, BUNDL, combined settings and devices into groups, letting users make use of all their devices together, with never more than 2 clicks.
 			</p>
 		</div>
 
@@ -91,15 +91,15 @@
 
 		<h1 id="section1">Research and problem definition</h1>
 
-		<p>Having only 6 weeks part-time to complete the project, we our first priority was to aggressively narrow the scope of our app. By the numbers of features in control, we would have the time to work on multiple iterations.</p>
+		<p>Having only 6 weeks part-time to complete the project, our first priority was to aggressively narrow the scope of our app. By the numbers of features in control, we would have the time to work on multiple iterations.</p>
 
-		<p>To do this, we talked to different kinds of home owners to find one that had a profile suitable for a small-scope app. After a few conversations, we managed to eliminated some red-herring user types like the Gadget Geek and Work Warriors.<label for="sn-other-persona" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-other-persona" class="margin-toggle"/><span class="sidenote alternate">Although interesting for their high disposable income and tech-savviness, these uses didn’t care for a more simple and unified home.</span> What we did find interesting, however, are the following groups:</p>
+		<p>To do this, we talked to different kinds of home owners to find one that has a profile suitable for a small app. After a few conversations, we managed to eliminate some red-herring user types like the Gadget Geek and Work Warriors.<label for="sn-other-persona" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-other-persona" class="margin-toggle"/><span class="sidenote alternate">Although interesting for their high disposable income and tech-savviness, these uses didn’t care for a more simple and unified home.</span> Instead we found the following groups to be very interesting:</p>
 
-		<p><span class="attention">Savvy homemakers</span>: people who use tech to make their home life more interesting and to bring their family together.</p>
+		<p><span class="attention">Savvy homemakers</span>: people who use tech to bring their family together, making their home life more interesting.</p>
 
 		<p><span class="attention">Tech-saturated professional</span>: people who work in and own a lot of tech, but are tired of their devices demanding so much their time and attention.</p>
 
-		<p>We ended up choosing the tech-saturated professional because we found it a fascinating challenge to design technology for someone who is tired of technology. Also, given our limited time, getting testing data<label for="sn-user-data" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-data" class="margin-toggle"/><span class="sidenote alternate">Since our classroom was based out of a coworking space, it was easy to get over 20 users to test and interview.</span> for this user type was going to be much easier.</p>
+		<p>We ended up choosing the <span class="attention">tech-saturated professional</span> because we found it a fascinating challenge to design technology for someone who is tired of it. Also, given our limited time, getting testing data<label for="sn-user-data" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-data" class="margin-toggle"/><span class="sidenote alternate">Since our classroom was based out of a coworking space, it was easy to get over 20 users to test and interview.</span> for this user type was going to be much easier.</p>
 
 		<p>To quickly access the data we’ve gathered from our research, we created a persona and problem statement.</p>
 
@@ -108,16 +108,15 @@
 		</figure>
 		
 		<p>In the same vein, we also created 4 guiding design principles to act as fence posts for our design exploration.</p>
+		<ul>
+		<li><span class="attention">Utilitarian</span>: Persona views his devices as tools, not toys. Our app should reflect that.</li>
 
-		<div class="">
-		<li><span class="attention">Utilitarian</span>: John views his devices as tools, not toys. Our app should reflect that.</li>
+		<li><span class="attention">Intrude only when important</span>: Persona is inundated with notifications. Our app should not exacerbate that. </li>
 
-		<li><span class="attention">Intrude only when important</span>: John is inundated with notifications. Our app should not exacerbate that. </li>
+		<li><span class="attention">Anticipate, don’t ask</span>: Persona is tired of micromanaging his tech. Our app works for the user, not the reverse. </li>
 
-		<li><span class="attention">Anticipate, don’t ask</span>: John is tired of micromanaging his tech. Our app works for the user, not the reverse. </li>
-
-		<li><span class="attention">Accessible on the go</span>: John’s always on the go. Our app accounts for divided attention.</li>
-		</div>
+		<li><span class="attention">Accessible on the go</span>: Persona is always on the go. Our app accounts for divided attention.</li>
+		</ul>
 
 		<h1 id="section2">Generating rough concepts</h1>
 
@@ -125,41 +124,41 @@
 		</div>
 
 		<div class="row">
-			<div class="three columns offset-by-three">
+			<div class="four columns offset-by-three">
 				<p class="attention">In-app notifications:</p>
 				<ul>
-					<li>Goal: 2 tiered notifications: system for important things. In app for minor things.</li>
-					<li>Principle: Based on Intrude only when important.</li>
-					<li>Result: Almost universally positive feedback from users. 😄</li>
+					<li><span class="attention">Goal</span>: 2 tiered notifications system to seperate the urgent from the nice to know.</li>
+					<li><span class="attention">Principle</span>: Intrude only when important.</li>
+					<li><span class="attention">User feedback</span>: Almost universally positive. 😄</li>
 				</ul>	
 			</div>
-			<figure class="three columns">
+			<figure class="two columns">
 				<img src="img/notif.png" alt="in app notifications">
 			</figure>
 		</div>
 		<div class="row">
-			<div class="three columns offset-by-three">
+			<div class="four columns offset-by-three">
 				<p class="attention">Function groups</p>
 				<ul>
-					<li>Goal: Reduce steps needed to adjust the home by grouping device functions into categories that match our users’ daily schedule.</li>
-					<li>Principle: Based on anticipate, don’t ask</li>
-					<li>Result: Users loved it, but wanted to see what was being changed every time. 🙂</li>
+					<li><span class="attention">Goal</span>: Reduce steps needed to adjust the home by grouping device functions into categories that match our users’ daily schedule.</li>
+					<li><span class="attention">Principle</span>: Anticipate, don’t ask</li>
+					<li><span class="attention">User feedback</span>: Loved it, but wanted to see what was being changed. 🙂</li>
 				</ul>
 			</div>
-			<figure class="three columns">
+			<figure class="two columns">
 				<img src="img/group.png" alt="function groups">
 			</figure>
 		</div>
 		<div class="row">
-			<div class="three columns offset-by-three">
+			<div class="four columns offset-by-three">
 				<p class="attention">Function-first dashboard</p>
 				<ul>
-					<li>Goal: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</li>
-					<li>Principle: Based on easily accessible on the go</li>
-					<li>Results: Inconclusive. Some prefered a device-first design for its straightforwardness, while others liked the speed of the function-first design. 🤔</li>
+					<li><span class="attention">Goal</span>: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</li>
+					<li><span class="attention">Principle</span>: Accessible on the go</li>
+					<li><span class="attention">User feedback</span>: Some liked a device-first design for its directness, but others liked the speed of function-first. 🤔</li>
 				</ul>
 			</div>
-			<figure class="three columns">
+			<figure class="two columns">
 				<img src="img/function.png" alt="functional dashboard">
 			</figure>
 		</div>
@@ -170,7 +169,7 @@
 
 		<h1 id="section3">Translating concepts into UI</h1>
 
-		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home devices, users would prefer something that is quick to use over something clear but more cumbersome.<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote alternate"> Just like snapchat, my theory our app could be harder to learn if it made a frequently used function really quick to use</span>
+		<p>I chose to test the function-first dashboard in my prototype because I believed that for something used as frequently as their home devices, users would prefer something that is quick to use over something clear but more cumbersome.<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote alternate"> Just like snapchat, I thought our app could be harder to learn if it made a frequently used function really quick to use</span>
 		</p>	
 
 		<p>Based on our wireframes , we designed UI concepts that reflect everything we learned thus far. I based my visual explorations mostly on the following:</p>
@@ -183,23 +182,19 @@
 			<img src="img/tempshow1.5.png" alt="different UI concepts">
 		</figure>
 
-		<p>Among all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app”<label for="sn-traditional" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-traditional" class="margin-toggle"/><span class="sidenote alternate">In our test, users felt more at ease navigating the green version thanks to the familiar top nav bar and tile design.</span> because I did not want to overwhelm the user with both an unfamiliar UI and a unfamiliar dashboard design.</p>
-
-		<h1>Testing different UI implementations</h1>
-
-		<p>While we got a lot of feedback on different UI parts, our primary concern was to test the function vs. device based dashboard</p>
+		<p>Among all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app”<label for="sn-traditional" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-traditional" class="margin-toggle"/><span class="sidenote alternate">In our test, users felt more at ease navigating the green version thanks to the familiar top nav bar and tile design.</span> because I did not want to overwhelm the user with both an unfamiliar UI and a unfamiliar dashboard design. Below, you can see my function first design on the left and my teammate's device first design on the right.</p>
 
 		<figure>
 			<img src="img/tempshow1.6.png" alt="different UI concepts">
 		</figure>
 
-		<p>After 7 interviews, many flaws in the functional approach came to light, with the following 2 being the most salient:</p>
+		<p>After 7 interviews, many flaws in the functional approach came to light. Here are the two main ones:</p>
 		<ol>
 		<li>Hi-fi animations were needed to convey how many of the non-standard interactions would work<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote alternate">Without animation, there isn't a clear sense that the yellow would fill in, therefore making its use as a progress indicator confusing.<img src="img/animation.gif" alt=""></span></li>
 
 		<li>Users think about their home in term of what objects they own, not what functions their objects afford.<label for="sn-mismatch" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mismatch" class="margin-toggle"/><span class="sidenote alternate">In retrospect, some of this problem could have been mitigated with a better onboarding that taught users how the app worked.</span></li>
 		</ol>
-		<p>For all these reasons and more, this concept was discarded. Instead, we used our teammate Preunky’s device-driven concept, which mapped well to our users’ mental model, thanks to the simple carousel of devices and use of iOS-settings-like toggles.</p>
+		<p>For these reasons and more, this concept was discarded. Instead, we used our teammate Preunky’s device-driven concept, which mapped well to our users’ mental model, thanks to the simple carousel of devices and use of iOS-settings-like toggles.</p>
 
 		<p>Based on this design, we added back parts of the discarded prototype that tested well, such as:</p>
 
@@ -209,12 +204,12 @@
 		</figure>
 		
 
-		<p><span class="attention">Setting groups:</span>expanding the group concept from modes to settings allowed users to make better use if their advanced settings.</p>
+		<p><span class="attention">Setting groups:</span> expanding the group concept from modes to settings allowed users to make better use if their advanced settings.</p>
 		<figure>
 			<img src="img/settingGroup.png" alt="setting group evolution">
 		</figure>
 
-		<p><span class="attention">Better integrated status display:</span>Using the device icon itself to display the status was both a delightful touch and a space saver.</p>
+		<p><span class="attention">Better integrated status display:</span> Using the device icon itself to display the status was both a delightful touch and a space saver.</p>
 		<figure>
 			<img src="img/deviceStatus.png" alt="device status evolution">
 		</figure>
@@ -228,7 +223,7 @@
 	<div class="mainText six columns offset-by-three">
 		<h1 id="section4">What I've learned</h1>
 
-		<p>This project really helped me appreaciate the importance of understaning our users' mental model. Even if it a design is technically faster, it may still feel harder to use if it does not behave as the user expects.</p>
+		<p>This project made me appreaciate the importance of understaning our users' mental model. Even if a design is technically faster, it may still feel harder to use if it doesn't behave as the user expects.</p>
 
 		<p>Looking back, there were many things I could have done to bridge the gap. For example, I could have leveraged the onboarding process to not only introduce features, but also the mental model. In the same vein, I could have used <a href="http://layervault.tumblr.com/post/42361566927/progressive-reduction">progressive reduction principles</a> to gradually fade away the device while simulatenously bringing forward its functions. The list goes on.</p>
 

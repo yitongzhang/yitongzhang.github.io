@@ -188,7 +188,7 @@ footer a{
 }
 
 .caseStudy h2{
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 
 	text-align: center;
@@ -362,7 +362,7 @@ body{
                                            position: relative;
                                            vertical-align: baseline;
                                            background-color: white;
-                                           margin-right: 5px; }
+                                           margin-right: 0px; }
 
 .sidenote-number:after { content: counter(sidenote-counter);
                          font-size: 1.2rem;
