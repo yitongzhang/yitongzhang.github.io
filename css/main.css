@@ -1,3 +1,4 @@
+
 .divider{
 	margin-bottom: 100px;
 }
@@ -37,7 +38,7 @@ header a{
 }
 
 .nav ul{
-float: right;
+	float: right;
 }
 
 .nav a{
@@ -177,7 +178,7 @@ footer a{
 	font-family:"ff-meta-serif-web-pro";
 	font-size:1.8rem;
 	line-height: 1.8;
-	color: #222;
+	color: #333;
 }
 
 .caseStudy h1{
@@ -218,7 +219,8 @@ footer a{
 
 .caseStudy nav li{
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .caseStudy nav ul{
@@ -493,7 +495,6 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 
 @media(max-width: 550px){
-
 	article{
 		margin-bottom: 80px;
 	}
@@ -501,6 +502,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	.index .cta, .smallDescribe{
 		display: none;
 	}
+
 	.smallDescribeSmall{
 		display: block;
 	}
@@ -509,6 +511,65 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 		margin-bottom: 80px;
 	}
 
-
 }
 
+.story h6{
+	margin-bottom: 120px;
+	margin-top: 120px;
+}
+
+.story section{
+	margin-bottom: 120px;
+}
+
+.story section{
+	margin-bottom: 120px;
+}
+
+.story p{
+	font-family:"ff-meta-serif-web-pro";
+	font-size:1.8rem;
+	line-height: 1.8;
+	color: #333;
+}
+
+.story h3{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.story img{
+	margin-top: 10px;
+}
+
+.story nav li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-right: 
+}
+
+.story nav ul{
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+.story nav .pull-left , .story nav .pull-right  {
+	margin-top: 32px;
+}
+
+.toptitle{
+	padding-top: 80px;
+}
+
+.story nav{
+	height: 80px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width:100%;
+	background-color: white;
+	z-index: 10;
+	margin-top: -1px;
+}
