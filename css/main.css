@@ -526,7 +526,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	margin-bottom: 120px;
 }
 
-.story p{
+.story main p{
 	font-family:"ff-meta-serif-web-pro";
 	font-size:1.8rem;
 	line-height: 1.8;
@@ -573,3 +573,4 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	z-index: 10;
 	margin-top: -1px;
 }
+
