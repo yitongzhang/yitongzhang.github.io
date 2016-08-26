@@ -1,3 +1,8 @@
+jQuery(document).ready(function($) {
+	$('.my-slider').unslider();
+});
+
+
 var navDistance = $("nav").offset().top;
 
 try{
@@ -12,7 +17,6 @@ try{
 catch(err) {
     console.log("fewer sections than expected")
 }
-
 
 
 $(window).scroll(function() {
