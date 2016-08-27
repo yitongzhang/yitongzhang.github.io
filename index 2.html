@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Yitong's portfolio</title>
 
 	<!-- css -->
@@ -12,7 +13,6 @@
 	<!-- fonts -->
 	<script src="https://use.typekit.net/pvm0wik.js"></script>
 	<script>try{Typekit.load({ async: false });}catch(e){}</script>
-
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body class="index">
 <div class="container">
 	<main id="main">
 
@@ -34,22 +34,61 @@
 
 			<div class="three columns">
 				<h1>Yitong Zhang</h1>
-				<h1>UX and UI designer</h1>
+				<h1>Product designer</h1>
 			</div>
 
-			<p class="four columns">I wield design and code to solve hard problems. Previously, I co-founded a company that helped people outsource paperwork.</p>	
+			<p class="four columns">I wield design and code to solve hard problems. Previously, I co-founded a company that helped companies outsource paperwork.</p>	
 			
 			<div class="nav five columns">
 				<ul>
-					<li><a href="#case1">work</a> /</li>
 					<li><a href="#footer">about</a> /</li>
+					<li><a href="https://www.dropbox.com/s/p7y3m1w1bqt2pbv/R%C3%A9sum%C3%A9.pdf?dl=0">résumé</a> /</li>
 					<li><a href="mailto:zha.yitong@gmail.com">email</a></li>
 				</ul>
 			</div>
 
 		</div>
 
+
 		<article class="case row" id="case1">
+			<div class="description three columns">
+				<div class="projectName">
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>aptamigo</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+
+					<h1>A booking system for renters and leasing offices</h1>
+				</div>
+				<div class="summary">
+					<p>Aptamigo, a luxury apartment listing website, hired our team to research and conceptualize the UX of their new tour scheduling system.</p>	
+				</div>
+				<div class="shortSummary">
+					<p>We designed the UX of Aptamigo's new scheduling system.</p>
+				</div>
+				<div class="projectTags">
+					<ul class="skills">
+						<h3>
+						<li>Research &#183;</li>
+						<li>Prototype</li>
+						</h3>
+						<br><h3 class="date">July 2016</h3>
+					</ul>
+				</div>
+				<div class="cta">
+					<a href="case2.html">See case study →</a>
+				</div>
+			</div>
+			<div class="heroImage nine columns">
+				<a href="case2.html"><img src="img/case2.png" alt="case study 2: aptamigo"></a>
+			</div>
+		</article>
+
+		<article class="case row" id="case2">
 			<div class="description three columns">
 				<div class="projectName">
 
@@ -65,7 +104,7 @@
 					<h1>A universal remote for the smart home</h1>
 				</div>
 				<div class="summary">
-					<p>BUNDL is a universal remote control for the smart home, designed as part of a 6-week school project. We focused on reducing the complexity operating multiple devices in conjunction.</p>	
+					<p>BUNDL is a universal remote control for the smart home, designed as part of a 6-week school project. We focused on reducing the complexity of operating multiple devices in conjunction.</p>	
 				</div>
 				<div class="shortSummary">
 					<p>BUNDL is a universal remote control for the smart home.</p>
@@ -91,45 +130,8 @@
 		</article>
 
 
-		<article class="case row">
-			<div class="description three columns">
-				<div class="projectName">
-					<div class="client">
-						<table>
-						  <tr>
-								<td class="project"><h3>aptamigo</h3></td>
-								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
-						  </tr>
-						</table>
-					</div>
 
-					<h1>A booking system for renters and leasing offices</h1>
-				</div>
-				<div class="summary">
-					<p>Aptamigo, a luxurty apartment listing website, hired our team to research and conceptualize the UX of their new tour scheduling system.</p>	
-				</div>
-				<div class="shortSummary">
-					<p>We designed the UX of Aptamigo's new scheduling system.</p>
-				</div>
-				<div class="projectTags">
-					<ul class="skills">
-						<h3>
-						<li>Research &#183;</li>
-						<li>Prototype</li>
-						</h3>
-						<br><h3 class="date">July 2016</h3>
-					</ul>
-				</div>
-				<div class="cta">
-					<a href="case1.html">See case study →</a>
-				</div>
-			</div>
-			<div class="heroImage nine columns">
-				<a href="case2.html"><img src="img/case2.png" alt="case study 2: aptamigo"></a>
-			</div>
-		</article>
-
-		<article class="case row">
+		<article class="case row" id="case3">
 			<div class="description three columns">
 				<div class="projectName">
 
@@ -141,10 +143,10 @@
 						  </tr>
 						</table>
 					</div>
-					<h1>Search fonts by their features</h1>
+					<h1>Helping designers think more deeply about fonts</h1>
 				</div>
 				<div class="summary">
-					<p>FontSearch helps designers think about type more fluidly by making Google Fonts searchable by their features. This is a WIP side project.</p>	
+					<p>FontSearch is a sideproject that makes the Google Fonts catalogue searchable by their features. This is a WIP.</p>	
 				</div>
 				<div class="shortSummary">
 					<p>FontSearch lets people can search fonts by their features</p>
@@ -161,91 +163,95 @@
 					</ul>
 				</div>
 				<div class="cta">
-					<a href="case1.html">See case study →</a>
+					<a href="case4.html">See case study →</a>
 				</div>
 			</div>
 			<div class="heroImage nine columns">
 				<a href="case4.html"><img src="img/case4.png" alt="case study 4: fontsearch"></a>
 			</div>
 		</article>
-
-		<article class="case row">
-			<div class="description three columns">
-				<div class="projectName">
-
-					<div class="client">
-						<table>
-						  <tr>
-								<td class="project"><h3>hemingly</h3></td>
-								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
-						  </tr>
-						</table>
-					</div>
-
-					<h1>Everyone's army of interns</h1>
-				</div>
-				<div class="summary">
-					<p>I co-founded a Slack-based outsourcing service that helped companies get their paperwork done quickly and cheaply.</p>	
-				</div>
-				<div class="shortSummary">
-					<p>Hemingly is an outsourcing service for startups.</p>
-				</div>
-				<div class="projectTags">
-					<ul class="skills">
-						<h3>
-						<li>operations &#183;</li>
-						<li>sales &#183;</li>
-						<li>hiring &#183;</li>
-						<li>design &#183;</li>
-						<li>coding</li>
-						</h3>
-						<h3 class="date">May 2014 - Nov 2015</h3>
-					</ul>
-				</div>
-				<div class="cta">
-					<a href="case1.html">See case study →</a>
-				</div>
-			</div>
-			<div class="heroImage nine columns">
-				<a href="case3.html"><img src="img/case3.png" alt="case study 3: Hemingly"></a>
-			</div>
-		</article>
+		
+		<table id="hr">
+		  <tr>
+			<td class="project"><h3>Otherprojects</h3></td>
+			<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+		  </tr>
+		</table>
 
 		<section>
 			<div class="otherProjects row">
 				<article class="four columns">
+					<div class="smallDescribeSmall">
+						<div class="smallTitle">
+							<h1>Crowdgig</h1>
+							<h3>may 2016</h3>	
+						</div>
+						<p>I designed Crowdgig's landing page and developed the beginning of an identity for the fledging startup.</p>
+						<div class="cta">
+							<a href="case5.html">See details →</a>
+						</div>					
+					</div>
 					<a href="case5.html"><img src="img/case5.png" alt="case study 5: Crowdgig"></a>
-					<div class="smallTitle">
-						<h1>Crowdgig</h1>
-						<h3>may 2016</h3>	
-					</div>
-					<p>I designed Crowdgig's landing page and developed the beginning of an identity for the fledging startup.</p>
-					<div class="cta">
-						<a href="case5.html">See case study →</a>
+					<div class="smallDescribe">
+						<div class="smallTitle">
+							<h1>Crowdgig</h1>
+							<h3>may 2016</h3>	
+						</div>
+						<p>I designed Crowdgig's landing page and developed the beginning of an identity for the fledging startup.</p>
+						<div class="cta">
+							<a href="case5.html">See details →</a>
+						</div>
 					</div>
 				</article>
 
 				<article class="four columns">
+					<div class="smallDescribeSmall">
+						<div class="smallTitle">
+							<h1>Deli.run</h1>
+							<h3>may 2016</h3>	
+						</div>
+
+						<p>I designed a slide deck to support Deli.run's pitch to new convenience store partners.</p>
+						<div class="cta">
+							<a href="case6.html">See details →</a>
+						</div>
+					</div>
 					<a href="case6.html"><img src="img/case6.png" alt="case study 6: Deli.run"></a>
-					<div class="smallTitle">
-						<h1>Deli.run</h1>
-						<h3>may 2016</h3>	
-					</div>
+					<div class="smallDescribe">
+						<div class="smallTitle">
+							<h1>Deli.run</h1>
+							<h3>may 2016</h3>	
+						</div>
 
-					<p>I designed a slide deck to support Deli.run's pitch to new convenience store partners.</p>
-					<div class="cta">
-						<a href="case6.html">See case study →</a>
+						<p>I designed a slide deck to support Deli.run's pitch to new convenience store partners.</p>
+						<div class="cta">
+							<a href="case6.html">See details →</a>
+						</div>
 					</div>
 				</article>
 
 				<article class="four columns">
-					<img src="img/case7.png" alt="case study 7: Mind Matters"></a>
-					<div class="smallTitle">
-						<h1>Mind Matters</h1>
-						<h3>august 2016</h3>	
+					<div class="smallDescribeSmall">
+						<div class="smallTitle">
+							<h1>Hemingly</h1>
+							<h3>May 2014</h3>	
+						</div>
+						<p>I co-founded a Slack-based outsourcing service that helped companies get their paperwork done quickly and cheaply.</p>
+						<div class="cta">
+							<a href="case3.html">See details →</a>
+						</div>
 					</div>
-
-					<p>Mind Matters is a telemental health service for veterans. Case study is coming soon.</p>
+					<a href="case3.html"><img src="img/smallhemingly.png" alt="case study 3: Hemingly"></a>
+					<div class="smallDescribe">
+						<div class="smallTitle">
+							<h1>Hemingly</h1>
+							<h3>May 2014</h3>	
+						</div>
+						<p>I co-founded a Slack-based outsourcing service that helped companies get their paperwork done quickly and cheaply.</p>
+						<div class="cta">
+							<a href="case3.html">See details →</a>
+						</div>
+					</div>
 				</article>
 
 			</div>
@@ -260,9 +266,9 @@
 	<footer id="footer">
 		<div class="about six columns">
 			<h1>About Yitong</h1>
-			<p>Getting a cab in NYC is hard. Teamwork is hard. In fact, life in general is pretty hard. As a product designer, I embrace that. Because I believe in design’s potential to untangle the hardest and hairiest problems around us. Good design carries us over the hurdles and enables us to live better, fuller lives &mdash; with our friends, at work, and beyond.</p>
+			<p>Getting a cab in NYC is hard. Teamwork is hard. In fact, life in general is pretty hard. As a product designer, I embrace that because I believe in design’s potential to untangle the hardest problems around us. Good design carries us over the hurdles and enables us to live better, fuller lives &mdash; with our friends, at work, and beyond.</p>
 
-			<p>While my passion lies in UI and UX, I love messing with <a href="https://github.com/yitongzhang" target="_blank">code</a> to bring my ideas to life. And as a former <a href="http://zhayitong.com/hemingly2/archive1.html" target="_blank">startup founder</a>, I’m comfortable relentlessly iterating from UI → UX → code in search of a better solution.</p>
+			<p>While my passion lies in UI and UX, I love messing with <a href="https://github.com/yitongzhang" target="_blank">code</a> to bring my ideas to life. And as a former <a href="http://zhayitong.com/hemingly2/archive1.html" target="_blank">startup founder</a>, I’m comfortable relentlessly iterating from UI → UX → code in search of a better solution. <a href="story.html">See more of my story →</a></p>
 		</div>
 
 		<div class="bigContact two columns">
@@ -295,6 +301,7 @@
 				<ul>
 					<li><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang" target="_blank">Goodreads</a></li>
 					<li><a href="https://www.patreon.com/user?u=2297138" target="_blank">Patreon</a></li>
+					<li><a href="oldsite/index.html" target="_blank">Old website</a></li>
 				</ul>
 		</div>
 

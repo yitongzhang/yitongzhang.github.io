@@ -45,7 +45,7 @@
 		<div class="eight columns offset-by-one">
 
 			<p class="bigP">
-			At Hemingly, we helped teams increase their productivity by supplying them with an on-demand office workforce. To do this, we built an extensible and efficient request management system that took into account an increasingly diverse workforce. And as the complexity of our tasks grew, so did our dispatch system.
+			At Hemingly, we helped teams increase their productivity by supplying them with an on-demand office workforce. To do this, we designed a simple way for users to delegate and monitor complex tasks on our system. On the backend, we built	an extensible task dispatch system that took into account an increasingly diverse workforce tasks type.
 			</p>
 		</div>
 
@@ -69,45 +69,69 @@
 <a href="case1.html" class="pull-right">Next case →</a>
 <div class="row">
 	<ul class="ten columns offset-by-one">
-		<li id="section1Nav"><a href="#section1">The pivot</a></li>
-		<li id="section2Nav"><a href="#section2">Chat interface</a></li>
-		<li id="section3Nav"><a href="#section3">Designing for scale</a></li>
-		<li id="section4Nav"><a href="#section4">Shutdown</a></li>
+		<li id="section1Nav"><a href="#section1">Product vision</a></li>
+		<li id="section2Nav"><a href="#section2">Designing chat interfaces</a></li>
+		<li id="section3Nav"><a href="#section3">Designing an extensible app</a></li>
+		<li id="section4Nav"><a href="#section4">Outcome</a></li>
 	</ul>
 </div>
 </nav>
 
 <div class="container mainText">
 <main class="row">
-	
-	<div class="hero ten columns offset-by-one">
-		<h1 style="text-align:center;">Case study coming soon!</h1>
-	</div>
 
 	<div class="hero ten columns offset-by-one">
 		<img src="img/showcase3.png" alt="screenshots of the final app">
 	</div>
 
-<!-- 	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.png" alt="screenshots of the final app">
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.1.png" alt="screenshots of the final app">
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.2.png" alt="screenshots of the final app">
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.3.png" alt="screenshots of the final app">
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.4.png" alt="screenshots of the final app">
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/tempshow3.5.png" alt="screenshots of the final app">
-	</div> -->
+	<div class="mainText six columns offset-by-three">
+		<h1 id="section1">Everyone's private army of interns</h1>
+		<p>
+			Hemingly was first started as an <a href="vimeo.com/106418413">effort</a> to help indie authors better manage their marketing. Although the idea never took off, we learned how to leverage Amazon Mechanical Turk to summon an on-demand force of office workers. In fact, using MTurk made us so productive that we wanted to <span class="attention">give the power of MTurk to everyone, but minus the learning curve.</span> To do this, we had to overcome 2 main challenges:
+		</p>
+		<ul>
+			<li><span class="attention">Making task delegation simple</span> : the main barrier to more people using on demand workforce services like MTurk is the high learning curve of creating your first task. Getting the task scope, difficulty, timeline, pricing and instructions right were so difficult that most new users gave up.</li>
+			<li><span class="attention">Building a scalable task dispatch system</span> : on our end, the challenge was to build a system that can receive and dispatch an ever more diverse set of tasks to a culturally diverse workforce.</li>
+		</ul>
+	
 
+		<h1 id="section2">Simplying task delegation with a chat bot</h1>
+		<p>
+			The most natural way to delegate tasks is via speech. In day to day life, we ask favors, give tasks to employees, assign to-do's to colleagues, etc. all by talking. We therefore designed the time delegation interface entirely as chatbot in Slack. Here are some interaction examples:
+		</p>
+		<figure>
+			<img src="img/tempshow3.4.png" alt="screenshots of the final app">
+		</figure>
 
+		<figure>
+			<img src="img/tempshow3.5.png" alt="screenshots of the final app">
+		</figure>
+
+		<h1 id="section3">Making the app extensible with spreadsheets</h1>
+		<p>
+			As the tasks we received grew in number and complexity, it became clear that we would need to build a dispatching software. And so we set out a few design principles: 
+		</p>
+		<ul>
+			<li><span class="attention">Quick to use for managers</span>: because we only expected to have 2 managers in the next 6 months, it was more important to be fast than learnable.</li>
+			<li><span class="attention">Easily extensible for managers</span>: because new types of tasks often required new interfaces, the app needed to be easily tweakable.</li>
+			<li><span class="attention">Easy to learn for operators</span>: we expected to have high operator turnover so the app needed to be easily learnable for new workers. </li>
+			<li><span class="attention">Sensitive to operators’ culture</span>: the app needed to account for the software familiarity and workplace customs of our global workforce. </li>
+		</ul>
+		<p>
+			To meet all these principles, we built more than half the app on Google Spreadsheets. The platform was immediately extensive thanks to built-in fomulas and Google Apps Script. It also solved many of our localization problems since every worker, no matter their background, was familiar with spreadsheets. Finally, we could also quickly build custom UIs for any edge cases that came up, all without much coding.
+		</p>
+		<figure>
+			<img src="img/spreadsheet1.png" alt="screenshots of the final app">
+			<img src="img/spreadsheet2.png" alt="screenshots of the final app">
+			<img src="img/spreadsheet3.png" alt="screenshots of the final app">
+		</figure>
+
+		<h1 id="section3">Outcome</h1>
+		<p>
+			In 6 months, we built a product that helped 15 companies delegated more than 600 hours of work on our platform. With this traction, we were given interviews by the top 2 accelerators in the world: YCombinator and 500 Startups, with a term sheet for $100,000 of VC investment from the latter.
+		</p>
+
+	</div>
 </main>
 </div>
 </div>
