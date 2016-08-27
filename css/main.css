@@ -340,7 +340,14 @@ body{
 
 
 .marginnote{
-	margin-top: 40px;
+	margin-top: 0px;
+}
+
+.marginnote:before{
+	content: "fig";
+	top: 1rem;
+	position: relative;
+	background-color: white;
 }
 
 .table-caption { float:right;
@@ -369,8 +376,6 @@ body{
                          padding-right: 5px;
                          padding-top: 0px;
                          padding-bottom: 3px;
-                         /*background-color: rgba(0, 0, 0, 0.2);*/
-
                      }
 
 .sidenote:before { content: counter(sidenote-counter) " ";
@@ -425,7 +430,10 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                              position: relative; }
                             div.table-wrapper, table, table.booktabs { width: 85%; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
-                            img { width: 100%; } }
+                            img { width: 100%; } 
+							.marginnote:before{content: "";}
+
+}
 
 
 .caseStudy main a:link, .caseStudy main a:visited, .caseStudy header a:link, .caseStudy header a:visited  { color: inherit; }
