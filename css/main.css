@@ -544,6 +544,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .story img{
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .story nav li{
