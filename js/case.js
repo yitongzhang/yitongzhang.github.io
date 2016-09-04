@@ -17,6 +17,18 @@ $( document ).ready(function() {
 
 
     $(".alternate").prepend("<hr class='noteLine'>");
+
+
+	$("h1").each(function(fancyTitle) {
+		var count = 1;
+	    $(this).before("<hr class='titleLine'>");
+	    $(this).before("<div class='titleCount'>"+ ++fancyTitle +"</div>");
+	});
+
+	$("h2").before("<hr class='smallTitleLine'>");
+
+    
+
 });
 
 

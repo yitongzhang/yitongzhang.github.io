@@ -177,17 +177,44 @@ footer a{
 }
 
 .caseStudy h1{
-	padding-top: 70px;
 	padding-bottom: 20px;
+	text-align: left;
+}
 
-	text-align: center;
+.titleLine{
+	border-top: 2px solid rgba(0, 0, 0, 0.8);
+	max-width: 100%;
+	margin-left: 14px;
+	margin-bottom: 0px;
+	margin-top: 80px;
+}
+
+.smallTitleLine{
+	border-top: 2px solid rgba(0, 0, 0, 0.7);
+	max-width: 20%;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
+.titleCount{
+	margin-top: -15px;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	text-align: left;
+	font-family: "ff-meta-serif-web-pro";
+	font-variant-numeric: lining-nums;
+	-moz-font-feature-settings: "lnum";
+	-webkit-font-feature-settings: "lnum";
+	font-feature-settings: "lnum";
 }
 
 .caseStudy h2{
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-bottom: 20px;
-
-	text-align: center;
+	text-align: left;
 }
 
 .caseStudy footer h1{
@@ -389,6 +416,8 @@ body{
 	max-width: 70px;
 	margin-left: 0px;
 }
+
+
 
 
 #footer h1{
