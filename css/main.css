@@ -41,6 +41,7 @@ header a{
 	font-weight: 400; 
 	text-transform: lowercase; 
 	margin-bottom: 0;
+
 }
 
 .top{
@@ -250,7 +251,6 @@ footer a{
 }
 
 .caseStudy nav .pull-left , .caseStudy nav .pull-right  {
-
 	margin-top: 32px;
 }
 
@@ -266,6 +266,31 @@ nav.sticky {
 	width:100%;
 }
 
+.story nav li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.story nav ul{
+	text-align: center;
+	margin-top: -15px;
+}
+
+
+.story nav .pull-left , .story nav .pull-right  {
+	margin-top: 32px;
+}
+
+.story nav{
+	height: 80px;
+	position: fixed;
+	top: 0;
+	width:100%;
+	z-index: 10;
+	background-color: white;
+}
+
 
 .caseStudy header{
 	padding-top: 80px;
@@ -277,7 +302,7 @@ nav.sticky {
 	background-color: #F5F5F5;
 }
 
-.caseStudy .greyLine{
+.caseStudy .greyLine, .story .greyLine{
 	border-bottom: solid 2px #F5F5F5;
 }
 
@@ -596,35 +621,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	margin-bottom: 20px;
 }
 
-.story nav li{
-	display: inline-block;
-	margin-right: 15px;
-	margin-left: 15px;
-	padding-right: 
-}
-
-.story nav ul{
-	text-align: center;
-	margin-top: 30px;
-}
-
-
-.story nav .pull-left , .story nav .pull-right  {
-	margin-top: 32px;
-}
 
 .toptitle{
 	padding-top: 80px;
 }
-
-.story nav{
-	height: 80px;
-	background-color: white;
-	position: fixed;
-	top: 0;
-	width:100%;
-	background-color: white;
-	z-index: 10;
-	margin-top: -1px;
-}
-
