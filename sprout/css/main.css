@@ -83,6 +83,9 @@ p {
 	.demo, .trial{
 		width: 100%;
 	}
+	.demo{
+		height: 600px;
+	}
 
 }
 
