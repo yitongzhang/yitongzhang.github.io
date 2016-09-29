@@ -1,0 +1,169 @@
+/*browser rest*/
+body{
+	margin: 0;
+}
+
+fieldset{
+  border:none;
+  background-color: white;
+  padding: 16px 64px 32px 64px;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*typography*/
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.8em;
+  font-weight: 400;
+  font-family: "proxima nova", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #686868; }
+
+h1, h2, h3, h4, h5 {
+  color: white;
+  font-weight: 300; }
+
+p {
+  margin-top: 0; }
+
+.trial h1{
+  color: #2bb656;
+}
+
+.cta h1{
+	text-align: center;
+}
+
+
+
+/*section layouts*/
+.cta{
+	background-color: #2bb656;
+	background-image: url("../sproutMark.png");
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+
+.cta p{
+	margin-bottom: 50px;
+}
+
+.filler{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.filler img{
+	padding-right: 20px;
+	float:left;
+}
+
+.grid{
+	float: left;	
+}
+.demo{
+	height: 520px;
+	width: 50%;
+	display: flex;
+	
+	align-items: center;
+}
+
+.trial{
+	width: 50%;
+	background-color: #F5FCF6;
+}
+
+/*mobile*/
+@media (max-width: 750px) {
+	.demo, .trial{
+		width: 100%;
+	}
+
+}
+
+.demoContent{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+
+}
+
+.trialContent{
+	margin:24px auto;
+	max-width: 80%;
+	box-shadow: 0px 2px 20px #EAEAEA;
+}
+
+
+
+/*buttons*/
+button, input[type=submit]{
+  font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 16px 0;
+  background-color: #59cb59;
+  border: .1111111111em solid transparent;
+  line-height: 1;
+  vertical-align:middle;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  color:white;
+  border-radius:.1666666667rem;
+  transition:background-color 150ms,border-color 150ms,color 75ms ease-out,box-shadow 150ms;
+}
+button:hover, input[type=submit]:hover{
+	background-color: #2bb656;
+}
+
+.cta button, .cta input[type=submit]{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.demo button{
+	background-color: rgba(0, 0, 0, 0.0);
+	border: .1111111111rem solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.demo button:hover {
+	background-color: white;
+	color: black;
+}
+
+
+
+/*input fields*/
+
+ul{
+  padding-left:0;
+  margin-top:16px;
+}
+
+li{
+	list-style: none;
+}
+
+li li{
+	display: inline-block;
+	margin-bottom: 32px;
+}
+
+label{
+  background-color:#F3F4F4;
+  padding: 16px 16px;
+}
+
+label:hover{
+	background-color:#EDEDED;
+}
+
+
+
