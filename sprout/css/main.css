@@ -32,8 +32,6 @@ p {
 	color: #2bb656;
 }
 
-
-
 .trial h2{
   color: #2bb656;
   text-align: center;
@@ -51,7 +49,6 @@ p {
 	background-repeat:no-repeat;
 	background-position: left top;
 }
-
 
 .filler{
 	padding-top: 80px;
@@ -89,6 +86,13 @@ p {
 
 }
 
+@media (max-width: 450px) {
+	.demo{
+		height: 650px;
+	}
+}
+
+
 .demoContent, .planContent{
 	margin-left: auto;
 	margin-right: auto;
@@ -113,10 +117,12 @@ table{
 	margin:12px 0px;
 	border-left: .15em solid #59cb59;
 }
+
 td:nth-child(2){
 	color: #2bb656;
 	padding-left: 24px;
 }
+
 td{
 	padding-left: 12px;
 }
@@ -138,12 +144,13 @@ button, input[type=submit]{
   width: 240px;
   transition:background-color 150ms,border-color 150ms,color 75ms ease-out,box-shadow 150ms;
 }
+
 button:hover, input[type=submit]:hover{
 	background-color: #2bb656;
 }
 
 .demoContent button, .trialContent input[type=submit]{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .planContent button{
@@ -178,7 +185,6 @@ button:hover, input[type=submit]:hover{
 
 
 /*input fields*/
-
 ul{
   padding-left:0;
   margin-top:16px;
@@ -201,6 +207,3 @@ label{
 label:hover{
 	background-color:#EDEDED;
 }
-
-
-
