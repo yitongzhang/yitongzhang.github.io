@@ -41,7 +41,7 @@ Problems right now:
 * Each SM manager does at least 6 channels.
 * Sometimes, external agencies do the actual production work and data analyses. Internal folks take that data and think about overall brand strategy
 
-# Best-practice research
+## Best-practice research
 * For choices where any could work and it really depends on what your prefs are, a questionnaire is better
 
 
@@ -61,14 +61,3 @@ Problems right now:
 No slider: 
 - Slider needs precise value. People don’t know how precisely the follower amount, just the range.
 - Social profile: people have to count the amount. don’t know the precise number off hand
-- 
-
-# Code
-* replaced `<br>` with the more semantic `<ul>`
-* replaced `<h1>` with the more semantic `legend` and `<fieldset>`
-* added `for` in labels for slightly better usability and better accessibility
-## HTML
-
-## CSS
-
-## JS
