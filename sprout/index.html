@@ -4,16 +4,16 @@
 <head>
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
-	<title>Crowdgig</title>
-	<meta name="description" content="Crowdgig's landing page">
-	<meta name="author" content="Crowdgig">
+	<title>Sprout</title>
 
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/main.css">
+
 
 </head>
 
@@ -30,15 +30,63 @@
 			<div class="row">
 					<div class="demo grid">
 						<div class="demoContent">
-					    <h1>Contact us today to discuss your unique needs with one of our product specialists.</h1>
-					    <a href="http://sproutsocial.com/demo"><button>Request a Demo</button></a>
-					  </div>
+						    <h1>Contact us today to discuss your unique needs with one of our product specialists.</h1>
+						    <a href="http://sproutsocial.com/demo"><button>Request a Demo</button></a>
+				    	</div>
+					<div class="planContent">
+						<div class="planHead">
+							<h6>The plan that's right for you is:</h6>
+							<h1 id="planRecName"></h1>
+							<img src="smallSprout.png" alt="">
+
+							<h6 id="headline"></h6>
+						</div>
+						<table>
+							<tr>
+								<td>Cost Per Month</td>
+								<td id="costMonth"></td>
+							</tr>
+							<tr>
+								<td>Number of Social Profiles</td>
+								<td id="nbProfiles"></td>
+							</tr>
+							<tr>
+								<td>Brand Keywords per Group</td>
+								<td id="keywords"></td>
+							</tr>
+							<tr>
+								<td>Included Users</td>
+								<td id="includedUs"></td>
+							</tr>
+							<tr>
+								<td>Additional Users</td>
+								<td id="addUs"></td>
+							</tr>
+
+							<tr>
+								<td>Included Groups</td>
+								<td id="includedGr"></td>
+							</tr>
+							<tr>
+								<td>Audience Size (Fans/Followers)</td>
+								<td id="audience"></td>
+							</tr>
+						</table>
+						</ul>
+						<div class="planFoot">
+						<h6>All Plans Inclde a Free 30-Day Trial</h6>
+						<p>Best-in-class social media management and engagement software. Change plans or cancel at any time.</p>
+						<button id="tryButton">Start My Free Trial</button>
+						<button id="compare">Compare Plans</button>
+						</div>
 					</div>
+					</div>
+
 					<div class="trial grid">
 						<div class="trialContent">
 					    <form id="form">
 					      <fieldset>
-					       <h1>Find the right Sprout Social plan for you.</h1>
+					       <h2>Find the right Sprout Social plan for you.</h2>
 					        <div class="formContent">
 					          <ul>
 					            <li>How many social profiles do you manage?
@@ -86,7 +134,8 @@
 				</div>
 			</div>
 		</section>
-
 	</body>
-
 </html>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
