@@ -25,7 +25,6 @@ $('#form').on('submit', function(ev) {
 
   // insert correct button link
   $("#tryButton").attr("href", signUp[recPlan]);
-
   console.log(signUp[recPlan]);
 
 
