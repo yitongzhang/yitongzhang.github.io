@@ -23,7 +23,21 @@ $('#form').on('submit', function(ev) {
   // add plan content
   $(".planContent").fadeIn( "slow" );
 
+  // insert correct button link
+  $("#tryButton").attr("href", signUp[recPlan]);
+
+  console.log(signUp[recPlan]);
+
+
 });
+
+// signup links
+var signUp ={
+  'Deluxe':'https://app.sproutsocial.com/signup/start/deluxe_v5',
+  'Premium':'https://app.sproutsocial.com/signup/start/premium_v5',
+  'Team':'https://app.sproutsocial.com/signup/start/team_v5',
+  'Enterprise':'http://sproutsocial.com/demo?plan=enterprise'
+}
 
 /**
  * All of the data about our plans.

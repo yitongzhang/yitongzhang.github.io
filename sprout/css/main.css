@@ -20,6 +20,7 @@ h6{font-size: 1	rem; margin: 0; color: #a2a2a2}
 
 p {
   margin-bottom: -20px;
+  line-height: 1.5;	
 }
 
 #planRecName{
@@ -144,7 +145,7 @@ button:hover, input[type=submit]:hover{
 
 .planContent button{
 	display: inline-block;
-	margin-top: 24px;
+	margin-top: 32px;
 	margin-right: 12px;
 }
 
@@ -152,6 +153,11 @@ button:hover, input[type=submit]:hover{
 	background-color: rgba(0, 0, 0, 0.0);
 	border: .2rem solid #2bb656;
 	color: #2bb656;
+}
+
+#compare:hover{
+	background-color: #2bb656;
+	color: white;
 }
 
 .demoContent button{
