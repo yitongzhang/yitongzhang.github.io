@@ -39,40 +39,42 @@
 
 <body class="caseStudy">
 
-<div class="grey">
-<div class="container">
-<header class="row">
 
-	<div class="largeSummary">
-		<div class="ten columns offset-by-one">
-			<table>
-			  <tr>
-					<td class="project"><h3>bundl</h3></td>
-					<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
-			  </tr>
-			</table>
-		</div>
-
-		<div class="eight columns offset-by-one">
-
-			<p class="bigP">Smart devices claim to make our home life more simple, but busy homeowners quickly become overwhlemed by the large amount of settings. As part of <span class="serifSmallcaps"><a href="http://www.designation.io" target="_blank">designation</a></span>, I was challenged with designing a universal remote control app for smart home. Our app, BUNDL, combined settings and devices into groups, letting users make use of all their devices together, with never more than 2 clicks.
-			</p>
-		</div>
-
-		<div class="projectComments two columns">
-			<h3>client</h3>
-			<p><a href="http://designation.io/" target="_blank">School project</a></p>
-			<h3>my role</h3>
-			<p>Research, prototype and high fidelity UI</p>
-			<h3>time</h3>
-			<p>6 weeks starting June 2016</p>
-			<h3>team</h3>
-			<p><a href="http://www.andiazry.com/" target="_blank">Andi</a>, <a href="http://atanas.design/" target="_blank">Atanas</a> and <a href="http://www.preunky.io/" target="_blank">Preunky</a></p>
+<section class="hero">
+	<div class="container">
+		<div class="row heroContent">
+			<div class="six columns caseSummary">
+				<table>
+				  <tr>
+						<td class="project"><h3>bundl</h3></td>
+						<td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+				  </tr>
+				</table>
+				<h1>Smart devices claim to make our home life more simple, but busy homeowners quickly become overwhlemed by the large amount of settings. I was challenged with designing a universal remote control app for smart home.</h1>
+				<div class="projectsDeets grid left">
+					<h3>client</h3>
+					<p>School project</p>
+					<h3>my roles</h3>
+					<p>Research, prototype, user testing</p>
+				</div>
+				<div class="projectsDeets grid">
+					<h3>time</h3>
+					<p>3 weeks starting July 2016</p>
+					<h3>team</h3>
+					<p>Daphne Liang</p>
+				</div>
+			</div>
+			<div class="six columns">
+				<img src="img/bundl0.png" alt="">
+			</div>
 		</div>
 	</div>
-</header>
-</div>
-</div>
+</section>
+
+
+
+
+
 
 <nav class="greyLine">
 <a href="index.html" class="pull-left">← Home</a>
@@ -91,11 +93,8 @@
 
 <div class="container">
 <main class="row">
-	<div class="hero ten columns offset-by-one">
-		<img src="img/showcase1.png" alt="screenshots of the final app">
-	</div>
 
-	<div class="mainText six columns offset-by-three">
+	<div class="mainText six columns offset-by-two">
 		<h1>The challenge</h1>
 
 		<p>Smart device makers promise a better, more convenient home. But the proliferation of different device makers, apps and interfaces has only made the connected home more complicated to manage. My team was challenged to design a solution to bring fulfill the smart home's promise of simplicity.</p>
@@ -114,9 +113,15 @@
 
 		<p>To quickly access the data we’ve gathered from our research, we created a persona and problem statement.</p>
 
-		<figure>
-			<img src="img/persona.png" alt="our persona and problem statement">
-		</figure>
+		<div class="resetFullWidth">
+			<div class="five columns">
+				<table><tr><td class="project"><h3>Persona</h3></td><td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td></tr></table>
+				<p>The tech-satured professional needs an easy way to manage his many smart home devices.</p>
+			</div>
+			<div class="seven columns">
+				<img src="img/bundl1.png" alt="our persona and problem statement">
+			</div>
+		</div>
 		
 		<p>In the same vein, we also created 4 guiding design principles to act as fence posts for our design exploration.</p>
 		<ul>
@@ -131,51 +136,50 @@
 
 		<h1 id="section2">Generating rough concepts</h1>
 
-		<p>To get both conceptual and usability feedback, we tested using a mix of paper and Axure prototypes.<label for="sn-paper-axure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paper-axure" class="margin-toggle"/><span class="sidenote alternate"> The former gave us valuable concept feedback because users could physically move the screens to compare them. The latter gave us good usability feedback thanks to its higher fidelity.</span> prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
-		</div>
-
-		<div class="row">
-			<div class="four columns offset-by-three">
-				<p class="attention">In-app notifications:</p>
+		<p>To get both conceptual and usability feedback, we tested using a mix of paper<label for="sn-paper-axure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paper-axure" class="margin-toggle"/><span class="sidenote alternate"> This gave us valuable feedback because users could physically move the screens to compare them.</span> and Axure prototypes. In two rounds of tests, we tried over a dozen concepts, with the most interesting ones presented below: </p>
+		
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<table><tr><td class="project"><h3>Notifications</h3></td><td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td></tr></table>
 				<ul>
-					<li><span class="attention">Goal</span>: 2 tiered notifications system to seperate the urgent from the nice to know.</li>
-					<li><span class="attention">Principle</span>: Intrude only when important.</li>
-					<li><span class="attention">User feedback</span>: Almost universally positive. 😄</li>
+					<li>Goal: Create a 2 tiered notifications system to seperate the urgent information from the nice to know.</li>
+					<li>Principle: Intrude only when important.</li>
+					<li>User feedback: Almost universally positive. 😄</li>
 				</ul>	
 			</div>
-			<figure class="two columns">
-				<img src="img/notif.png" alt="in app notifications">
-			</figure>
-		</div>
-		<div class="row">
-			<div class="four columns offset-by-three">
-				<p class="attention">Function groups</p>
-				<ul>
-					<li><span class="attention">Goal</span>: Reduce steps needed to adjust the home by grouping device functions into categories that match our users’ daily schedule.</li>
-					<li><span class="attention">Principle</span>: Anticipate, don’t ask</li>
-					<li><span class="attention">User feedback</span>: Loved it, but wanted to see what was being changed. 🙂</li>
-				</ul>
+			<div class="five columns">
+				<img src="img/bundl2.png" alt="in app notifications">
 			</div>
-			<figure class="two columns">
-				<img src="img/group.png" alt="function groups">
-			</figure>
-		</div>
-		<div class="row">
-			<div class="four columns offset-by-three">
-				<p class="attention">Function-first dashboard</p>
-				<ul>
-					<li><span class="attention">Goal</span>: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</li>
-					<li><span class="attention">Principle</span>: Accessible on the go</li>
-					<li><span class="attention">User feedback</span>: Some liked a device-first design for its directness, but others liked the speed of function-first. 🤔</li>
-				</ul>
-			</div>
-			<figure class="two columns">
-				<img src="img/function.png" alt="functional dashboard">
-			</figure>
 		</div>
 
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<table><tr><td class="project"><h3>Functions</h3></td><td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td></tr></table>
+				<ul>
+					<li>Goal: Reduce steps needed to adjust the home by grouping device functions into categories that match our users’ daily schedule.</li>
+					<li>Principle: Anticipate, don’t ask</li>
+					<li>User feedback: Loved it, but wanted to see what was being changed. 🙂</li>
+				</ul>
+			</div>
+			<div class="five columns">
+				<img src="img/bundl3.png" alt="function groups">
+			</div>
+		</div>
 
-		<div class="mainText six columns offset-by-three">
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<table><tr><td class="project"><h3>Dashboard</h3></td><td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td></tr></table>
+				<ul>
+					<li>Goal: Reduce clicks needed access device functions by bringing functions out of their devices and directly into the main screen</li>
+					<li>Principle: Accessible on the go</li>
+					<li>User feedback: Some liked a device-first design for its directness, but others liked the speed of function-first. 🤔</li>
+				</ul>
+			</div>
+			<div class="five columns">
+				<img src="img/bundl4.png" alt="functional dashboard">
+			</div>
+		</div>
+
 		<p>The first two concepts were quickly implemented in our final wireframes, but the mixed feedback on the third made it hard to decide on the dashboard design. Because of our limited time<label for="sn-time" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-time" class="margin-toggle"/><span class="sidenote alternate">Looking back, a quick user test of just this screen would have taken very little time. But given our inexperience, we just didn't think of testing individual parts of the app.</span>, we chose to move on to the UI phase while generating versions of both dashboard styles to test in the next phase.</p>
 
 		<h1 id="section3">Translating concepts into UI</h1>
@@ -189,51 +193,55 @@
 		<li>The home that our persona would likely own</li>
 		<li>Differentiation from competitors</li>
 		</ol>
-		<figure>
-			<img src="img/tempshow1.5.png" alt="different UI concepts">
-		</figure>
+		<div class="resetFullWidth">
+			<img src="img/bundl5.png" alt="different UI concepts">
+		</div>
 
 		<p>Among all the UI concepts I developed, I chose to move forward with the style that, according to users, “felt most like a traditional app”<label for="sn-traditional" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-traditional" class="margin-toggle"/><span class="sidenote alternate">In our test, users felt more at ease navigating the green version thanks to the familiar top nav bar and tile design.</span> because I did not want to overwhelm the user with both an unfamiliar UI and a unfamiliar dashboard design. Below, you can see my function first design on the left and my teammate's device first design on the right.</p>
 
-		<figure>
-			<img src="img/tempshow1.6.png" alt="different UI concepts">
-		</figure>
+		<div class="resetFullWidth">
+			<img src="img/bundl6.png" alt="different UI concepts">
+		</div>
 
 		<p>After 7 interviews, many flaws in the functional approach came to light. Here are the two main ones:</p>
 		<ol>
 		<li>Hi-fi animations were needed to convey how many of the non-standard interactions would work<label for="sn-cumbersome" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cumbersome" class="margin-toggle"/><span class="sidenote alternate">Without animation, there isn't a clear sense that the yellow would fill in, therefore making its use as a progress indicator confusing.<img src="img/animation.gif" alt=""></span></li>
 
-		<li>Users think about their home in term of what objects they own, not what functions their objects afford.<label for="sn-mismatch" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mismatch" class="margin-toggle"/><span class="sidenote alternate">In retrospect, some of this problem could have been mitigated with a better onboarding that taught users how the app worked.</span></li>
+		<li>Users think about their home in term of what objects they own, not what functions their objects afford.</li>
 		</ol>
 		<p>For these reasons and more, this concept was discarded. Instead, we used our teammate Preunky’s device-driven concept, which mapped well to our users’ mental model, thanks to the simple carousel of devices and use of iOS-settings-like toggles.</p>
 
 		<p>Based on this design, we added back parts of the discarded prototype that tested well, such as:</p>
 
-		<p><span class="attention">Top placement of modes:</span> as the bottom nav and mode toggle were both often used features, seperating them would prevent some fat finger errors.</p>
-		<figure>
-			<img src="img/modeToggle.png" alt="mode toggle evolution">
-		</figure>
-		
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<p><span class="attention">Top placement of modes:</span> As the bottom nav and mode toggle were both often used features, seperating them would prevent some fat finger errors.</p>
+			</div>
+			<div class="five columns">
+				<img src="img/bundl7.png" alt="mode toggle evolution">
+			</div>
+		</div>
 
-		<p><span class="attention">Setting groups:</span> expanding the group concept from modes to settings allowed users to make better use if their advanced settings.</p>
-		<figure>
-			<img src="img/settingGroup.png" alt="setting group evolution">
-		</figure>
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<p><span class="attention">Setting groups:</span> expanding the group concept from modes to settings allowed users to make better use if their advanced settings.</p>
+			</div>
+			<div class="five columns">
+				<img src="img/bundl8.png" alt="mode toggle evolution">
+			</div>
+		</div>
 
-		<p><span class="attention">Better integrated status display:</span> Using the device icon itself to display the status was both a delightful touch and a space saver.</p>
-		<figure>
-			<img src="img/deviceStatus.png" alt="device status evolution">
-		</figure>
-
+		<div class="resetFullWidth">
+			<div class="seven columns">
+				<p><span class="attention">Better integrated status display:</span> Using the device icon itself to display the status was both a delightful touch and a space saver.</p>
+			</div>
+			<div class="five columns">
+				<img src="img/bundl9.png" alt="mode toggle evolution">
+			</div>
+		</div>
+			
 		<p>Combining the best aspects of each prototype into a device centric framework, we developed the screens that comprised BUNDL's final design.</p>
-	</div>
-	<div class="hero six columns offset-by-three">
-		<h1>Final UI screens</h1>
-	</div>
-	<div class="hero ten columns offset-by-one">
-		<img src="img/fullBundl.png" alt="screenshots of the final app">
-	</div>	
-	<div class="mainText six columns offset-by-three">
+
 		<h1 id="section4">What I've learned</h1>
 
 		<p>This project made me appreaciate the importance of understaning our users' mental model. Even if a design is technically faster, it may still feel harder to use if it doesn't behave as the user expects.</p>
@@ -243,14 +251,19 @@
 		<p>On a broader level, I've become more adept at testing concepts using the right prototyping tool and at the right fidelity. For example, I've learned to use scrappy wireframes to isolate UX from UI testing and animations to show more complex interactions. </p>
 
 		<p>Finally, given more time, I would have liked to consider the limitations of technology more in our designs. In fact, our concept detected devices via bluetooth and wifi when this is not actually possible. If we ever wanted to make BUNDL a real app, we'd have to find an alternate solution.</p>
+		<div class="finalShow">
+			<img src="img/bundl10.png" class="imgShow">
+		</div>
 	</div>
+
+	
 
 </main>
 </div>
 </div>
 </div>
 
-<div class="footerbg">
+<div class="">
 <div class="container">
 	<footer id="footer" class="caseFoot six columns offset-by-three">
 
