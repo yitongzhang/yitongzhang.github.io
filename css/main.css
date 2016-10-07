@@ -175,7 +175,8 @@ footer a{
 	padding-bottom: 50px;
 	margin-top: 100px;
 }
-
+.imgSmall{display: none;}
+.FimgSmall{display: none;}
 
 .resetFullWidth{
 	margin-top: 50px;
@@ -192,8 +193,15 @@ footer a{
 	align-items: center;
 }
 
-.caseStudy .hero{
+
+
+.caseStudy .hero, .test{
 	background-color: #FBFCF2;
+	display: flex;
+	align-items: center;
+}
+.caseStudy img{
+	filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.15));
 }
 
 
@@ -330,6 +338,10 @@ nav.sticky {
 	width:100%;
 }
 
+.navHolder{
+	margin-bottom-bottom: 0px;
+}
+
 .story nav li{
 	display: inline-block;
 	margin-right: 15px;
@@ -394,10 +406,7 @@ nav.sticky {
 	margin-bottom: 20px;
 }
 
-.hero{
-	display: flex;
-	align-items: center;
-}
+
 
 .caseStudy figure{
 	margin-bottom: 30px;
@@ -654,7 +663,25 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	}
 
 }
+@media (max-width: 650px) {
+	.finalShow{margin-left: -5vw;}
+	.imgSmall{display: block;}
+	.imgBig{display: none;}
+	.caseStudy .heroContent{display: block;}
 
+}
+
+@media (max-width: 400px) {
+	.hero h1{font-size: 2.2rem;}
+	.grid{width: 100%;}
+}
+@media (max-width: 850px) {
+	.FimgSmall{display: block;}
+	.FimgBig{display: none;}
+}
+@media (max-width: 1000px) {
+	.hero h1{font-size: 2.8rem;}
+}
 .story h6{
 	margin-bottom: 120px;
 	margin-top: 120px;

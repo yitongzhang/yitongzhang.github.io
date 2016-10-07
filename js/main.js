@@ -24,11 +24,11 @@ $(window).scroll(function() {
 
 if ($(this).scrollTop() > navDistance){  
     $('nav').addClass("sticky");
-
+    $('.navHolder').css("margin-bottom","120px");
   }
   else{
     $('nav').removeClass("sticky");
-
+    $('.navHolder').css("margin-bottom","0px");
   }
 
 try{
