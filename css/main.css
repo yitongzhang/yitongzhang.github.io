@@ -174,9 +174,15 @@ footer a{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-top: 100px;
+	display: flex;
+	justify-content: center;
 }
-.imgSmall{display: none;}
-.FimgSmall{display: none;}
+.finalShow .imgHolder{
+	max-width: 90%;	
+}
+.imgBig{width: 100%}
+.imgSmall{display: none; width: 100%}
+.FimgSmall{display: none; width: 100%}
 
 .resetFullWidth{
 	margin-top: 50px;
@@ -196,10 +202,17 @@ footer a{
 
 
 .caseStudy .hero, .test{
-	background-color: #FBFCF2;
 	display: flex;
 	align-items: center;
 }
+
+.caseStudy .case1{
+	background-color: #FBFCF2;
+}
+.caseStudy .case2{
+	background-color: #E1E4E6;
+}
+
 .caseStudy img{
 	filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.15));
 }
