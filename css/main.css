@@ -171,8 +171,8 @@ footer a{
 	background-color: #FBFCF2;
 	width: 100vw;
 	margin-left: -20.59vw;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	margin-top: 100px;
 	display: flex;
 	justify-content: center;
@@ -212,11 +212,18 @@ footer a{
 .caseStudy .case2{
 	background-color: #E1E4E6;
 }
-
-.caseStudy img{
-	filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.15));
+.caseStudy .case3{
+	background-color: #F4F4F4;
 }
 
+
+.caseStudy img{
+	filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.10));
+}
+
+.caseStudy .noshadow img{
+	filter:  drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.0)) !important;
+}
 
 .caseStudy .projectsDeets {
 	text-align: left;
@@ -676,24 +683,27 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 	}
 
 }
+
+@media (max-width: 1000px) {
+	.hero h1{font-size: 2.8rem;}
+}
+
+@media (max-width: 850px) {
+	.FimgSmall{display: block;}
+	.FimgBig{display: none;}
+}
 @media (max-width: 650px) {
 	.finalShow{margin-left: -5vw;}
 	.imgSmall{display: block;}
 	.imgBig{display: none;}
 	.caseStudy .heroContent{display: block;}
+	.hero h1{font-size: 2.4rem;}
 
 }
 
 @media (max-width: 400px) {
-	.hero h1{font-size: 2.2rem;}
+	.hero h1{font-size: 2.0rem;}
 	.grid{width: 100%;}
-}
-@media (max-width: 850px) {
-	.FimgSmall{display: block;}
-	.FimgBig{display: none;}
-}
-@media (max-width: 1000px) {
-	.hero h1{font-size: 2.8rem;}
 }
 .story h6{
 	margin-bottom: 120px;
