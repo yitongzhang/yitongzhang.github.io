@@ -142,6 +142,13 @@ footer a{
 	display: none;
 }
 
+@media (max-width:650px) {
+	.smallContact{width: 40%;display: block;}
+	.work{width: 30%;}
+	.fun{width: 30%;}
+	.bigContact{display: none;}
+}
+
 /*responsive*/
 @media (max-width: 1100px) and (min-width: 650px)  {
 	.summary{
