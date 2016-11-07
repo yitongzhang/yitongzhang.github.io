@@ -1,0 +1,65 @@
+.rooMintro{
+	margin-top: 150px;
+}
+
+.rooMintro img{
+	margin-top: 150px;
+}
+
+.room hr{
+	margin-top: 100px;
+}
+
+.room h1{
+	line-height: 1.4;
+	margin-top: -8px;
+}
+
+.room p{
+	font-size: 2rem;
+	color:#222;
+	margin-top: -10px;
+}
+
+.room h2{	
+	font-family:"ff-meta-web-pro"; 
+	line-height: 1.6;
+	font-size:1.6rem;
+	color: #727272;
+}
+
+.rooMlivingWithOthers h2{
+	opacity: 0.3;
+}
+
+.room li{
+	margin-bottom: 10px;
+}
+
+.room h3{
+	color: #727272;
+	margin-bottom: 20px;
+}
+
+.room .rooMintro h3{
+	color: #222;
+	margin-bottom: 0px;
+
+}
+
+.room a{
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.rooMintro a{
+	color: #727272;
+}
+
+.rooMlivingWithOthers img{
+	margin-top: 10px;
+}
+
+.footerbg{
+	margin-top: 100px;
+}
