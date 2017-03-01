@@ -22,7 +22,7 @@ catch(err) {
 
 $(window).scroll(function() {
 
-if ($(this).scrollTop() > navDistance){  
+if ($(this).scrollTop() > navDistance){
     $('nav').addClass("sticky");
     $('.navHolder').css("margin-bottom","120px");
   }
@@ -32,7 +32,7 @@ if ($(this).scrollTop() > navDistance){
   }
 
 try{
-	if ($(this).scrollTop() > navDistance){  
+	if ($(this).scrollTop() > navDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","white");
@@ -40,7 +40,7 @@ try{
 		$('#section5Nav').css("background-color","white");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > oneDistance){  
+	if ($(this).scrollTop() > oneDistance){
 		$('#section1Nav').css("background-color","yellow");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","white");
@@ -48,7 +48,7 @@ try{
 		$('#section5Nav').css("background-color","white");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > twoDistance){  
+	if ($(this).scrollTop() > twoDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","yellow");
 		$('#section3Nav').css("background-color","white");
@@ -56,7 +56,7 @@ try{
 		$('#section5Nav').css("background-color","white");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > threeDistance){  
+	if ($(this).scrollTop() > threeDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","yellow");
@@ -64,7 +64,7 @@ try{
 		$('#section5Nav').css("background-color","white");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > fourDistance){  
+	if ($(this).scrollTop() > fourDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","white");
@@ -72,7 +72,7 @@ try{
 		$('#section5Nav').css("background-color","white");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > fiveDistance){  
+	if ($(this).scrollTop() > fiveDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","white");
@@ -80,7 +80,7 @@ try{
 		$('#section5Nav').css("background-color","yellow");
 		$('#section6Nav').css("background-color","white");
 	}
-	if ($(this).scrollTop() > sixDistance){  
+	if ($(this).scrollTop() > sixDistance){
 		$('#section1Nav').css("background-color","white");
 		$('#section2Nav').css("background-color","white");
 		$('#section3Nav').css("background-color","white");

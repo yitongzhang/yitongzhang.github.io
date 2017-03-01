@@ -32,16 +32,22 @@ header a{
 	margin-top: -8px;
 }
 
-.nav ul{
-	float: right;
-}
 
 .nav a{
-	font-size: 1.8rem; 
-	font-weight: 400; 
-	text-transform: lowercase; 
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: lowercase;
 	margin-bottom: 0;
 
+
+}
+
+.mainNav {
+	margin-top:15px;
+}
+
+.mainNav a{
+	margin-right: 15px;
 }
 
 .top{
@@ -185,7 +191,7 @@ footer a{
 	justify-content: center;
 }
 .finalShow .imgHolder{
-	max-width: 90%;	
+	max-width: 90%;
 }
 .imgBig{width: 100%}
 .imgSmall{display: none; width: 100%}
@@ -586,7 +592,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                              position: relative; }
                             div.table-wrapper, table, table.booktabs { width: 85%; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
-                            img { width: 100%; } 
+                            img { width: 100%; }
 							.marginnote:before{content: "";}
 
 }
@@ -748,4 +754,70 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .toptitle{
 	padding-top: 80px;
+}
+
+#projects th{
+	text-align: left;
+	font-size: 1.6rem; font-family:"ff-meta-SC-web-pro"; text-transform: lowercase; margin-bottom: 0;
+}
+
+#projects .typehead:after, #projects .datehead:after {
+	border-bottom: 1.5px solid #111;
+  content: '';
+  display: block;
+	margin-top: -5px;
+  margin-left: 36px;
+	margin-bottom: 20px;
+  width: 68%;
+
+}
+
+#projects .titlehead:after {
+	border-bottom: 1.5px solid #111;
+  content: '';
+	margin-top: -5px;
+	margin-left: 110px;
+	margin-bottom: 20px;
+  display: block;
+  width: 82%;
+	max-width: 100%
+
+}
+
+
+
+#projects a{
+	font-size: 3.2rem;
+	font-family: "ff-meta-web-pro",sans-serif;
+	font-weight: 500;
+	line-height: 1.8;
+}
+
+#projects table{
+	width: 100%;
+}
+
+#projects .type{
+	width: 14%;
+	color: #727272;
+}
+#projects .date{
+	width: 14%;
+	color: #727272;
+}
+
+#footer h3{
+	margin-bottom: 15px;
+}
+
+#footer a{
+	font-weight: 500;
+	color: #727272;
+}
+
+@media (max-width:1000px) {
+	#projects .date{display: none;}
+	#projects .type{display: none;}
+	#projects .datehead{display: none;}
+	#projects .typehead{display: none;}
 }

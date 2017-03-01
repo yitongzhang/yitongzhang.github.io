@@ -196,10 +196,16 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (max-width: 750px) {
+  h1 { font-size: 2.2rem !important;}
+  #projects a{ font-size: 2.2rem !important;}
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (max-width: 1000px) {
+  h1 { font-size: 2.6rem !important;}
+  #projects a{ font-size: 2.2rem !important;}
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
