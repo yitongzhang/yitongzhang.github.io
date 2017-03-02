@@ -800,10 +800,14 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 #projects .type{
 	width: 14%;
 	color: #727272;
+	position: relative;
+	top: -8px;
 }
 #projects .date{
 	width: 14%;
 	color: #727272;
+	position: relative;
+	top: -8	px;
 }
 
 #footer h3{
