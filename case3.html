@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/main.css">
-	
+
 	<!-- fonts -->
 	<script src="https://use.typekit.net/pvm0wik.js"></script>
 	<script>try{Typekit.load({ async: false });}catch(e){}</script>
@@ -43,31 +43,16 @@
 <section class="hero case3">
 	<div class="container ">
 		<div class="row heroContent">
-			<div class="six columns caseSummary">
-				<table>
-				  <tr>
-						<td class="project"><h3>hemingly</h3></td>
-						<td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
-				  </tr>
-				</table>
-				<h1>At Hemingly, we helped teams increase their productivity by supplying them with an on-demand office workforce. To do this, we designed a simple way for users to delegate and monitor complex tasks on our system. On the backend, we built	an extensible task dispatch system that took into account an increasingly diverse workforce tasks type.</h1>
-				<div class="projectsDeets grid left">
-					<h3>client</h3>
-					<p>Ourselves</p>
-					<h3>my roles</h3>
-					<p>Founding, research, design, code</p>
+
+				<div class="twelve columns">
+					<div class="headertitle ">
+						<h1>Giving every company an army of interns</h1>
+						<p>How we unified smart home devices in one app</p>
+					</div>
+					<img src="img/hemingly0.png" class="FimgBig upshadow">
+					<img src="img/hemingly0.1.png" class="FimgSmall upshadow">
 				</div>
-				<div class="projectsDeets grid">
-					<h3>time</h3>
-					<p>1.5 years</p>
-					<h3>team</h3>
-					<p>Charlie, Mathieu, Benjamin, Shant</p>
-				</div>
-			</div>
-			<div class="six columns">
-				<img src="img/showcase3.png" class="FimgBig">
-				<img src="img/showcase3.1.png" class="FimgSmall">
-			</div>
+
 		</div>
 	</div>
 </section>
@@ -93,31 +78,31 @@
 			Hemingly was first started as an <a href="http://www.vimeo.com/106418413">effort</a> to help indie authors better manage their marketing. Although the idea never took off, we learned how to leverage Amazon Mechanical Turk to summon an on-demand force of office workers. In fact, using MTurk made us so productive that we wanted to <span class="attention">give the power of MTurk to everyone, but minus the learning curve.</span> To do this, we had to overcome 2 main challenges:
 		</p>
 		<ul>
-			<li><span class="attention">Making task delegation simple</span> : the main barrier to more people using on demand workforce services like MTurk is the high learning curve of creating your first task. Getting the task scope, difficulty, timeline, pricing and instructions right were so difficult<label for="sn-difficult" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-difficult" class="margin-toggle"/><span class="sidenote alternate">Most people delegate a task and expect employees to figure out the sub-steps required on their own. MTurks wants its users to design and price these sub-steps explicitly, an exercise unfamiliar to most.</span> that most new users gave up.</li>
-			<li><span class="attention">Building a scalable task dispatch system</span> : on our end, the challenge was to build a system that can receive and dispatch an ever more diverse set of tasks to a culturally diverse<label for="sn-diverse" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-diverse" class="margin-toggle"/><span class="sidenote alternate">Our workforce was distributed across 6 countries that all had different unwritten rules about timeliness, compensation and work quality.</span> workforce.</li>
+			<li><span class="attention">Making task delegation simple</span> : the main barrier to more people using on demand workforce services like MTurk is the high learning curve of creating your first task. Getting the task scope, difficulty, timeline, pricing and instructions right were so difficult that most new users gave up.</li>
+			<li><span class="attention">Building a scalable task dispatch system</span> : on our end, the challenge was to build a system that can receive and dispatch an ever more diverse set of tasks to a culturally diverse workforce.</li>
 		</ul>
-	
+
 
 		<h1 id="section2">Simplying task delegation with a chat bot</h1>
 		<p>
 			The most natural way to delegate tasks is via speech. In day to day life, we ask favors, give tasks to employees, assign to-do's to colleagues, etc. all by talking. We therefore designed the task delegation interface entirely as chatbot in Slack. Here are some interaction examples:
 		</p>
 		<figure>
-			<label for="mn-chat1" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-chat1" class="margin-toggle"/><span class="marginnote alternate">This is an example of a task completion message. Instead of redirecting users to an online database/dashboard, the results are communicated just as a work colleague would, that is: in a summarized form and with a consideration for next steps.</span>
 			<img src="img/tempshow3.4.png" alt="screenshots of the final app">
+			<figcaption>This is an example of a task completion message. Instead of redirecting users to an online database/dashboard, the results are communicated just as a work colleague would, that is: in a summarized form and with a consideration for next steps.</figcaption>
 		</figure>
 		<figure>
-			<label for="mn-chat2" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-chat2" class="margin-toggle"/><span class="marginnote alternate">This is a v.2 design of the same message. This design converts the text description into a clearly parseable image. It also has clearer CTAs for taking next steps thanks to the buttons.</span>
 			<img src="img/tempshow3.5.png" alt="screenshots of the final app">
+			<figcaption>This is a v.2 design of the same message. This design converts the text description into a clearly parseable image. It also has clearer CTAs for taking next steps thanks to the buttons.</figcaption>
 		</figure>
 
 		<h1 id="section3">Making the app extensible with spreadsheets</h1>
 		<p>
-			As the tasks we received grew in number and complexity, it became clear that we would need to build a dispatching software. And so we set out a few design principles: 
+			As the tasks we received grew in number and complexity, it became clear that we would need to build a dispatching software. And so we set out a few design principles:
 		</p>
 		<ul>
 			<li><span class="attention">Quick to use for managers</span>: because wouldn't hire new managers in the next 6 months, it was more important to be fast than learnable.</li>
-			<li><span class="attention">Easily extensible for managers</span>: because new types of tasks often required new interfaces<label for="sn-new" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-new" class="margin-toggle"/><span class="sidenote alternate">Technically, image tagging and email research are both tasks that could be accomplished with the same interface, but our tests found that specialized UIs for each task greatly improved our workforce’s productivity.</span></li>
+			<li><span class="attention">Easily extensible for managers</span>: because new types of tasks often required new interfaces</li>
 			<li><span class="attention">Easy to learn for operators</span>: we expected to have high operator turnover so the app needed to be easily learnable for new workers. </li>
 			<li><span class="attention">Sensitive to operators’ culture</span>: the app needed to account for the software familiarity and workplace customs of our global workforce. </li>
 		</ul>
@@ -126,53 +111,24 @@
 		</p>
 
 		<figure>
-			<label for="mn-operators" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-operators" class="margin-toggle"/><span class="marginnote alternate">This is a sample of our worker tracker. While ugly and difficult to parse for new users, it let us easily add skill categories to track by adding columns or run custom analyses by writing a few quick formulas.</span>
 			<img src="img/spreadsheet1.png" alt="screenshots of the final app">
+			<figcaption>This is a sample of our worker tracker. While ugly and difficult to parse for new users, it let us easily add skill categories to track by adding columns or run custom analyses by writing a few quick formulas.</figcaption>
 		</figure>
 		<figure>
-			<label for="mn-nice" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-nice" class="margin-toggle"/><span class="marginnote alternate">This is a mockup of what our worker tracker would eventually look like. While more pleasant to read, it was far less flexible and therefore never implemented.</span>
 			<img src="img/spreadsheet2.png" alt="screenshots of the final app">
+			<figcaption>This is a mockup of what our worker tracker would eventually look like. While more pleasant to read, it was far less flexible and therefore never implemented.</figcaption>
 		</figure>
 
 
-		<h1 id="section3">Outcome</h1>
+		<h1 id="section4">Outcome</h1>
 		<p>
 			In 6 months, we built a product that helped 15 companies delegated more than 600 hours of work on our platform. With this traction, we were given interviews by the top 2 accelerators in the world: YCombinator and 500 Startups, with a term sheet for $100,000 of VC investment from the latter.
 		</p>
-		<div class="finalShow case3 noshadow">
-			<div class="imgHolder">
-			<img src="img/finalshowH.png" cl	ass="imgBig">
-			<img src="img/finalshowH.1.png" class="imgSmall">
-			</div>
-		</div>
 	</div>
 </main>
 </div>
 </div>
 </div>
-
-
-<div class="">
-<div class="container">
-	<footer id="footer" class="caseFoot six columns offset-by-three">
-
-	<table>
-	  <tr>
-		<td class="project"><h3>Aptamigo</h3></td>
-		<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
-	  </tr>
-	</table>
-	<p class="bigP">Next case: see how I've leverage the experience of building this company to design an effective MVP product for another fledging statup, Aptamigo.</p>
-	<div class="cta">
-		<a href="case2.html">See case study →</a>
-	</div>
-	</footer>
-</div>
-</div>
-
-
-
-
 </body>
 </html>
 
