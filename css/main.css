@@ -1,3 +1,19 @@
+.chatPeopleContainer{
+	margin-top: 24px;
+}
+.chatPeople{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 24px 0
+}
+.chatPeople-column{
+	margin-right: 24px;
+}
+.chatPeople-column li{
+	margin-bottom: 4px;
+}
+
 .smallDescribeSmall{
 	display: none;
 }
@@ -706,7 +722,7 @@ nav .pull-right, nav .pull-left{
 	width: 14%;
 	position: relative;
 	top: -8px;
-	font-size: 2.4rem;
+	font-size: 2.2rem;
 }
 
 #footer h3{
