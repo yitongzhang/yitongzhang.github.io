@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yitong's portfolio</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/unslider-dots.css">
+
+
+	<!-- fonts -->
+	<script src="https://use.typekit.net/pvm0wik.js"></script>
+	<script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-3	2x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/img/favicon/manifest.json">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+	<meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#000">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-83606903-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+
+</head>
+
+<body class="caseStudy">
+
+
+<section class="hero case2">
+	<div class="container ">
+		<div class="row heroContent">
+			<div class="six columns caseSummary">
+				<table>
+				  <tr>
+						<td class="project"><h3>aptamigo</h3></td>
+						<td class="line"><svg height="6" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+				  </tr>
+				</table>
+				<h1>The client is a Chicago startup that aims to make the online apartment search process more efficient. To do this, the hired us to build a booking system that will let renters easily schedule tours with the buildings they want.</h1>
+
+				<div class="projectsDeets grid left">
+					<h3>client</h3>
+					<p>Aptamigo</a></p>
+					<h3>my role</h3>
+					<p>Research, prototype, user testing</p>
+				</div>
+				<div class="projectsDeets grid">
+					<h3>time</h3>
+					<p>3 weeks starting July 2016</p>
+					<h3>team</h3>
+					<p>Daphne Liang</p>
+				</div>
+			</div>
+			<div class="six columns">
+				<img src="img/showcase2.png" class="FimgBig">
+				<img src="img/showcase2.1.png" class="FimgSmall">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<nav class="greyLine">
+<a href="index.html" class="pull-left">← Home</a>
+<a href="case4.html" class="pull-right">Next case →</a>
+<div class="row">
+	<ul class="ten columns offset-by-one">
+		<li id="section1Nav"><a href="#section1">The problem</a></li>
+		<li id="section2Nav"><a href="#section2">Prototyping concepts</a></li>
+		<li id="section3Nav"><a href="#section3">Conclusion</a></li>
+	</ul>
+</div>
+</nav>
+
+<div class="container">
+<main class="row">
+	<div class="mainText six columns offset-by-two">
+		<h1 id="section1">Balancing renter and agent interests</h1>
+
+		<p>After talking to both renters and leasing offices, we found that <span class="attention">the core challenge was to balance the conflicting desires of each user group</span>. On one hand, renters want the freedom to book any time they want. With research, we found that it’s because: </p>
+
+		<ul>
+		<li>they want to organize their touring schedule efficiently<label for="sn-efficiently" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-efficiently" class="margin-toggle"/><span class="sidenote alternate">This is especially important for out-of-towners who often only fly in for a weekend to do all of their touring.</span> around their free time.</li>
+		<li>they are used to the instant booking features of consumer apps like OpenTable</li>
+		</ul>
+
+		<p>On the other hand, leasing agents want to maintain control over tour booking because: </p>
+
+		<ul>
+		<li>as salespeople, they want quality leads<label for="sn-leads" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-leads" class="margin-toggle"/><span class="sidenote alternate">Usually, this means that the renter's budget, move in date and size preference are a good fit with what the building can provide.</span> that are likely to sign a lease.</li>
+		<li>they don’t always know in advance how many agents are in the office for any given day<label for="sn-day" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-day" class="margin-toggle"/><span class="sidenote alternate">Because leasing offices are open seven days a week, employees take days off irregularly.</span>.</li>
+		<li>they have a working routine that they don’t want to change without a very compelling reason.</li>
+		</ul>
+
+		<p>In this scenario, <span class="attention">one side’s freedom comes at the expense of the other side’s control</span>. Working with Aptamigo, we tried to find the best way to give each side what they want.</p>
+
+		<h1 id="section2">Managing direct oppositions</h1>
+
+		<h2>Lead quality vs form overload</h2>
+
+		<p>As a first step, we developed a search and filter system that was strict enough to give leasing offices quality leads, but not so strict that renters felt encumbered with questionnaires.<label for="sn-questionnaires" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-questionnaires" class="margin-toggle"/><span class="sidenote alternate">apartmentlist.com is a website that tries to control lead quality by making renters fill a 10 question form upfront. We want to achieve the same goal, without the encumbrance.</span> To do this, we first separated the form fields into 3 stages so that it seem less long.</p>
+		<figure>
+			<img src="img/morestuff.gif" alt="A hidden menu">
+		</figure>
+
+		<p>Then, we implemented general form field best practices to help renters breeze through the fields.</p>
+
+		<figure>
+			<label for="mn-filters" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-filters" class="margin-toggle"/><span class="marginnote alternate">We used smart defaults, displayed fields conditionally, organized selections in groups, allowed multiple selections and much more.</span>
+			<img src="img/filters.gif" alt="Good filters menu">
+		</figure>
+
+
+		<h2>Freedom to book vs schedule control</h2>
+
+		<p>Renters wanted the freedom to directy book tours into the agents' schedule. Unfortunately, this was impossible as leasing offices flat-out refused all the direct booking concepts we showed them. Instead we tried to create the illusion of instant booking with a Doodle-style calendar where renters can indicate their availabilities and let agents book within those times.</p>
+
+		<figure>
+			<label for="mn-booking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-booking" class="margin-toggle"/><span class="marginnote alternate">We had mixed feedback from renters on this one. While some liked it, others found it unexpected. We kept it in the end because agents really liked it.</span>
+			<img src="img/booking.png" alt="Doodle style booking">
+		</figure>
+
+		<p>In the same vein, we developed a feature that let renters book tours for multiple buildings on the same page so that it’s easier to coordinate multiple tours in a tight schedule. It's not the same as direct booking, but still addresses some of the motivations behind the desire for former.</p>
+
+		<figure>
+			<label for="mn-groupBooking" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-groupBooking" class="margin-toggle"/><span class="marginnote alternate">This feature was really helpful for people trying to plan around a busy schedule and alleviated some of their desire for direct booking.</span>
+			<img src="img/groupBooking.png" alt="Group booking">
+		</figure>
+
+		<h1>Changing expectations</h1>
+
+		<p>In our interviews, we found that many of the problems between the renters and leasing offices were due to a matter of habit and expectation, rather than conflict of interest. We therefore tried to alleviate the opposition by resetting some of these notions.</p>
+
+		<h2>Renter: over-simplistic expectations</h2>
+
+		<p>For example, many renters were frustrated because they were comparing the apartment search process to finding a restaurant on OpenTable. To combat this over-simplistic perception, we displayed contextual tips to help renters understand how each filter is necessary and useful<label for="sn-useful" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-useful" class="margin-toggle"/><span class="sidenote alternate">For example: specifying a move in date range can help your leasing agent find you a better price, depending on market fluctuations.</span> in the process.</p>
+
+		<h2>Agents: preserving the routine</h2>
+
+		<p>On the leasing office side, we found much of the negative reaction to stem from us changing their established work routine.<label for="sn-outlook" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-outlook" class="margin-toggle"/><span class="sidenote alternate">One agent literally told us: "If it's not in Outlook, it doesn't exist".</span> To do this, we integrated as much as possible into their existing tools by discarding our dashboard and calendar concepts in favour of a simple, well-written email.</p>
+
+		<p>Although it seems archaic and inefficient, the agents we talked to were extremely adept at staying on top of their email inbox. By using emails, we played to our users’ competence and reduced development time.</p>
+
+		<h1 id="section3">Conclusion: self-serve apartment search</h1>
+
+		<p>Although there are still many areas where we could improve, the design was deemed by renters and leasing agents to be significantly better than their current workflow. And that was good enough for us to ship a first version.
+
+		<p>As for myself, I've learned 2 main lesssons in this project. </p>
+	
+		<ol>
+		<p><span class="attention">Managing opposing desires</span>: sometimes, conflicts of interests are actually conflicts of expectation. Both sides can get what they want if expectations are addressed. As for real oppositions of interest, both sides can still be balanced with the correct compromises.</p>
+		<p><span class="attention">Understanding unstated problems</span>: often, what users said was totally different from what they actually believed<label for="sn-behaviour" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-behaviour" class="margin-toggle"/><span class="sidenote alternate">This is especially true when interviewing juniors who can't speak freely within earshot of their managers.</span>, either because they couldn’t talk freely in an open office or simply because they were unaware of their own behaviour. To understand their true beliefs and motivations, I’ve learned techniques such as: observing their behaviour and reducing the level of discomfort by having conversations about prototypes instead of people.</p>
+		</ol>
+		<div class="finalShow case2">
+			<div class="imgHolder">
+			<img src="img/finalshow.png" class="imgBig">
+			<img src="img/finalshow2.png" class="imgSmall">
+			</div>
+		</div>
+	</div>
+</main>
+</div>
+
+</div>
+</div>
+
+<div class="">
+<div class="container">
+	<footer id="footer" class="caseFoot six columns offset-by-three">
+
+	<table>
+	  <tr>
+		<td class="project"><h3>Hemingly</h3></td>
+		<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+	  </tr>
+	</table>
+	<p class="bigP">Next case: see how the design choices in this project were informed by the experience of starting my own tech startup.</p>
+	<div class="cta">
+		<a href="case3.html">See case study →</a>
+	</div>
+	</footer>
+</div>
+</div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/case.js"></script>
+<script type="text/javascript" src="js/unslider-min.js"></script>

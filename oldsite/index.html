@@ -2,185 +2,351 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Yitong's portfolio</title>
 
 	<!-- css -->
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/skeleton.css">
-	
+	<link rel="stylesheet" href="css/main.css">
+
 	<!-- fonts -->
 	<script src="https://use.typekit.net/pvm0wik.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Fira+Sans:400,500,700">
+	<script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-3	2x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/img/favicon/manifest.json">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+	<meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#000">
 
 </head>
 
-<body>
-<div style="position:fixed; background-color: #DDD; z-index: 1000; width: 100%; text-align: center;">This is an old version of my site, shown mostly for fun. See the current version <a href="http://www.zhayitong.com">here</a>.</div>
-<div class="headerbg">
-<div class="container">
-	<header>
-		<nav>
-			<div class="bio six columns">
-				<h3 class="me">Yitong Zhang</h3>
-			</div>
-			
-			<ul class="six columns">
-				<li><a href="#footer"><h3>Contact</h3></a></li>
-				<li><a href="#footer"><h3>About</h3></a></li>
-				<li><a href="#case1"><h3>Work</h3></a></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+<body class="index">
 <div class="container">
 	<main id="main">
 
-		<div class="meDescribe eight columns">
-			<h1>Yitong Zhang UX &#183; UI designer</h1>
-			<p class="bigP">I wield design and code to solve hard problems. Previously, I co-founded a company that helped people outsource paperwork.</p>	
+		<div class="meDescribe">
+			<div class="row">
+				<div class="nine columns">
+					<h1>Yitong wields design and code to solve hard problems – primarily in productivity.He currently works at O/M Studio. Before that he was the co-founder of a work automation startup.</h1>
+				</div>
+			</div>
+
+			<div class="mainNav row">
+				<ul class="nav">
+					<h3><li><a href="#case0">work</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#footer">Contact</a></li>
+					<li><a href="people.html">Chat</a></li>
+					<li><a href="story.html">About</a></li></h3>
+				</ul>
+			</div>
 		</div>
 
-		<article class="case" id="case2">
-			<div class="topBar">
-				<div class="projectName nine columns">
-					<h3>BUNDL</h3>
+
+		<article class="case row" id="case0">
+			<div class="description three columns">
+				<div class="projectName">
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>Young+Co</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+
+					<h1>Product designer on various projects</h1>
+				</div>
+				<div class="summary">
+					<p>O/M is small but rad design studio in San Francisco. We partner with companies of all sizes to design and build user experiences that are simple and easy to use.</p>
+				</div>
+				<div class="shortSummary">
+					<p>At O/M, we design and build user experiences that are simple and easy to use.</p>
+				</div>
+				<div class="projectTags">
+					<ul class="skills">
+						<h3>
+						<li>Prototype &#183;</li>
+						<li>Interaction &#183;</li>
+						<li>Visual Design</li>
+						</h3>
+						<br><h3 class="date">Sept 2016 – Now</h3>
+					</ul>
+				</div>
+				<div class="cta">
+					<a href="http://omstudio.co">See our website →</a>
+				</div>
+			</div>
+			<div class="heroImage nine columns">
+				<a href="http://omstudio.co" target="_blank"><img src="img/case0.png" alt="case study 0: Young+Co"></a>
+			</div>
+		</article>
+
+		<!-- <article class="case row" id="case1">
+			<div class="description three columns">
+				<div class="projectName">
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>aptamigo</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+
+					<h1>A booking system for renters and leasing offices</h1>
+				</div>
+				<div class="summary">
+					<p>Aptamigo, a luxury apartment listing website, hired our team to research and conceptualize the UX of their new tour scheduling system.</p>
+				</div>
+				<div class="shortSummary">
+					<p>We designed the UX of Aptamigo's new scheduling system.</p>
+				</div>
+				<div class="projectTags">
+					<ul class="skills">
+						<h3>
+						<li>Research &#183;</li>
+						<li>Prototype</li>
+						</h3>
+						<br><h3 class="date">July 2016</h3>
+					</ul>
+				</div>
+				<div class="cta">
+					<a href="case2.html">See case study →</a>
+				</div>
+			</div>
+			<div class="heroImage nine columns">
+				<a href="case2.html"><img src="img/case2.png" alt="case study 2: aptamigo"></a>
+			</div>
+		</article> -->
+
+
+		<article class="case row" id="case2">
+			<div class="description three columns">
+				<div class="projectName">
+
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>bundl</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+
 					<h1>A universal remote for the smart home</h1>
 				</div>
-				<div class="projectTags three columns">
-					<h3>June 2016</h3>
+				<div class="summary">
+					<p>BUNDL is a universal remote control for the smart home, designed as part of a 6-week school project. We focused on reducing the complexity of operating multiple devices in conjunction.</p>
+				</div>
+				<div class="shortSummary">
+					<p>BUNDL is a universal remote control for the smart home.</p>
+				</div>
+				<div class="projectTags">
 					<ul class="skills">
-						<li><h3>UX &#183;</h3></li>
-						<li><h3>UI</h3></li>
+						<h3>
+						<li>Research &#183;</li>
+						<li>Prototype &#183;</li>
+						<li>Hi-fi UI</li>
+						</h3>
+						<br>
+						<h3 class="date">June 2016</h3>
 					</ul>
 				</div>
-			</div>
-			<div class="heroImage">
-				<a href="case1.html"><img src="img/case2.gif" alt="case study 1: blah blah"></a>
-			</div>
-			<div class="bottomBar">
-				<div class="description eight columns">
-					<p>BUNDL is a universal remote control for smart home devices, designed as part of a 6-week school project. Our approach was to make a small app tailored to tech-saturated users, grouping settings and devices together to reduce complexity.</p>	
-				</div>
-				<div class="cta four columns">
+				<div class="cta">
 					<a href="case1.html">See case study →</a>
 				</div>
 			</div>
-		</article>
-
-		<article class="case" id="case1">
-			<div class="topBar">
-				<div class="projectName nine columns">
-					<h3>Font Search - WIP</h3>
-					<h1>Search Google Fonts by their anatomy</h1>
-				</div>
-				<div class="projectTags three columns">
-					<h3>June 2016 - Now</h3>
-					<ul class="skills">
-						<li><h3>UX &#183;</h3></li>
-						<li><h3>UI &#183;</h3></li>
-						<li><h3>Code</h3></li>
-					</ul>
-				</div>
-			</div>
-			<div class="heroImage">
-				<img src="img/case1.png" alt="case study 1: blah blah">
-			</div>
-			<div class="bottomBar">
-				<div class="description eight columns">
-					<p>Font Search lets users filter Google Fonts by their anatomy. Need a list of serif body fonts, but can’t recall any? Filter by serif, high x-height and medium contrast to see all your options. Work still in progress.</p>	
-				</div>
-				<div class="cta four columns">
-					<a href="case1.html">See case study →</a>
-				</div>
+			<div class="heroImage nine columns">
+				<a href="case1.html"><img src="img/case1.png" alt="case study 1: BUNDL"></a>
 			</div>
 		</article>
 
-		<article class="case" id="case3">
-			<div class="topBar">
-				<div class="projectName nine columns">
-					<h3>Hemingly</h3>
-					<h1>Paperwork outsourcing for startups</h1>
+<!-- 
+		<article class="case row" id="case3">
+			<div class="description three columns">
+				<div class="projectName">
+
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>fontsearch</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+					<h1>Helping designers think about fonts</h1>
 				</div>
-				<div class="projectTags three columns">
-					<h3>May 2014 - Nov 2015</h3>
+				<div class="summary">
+					<p>FontSearch is a sideproject that makes the Google Fonts catalogue searchable by their features. This is a WIP.</p>
+				</div>
+				<div class="shortSummary">
+					<p>FontSearch lets people can search fonts by their features</p>
+				</div>
+				<div class="projectTags">
 					<ul class="skills">
-						<li><h3>UX &#183;</h3></li>
-						<li><h3>UI &#183;</h3></li>
-						<li><h3>Code &#183;</h3></li>
-						<li><h3>Sales &#183;</h3></li>
-						<li><h3>HR </h3></li>
+						<h3>
+						<li>research &#183;</li>
+						<li>UI design &#183;</li>
+						<li>coding </li>
+						<br>
+						</h3>
+						<h3 class="date">June 2016</h3>
 					</ul>
 				</div>
-			</div>
-			<div class="heroImage">
-				<img src="img/case3.gif" alt="case study 1: blah blah">
-			</div>
-			<div class="bottomBar">
-				<div class="description eight columns">
-					<p>Hemingly was a startup that helped companies outsource paperwork.  We built a system that let us dispatch tasks received via Slack to a network of operators across the globe. Results were delivered typically within 24 hours.</p>	
+				<div class="cta">
+					<a href="case4.html">See case study →</a>
 				</div>
-				<div class="cta four columns">
+			</div>
+			<div class="heroImage nine columns">
+				<a href="case4.html"><img src="img/case4.png" alt="case study 4: fontsearch"></a>
+			</div>
+		</article> -->
+
+		<article class="case row" id="case4">
+			<div class="description three columns">
+				<div class="projectName">
+
+					<div class="client">
+						<table>
+						  <tr>
+								<td class="project"><h3>hemingly</h3></td>
+								<td class="line"><svg height="3" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:#222 ;stroke-width:3"/></svg> </td>
+						  </tr>
+						</table>
+					</div>
+					<h1>Giving every company an army of interns</h1>
+				</div>
+				<div class="summary">
+					<p>I co-founded a Slack-based outsourcing service that helped companies get their paperwork done quickly and cheaply.</p>
+				</div>
+				<div class="shortSummary">
+					<p>I co-founded a Slack-based outsourcing service.</p>
+				</div>
+				<div class="projectTags">
+					<ul class="skills">
+						<h3>
+						<li>research &#183;</li>
+						<li>design &#183;</li>
+						<li>coding &#183;</li>
+						<li>sales</li>
+						<br>
+						</h3>
+						<h3 class="date">2014-2015</h3>
+					</ul>
+				</div>
+				<div class="cta">
 					<a href="case3.html">See case study →</a>
 				</div>
 			</div>
+			<div class="heroImage nine columns">
+				<a href="case3.html"><img src="img/case3.png" alt="case study 3: Hemingly"></a>
+			</div>
 		</article>
 
-		<section class="case other">
-			<h1>Other projects</h1>
-			<div class="row">
-				<article class="smallCase four columns">
-					<h3>Crowdgig</h3>
-					<div class="sidekickImage">
-						<img src="img/smallcase1.png" alt="case study 5: blah blah">
-					</div>
-					<p>I developed the brand and landing page of Crowdgig, a concept-stage recruiting startup. </p>
-					<a href="case1.html">See case study →</a>
-				</article>
-				<article class="smallCase four columns">
-					<h3>Deli.run</h3>
-					<div class="sidekickImage">
-						<img src="img/smallcase2.png" alt="case study 6: blah blah">
-					</div>
-					<p>Deli.Run is uber for corner stores. I built a slide deck to help them to pitch store owners.</p>
-					<a href="case1.html">See case study →</a>
-				</article>
+		<article class="case row" id="projects">
+			<table class="">
+				<tr class="headrow">
+					<th class="titlehead">other projects</th>
+					<th class="typehead">type</th>
+					<th class="datehead">date</th>
+				</tr>
+				<tr>
+					<td class="title"><a href="http://www.goodweb.design">Pttrns for landing pages</a></td>
+					<td class="type">Design + Code</td>
+					<td class="date">Ongoing</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="https://medium.com/response-to-questions-from-younger-designers">Response to questions from younger designers</a></td>
+					<td class="type">Writing</td>
+					<td class="date">Ongoing</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="http://howfresh.co/">Catalogue of vegetables in season</a></td>
+					<td class="type">Design + Code</td>
+					<td class="date">May 2017</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="http://www.zhayitong.com/angelcalc/">Convertible notes calculator for investors</a></td>
+					<td class="type">Design + Code</td>
+					<td class="date">Apr 2017</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="https://medium.com/@yitong_zhang/cowardice-not-grindelwald-is-the-true-nemisis-ed4ca67bf260#.7gxjfc3lr">Cowardice, not Grindelwald is the true nemisis</a></td>
+					<td class="type">Writing</td>
+					<td class="date">Nov 2016</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="https://medium.com/@yitong_zhang/winning-the-coup-endgame-252a4c829da#.8d34zdrho">Calculating the Coup end game scenarios</a></td>
+					<td class="type">Code</td>
+					<td class="date">Mar 2016</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="case2.html">Chicago apartment listing website</a></td>
+					<td class="type">Design</td>
+					<td class="date">Aug 2016</td>
+				</tr>
+				<tr>
+					<td class="title"><a href="http://www.zhayitong.com/fontsearch/">Better search for Google Fonts</a></td>
+					<td class="type">Design + Code</td>
+					<td class="date">Abandoned</td>
+				</tr>
+			</table>
+		</article>
 
-			</div>
-		</section>	
+
+
 	</main>
 </div>
 
 <div class="footerbg">
 <div class="container">
 	<footer id="footer">
-		<div class="about eight columns">
+		<div class="about six columns">
 			<h3>About Yitong</h3>
-			<p>Getting a cab in NYC is hard. Teamwork is hard. In fact, life in general is pretty hard. As a product designer, I embrace that. Because I believe in design’s potential to untangle the hardest and hairiest problems around us. Good design carries us over the hurdles and enables us to live better, fuller lives &mdash; with our friends, at work and beyond.</p>
-
-			<p>While my passion lies in UI and UX, I love messing with <a href="github.com">code</a> to bring my ideas to life. And as a former <a href="github.com">startup founder</a>, I’m comfortable relentlessly iterating from UI -> UX -> code in search of a better solution.</p>
+			<p>Work is hard. Teamwork is harder. In fact, life in general is pretty hard. As a product designer, I embrace that because I believe in design’s potential to untangle the hardest problems around us. Good design carries us over the hurdles and enables us to live better, more productive lives &mdash; with our friends, at work, and beyond. <a href="story">Read my story here→</a></p>
 		</div>
-		<div class="contact offset-by-one three columns ">
-			<div class="contact">
-				<h3>Contact</h3>
-				<a href="mailto:zha.yitong@gmail.com" target="_top">zha.yitong@gmail.com</a>
-			</div>
 
-			<div class="elsewhere">
-				<h3>Elsewhere</h3>
-					<ul>
-						<li><a href="https://dribbble.com/yitong">Dribbble</a></li>
-						<li><a href="https://github.com/yitongzhang">GitHub</a></li>
-						<li><a href="https://www.linkedin.com/in/yitongzhang">LinkedIn</a></li>
-						<li><a href="">Résumé</a></li>
-						<li><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang">Goodreads</a></li>
-						<li><a href="https://www.patreon.com/user?u=2297138">Patreon</a></li>
-						<li><a href="oldoldsite/index.html">Really Old Site</a></li>
-					</ul>
-			</div>
+		<div class="work two columns" id="work">
+			<h3>Work</h3>
+				<ul>
+					<li><a href="https://dribbble.com/yitong" target="_blank">Dribbble</a></li>
+					<li><a href="https://github.com/yitongzhang" target="_blank">GitHub</a></li>
+					<li><a href="Résumé.pdf">Résumé</a></li>
+				</ul>
+		</div>
 
+		<div class="fun two columns">
+			<h3>Fun</h3>
+				<ul>
+					<li><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang" target="_blank">Goodreads</a></li>
+					<li><a href="https://www.patreon.com/user?u=2297138" target="_blank">Patreon</a></li>
+					<li><a href="oldsite/index.html" target="_blank">Old website</a></li>
+				</ul>
+		</div>
+
+		<div class="bigContact two columns">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="mailto:zha.yitong@gmail.com" target="_top">zha.yitong@gmail.com</a></li>
+				<li><a href="tel:+4159966298">+1 415 996 6298</a></li>
+				<li><a href="https://www.google.com/maps/place/San+Francisco,+CA+94110/@37.7487282,-122.4325716,14z/data=!3m1!4b1!4m5!3m4!1s0x808f7e41001c148f:0xf8e22a1c5445037a!8m2!3d37.7485824!4d-122.4184108" target="_blank">San Francisco, CA</a></li>
+			</ul>
+		</div>
+		<div class="smallContact two columns">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="mailto:zha.yitong@gmail.com" target="_top">Email</a></li>
+				<li><a href="tel:+4159966298">Phone</a></li>
+				<li><a href="https://www.google.com/maps/place/San+Francisco,+CA+94110/@37.7487282,-122.4325716,14z/data=!3m1!4b1!4m5!3m4!1s0x808f7e41001c148f:0xf8e22a1c5445037a!8m2!3d37.7485824!4d-122.4184108" target="_blank">San Fran</a></li>
+			</ul>
+		</div>
 
 		</div>
 	</footer>
