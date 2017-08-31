@@ -10,7 +10,7 @@
 @hardShadow: 0px 1px 2px rgba(0,0,0,0.1);
 @softShadow: drop-shadow(5px 5px 20px rgba(0,0,0,0.15));
 @borderLight: 1px solid lighten(@light, 20%);
-@borderDark: 1px solid @dark;
+@borderDark: 2px solid @dark;
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -90,7 +90,19 @@ img{
 }
 .timeline{
   width: 200px;
-  margin-top: 19px;
+}
+.timeline .labels{
+  position: relative;
+  height: 22px;
+}
+.timeline .labels li{
+  color: @dark;
+  margin-top: -6px;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
 }
 .timeline .axis{
   width: 200px;
@@ -110,16 +122,17 @@ img{
   background-color: @dark;
   border-radius: 6px;
 }
+.timeline .dots li img{opacity: 0;}
 .timeline .dots li:hover{
   background-color: white;
   cursor: pointer;
   border: @borderDark;
-  margin-top: -1px;
-  margin-left: -1px;
+  margin-top: -2px;
+  margin-left: -2px;
 }
 
 .timeline .time{
-  margin-top: 8px;
+  margin-top: 4px;
   display: flex;
   flex-direction:row;
   justify-content: space-between;
@@ -132,6 +145,31 @@ img{
 .dots .visualPolish{left: 160px;}
 .dots .finalPrototype{left: 186px;}
 
+// Good Web Design
+.dots .v1Design{left: 8px;}
+.dots .v1Implementation{left: 62px;}
+.dots .v2Design{left: 186px;}
+
+// Hemingly
+.dots .chapterPublishing{left: 8px;}
+.dots .authorMarketing{left: 72px;}
+.dots .discoverTurk{left: 80px;}
+.dots .slackOutsource{left: 110px;}
+.dots .spreadsheetApp{left: 140px;}
+.dots .realApp{left: 186px;}
+
+// How Fresh
+.dots .v1Design{left: 8px;}
+.dots .v2Design{left: 186px;}
+
+// Writing
+.dots .article1{left: 8px;}
+.dots .article2{left: 58px;}
+.dots .article3{left: 98px;}
+.dots .article4{left: 148px;}
+.dots .article5{left: 188px;}
+
+
 /* Image Controls
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .projectPreview{position: relative;overflow: hidden;}
@@ -140,25 +178,43 @@ img{
 #grasshopper .projectPreview img{filter: @softShadow; position: absolute;}
 #grasshopper .projectPreview{
   height: 50vw;
-  background: #7CFFD3; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #B9FDD4, #7CFFD3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #B9FDD4, #7CFFD3); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #B9FDD4, #7CFFD3); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #B9FDD4, #7CFFD3); /* Standard syntax */
+  max-height: 680px;
+  background: #7CFFD3; 
+  background: -webkit-linear-gradient(left top, #B9FDD4, #7CFFD3); 
+  background: -moz-linear-gradient(bottom right, #B9FDD4, #7CFFD3); 
+  background: linear-gradient(to bottom right, #B9FDD4, #7CFFD3); 
 }
-
 #gh10{
   width: 25%;
   left: 8%;
-  top: 21%;
+  top: 25%;
 }
-
 #gh20{
   left: 26%;
   bottom:-13%;
   width:80%;
 }
-
+// Good Web Design
+#goodwebdesign .projectPreview img{filter: @softShadow; position: absolute;}
+#goodwebdesign .projectPreview{
+  height: 50vw;
+  max-height: 680px;
+  background: #D1D3FF; 
+  background: -webkit-linear-gradient(left top, #D1F5FF, #D1D3FF); 
+  background: -moz-linear-gradient(bottom right, #D1F5FF, #D1D3FF); 
+  background: linear-gradient(to bottom right, #D1F5FF, #D1D3FF); 
+}
+#gwd10{
+  width: 54%;
+  left: 14%;
+  bottom: -26%;
+}
+#gwd20{
+  width:171%;
+  left: 35%;
+  bottom:-5%;
+  max-width:171%;
+}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
