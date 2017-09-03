@@ -67,6 +67,7 @@ function	hoverInTimeline(){
 		})
 	}
 	for(webMock of ghData.webMocks){
+		posTemp = ghData.imgData[webMock].position;
 		webPosArrayTemp = ghData.layout.web;
 		$(webMock).css({
 			'width':webPosArrayTemp[posTemp]['width'],
