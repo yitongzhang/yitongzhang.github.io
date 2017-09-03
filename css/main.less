@@ -34,6 +34,13 @@ p {font-size:@smallFont; margin-bottom: 2*@unit;}
 a {font-size:@smallFont; color: @light; text-decoration: none;}
 a:hover {font-size:@smallFont; color: @dark;}
 
+/* Transitions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img, .axis, .dots li, .time h3{
+  -webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s;
+  transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s;
+}
+
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.container{
@@ -57,7 +64,7 @@ header li{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container{
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   max-width: 1220px;
 }
 article{
@@ -175,23 +182,23 @@ img{
 .projectPreview{position: relative;overflow: hidden;}
 
 // Grasshopper
-#grasshopper .projectPreview img{filter: @softShadow; position: absolute;}
+#grasshopper .projectPreview img{position: absolute;}
 #grasshopper .projectPreview{
-  height: 50vw;
-  max-height: 680px;
+  height: 38vw;
+  max-height: 600px;
   background: #7CFFD3; 
   background: -webkit-linear-gradient(left top, #B9FDD4, #7CFFD3); 
   background: -moz-linear-gradient(bottom right, #B9FDD4, #7CFFD3); 
   background: linear-gradient(to bottom right, #B9FDD4, #7CFFD3); 
 }
-#gh10{
+.gh10{
   width: 25%;
   left: 8%;
   top: 25%;
 }
-#gh20{
+.gh20{
   left: 26%;
-  bottom:-13%;
+  bottom:-30%;
   width:80%;
 }
 // Good Web Design
@@ -227,7 +234,8 @@ footer.container{
 
 
 
-
+/* Responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 
