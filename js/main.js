@@ -1,13 +1,13 @@
 var ghData ={
 	phoneMocks:['#gh10','#gh11','#gh12','#gh13','#gh14'],
 	webMocks:['#gh20','#gh21','#gh22','#gh23','#gh24'],
-	// coverter:{
-	// 	'finalPrototype':['#gh10','#gh10'],
-	// 	'visualPolish':['#gh11','#gh11'],
-	// 	'websiteV1':['#gh12','#gh12'],
-	// 	'lpExplore':['#gh13','#gh13'],
-	// 	'ideExplore':['#gh14','#gh14']
-	// },
+	coverter:{
+		'finalPrototype':['#gh10','#gh10'],
+		'visualPolish':['#gh11','#gh11'],
+		'websiteV1':['#gh12','#gh12'],
+		'lpExplore':['#gh13','#gh13'],
+		'ideExplore':['#gh14','#gh14']
+	},
 	imgData:{
 		'#gh10':{dot: 'finalPrototype',position:'1'},
 		'#gh20':{dot: 'finalPrototype',position:'1'},
@@ -20,18 +20,18 @@ var ghData ={
 		'#gh14':{dot: 'ideExplore',position:'5'},
 		'#gh24':{dot: 'ideExplore',position:'5'}
 	},
-	// dotData:{
-	// 	'finalPrototype':{img: '#gh10',position:'1'},
-	// 	'finalPrototype':{img: '#gh20',position:'1'},
-	// 	'visualPolish':{img: '#gh11',position:'2'},
-	// 	'visualPolish':{img: '#gh21',position:'2'},
-	// 	'websiteV1':{img: '#gh12',position:'3'},
-	// 	'websiteV1':{img: '#gh22',position:'3'},
-	// 	'lpExplore':{img: '#gh13',position:'4'},
-	// 	'lpExplore':{img: '#gh23',position:'4'},
-	// 	'ideExplore':{img: '#gh14',position:'5'},
-	// 	'ideExplore':{img: '#gh24',position:'5'}
-	// },
+	dotData:{
+		'finalPrototype':{img: '#gh10',position:'1'},
+		'finalPrototype':{img: '#gh20',position:'1'},
+		'visualPolish':{img: '#gh11',position:'2'},
+		'visualPolish':{img: '#gh21',position:'2'},
+		'websiteV1':{img: '#gh12',position:'3'},
+		'websiteV1':{img: '#gh22',position:'3'},
+		'lpExplore':{img: '#gh13',position:'4'},
+		'lpExplore':{img: '#gh23',position:'4'},
+		'ideExplore':{img: '#gh14',position:'5'},
+		'ideExplore':{img: '#gh24',position:'5'}
+	},
 	layout:{
 		phone:{
 			defaultNone:{width:'25%',left:'8%',top:'25%',opacity:'0'},
@@ -105,11 +105,15 @@ function	hoverOutTimeline(){
 
 function	hoverInDot(){
 	console.log(this.className)
+	// this == position 1
+	// everything ahead of it == position 0
+	// everything behind it increase position by the number of positions this moved
+
 }
 
 function	hoverOutDot(){
 	console.log(this)
 }
 
-$( '.dots' ).mouseenter( hoverInTimeline ).mouseleave( hoverOutTimeline );
-// $( '.dots li' ).mouseenter( hoverInDot ).mouseleave( hoverOutDot );
+$( '.timeline' ).mouseenter( hoverInTimeline ).mouseleave( hoverOutTimeline );
+$( '.dots li' ).mouseenter( hoverInDot ).mouseleave( hoverOutDot );
