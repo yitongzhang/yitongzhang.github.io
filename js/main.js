@@ -76,8 +76,6 @@ function	hoverInTimeline(){
 			'opacity':webPosArrayTemp[posTemp]['opacity']
 		})
 	}
-	$('#grasshopper .axis').css('background-color','#243740');
-	$('#grasshopper .time h3').css('color','#8B9AA0');
 }
 
 function	hoverOutTimeline(){
@@ -99,21 +97,22 @@ function	hoverOutTimeline(){
 			'opacity':webPosArrayTemp['default']['opacity']
 		})
 	}
-	$('#grasshopper .axis').css('background-color','#8B9AA0');
-	$('#grasshopper .time h3').css('color','#243740');
 }
 
 function	hoverInDot(){
-	console.log(this.className)
+	var query = '.labels '+ '.'+this.className;
+	console.log(query);
+	$(query).css('opacity','1');
 	// this == position 1
 	// everything ahead of it == position 0
 	// everything behind it increase position by the number of positions this moved
-
 }
 
 function	hoverOutDot(){
-	console.log(this)
+	var query = '.labels '+ '.'+this.className;
+	console.log(query);
+	$(query).css('opacity','0');
 }
 
-$( '.timeline' ).mouseenter( hoverInTimeline ).mouseleave( hoverOutTimeline );
+// $( '.timeline' ).mouseenter( hoverInTimeline ).mouseleave( hoverOutTimeline );
 $( '.dots li' ).mouseenter( hoverInDot ).mouseleave( hoverOutDot );
