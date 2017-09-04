@@ -38,7 +38,7 @@ a:hover {font-size:@smallFont; color: @dark;}
 
 /* Transitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-img, .axis, .dots li, .time h3, .timeline{
+img, video, .axis, .dots li, .time h3, .timeline{
 	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s;
 	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s;
 }
@@ -211,6 +211,12 @@ img{
 	left: 68%;
 	top: -15%;
 }
+#gh30vid{
+	position: absolute;
+	width: 22.3%;
+	left: 69.2%;
+	top: -4.1%;
+}
 // Good Web Design
 #goodwebdesign .projectPreview{
 	height: 50vw;
@@ -265,8 +271,8 @@ footer.container{
 	#gh10{width: 25%;left: 6%;top: 25%;}
 	#gh20{width: 25%;left: 36.5%;top: 15%;}
 	#gh30{width: 25%;left: 68%;top: 5%;}
+	#gh30vid{width: 22.3%left: 69.3%;top: 16.1%;}
 }
-
 @media (max-width: 900px){
 	.smallProjects{column-count: 1;}
 	h1{font-size:@largeFontMobile;}
@@ -280,6 +286,7 @@ footer.container{
 	#grasshopper .projectPreview{height: 400px;}
 	#goodwebdesign .projectPreview{height: 400px;} 
 	#howfresh .projectPreview{height: 400px;}
+	#gh30vid{display: none}
 }
 @media (max-width: 620px){
 	#gh10{width: 38%;left: 8%;top: 25%;}
