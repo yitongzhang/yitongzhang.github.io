@@ -38,9 +38,9 @@ a:hover {font-size:@smallFont; color: @dark;}
 
 /* Transitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-img, video, .axis, .dots li, .time h3, .timeline{
-	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s;
-	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s;
+.timeline .labels li, a, img, video, .axis, .dots li, .time h3, .timeline{
+	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s;
 }
 
 /* Header
@@ -52,7 +52,7 @@ header.container{
 header h1{
 	max-width: 700px;
 }
-header a{font-weight: 400;}
+header a{font-weight: 400; border-bottom: 2px solid white;}
 header a:hover {border-bottom: @borderDark; padding-bottom: 0.2*@unit;}
 header ul{
 	display: flex;
@@ -84,7 +84,7 @@ img{
 }
 .smallProjects{
 	column-count: 2;
-	column-gap: 5*@unit;
+	column-gap: 8*@unit;
 }
 #grasshopper .projectMeta{
 	max-width: 600px;
