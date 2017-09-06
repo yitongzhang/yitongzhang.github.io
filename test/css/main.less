@@ -1,0 +1,420 @@
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@dark:#243740;
+@medium: #5A6A70;
+@light:#78858A;
+@unit:8px;
+@largeFont:2.6rem;
+@largeFontMobile:2.2rem;
+@mediumFont:1.9rem;
+@smallFont:1.6rem;
+@hardShadow: 0px 1px 2px rgba(0,0,0,0.1);
+@softShadow: drop-shadow(5px 5px 20px rgba(0,0,0,0.20));
+@borderVLight: 1px solid lighten(@light, 20%);
+@borderLight: 1px solid @light;
+@borderDark: 1px solid @dark;
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+	font-size: 62.5%; }
+body {
+	font-size: 1.8em;
+	line-height: 1.4;
+	font-weight: 300;
+	font-family: "franklin-gothic-urw", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color: @light; 
+}
+h1, h2, h3, h4, h5, h6 {font-weight: 400;}
+
+h1 { font-size:@largeFont; color: @dark; line-height: 1.2;}
+h2 { font-size:@mediumFont; color: @dark;}
+h3 { font-size:@smallFont;color: @dark;}
+
+p {font-size:@smallFont; margin-bottom: 2*@unit;}
+#about main p{
+	max-width: 80*@unit; 
+	line-height: 1.6;
+	color: @medium;
+}
+
+a {font-size:@smallFont; color: @light; text-decoration: none;}
+a:hover {font-size:@smallFont; color: @dark;}
+
+/* Transitions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#about .yitongPics, .timeline .labels li, a, img, video, .axis, .dots li, .time h3, header h3, .timeline{
+	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s;
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.container{
+	margin-top: 15*@unit;
+	margin-bottom: 10*@unit;
+}
+header h1{
+	max-width: 700px;
+}
+header h3{color: @dark; margin-top: @unit;}
+header h3{border-bottom: 1px solid white;padding-bottom: 0.2*@unit;}
+header h3:hover {border-bottom: @borderDark;}
+header ul{
+	display: flex;
+	flex-direction:row;
+}
+header li{
+	margin-right: 2*@unit;
+}
+#index header #workNav{border-bottom: @borderDark}
+#about header #aboutNav{border-bottom: @borderDark}
+
+/* Main Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1220px;
+}
+article{
+	padding-top: 5*@unit;
+	padding-bottom: 5*@unit;
+}
+img{
+	max-width: 100%;
+}
+.metaTop{
+	margin-bottom: 2*@unit;
+}
+#work p{
+	margin-bottom: 4*@unit;
+}
+.smallProjects{
+	column-count: 2;
+	column-gap: 8*@unit;
+}
+#grasshopper .projectMeta{
+	max-width: 600px;
+}
+
+/* Timeline Controls
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.metaTop{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.timeline{
+	width: 200px;
+}
+.timeline .labels{
+	position: relative;
+	height: 22px;
+}
+.timeline .labels li{
+	color: @dark;
+	margin-top: -6px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.timeline .axis{
+	width: 100%;
+	height: 2px;
+	border-bottom: 2px dotted lighten(@light, 20%);
+}
+.timeline .dots{
+	position:relative;
+	width:100%;
+	height: 6px;
+	margin-top: -4px;
+}
+.timeline .dots li{
+	position: absolute;
+	display:inline-block;
+	height: 6px;
+	background-color: @dark;
+	border-radius: 6px;
+}
+.timeline .dots li img{opacity: 0;}
+.timeline .dots li:hover{
+	background-color: white;
+	cursor: pointer;
+	border: @borderDark;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+.timeline .time{
+	margin-top: 4px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+// Grasshopper
+.dots .ideExplore{left: 4%;}
+.dots .lpExplore{left: 21%;}
+.dots .websiteV1{left: 30%;}
+.dots .visualPolish{left: 80%;}
+.dots .finalPrototype{left: 93%;}
+
+// Good Web Design
+.dots .v1Design{left: 8px;}
+.dots .v1Implementation{left: 62px;}
+.dots .v2Design{left: 186px;}
+
+// Hemingly
+.dots .chapterPublishing{left: 8px;}
+.dots .authorMarketing{left: 72px;}
+.dots .discoverTurk{left: 80px;}
+.dots .slackOutsource{left: 110px;}
+.dots .spreadsheetApp{left: 140px;}
+.dots .realApp{left: 186px;}
+
+// How Fresh
+.dots .v1Design{left: 8px;}
+.dots .v2Design{left: 186px;}
+
+// Writing
+.dots .article1{left: 8px;}
+.dots .article2{left: 58px;}
+.dots .article3{left: 98px;}
+.dots .article4{left: 148px;}
+.dots .article5{left: 188px;}
+
+
+/* Image Controls
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+// General
+.projectPreview{
+	position: relative;
+	overflow: hidden; 
+	// border-radius: @unit;
+}
+.projectPreviewWrapper{position: relative;}
+#hy10, #gh10, #gh20, #gh30, #gwd10, #gwd20, #hf10{position: absolute; filter: @softShadow;}
+
+// Grasshopper
+#grasshopper .projectPreview{
+	height: 38vw;
+	max-height: 600px;	
+	background: #7CFFD3; 
+	background: -webkit-linear-gradient(left top, #B9FDD4, #7CFFD3); 
+	background: -moz-linear-gradient(bottom right, #B9FDD4, #7CFFD3); 
+	background: linear-gradient(to bottom right, #B9FDD4, #7CFFD3); 
+}
+#gh10{
+	width: 25%;
+	left: 6%;
+	top: 25%;
+}
+#gh20{
+	width: 25%;
+	left: 36.5%;
+	top: 5%;
+}
+#gh30{
+	width: 25%;
+	left: 68%;
+	top: -15%;
+}
+#gh30vid{
+	position: absolute;
+	width: 22.3%;
+	left: 69.2%;
+	top: -4.1%;
+}
+// Good Web Design
+#goodwebdesign .projectPreview{
+	height: 50vw;
+	max-height: 680px;
+	background: #D1D3FF; 
+	background: -webkit-linear-gradient(left top, #D1F5FF, #D1D3FF); 
+	background: -moz-linear-gradient(bottom right, #D1F5FF, #D1D3FF); 
+	background: linear-gradient(to bottom right, #D1F5FF, #D1D3FF); 
+}
+#gwd10{
+	width: 54%;
+	left: 14%;
+	bottom: -26%;
+}
+#goodwebdesign .projectPreview:hover #gwd10{
+	left: 12%;
+	bottom: -24%;
+}
+#gwd20{
+	width:171%;
+	left: 35%;
+	bottom:-5%;
+	max-width:171%;
+}
+#goodwebdesign .projectPreview:hover #gwd20{
+	left: 34%;
+	bottom:-4%;
+}
+
+// Howfresh
+#howfresh .projectPreview{
+	height: 50vw;
+	max-height: 680px;
+	background: #FCFFD0; 
+	background: -webkit-linear-gradient(left top, #FCFFD0, #F8FFF0); 
+	background: -moz-linear-gradient(bottom right, #FCFFD0, #F8FFF0); 
+	background: linear-gradient(to bottom right, #FCFFD0, #F8FFF0); 
+}
+#hf10{
+	width: 76%;
+	left: 12%;
+	bottom: 11%;
+	filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.10));
+}
+#howfresh .projectPreview:hover #hf10{
+	width: 78%;
+	left: 11%;
+	bottom: 10%;
+}
+
+// Hemingly
+#hemingly .projectPreview{
+	height: 40vw;
+	max-height: 560px;
+	background: #EDEDED; 
+	background: -webkit-linear-gradient(left top, #F7F7F7, #EDEDED); 
+	background: -moz-linear-gradient(bottom right, #F7F7F7, #EDEDED); 
+	background: linear-gradient(to bottom right, #F7F7F7, #EDEDED); 
+}
+#hy10{
+	width: 84%;
+	left: 17%;
+	bottom: 11%;
+}
+#hemingly .projectPreview:hover #hy10{
+	width: 85%;
+	left: 16%;
+	bottom: 10%;
+}
+
+// Writing
+#writing .projectPreview{
+	height: 40vw;
+	max-height: 560px;
+	background: #292929; 
+	background: -webkit-linear-gradient(left top, #102938, #292929); 
+	background: -moz-linear-gradient(bottom right, #102938, #292929); 
+	background: linear-gradient(to bottom right, #102938, #292929); 
+}
+#wt10{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	bottom: 11%;
+}
+#writing .projectPreview:hover #wt10{
+	width: 92%;
+	left: 4%;
+	bottom: 10%;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer.container{
+	border-top: @borderVLight;
+	margin-top: 5*@unit;
+	padding-top: 5*@unit;
+	padding-bottom: 5*@unit;
+}
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#about header{margin-bottom: 5*@unit;}
+#about .yitongPics.container{overflow:visible;}
+#about main{margin-top: 5*@unit;}
+#about main p a{color: @medium; border-bottom: @borderLight; padding-bottom: 0.125*@unit;}
+#about main p a:hover{color: @dark; border-bottom: @borderDark; padding-bottom: 0.125*@unit;}
+#about .titleGroup{margin-bottom: 3*@unit;}
+#about .titleGroup h1{margin-bottom: 0.5*@unit;}
+#about .titleGroup h2{color: @dark; font-weight: 300;}
+#about section{margin-bottom: 10*@unit;}
+
+#about .yitongPics{
+	position: relative;
+	height: 440px;
+}
+#about .yitongPics img{
+	position: absolute;
+	filter:@softShadow;
+}
+
+#about .yitongPics #about1{
+	width:40%;
+	left: 0%;
+	bottom:20%;
+}
+#about .yitongPics #about2{
+	width:51%;
+	left:35%;
+	top:0%;
+}
+#about .yitongPics #about3{
+	width:26%;
+	left:74%;
+	bottom:0%;
+}
+
+/* Responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 1100px){
+	.projectPreviewWrapper{overflow: hidden}
+	.timeline{width: 130px;}
+	#gh10{width: 25%;left: 6%;top: 25%;}
+	#gh20{width: 25%;left: 36.5%;top: 15%;}
+	#gh30{width: 25%;left: 68%;top: 5%;}
+	#gh30vid{width: 22.3%left: 69.3%;top: 16.1%;}
+	#about .yitongPics{height: 300px;}
+}
+
+@media (max-width: 900px){
+	.smallProjects{column-count: 1;}
+	h1{font-size:@largeFontMobile;}
+	.container{width: 90%; overflow-x: hidden;}
+	.timeline{width: 120px;}
+	.time h3{display: none;}
+
+	.timeline .labels li h3{font-size: 1.2rem;}
+	.timeline .labels{height:16px;margin-top: 10px;}
+
+	#grasshopper .projectPreview{height: 400px;}
+	#goodwebdesign .projectPreview{height: 400px;} 
+	#howfresh .projectPreview{height: 400px;}
+	#gh30vid{display: none}
+	#about .yitongPics{height: 260px;}
+}
+@media (max-width: 620px){
+	#gh10{width: 38%;left: 8%;top: 25%;}
+	#gh20{width: 38%;left: 54%;top: 10%;}
+	#gh30{display: none}
+	#about .yitongPics{height: 360px;}
+	#about .yitongPics #about1{
+		width:60%;
+		left: auto;
+		right: 0%;
+		top:0%;
+	}
+	#about .yitongPics #about2{
+		width:80%;
+		left:0%;
+		top:20%;
+	}
+	#about .yitongPics #about3{
+		width:40%;
+		left:53%;
+		bottom:0%;
+	}
+}
+
