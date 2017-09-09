@@ -17,7 +17,7 @@ img{
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -30,14 +30,14 @@ img{
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
+@media (min-width: 650px) {
   .container {
-    width: 80%; }
+    width: 90%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -104,33 +104,29 @@ img{
 html {
   font-size: 62.5%; }
 body {
-  font-family: "ff-meta-serif-web-pro",serif;
+  font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.8em; }
+  font-size: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fira Sans",sans-serif;
+  line-height: 1.2;
+  font-family: "ff-meta-web-pro",sans-serif;
   font-weight: 500;
   margin-bottom: 0.8rem;
   color: #222;}
 
-h1 { font-size: 3rem;}
-h2 { font-size: 1.8rem;}
-h3 { font-size: 1.5rem; text-transform: uppercase;}
+h1 { font-size: 3.2rem;}
+h2 { font-size: 2.4rem;}
+h3 { font-size: 1.6rem; font-family:"ff-meta-SC-web-pro"; text-transform: lowercase; margin-bottom: 0;}
 h4 { font-size: 1.4rem;}
 h5 { font-size: 1.3rem;}
-h6 { font-size: 1.2rem;}
+h6 { font-size: 6rem; font-family:"ff-meta-serif-web-pro"; text-align: center;}
 
 p {
   line-height: 1.5;
   margin-bottom: 2rem;
-  color: #514747;
-}
-
-.bigP{
-  font-size: 1.2em; 
-  color: #514747;
+  color: #727272;
 }
 
 a{
@@ -146,18 +142,20 @@ a:hover{
   background-color: yellow;
 }
 
+
+
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+.full-width {
   width: 100%;
   box-sizing: border-box; }
-.u-max-full-width {
+.max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
-.u-pull-right {
-  float: right; }
-.u-pull-left {
-  float: left; }
+
+.pull-right { float: right;}
+.pull-left { float: left;}
 
 
 /* Misc
@@ -198,10 +196,16 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (max-width: 750px) {
+  h1 { font-size: 2.2rem !important;}
+  #projects a{ font-size: 2.2rem !important;}
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (max-width: 1000px) {
+  h1 { font-size: 2.6rem !important;}
+  #projects a{ font-size: 2.2rem !important;}
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
