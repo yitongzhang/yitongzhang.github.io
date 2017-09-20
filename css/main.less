@@ -93,9 +93,9 @@ a:hover {font-size:@smallFont; color: @dark;}
 
 /* Transitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-nav, nav.sticky, #about .yitongPics, .timeline .labels li, a, img, video, .axis, .dots li, .time h3, header h3, .timeline{
-	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s;
-	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s;
+header, .container, nav, nav.sticky, #about .yitongPics, .timeline .labels li, a, img, video, .axis, .dots li, .time h3, header h3, .timeline{
+	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 }
 @keyframes fadeiNb {
 	from {opacity:0; margin-bottom: 10px;}
@@ -150,13 +150,10 @@ header h1{
 }
 
 nav{
-	display: flex;
-	justify-content:space-between;
 	padding-top: 3*@unit;
 	padding-bottom: 1*@unit;
 	position: fixed;
 	top: 0;
-	padding-left:10%;
 	width: 100%;
 	background-color: white;
 	z-index: 10000;
@@ -170,6 +167,9 @@ nav ul h3{color: @dark; margin-top: @unit;}
 nav ul h3{border-bottom: 1px solid white;padding-bottom: 0.2*@unit;}
 nav ul h3:hover {border-bottom: @borderDark;}
 nav ul{
+	width: 80%;
+	margin:0 auto;
+	max-width: 1220px;
 	display: flex;
 	flex-direction:row;
 }
@@ -587,6 +587,7 @@ footer.container{
 	.smallProjects{column-count: 1;}
 	h1{font-size:@largeFontMobile;}
 	.container{width: 90%; overflow-x: hidden;}
+	nav ul{width: 90%;}
 	.timeline{width: 120px;}
 	.time h3{display: none;}
 
@@ -611,6 +612,10 @@ footer.container{
 	#about .codeSkillz, .salesSkillz > h2{margin-top: 2*@unit;}
 }
 @media (max-width: 620px){
+	header.container{
+		margin-top:18*@unit;
+		margin-bottom:10*@unit;
+	}	
 	#gh10{width: 38%;left: 8%;top: 25%;}
 	#gh20{width: 38%;left: 54%;top: 10%;}
 	#gh30{display: none}
