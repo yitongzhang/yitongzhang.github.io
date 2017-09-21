@@ -31,8 +31,8 @@
 // @wtGradientColor1:#102938;
 // @wtGradientColor2:#292929;
 
-
-@largeFont:2.8rem;
+@vLargeFont:3.4rem;
+@largeFont:2.5rem;
 @largeFontMobile:2.2rem;
 @mediumFont:1.9rem;
 @smallFont:1.6rem;
@@ -46,25 +46,6 @@
 @borderDark: 1px solid @dark;
 
 @fontStack: "franklin-gothic-urw", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-@font-face {
-  font-family: 'SectraTest-medium';
-  font-style: medium;
-  font-weight: 500;
-  src: url(../fonts/GT-Sectra-Medium.otf);
-}
-@font-face {
-  font-family: 'SectraTest-book';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/GT-Sectra-Book.ttf);
-}
-@font-face {
-  font-family: 'SectraTest-bold';
-  font-style: bold;
-  font-weight: 600;
-  src: url(../fonts/GT-Sectra-Bold.otf);
-}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -80,7 +61,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {font-weight: 400;}
 
-h1 { font-size:@largeFont; color: @dark; line-height: 1.2; font-weight: 800; font-family: 'leitura-news';}
+h1 { font-size:@largeFont; color: @dark; line-height: 1.2; font-weight: 700; font-family: 'freight-text'}
 h2 { font-size:@mediumFont; color: @dark;}
 h3 { font-size:@smallFont;color: @dark;}
 
@@ -154,11 +135,12 @@ nav{
 	padding-bottom: 1*@unit;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100%;workNav
 	background-color: white;
 	z-index: 10000;
 }
 nav.sticky{
+	background-color: white;
 	padding-top: 1*@unit;
 	padding-bottom: 1*@unit;
 	border-bottom: @borderVVLight;
@@ -574,7 +556,7 @@ footer.container{
 
 /* Responsive
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media (max-width: 1160px){
+@media (max-width: 1120px){
 	.projectPreviewWrapper{overflow: hidden}
 	.timeline{width: 130px;}
 	#gh10{width: 25%;left: 6%;top: 25%;}
@@ -583,7 +565,7 @@ footer.container{
 	#gh30vid{width: 22.3%left: 69.3%;top: 16.1%;}
 	#about .yitongPics{height: 300px;}
 }
-@media (max-width: 980px){
+@media (max-width: 940px){
 	.smallProjects{column-count: 1;}
 	h1{font-size:@largeFontMobile;}
 	.container{width: 90%; overflow-x: hidden;}
