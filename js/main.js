@@ -13,7 +13,7 @@ function	hoverOutDot(){
 $( '.dots li' ).mouseenter( hoverInDot ).mouseleave( hoverOutDot );
 
 $(window).scroll(function() {
-  var scrollPosition = $( "body" ).scrollTop();
+  var scrollPosition = $( "html" ).scrollTop();
   if (scrollPosition == 0) {
   	$( "nav" ).removeClass( 'sticky' )
   }
