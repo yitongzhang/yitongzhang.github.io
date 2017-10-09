@@ -127,7 +127,9 @@ header.container{
 	margin-bottom: 20*@unit;
 }
 header h1{
-	max-width: 840px;
+	max-width: 800px;
+	font-size: 4.2rem;
+	line-height: 1.2;
 }
 
 nav{
@@ -288,7 +290,10 @@ img{
 	// border-radius: @unit;
 }
 .projectPreviewWrapper{position: relative;}
-#hy10, #gh10, #gh20, #gh30, #gwd10, #gwd20, #hf10{position: absolute; filter: @softShadow;}
+#hy10, #gh10, #gh20, #gh30, #gwd10, #gwd20, #hf10{
+	position: absolute; 
+	filter: @softShadow;
+}
 
 // Grasshopper
 #grasshopper .projectPreview{
@@ -344,19 +349,19 @@ img{
 	background: linear-gradient(to bottom right, @gwdGradientColor1, @gwdGradientColor2); 
 }
 #gwd10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 	width: 54%;
 	left: 14%;
 	bottom: -26%;
+	filter:none;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.2)
 }
 #gwd20{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 	width:171%;
 	left: 35%;
 	bottom:-5%;
 	max-width:171%;
+	filter:none;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.2)
 }
 
 // Howfresh
@@ -369,8 +374,6 @@ img{
 	background: linear-gradient(to bottom right, @hfGradientColor1, @hfGradientColor2); 
 }
 #hf10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 	width: 76%;
 	left: 12%;
 	bottom: 11%;
@@ -505,6 +508,7 @@ footer.container{
 #about section{margin-bottom: 10*@unit;}
 
 #about .yitongPics{
+	margin-top: 14*@unit;
 	position: relative;
 	height: 440px;
 }
