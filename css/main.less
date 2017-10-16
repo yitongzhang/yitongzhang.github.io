@@ -2,61 +2,19 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @unit: 8px;
 
-@dark:#243740;
-@medium: #5A6A70;
-@light:#78858A;
+@dark:#212121;
+@medium: #535353;
+@light:#747474;
 @vlight:#FCFCFC;
-
-// Set 1
-// @ghGradientColor1:#B9FDD4;
-// @ghGradientColor2:#7CFFD3;
-// @gwdGradientColor1:#D1F5FF;
-// @gwdGradientColor2:#D1D3FF;
-// @hyGradientColor1:#F7F7F7;
-// @hyGradientColor2:#EDEDED;
-// @hfGradientColor1:#FCFFD0;
-// @hfGradientColor2:#F8FFF0;
-// @wtGradientColor1:#EDFFF7;
-// @wtGradientColor2:#CBE8E6;
-
-// Set 2
-@ghGradientColor1:white;
-@ghGradientColor2:white;
-@gwdGradientColor1:white;
-@gwdGradientColor2:white;
-@hyGradientColor1:white;
-@hyGradientColor2:white;
-@hfGradientColor1:white;
-@hfGradientColor2:white;
-@wtGradientColor1:white;
-@wtGradientColor2:white;
-
-@vLargeFont:4rem;
-@largeFont:2.4rem;
-@largeFontMobile:2.2rem;
-@mediumFont:1.9rem;
-@smallFont:1.6rem;
 
 @hardShadow: 0px 1px 2px rgba(0,0,0,0.1);
 @softShadow: drop-shadow(5px 5px 20px rgba(0,0,0,0.20));
 
-@borderVLight: 1px solid lighten(@light, 20%);
-@borderVVLight: 1px solid lighten(@light, 40%);
-@borderLight: 1px solid @light;
+@borderLight: 1px solid lighten(@light, 40%);
+@borderMedium: 1px solid @light;
 @borderDark: 1px solid @dark;
 
-@fontStack: 'freight-text', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-@font-face{
-	font-family: tiempos-headline;
-	font-weight: 800;
-	src:url('../fonts/TiemposHeadlineTest-Bold.woff')
-}
-@font-face{
-	font-family: tiempos-headline;
-	font-weight: 600;
-	src:url('../fonts/TiemposHeadlineTest-Semibold.woff')
-}
+@fontStack: 'freight-text-pro', serif;
 
 
 /* Typography
@@ -65,581 +23,208 @@ html {
 	font-size: 62.5%; 
 }
 body {
-	font-size: 1.8em;
-	line-height: 1.4;
+	font-size: 1.4em;
+	line-height: 1.6;
 	font-weight: 300;
 	font-family: @fontStack;
-	color: @light; 
 	background-color: @vlight;
 }
 h1, h2, h3, h4, h5, h6 {font-weight: 400;}
 
-h1 { font-size:@vLargeFont; color: lighten(@dark,5%); line-height: 1.4; font-weight: 800;font-family: 'tiempos-headline'; }
-h2 { font-size:@largeFont; color: lighten(@dark,5%);font-weight: 800;font-family: 'tiempos-headline'; }
-h3 { font-size:@smallFont;color: lighten(@dark,5%);}
+h1 { font-size:3.6rem; color: @dark; line-height: 1.4; font-weight: 400;}
+h2 { font-size:2.2rem; color: @dark; }
+h3 { font-size:1.4rem;color: @dark; font-weight: 500; font-family: 'freight-sans-pro';text-transform: uppercase;}
 
-p {font-size:@smallFont; margin-bottom: 2*@unit;}
+p {font-size:1.6rem;color: @medium; line-height: 1.8; margin-bottom: 2*@unit; font-family: @fontStack;}
 
 
 
-a {font-size:@smallFont; color: @light; text-decoration: none;}
-a:hover {font-size:@smallFont; color: @dark;}
+a {font-size:1.4rem; text-decoration: none;}
+a:visited{color: @medium;}
 
 /* Transitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-header, .container, nav, nav.sticky, #about .yitongPics, .timeline .labels li, a, img, video, .axis, .dots li, .time h3, header h3, .timeline{
+body{
 	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 }
-@keyframes fadeiNb {
-	from {opacity:0; margin-bottom: 10px;}
-	to {opacity:1; margin-bottom: 0px;}
-}
-@-webkit-keyframes fadeiNb { /* Safari and Chrome */
-	from {opacity:0;margin-bottom: 10px;}
-	to {opacity:1;margin-bottom: 0px;}
-}
-@keyframes fadeiNtShort {
-	from {opacity:0; margin-top: 5px;}
-	to {opacity:1; margin-bottom: 0px;}
-}
-@-webkit-keyframes fadeiNtShort { /* Safari and Chrome */
-	from {opacity:0;margin-top: 5px;}
-	to {opacity:1;margin-bottom: 0px;}
-}
-@keyframes slideUp {
-	from {margin-top: 5px;}
-	to {margin-bottom: 0px;}
-}
-@-webkit-keyframes slideUp { /* Safari and Chrome */
-	from {margin-top: 5px;}
-	to {margin-bottom: 0px;}
-}
-@keyframes fadeiNt {
-	from {opacity:0; margin-top: 10px;}
-	to {opacity:1; margin-bottom: 0px;}
-}
-@-webkit-keyframes fadeiNt { /* Safari and Chrome */
-	from {opacity:0;margin-top: 10px;}
-	to {opacity:1;margin-bottom: 0px;}
-}
-@keyframes fadeiNtLong {
-	from {opacity:0; margin-top: 20px;}
-	to {opacity:1; margin-bottom: 0px;}
-}
-@-webkit-keyframes fadeiNtLong { /* Safari and Chrome */
-	from {opacity:0;margin-top: 20px;}
-	to {opacity:1;margin-bottom: 0px;}
-}
 
-
-/* Top of page
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-header.container{
-	margin-top: 32*@unit;
-	margin-bottom: 20*@unit;
-}
-header h1{
-	max-width: 800px;
-	padding-left: 5%;
-}
-
-nav{
-	padding-top: 3*@unit;
-	padding-bottom: 1*@unit;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: @vlight;
-	z-index: 10000;
-}
-nav.sticky{
-	background-color: white;
-	padding-top: 1*@unit;
-	padding-bottom: 1*@unit;
-	border-bottom: @borderVVLight;
-}
-nav ul h3{color: @dark; margin-top: @unit;}
-nav ul h3{border-bottom: 1px solid white;padding-bottom: 0.2*@unit;}
-nav ul h3:hover {border-bottom: @borderDark;}
-nav ul{
-	width: 80%;
-	margin:0 auto;
-	max-width: 1220px;
-	display: flex;
-	flex-direction:row;
-}
-nav li{
-	margin-right: 2*@unit;
-}
-#index #workNav{border-bottom: @borderDark}
-#about #aboutNav{border-bottom: @borderDark}
-
-/* Main Layout
+/* General
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container{
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1220px;
-}
-article{
+	max-width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 5*@unit;
-	padding-bottom: 5*@unit;
-	background-color: white;
-	box-shadow: @hardShadow;
+}
+img, video{
+	max-height: 500px;
 }
 img{
-	max-width: 100%;
-}
-.metaTop{
-	margin-bottom: 2*@unit;
-}
-#work p{
-	margin-bottom: 4*@unit;
-}
-.smallProjects{
-	column-count: 2;
-	column-gap: 8*@unit;
-}
-#grasshopper .projectMeta{
-	max-width: 600px;
+	filter: @softShadow;
 }
 
-/* Timeline Controls
+/* Nav 8+3 = 11
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.metaTop{
+nav{
+	margin-top: 8vh;
+}
+nav ul{
+	margin-left: 5%;
 	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-}
-.timeline{
-	width: 200px;
-}
-.timeline .labels{
-	position: relative;
-	height: 22px;
-}
-.timeline .labels li{
-	color: @dark;
-	margin-top: -6px;
-	text-align: center;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	opacity: 0;
-}
-.timeline .axis{
-	width: 100%;
-	height: 2px;
-	border-bottom: 2px dotted lighten(@light, 20%);
-}
-.timeline .dots{
-	position:relative;
-	width:100%;
-	height: 6px;
-	margin-top: -4px;
-}
-.timeline .dots li{
-	position: absolute;
-	display:inline-block;
-	height: 6px;
-	background-color: @dark;
-	border-radius: 6px;
-}
-.timeline .dots li img{opacity: 0;}
-.timeline .dots li:hover{
-	background-color: white;
-	cursor: pointer;
-	border: @borderDark;
-	margin-top: -2px;
-	margin-left: -2px;
+	flex-direction: row;
 }
 
-.timeline .time{
-	margin-top: 4px;
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
+nav h3{
+	margin-right: 2*@unit;
+	height: 3vh;
 }
 
-// Grasshopper
-.dots .ideExplore{left: 4%;}
-.dots .lpExplore{left: 21%;}
-.dots .websiteV1{left: 30%;}
-.dots .visualPolish{left: 80%;}
-.dots .finalPrototype{left: 93%;}
-
-// Good Web Design
-.dots .v1Design{left: 8px;}
-.dots .v1Implementation{left: 62px;}
-.dots .v2Design{left: 186px;}
-
-// Hemingly
-.dots .chapterPublishing{left: 8px;}
-.dots .authorMarketing{left: 72px;}
-.dots .discoverTurk{left: 80px;}
-.dots .slackOutsource{left: 110px;}
-.dots .spreadsheetApp{left: 140px;}
-.dots .realApp{left: 186px;}
-
-// How Fresh
-.dots .v1Design{left: 8px;}
-.dots .v2Design{left: 186px;}
-
-// Writing
-.dots .article1{left: 8px;}
-.dots .article2{left: 58px;}
-.dots .article3{left: 98px;}
-.dots .article4{left: 148px;}
-.dots .article5{left: 188px;}
-
-
-/* Image Controls
+/* Header 12+34+12+3 = 61
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-// General
-.projectPreview{
-	position: relative;
-	overflow: hidden; 
-	// border-radius: @unit;
+header{
+	margin-top: 12vh;
+	margin-bottom: 12vh;
 }
-.projectPreviewWrapper{position: relative;}
-#hy10, #gh10, #gh20, #gh30, #gwd10, #gwd20, #hf10{position: absolute; filter: @softShadow;}
+header h1{
+	font-size: 4.2rem;
+	height: 34vh;
+	max-width: 86%;
+}
+header h3{
+	height: 3vh;
+	margin-top: 12vh;
+}
 
-// Grasshopper
+header .dotGrid {
+    position: absolute;
+    right: 4*@unit;
+    top:8vh;
+    height: 64vh;
+    width: 64vh;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 1px, transparent 1px, transparent 100%);
+    background-size: 1.5*@unit 1.5*@unit;
+    z-index: -1;
+}
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+main .projectMeta{
+	margin-top: 4*@unit;
+	padding-bottom: 8*@unit;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+main .projectMeta p{
+	max-width: 64*@unit;
+}
+
+main .projectPreview{
+	padding-top: 8*@unit;
+}
+
+main h3{
+	color: @medium;
+}
+
+main h1{
+	margin-bottom: 0.5*@unit;
+}
+
+main .projectPreview{
+
+}
+// grasshopper ------------------
+#grasshopper{
+	background-color: #EEF1F1;
+}
 #grasshopper .projectPreview{
-	height: 38vw;
-	max-height: 600px;	
-	background: @ghGradientColor2; 
-	background: -webkit-linear-gradient(left top, @ghGradientColor1, @ghGradientColor2); 
-	background: -moz-linear-gradient(bottom right, @ghGradientColor1, @ghGradientColor2); 
-	background: linear-gradient(to bottom right, @ghGradientColor1, @ghGradientColor2); 
-}
-#grasshopper .projectPreview img, #grasshopper .projectPreview video{
-}
-#gh10{
-	animation: fadeiNtLong 0.8s;
-	-webkit-animation: fadeiNtLong 0.8s; 
-	width: 25%;
-	left: 6%;
-	top: 25%;
-}
-#gh20{
-	animation: fadeiNt 0.8s;
-	-webkit-animation: fadeiNt 0.8s; 
-	width: 25%;
-	left: 36.5%;
-	top: 5%;
-}
-#gh30{
-	animation: fadeiNtShort 0.8s;
-	-webkit-animation: fadeiNtShort 0.8s; 
-	width: 25%;
-	left: 68%;
-	top: -15%;
-}
-#gh30vid{
-	animation: fadeiNtShort 0.8s;
-	-webkit-animation: fadeiNtShort 0.8s; 
-	position: absolute;
-	width: 22.3%;
-	left: 69.2%;
-	top: -4.1%;
-}
-#grasshopper .projectPreviewWrapper:hover #gh10{top:22%}
-#grasshopper .projectPreviewWrapper:hover #gh20{top:3%}
-#grasshopper .projectPreviewWrapper:hover #gh30{top:-16%}
-#grasshopper .projectPreviewWrapper:hover #gh30vid{top:-5.1%}
-// Good Web Design
-#goodwebdesign .projectPreview{
-	height: 50vw;
-	max-height: 680px;
-	background: @gwdGradientColor2; 
-	background: -webkit-linear-gradient(left top, @gwdGradientColor1, @gwdGradientColor2); 
-	background: -moz-linear-gradient(bottom right, @gwdGradientColor1, @gwdGradientColor2); 
-	background: linear-gradient(to bottom right, @gwdGradientColor1, @gwdGradientColor2); 
-}
-#gwd10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	width: 54%;
-	left: 14%;
-	bottom: -26%;
-}
-#gwd20{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	width:171%;
-	left: 35%;
-	bottom:-5%;
-	max-width:171%;
-}
-
-// Howfresh
-#howfresh .projectPreview{
-	height: 50vw;
-	max-height: 680px;
-	background: @hfGradientColor1; 
-	background: -webkit-linear-gradient(left top, @hfGradientColor1, @hfGradientColor2); 
-	background: -moz-linear-gradient(bottom right, @hfGradientColor1, @hfGradientColor2); 
-	background: linear-gradient(to bottom right, @hfGradientColor1, @hfGradientColor2); 
-}
-#hf10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	width: 76%;
-	left: 12%;
-	bottom: 11%;
-	filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.10));
-}
-
-
-// Hemingly
-#hemingly .projectPreview{
-	height: 40vw;
-	max-height: 560px;
-	background: @hyGradientColor2; 
-	background: -webkit-linear-gradient(left top, @hyGradientColor1, @hyGradientColor2); 
-	background: -moz-linear-gradient(bottom right, @hyGradientColor1, @hyGradientColor2); 
-	background: linear-gradient(to bottom right, @hyGradientColor1, @hyGradientColor2); 
-}
-#hy10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	width: 84%;
-	left: 17%;
-	bottom: 11%;
-}
-
-// Writing
-#writing .projectPreview{
-	height: 40vw;
-	max-height: 560px;
-	background: @wtGradientColor2; 
-	background: -webkit-linear-gradient(left top, @wtGradientColor1, @wtGradientColor2); 
-	background: -moz-linear-gradient(bottom right, @wtGradientColor1, @wtGradientColor2); 
-	background: linear-gradient(to bottom right, @wtGradientColor1, @wtGradientColor2); 
-}
-#wt10{
-	-webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	position: absolute;
-	width: 90%;
-	left: 5%;
-	bottom: 11%;
-}
-
-// hover
-
-#goodwebdesign .projectPreview:hover #gwd10{
-	left: 13%;
-	bottom: -25%;
-}
-#goodwebdesign .projectPreview:hover #gwd20{
-	left: 34%;
-	bottom:-4%;
-}
-#howfresh .projectPreview:hover #hf10{
-	width: 78%;
-	left: 11%;
-	bottom: 10%;
-}
-#hemingly .projectPreview:hover #hy10{
-	width: 85%;
-	left: 16%;
-	bottom: 10%;
-}
-#writing .projectPreview:hover #wt10{
-	width: 92%;
-	left: 4%;
-	bottom: 10%;
-}
-
-/* Tiny projects
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.tinyProjects {
-	margin-top: 5*@unit;
-}
-.tinyProjects article{
-	display: flex;
-	flex-direction:row;
-	border-top:@borderVVLight;
-	padding-top: 3*@unit;
-	padding-bottom: 3.5*@unit;
-}
-
-.tinyProjects article .titleBox{
-	width: 28%;
-	margin-right: 2%;
-}
-.tinyProjects article .timeline{
-	width: 20%;
-	margin-right: 2%;
-}
-.tinyProjects article .description{
-	width: 48%;
-	display: flex;
-	align-items:center;
-}
-#work .tinyProjects article p{
-	margin-bottom: 0;
-}
-
-
-/* Footer
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer.container{
-	border-top: @borderVVLight;
-	margin-top: 5*@unit;
-	padding-top: 5*@unit;
-	padding-bottom: 5*@unit;
-}
-
-/* About
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#about header{margin-bottom: 5*@unit;}
-#about .yitongPics.container{overflow:visible;}
-#about main{margin-top: 5*@unit;}
-#about main p{
-	max-width: 80*@unit; 
-	line-height: 1.6;
-	color: @medium;
-}
-#about main li{
-	max-width: 80*@unit; 
-	line-height: 1;
-	color: @medium;
-	font-size:1.6rem;
-	margin-bottom: 2*@unit;
-}
-
-#about main p a{color: @medium; border-bottom: @borderLight; padding-bottom: 0.125*@unit;}
-#about main p a:hover{color: @dark; border-bottom: @borderDark; padding-bottom: 0.125*@unit;}
-#about .titleGroup{margin-bottom: 3*@unit;}
-#about .titleGroup h1{margin-bottom: 0.5*@unit;}
-#about .skillzWrapper li h2{font-size:1.6rem; color: @dark;}
-#about section{margin-bottom: 10*@unit;}
-
-#about .yitongPics{
 	position: relative;
-	height: 440px;
-}
-
-#about .yitongPics img{
-	position: absolute;
-	filter:@softShadow;
-}
-
-
-#about .yitongPics #about1{
-	width:40%;
-	left: 0%;
-	bottom:20%;
-	animation: fadeiNb 0.8s;
-	-webkit-animation: fadeiNb 0.8s; 
-}
-#about .yitongPics #about2{
-	width:51%;
-	left:35%;
-	top:0%;
-	animation: fadeiNt 0.8s;
-	-webkit-animation: fadeiNt 0.8s; 
-}
-#about .yitongPics #about3{
-	width:26%;
-	left:74%;
-	bottom:0%;
-	animation: fadeiNb 0.8s;
-	-webkit-animation: fadeiNb 0.8s; 
-}
-
-#about .skillzWrapper{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-#about .skillz > h3{
-	margin-bottom: 2*@unit;
-	padding-bottom: @unit;
-	border-bottom: 1px solid lighten(@light,40%);
-
+#grasshopper .projectPreview video{
+	position: absolute;
+	right: 14.5px;
+	top: 115px;
+	width: 220px;
 }
 
-#about .codeSkillz, .designSkillz, .salesSkillz{
-	max-width: 38*@unit;
+
+
+// skybound ------------------
+#skybound{
+	background-color: #E8EBED;
 }
 
-#about .codeSkillz, .designSkillz{
-	margin-right: 4*@unit;
+#skybound .projectPreview{
+	display: flex;
+	flex direction: row;
+	align-items: center;
+}
+#sb10{
+	z-index: 1000;
+	max-height: 400px;
+	position: absolute;
+	right: 5%;
 }
 
-/* Responsive
+// goodwebdesign ------------------
+#goodwebdesign{
+	background-color: #E1E6E8;
+}
+
+#goodwebdesign .projectPreview{
+	display: flex;
+	flex direction: row;
+	align-items: center;
+}
+#gwd10{
+	max-height: 400px;
+	position: absolute;
+	right: 5%;
+}
+#gwd20{
+	z-index: 100;
+}
+
+
+// hemingly ------------------
+#hemingly{
+	background-color: #DAE0E3;
+}
+
+#hemingly .projectPreview{
+	display: flex;
+	flex direction: row;
+	align-items: center;
+}
+#hy10{
+	z-index: 1000;
+	max-height: 400px;
+	position: absolute;
+	right: 5%;
+}
+
+/* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media (max-width: 1120px){
-	.projectPreviewWrapper{overflow: hidden}
-	.timeline{width: 130px;}
-	#gh10{width: 25%;left: 6%;top: 25%;}
-	#gh20{width: 25%;left: 36.5%;top: 15%;}
-	#gh30{width: 25%;left: 68%;top: 5%;}
-	#gh30vid{width: 22.3%left: 69.3%;top: 16.1%;}
-	#about .yitongPics{height: 300px;}
-}
-@media (max-width: 940px){
-	.smallProjects{column-count: 1;}
-	h1{font-size:@largeFontMobile;}
-	.container{width: 90%; overflow-x: hidden;}
-	nav ul{width: 90%;}
-	.timeline{width: 120px;}
-	.time h3{display: none;}
+footer{
+	padding: 5*@unit 0;
+	background-color: #394045;
 
-	.timeline .labels li h3{font-size: 1.2rem;}
-	.timeline .labels{height:16px;margin-top: 10px;}
-
-	#grasshopper .projectPreview{height: 50*@unit;}
-	#goodwebdesign .projectPreview{height: 50*@unit;} 
-	#howfresh .projectPreview{height: 50*@unit;}
-	#writing .projectPreview{height: 45*@unit;}
-	#hemingly .projectPreview{height: 45*@unit;}
-	
-	#gwd10{bottom: auto; top: 35%;}
-	#gwd20{bottom: auto; top: 15%;}
-	#hy10{bottom: auto; top: 11%;}
-	#hf10{bottom: auto; top: 10%; left: auto; right: 0;}
-	#wt10{top: 10%;}
-	
-	#gh30vid{display: none}
-	#about .yitongPics{height: 32*@unit;}
-	#about .skillzWrapper{flex-direction: column;}
-	#about .codeSkillz, .salesSkillz > h2{margin-top: 2*@unit;}
 }
-@media (max-width: 620px){
-	header.container{
-		margin-top:18*@unit;
-		margin-bottom:10*@unit;
-	}	
-	#gh10{width: 38%;left: 8%;top: 25%;}
-	#gh20{width: 38%;left: 54%;top: 10%;}
-	#gh30{display: none}
-	#hf10{bottom: auto; top: 10%; left: 12%; right: auto;}
-
-	#about .yitongPics{height: 45*@unit;}
-	#about .yitongPics #about1{
-		width:60%;
-		left: auto;
-		right: 0%;
-		top:0%;
-	}
-	#about .yitongPics #about2{
-		width:80%;
-		left:0%;
-		top:20%;
-	}
-	#about .yitongPics #about3{
-		width:40%;
-		left:53%;
-		bottom:0%;
-	}
+footer p, footer a{
+	color: #BDC9D2;
+	font-size: 1.6rem;
 }
+
+footer a:visited{
+	color: #BDC9D2;
+}
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
