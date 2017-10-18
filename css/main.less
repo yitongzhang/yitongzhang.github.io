@@ -48,7 +48,7 @@ p {font-size:1.6rem;color: @medium; line-height: 1.8; margin-bottom: 2*@unit; fo
 
 /* Transitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body, a, h3{
+body, a, h3, .shift{
 	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 }
@@ -60,6 +60,7 @@ body, a, h3{
 	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 #about .container{
 	padding-left: 0%;
@@ -72,6 +73,26 @@ img, video{
 img{
 	filter: @softShadow;
 }
+
+.shift{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#index header a:hover, #index main a:hover{
+	color: @dark;
+}
+
+header a:visited, main a:visited,header a:active, main a:active,header a, main a{
+	color: @medium;
+}
+#index header a:hover .shift.down, #index main a:hover .shift.down{
+	top: 4px;
+}
+#index header a:hover .shift.right, #index main a:hover .shift.right{
+	left: 4px;
+}
+
 /* Nav 8+3 = 11
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav{
@@ -140,9 +161,6 @@ header .dotGrid {
     z-index: -1;
 }
 
-header a:visited, main a:visited{
-	color: @medium;
-}
 
 /* Main
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
