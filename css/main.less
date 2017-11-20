@@ -5,7 +5,7 @@
 @dark:#212121;
 @medium: #535353;
 @light:#747474;
-@vlight:#FCFCFC;
+@vlight:#FCFEFF;
 
 @hardShadow: 0px 1px 2px rgba(0,0,0,0.1);
 @softShadow: drop-shadow(5px 5px 20px rgba(0,0,0,0.20));
@@ -35,7 +35,7 @@ a {font-size:1.6rem; text-decoration: none; border-bottom: @borderNone;}
 
 h1, h2, h3, h4, h5, h6 {font-weight: 400;}
 
-h1 { font-size:3.6rem; color: @dark; line-height: 1.4; font-weight: 400;}
+h1 { font-size:3.4rem; color: @dark; line-height: 1.4; font-weight: 400;}
 h2 { font-size:2.2rem; color: @dark; }
 h3 { font-size:1.4rem;color: @dark; font-weight: 500; font-family: 'freight-sans-pro';text-transform: uppercase; letter-spacing: 0.5px;}
 
@@ -142,7 +142,7 @@ header .hero{
 	align-items:center;
 }
 header h1{
-	font-size: 4.2rem;
+	font-size: 3.4rem;
 	max-width: 84%;
 }
 header h3{
@@ -198,7 +198,7 @@ main .container{
 
 // grasshopper ------------------
 #grasshopper{
-	background-color: #EEF1F1;
+	background-color: #F5F7F7;
 }
 #grasshopper .projectPreview{
 	position: relative;
@@ -217,8 +217,8 @@ main .container{
 
 // skybound ------------------
 #skybound{
-	background-color: #E8EBED;
-}
+	background-color: #EEF1F1;
+} 
 
 #skybound .projectPreview{
 	display: flex;
@@ -234,7 +234,7 @@ main .container{
 
 // goodwebdesign ------------------
 #goodwebdesign{
-	background-color: #E1E6E8;
+	background-color: #E9EEF0;
 }
 
 #goodwebdesign .projectPreview{
@@ -254,7 +254,7 @@ main .container{
 
 // hemingly ------------------
 #hemingly{
-	background-color: #DAE0E3;
+	background-color: #E1E6E8;
 }
 
 #hemingly .projectPreview{
@@ -450,12 +450,21 @@ footer h3{
 
 
 @media(max-width: 650px){
-	h1 {font-size:2.2rem;}
+	h1 {font-size:2.1rem;}
+	header{
+		margin-top:20vh;
+		margin-bottom:20vh;
+	}
 	header h1{
-		font-size: 2.2rem;
+		font-size: 2.1rem;
 		max-width: 100%;
 	}
+	header h3{margin-top: 20vh;}
 	img, video{max-height: 180px;}
+	header .dotGrid {
+	    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 0.75px, transparent 0.75px, transparent 100%);
+	    background-size: 1.5*@unit 1.5*@unit;
+	}
 	#grasshopper .projectPreview video{
 		right: 5px;
 		top: 82px;
