@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yitong - Grasshopper</title>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet/less" type="text/css" href="css/main.less" />
+	<link rel="stylesheet/less" type="text/css" href="css/case.less" />
+	<script src="js/less.min.js"></script>
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js" ></script> -->
+
+	<!-- fonts -->
+	<script src="https://use.typekit.net/okm5hnr.js"></script>
+	<script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-3	2x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/img/favicon/manifest.json">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+	<meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#000">
+
+</head>	
+<body id="grasshopperCase"> 
+	<!-- https://www.maxlaumeister.com/code/clientside-html-password/ -->
+	<nav>
+		<div class="container">
+			<ul>
+					<li id="caseNavLi"><a href="case-grasshopper.html"><h3 id="caseNav">Grasshopper</h3></a></li>
+					<li id="workNavLi"><a href="#work"><h3 id="workNav">Work</h3></a></li>
+					<li id="aboutNavLi"><a href="about.html"><h3 id="aboutNav">About</h3></a></li>
+					<li><a href="mailto:zha.yitong@gmail.com"><h3 id="emailNav">Email</h3></a></li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<div class="container">
+			<div class="hero">
+				<div class="heroTop">
+					<h1>Grasshopper brings coding out of schools and into the hands of everyday people through a mobile code learning app.</h1>
+				</div>
+				<div class="heroBottom">
+					<div>
+						<h3>Date</h3>
+						<div class="mono">Oct 2016–Now</div>
+						<h3>Team</h3>
+						<div class="mono">Creative Direction: Rob Young</div>
+						<div class="mono">Brading: Fuzzco</div>
+					</div>
+					<h1>I worked the team for more than a year to design a fully-functional IDE and a lesson structure for the practical coding exercises.</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		
+		<section class="container">
+			<div class="titleDivider"><h3>Meta</h3></div>
+			<h2>The Problem</h2>
+			<p>Grasshopper brings coding out of schools and into the hands of everyday people with a mobile code learning app. Though unconventional, a mobile app can reach a far broader audience, especially among the young, under-privileged, and learners in developing countries whose only computing device is often an Android device.</p>
+			<p>For students to learn practical programming skills, Grasshopper needs to work with a real language (<span class="sGroup"><span class="sAnchor">JavaScript</span><span class="sNote">Technically, TypeScript because Google :P</span></span>) inside of a fully functional development environment. We needed an interface that is at once powerful and easy to understand for first time coders — all it integrated into a exercise regime that kept pace with the students' growing comfort with code. In short, our problem broke down to four main challenges:</p>
+			<ol>
+				<li><a href="#s1">Miniaturizing fully-functional code editor</a></li>
+				<li><a href="#s2">Providing easy accesss to terminal, docs and the tool ecosystem</a></li>
+				<li><a href="#s3">Structuring lessons in a way that keeps pace with student learning</a></li>
+				<li><a href="#s4">Onboarding users into a complex new environment</a></li>
+			</ol>
+			<h2>My Roles</h2>
+			<p>I was the sole designer for most of the project, while Fuzzco and Rob provided branding and creative direction support. This means my responsibilities spanned across the board:</p>
+			<ul>
+				<li>Interaction design</li>
+				<li>Visual design</li>
+				<li>Motion design</li>
+				<li><span class="sGroup"><span class="sAnchor">Prototyping</span><span class="sNote">Principle, Framer, After Effects, code—whatever was appropriate for the fidelity we were working at.</span></span></li>
+			</ul>
+			<p>Throughout the project, I managed the day to day relationship with client: leading most of our design reviews and working with engineers to get implementation right.</p>
+			<h2>Outcome</h2>
+			<ul>
+				<li>The project is continuously funded by Area120, with a launch set for Jan 2018</li>
+				<li>10k download on play store while in stealth</li>
+				<li>3 project referrals from happy client</li>
+			</ul>
+		</section>		
+
+		<section class="container" id="s1">
+			<div class="titleDivider"><h3>Design challenge 1</h3></div>
+			<h2>Miniaturizing fully-functional code editor</h2>
+			
+			<h4>Goals and constraints</h4>
+			<p>Our first task was to shrink a basic code editor into a mobile interface. This meant figuring out the basic functionalities of <span class="sGroup"><span class="sAnchor">writing</span><span class="sNote">Thankfully, the people at <a href="https://scratch.mit.edu/">Scratch</a> already invented a great visual programming system that lends itself well to touch interfaces. We just had to adapt it from desktop to mobile.</span></span> , navigating the code base,  moving things around and deleting. I focused my explorations around the following principles:</p>
+			<ul>
+				<li>Allow freedom to write any desired code while also guiding the user towards syntactical correctness</li>
+				<li>Don't break writing and thinking flow with interactions requiring high precision</li>
+			</ul>
+
+			<h4>Early Explorations</h4>
+			<p>Because there had been so little prior work in this space, we knew early on that we needed to quickly mock up a large numbers of variations to figure out the boundaries of our solution space. What you see here are some of the many crazy ideas we started from.</p>
+			<div class="halfWidth">
+				<video src="img/gh/IDEK0.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/IDEK1.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/IDEK2.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/IDEK3.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/IDEK4.mp4" autoplay='autoplay' loop='loop'></video>
+			</div>
+
+			<h4>Final Design</h4>
+
+			<h5>Overview of some input features</h5>
+			<ol>
+				<li>Scratch-style code pills for easy input on mobile and typo guardrails</li>
+				<li>Disabling syntactically inappropriate keys to prevent</li>
+				<li>Emoji-style tabbed <span class="sGroup"><span class="sAnchor">keyboard</span><span class="sNote"><img src="img/gh/keyboTabs.gif" alt="">emoji-style keyboard</span></span> to accommodate large sets of keys</li>
+				<li>Custom syntax highlighting tied to tabbed keyboard for easier memorization</li>
+				<li>Automatic switching to QWERTY when relevant.</li>
+			</ol>
+
+			<h5>Overview of some edit features</h5>
+			<ol>
+				<li>Automatically select a unit of code instead of letter by letter selection reduces need for precision and protects against fragment errors</li>
+				<li>Prominent undo and contextual redo + reset allows safe experimentation</li>
+				<li>Touch target size hacking to make lines more selectable</li>
+			</ol>
+			
+			<span class="sGroup"><span class="sAnchor invisible"><iframe src="https://framer.cloud/PwtpS/index.html" frameborder="0"></iframe></span><span class="sNote low">I built this framer prototype of the first lesson to test the core interactions. Try it yourself! See if you can complete the exercise :)</span></span>
+			
+
+			<h5>Critique</h2>
+			<ul>
+				<li>Still an overwhelming amounts of keys</li>
+				<li>No order within tabs. Hard to blind type</li>
+				<li>Not obvious what will selected next after deleting</li>
+				<li>Generally needs more support for power users in the future</li>
+			</ul>
+		</section>
+
+		<section class="container" id="s2">
+			<div class="titleDivider"><h3>Design Challenge 2</h3></div>
+			<h2>Terminal, docs and the tool ecosystem</h2>
+
+			<h4>Goals and constraints</h4>
+			<p>Programming is more than writing code. Developers work with a whole ecosystem of terminals, references, and resources often spanning multiple screens. We wanted to provide a similar tool belt for our learners.</p>
+			<ul>
+				<li>Debugging and reading docs is part of the process. Switching to these views should feel less like being stuck and more like a step towards the right solution</li>
+				<li>Users will be switching views often. Maintain context and orientation of views so users can find their way back.</li>
+			</ul>
+			<h4>Early Explorations</h4>
+			<p>The first thing we needed to figure out was the relationship between these views. Where are they situated in relation to each other? How much can we overlay the views for easy comparison before it got too busy? Did we want to deal with landscape orientation? Early explorations helped us answer these questions.</p>
+			<div class="halfWidth">
+				<video src="img/gh/output1.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/output2.mp4" autoplay='autoplay' loop='loop'></video>
+				<video class="horizontal" src="img/gh/output3.mp4" autoplay='autoplay' loop='loop'></video>
+				<video src="img/gh/output4.mp4" autoplay='autoplay' loop='loop'></video>
+			</div>
+			<h4>Final Design</h4>
+			<p>All of our final designs are centered around maintaining context and clear directions. For example, the instructions are minimized into a single line prompt so students can always be referencing their goal, even while coding. We also consistently use the bottom for help, debugging and hints while the top is reserved exclusively for terminal/output areas. This helps students form a clear menta map of where views live.</p>
+			<h5>Overview of some output/terminal features</h5>
+			<ol>
+				<li>Takes only half the screen so you can see the relationship between code and output</li>
+				<li>Uses a play button, a concept that is familiar with non-techies</li>
+			</ol>
+			<h5>Overview of some instructions/docs features</h5>
+			<ol>
+				<li>Objective always visible</li>
+				<li>Modal is low friction to bring up so you can quicly tab back and forth</li>
+			</ol>
+
+			<h5>Overview of some debugging features</h5>
+			<ol>
+				<li>Feedback is displayed contextually so you can see what it is referring to.</li>
+				<li>New and repeat icon help visually distinguish important feedback</li>
+			</ol>
+			<div class="halfWidth">
+				<img src="img/gh/views1.png">
+				<img src="img/gh/views2.png">
+				<img src="img/gh/views3.png">
+				<img src="img/gh/views4.png">
+			</div>
+
+			<h5>Critique</h5>
+			<ul>
+				<li>Missed opportunity: <span class="sGroup"><span class="sAnchor">Bret Victor</span><span class="sNote">Had we more time, we could have introduced a more visual way of programming, as outlined in Bret's paper: <a href="http://worrydream.com/LearnableProgramming/">Learnable Programming.</a></span></span> style live data structure visualization</li>
+			</ul>
+
+		</section>
+
+		<section class="container" id="s3">
+			<div class="titleDivider"><h3>Design Challenge 3</h3></div>
+			<h2>Lessons Structure Design</h2>
+			<p>This part of the app is actively being reworked. Check back later for updates. In the meantime, check out some of the designs from our last iteration.</p>
+			<h4>Goals and constraints</h4>
+			<ul>
+				<li>Celebrate success and accomplishments</li>
+				<li>Express brand identity</li>
+				<li>Give students a choice of what they want to do next</li>
+			</ul>
+			<div class="halfWidth">
+				<img src="img/gh/course1.gif">
+				<img src="img/gh/course2.png">
+				<img src="img/gh/course3.png">
+				<img src="img/gh/course4.png">
+			</div>
+
+		</section>
+
+		<section class="container" id="s4">
+			<div class="titleDivider"><h3>Design Challenge 4</h3></div>
+			<h2>In-Lesson Onboarding</h2>
+			<p>This part of the app is actively being reworked. Check back later for updates. In the meantime, check out some of the designs from our last iteration.</p>
+			<h4>Goals and constraints</h4>
+			<ul>
+				<li>Practice is the best way to learn. Teach the UI using the UI.</li>
+				<li>Make sure students who are more advanced can skip</li>
+			</ul>
+			<div class="halfWidth carousel">
+				<img src="img/gh/onboarding1.png">
+				<img src="img/gh/onboarding2.png">
+				<img src="img/gh/onboarding3.png">
+				<img src="img/gh/onboarding4.png">
+				<img src="img/gh/onboarding5.png">
+				<img src="img/gh/onboarding6.png">
+				<img src="img/gh/onboarding7.png">
+				<img src="img/gh/onboarding8.png">
+				<img src="img/gh/onboarding9.png">
+				<img src="img/gh/onboarding10.png">
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="signature">
+				<h3>Yitong Zhang</h3>
+			</div>
+			<div class="footerLinks">
+				<ul>
+					<li><h3>Work</h3></li>
+					<li><h3><a href="https://dribbble.com/yitong" target="_blank">Dribbble</a></h3></li>
+					<li><h3><a href="https://github.com/yitongzhang" target="_blank">GitHub</a></h3></li>
+					<li><h3><a href="https://linkedin.com/in/yitongzhang" target="_blank">LinkedIn</a></h3></li>
+				</ul>
+				
+				<ul>
+					<li><h3>Fun</h3></li>
+					<li><h3><a href="https://www.patreon.com/user?u=2297138" target="_blank">Patreon</a></h3></li>
+					<li><h3><a href="https://www.goodreads.com/user/show/13261666-yitong-zhang" target="_blank">Goodreads</a></h3></li>
+					<li><h3><a href="oldsite/index.html" target="_blank">Old site</a></h3></li>
+				</ul>
+
+				<ul>
+					<li><h3>Contact</h3></li>
+					<li><h3><a href="mailto:zha.yitong@gmail.com" target="_top">zha.yitong@gmail.com</a></h3></li>
+					<li><h3><a href="tel:+4159966298">+1 415 996 6298</a></h3></li>
+					<li><h3><a href="https://www.google.com/maps/place/San+Francisco,+CA+94110/@37.7487282,-122.4325716,14z/data=!3m1!4b1!4m5!3m4!1s0x808f7e41001c148f:0xf8e22a1c5445037a!8m2!3d37.7485824!4d-122.4184108" target="_blank">San Francisco, CA</a></h3></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

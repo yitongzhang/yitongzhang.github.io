@@ -28,36 +28,39 @@ body {
 	line-height: 1.6;
 	font-weight: 300;
 	font-family: @fontStack;
-	background-color: @vlight;
+	background-color: white;
 }
 
 a {font-size:1.6rem; text-decoration: none; border-bottom: @borderNone;}
 
 h1, h2, h3, h4, h5, h6 {font-weight: 400;}
 
-h1 { font-size:3.4rem; color: @dark; line-height: 1.4; font-weight: 400;}
+h1 { font-size:3.2rem; color: @dark; line-height: 1.4; font-weight: 400;}
 h2 { font-size:2.2rem; color: @dark; }
-h3 { font-size:1.4rem;color: @dark; font-weight: 500; font-family: 'freight-sans-pro';text-transform: uppercase; letter-spacing: 0.5px;}
+h3 { font-size:1.1rem;color: @light; font-weight: 500; font-family: 'freight-sans-pro';text-transform: uppercase; letter-spacing: 0.5px;}
 
-p {font-size:1.6rem;color: @medium; line-height: 1.8; margin-bottom: 2*@unit; font-family: @fontStack;}
+p {font-size:1.5rem;color: @medium; line-height: 1.8; margin-bottom: 2*@unit; font-family: @fontStack;}
 
-#index h3 a{font-size: 1.4rem;}
+h3 a{font-size: 1.1rem;}
 
+.mono{
+	font-family: 'fira-mono';
+	font-size: 1.2rem;
+}
 
-
-
-/* Transitions
+/* Transition
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body, a, h3, .shift{
+body, a, h3, .shift, nav ul li::after, .sAnchor,.sNote::before{
 	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
 }
+
 
 /* General
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container{
 	width: 90%;
-	max-width: 1400px;
+	max-width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -70,10 +73,9 @@ body, a, h3, .shift{
 img, video{
 	max-height: 500px;
 }
-img{
+#index img, #about img{
 	filter: @softShadow;
 }
-
 .shift{
 	position: relative;
 	top: 0;
@@ -101,104 +103,136 @@ nav{
 nav ul{
 	display: flex;
 	flex-direction: row;
+	border-bottom: @borderLight;
 }
-
 nav h3{
 	margin-right: 2*@unit;
 	height: 3vh;
 }
+nav li:hover h3{
+	color: @dark !important;
+}
+nav li:hover::after{
+	background-color: @dark !important;
+}
+nav li::after{
+	content:".";
+	color:white;
+	top: 1px;
+	position: relative;
+	display: block;
+	width: 30px;
+	height: 0.5px;
+	background-color: lighten(@light, 40%);
+}
+nav #workNavLi::after{width: 31px;}
+nav #aboutNavLi::after{width: 35px;}
 
-nav a:hover h3{
-	border-bottom: @borderDark;
-	opacity: 1 !important;
+#index nav #workNavLi::after{
+	background-color: @dark;
 }
-
-#index nav h3{
-	opacity: 0.7;
+#index nav #workNavLi h3{
+	color: @dark;
 }
-#index nav #workNav{
-	opacity: 1;
-	border-bottom: @borderDark;
+#about nav #aboutNavLi::after{
+	background-color: @dark;
 }
-#about nav h3{
-	opacity: 0.7;
+#about nav #aboutNavLi h3{
+	color: @dark;
 }
-#about nav #aboutNav{
-	opacity: 1;
-	border-bottom: @borderDark;
-}
-
-
 
 /* Header 12+34+12+3 = 61
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header{
 	margin-top: 12vh;
-	margin-bottom: 12vh;
+	margin-bottom: 18vh;
 }
-header .hero{
-	height: 34vh;
+header .heroTop{
 	display: flex;
-	align-items:center;
+	justify-content:flex-start;
+	flex-direction:row;
 }
-header h1{
-	font-size: 3.4rem;
-	max-width: 84%;
+header .heroTop h1{
+	width: 80%;
 }
-header h3{
-	height: 3vh;
-	margin-top: 12vh;
+header .heroBottom{
+	margin-top: 6*@unit;
+	display: flex;
+	justify-content:space-between;
+	flex-direction:row;
+}
+header .heroBottom h1{
+	width: 66%;
+}
+header .heroBottom h3{
+	margin-top:@unit;
+	margin-bottom: -0.25@unit;
 }
 
-header .dotGrid {
-    position: absolute;
-    right: 4*@unit;
-    top:8vh;
-    height: 64vh;
-    width: 64vh;
-    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 1px, transparent 1px, transparent 100%);
-    background-size: 1.5*@unit 1.5*@unit;
-    z-index: -1;
-}
 
 
 /* Main
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-main .projectMeta{
-	margin-top: 4*@unit;
-	padding-bottom: 8*@unit;
-	display: flex;
-	flex-direction: row;
-	justify-content:space-between;
+main .titleDivider{
+	color: @light;
+	padding-bottom: 0.25*@unit;
+	border-bottom: @borderLight;
+}
+#index main .titleDivider{
+	margin-top: 0;
+	margin-bottom: 8*@unit;
 }
 
+main .projectMeta{
+	margin-top: 6*@unit;
+	padding-bottom: 8*@unit;
+}
+main .metaTop{
+	padding-bottom: 0.5*@unit;
+	border-bottom: @borderLight;
+}
+main .metaTop h3{
+	color: @light;;
+}
+main h1{
+	position: relative;
+	top: -3.75*@unit;
+}
+main .metaBottom{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	margin-top: @unit;
+}
 main .projectMeta p{
 	max-width: 64*@unit;
 }
-
 main .projectPreview{
-	padding-top: 8*@unit;
+	padding-top: @unit;
 }
-
 main h3{
 	color: @medium;
 }
-
 main h1{
 	margin-bottom: 0.5*@unit;
 }
-
 main .mobileCTA{
 	display: none;
 }
-
 main .container{
 	position: relative;
+}
+main article{
+	margin-bottom: 12*@unit;
 }
 
 // grasshopper ------------------
 #grasshopper{
-	background-color: #F5F7F7;
+background: rgb(245,255,245); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(245,255,245,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(245,255,245,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(245,255,245,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fff5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 #grasshopper .projectPreview{
 	position: relative;
@@ -209,7 +243,7 @@ main .container{
 #grasshopper .projectPreview video{
 	position: absolute;
 	right: 14.5px;
-	top: 115px;
+	top: 60px;
 	width: 220px;
 }
 
@@ -217,7 +251,11 @@ main .container{
 
 // skybound ------------------
 #skybound{
-	background-color: #EEF1F1;
+background: rgb(252,251,247); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(252,251,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(252,251,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(252,251,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfbf7', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 } 
 
 #skybound .projectPreview{
@@ -234,12 +272,16 @@ main .container{
 
 // goodwebdesign ------------------
 #goodwebdesign{
-	background-color: #E9EEF0;
+background: rgb(239,247,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(239,247,252,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(239,247,252,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(239,247,252,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 #goodwebdesign .projectPreview{
 	display: flex;
-	flex direction: row;
+	flex-direction: row;
 	align-items: center;
 }
 #gwd10{
@@ -254,7 +296,10 @@ main .container{
 
 // hemingly ------------------
 #hemingly{
-	background-color: #E1E6E8;
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #hemingly .projectPreview{
@@ -272,7 +317,7 @@ main .container{
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer{
-	padding: 5*@unit 0;
+	padding: 5*@unit 2*@unit;
 	background-color: #222222;
 }
 
@@ -289,14 +334,13 @@ footer .footerLinks{
 footer ul:nth-child(1),footer ul:nth-child(2){
 	margin-right: 3*@unit;
 }
-
 footer ul li{
 	display: inline;
 	margin-right: @unit;
 }
 footer a{
 	color: #cccccc;
-	font-size: 1.6rem;
+	letter-spacing: 0.5px;
 	border-bottom: 1px solid #555555;
 }
 footer a:hover{
@@ -309,6 +353,7 @@ footer h3{
 	color: #717171;
 	display: inline;
 }
+
 
 
 
@@ -397,6 +442,29 @@ footer h3{
 
 /* Responsive
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media(min-width: 1500px){
+	h1{
+		font-size: 3.7rem;
+	}
+	header .heroBottom h1{
+		width: 66%;
+	}
+	header .heroTop h1{
+		width: 70%;
+	}
+	main .projectPreview{
+		padding-top: 16*@unit;
+	}
+	main .projectMeta{
+		margin-top:8*@unit;
+		padding-bottom: 16*@unit;
+	}
+	#grasshopper .projectPreview video{
+		top:179px;
+	}
+}
+
+
 @media(max-width: 1220px){
 	footer .container{
 		flex-direction:column;
@@ -450,25 +518,48 @@ footer h3{
 
 
 @media(max-width: 650px){
+	main article{
+		margin-bottom: 4*@unit;
+	}
+	.mono{
+		font-size: 1.1rem;
+	}
 	h1 {font-size:2.1rem;}
+	main h1{top:-16px}
+	h3, #index h3 a {font-size:1rem;}
+	p, a, footer a{font-size: 1.3rem;}
+	p{line-height:1.5;}
 	header{
-		margin-top:20vh;
-		margin-bottom:20vh;
+		margin-top:10vh;
+		margin-bottom:10vh;
+	}
+	header .hero{
+		height: auto;
+	}
+	header .heroBottom{
+		margin-top: 3*@unit;	
+		flex-direction:column-reverse;
+	}
+	header .heroBottom .meMeta{
+		margin-top: 3*@unit;	
+		// display: flex;
+		// flex-direction:row;
+		// justify-content:space-between;
 	}
 	header h1{
 		font-size: 2.1rem;
 		max-width: 100%;
 	}
-	header h3{margin-top: 20vh;}
-	img, video{max-height: 180px;}
-	header .dotGrid {
-	    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 0.75px, transparent 0.75px, transparent 100%);
-	    background-size: 1.5*@unit 1.5*@unit;
+	header .heroTop h1,header .heroBottom h1 {
+		width: 100%;
 	}
+	header h3{margin-top: 20vh;}
+	img, video{max-height: 156px;}
+
 	#grasshopper .projectPreview video{
 		right: 5px;
-		top: 82px;
-		width: 79.8px;
+		top: 25px;
+		width: 68px;
 	}
 	#gh10,#gh20,#gh30{margin-left: -4*@unit;}
 	#sb10{max-height: 140px;}
@@ -483,11 +574,6 @@ footer h3{
 	main .titleBox{margin-bottom: 2*@unit;}
 	main .desktopCTA{display: none;}
 	main .mobileCTA{display: block;}
-	header .dotGrid {
-		height: 64vh;
-		width: 20vh;
-	}
-
 	#about .skillzWrapper{
 		flex-direction: column;
 	}
