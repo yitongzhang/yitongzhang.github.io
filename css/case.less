@@ -90,7 +90,7 @@ main ul li{
 	width: 50%; 
 	max-width: 608px; 
 	margin-bottom: 0.5*@unit;
-	line-height: 1.4;
+	line-height: 1.6;
 	padding-left: 0.75*@unit;
 }
 main ol li{
@@ -100,7 +100,7 @@ main ol li{
 	width: 50%; 
 	max-width: 608px; 
 	margin-bottom: 0.5*@unit;
-	line-height: 1.4;
+	line-height: 1.6;
 	padding-left: 1.5*@unit;
 }
 main ol{
@@ -184,6 +184,8 @@ main section .sNote img{
 	border-bottom:0px solid lighten(@light , 40%)!important;
 	padding-bottom: 0px !important;
 }
+
+
 
 // Images
 // -----------------------------------
@@ -289,3 +291,29 @@ iframe{
 }
 
 
+@media(max-width: 650px){
+	.mono{
+		font-size: 1.1rem;
+	}
+	footer a, h3{
+		font-size: 1rem;
+	}
+	.halfWidth img{
+		max-height:110px;
+	}
+	.sAnchor{
+		background-color:#FAFFFA;
+	}
+	.sNote{
+		display: none;
+	}
+	p, main ol li, main ul li, .halfWidth{
+		width: 100%;
+	}
+	.halfWidth.carousel{
+		width: 90%;
+	}
+	header .heroTop h1{
+		width: 100%;
+	}
+}
