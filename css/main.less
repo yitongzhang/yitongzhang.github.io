@@ -95,6 +95,12 @@ header a:visited, main a:visited,header a:active, main a:active,header a, main a
 	left: 4px;
 }
 
+// margins------
+main, nav, header{
+	margin-left: 2*@unit;
+	margin-right: 2*@unit;
+}
+
 /* Nav 8+3 = 11
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav{
@@ -194,9 +200,10 @@ main .metaTop{
 main .metaTop h3{
 	color: @light;;
 }
-main h1{
+#index main h1{
 	position: relative;
 	top: -3.2*@unit;
+	margin-bottom: 0.5*@unit;
 }
 main .metaBottom{
 	display: flex;
@@ -213,9 +220,6 @@ main .projectPreview{
 main h3{
 	color: @medium;
 }
-main h1{
-	margin-bottom: 0.5*@unit;
-}
 main .mobileCTA{
 	display: none;
 }
@@ -228,11 +232,11 @@ main article{
 
 // grasshopper ------------------
 #grasshopper{
-background: rgb(245,255,245); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(245,255,245,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(245,255,245,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(245,255,245,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fff5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	// background-color: #FAFAFA;
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 #grasshopper .projectPreview{
 	position: relative;
@@ -251,11 +255,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fff5', end
 
 // skybound ------------------
 #skybound{
-background: rgb(252,251,247); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(248,247,242,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(248,247,242,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(248,247,242,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfbf7', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	// background-color: #FAFAFA;
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 } 
 
 #skybound .projectPreview{
@@ -272,11 +276,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfbf7', end
 
 // goodwebdesign ------------------
 #goodwebdesign{
-background: rgb(239,247,249); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(239,247,252,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(239,247,252,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(239,247,252,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	// background-color: #FAFAFA;
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #goodwebdesign .projectPreview{
@@ -295,10 +299,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7f9', end
 
 // Soli ------------------
 #soli{
-background: rgb(228,236,236); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(228,236,236,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(228,236,236,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(228,236,236,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	// background-color: #FAFAFA;
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 
@@ -324,6 +329,7 @@ background: linear-gradient(to bottom, rgba(228,236,236,1) 0%,rgba(255,255,255,1
 
 // hemingly ------------------
 #hemingly{
+	// background-color: #FAFAFA;
 	background: rgb(247,247,247); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -474,7 +480,7 @@ footer h3{
 	h1{
 		font-size: 3.7rem;
 	}
-	main h1{
+	#index main h1{
 		top: -3.2*@unit;
 	}
 	header .heroBottom h1{
@@ -510,7 +516,7 @@ footer h3{
 		flex-direction:row;
 	}
 	h1 {font-size:3.2rem;}
-	main h1{top: -26px}
+	#index main h1{top: -26px}
 	header h1{
 		font-size: 3.2rem;
 		max-width: 90%;
@@ -539,7 +545,7 @@ footer h3{
 
 @media(max-width: 900px){
 	h1 {font-size:2.6rem;}
-	main h1{top: -22px}
+	#index main h1{top: -22px}
 	header h1{
 		font-size: 2.6rem;
 		max-width: 90%;
@@ -568,15 +574,20 @@ footer h3{
 
 
 @media(max-width: 650px){
+	main, nav, header{
+		margin-left: @unit;
+		margin-right: @unit;
+	}
+
 	main article{
-		margin-bottom: 4*@unit;
+		margin-bottom: @unit;
 	}
 	.mono{
 		font-size: 1.1rem;
 	}
 	h1 {font-size:2.1rem;}
 	h2 {font-size:1.6rem; margin-bottom: @unit;}
-	main h1{top:-16px}
+	#index main h1{top:-16px}
 	h3, #index h3 a {font-size:1rem;}
 	p, a, footer a{font-size: 1.3rem;}
 	p{line-height:1.5;}
