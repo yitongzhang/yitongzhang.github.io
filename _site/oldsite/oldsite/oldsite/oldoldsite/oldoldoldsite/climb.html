@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Yitong Zhang</title>
+  <meta name="description" content="Yitong can be reached at zha.yitong@gmail.com">
+  <meta name="author" content="Yitong Zhang">
+
+  <!-- Facebook -->
+  <meta property="og:image" content="http://www.zhayitong.com/img/fb.png" />
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-1.12.1.min.js"></script>
+
+</head>
+
+
+<body>
+<div style="position:fixed; background-color: #DDD; z-index: 1000; width: 100%; text-align: center;">This is an old version of my site, shown mostly for fun. See the current version <a href="http://www.zhayitong.com">here</a>.</div>
+<h1>How much did you climb today?</h1>
+
+<form method="POST" action="//api.cloudstitch.com/yitong/submit-climbing-workout/datasources/sheet" class="magic-form">
+  <div class="form-group">
+    <label><b>date </b></label>
+    <input type="date" name="date" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>v0</b></label>
+    <input type="number" name="v0" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>v1</b></label>
+    <input type="number" name="v1" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>v2</b></label>
+    <input type="number" name="v2" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>v3</b></label>
+    <input type="number" name="v3" class="form-control">
+  </div>
+  <div class="form-group">
+    <label><b>v4</b></label>
+    <input type="number" name="v4" class="form-control">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="form-btn">Regular Submit</button>
+  </div>
+</form>
+
+</body>
+</html>

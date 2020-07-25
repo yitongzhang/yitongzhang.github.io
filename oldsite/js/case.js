@@ -1,13 +1,6 @@
-$( document ).ready(function() {
-	var width = $(window).width()
-	var	margin = 5-0.191*width;
+// Presentation vs read yourself
+// -----------------------------------
 
-    $(".alternate").prepend("<hr class='noteLine'>");
+// Smooth scroll to section
+// -----------------------------------
 
-});
-
-
-$( window ).resize(function() {
-	var width = $(window).width()
-	var	margin = 5-0.191*width;
-});

@@ -1,0 +1,320 @@
+// Core styles
+// -----------------------------------
+
+@unit: 8px;
+
+@dark:#212121;
+@medium: #535353;
+@light:#747474;
+@vlight:#FCFEFF;
+
+@ghColor:#00D235;
+
+@hardShadow: 0px 1px 2px rgba(0,0,0,0.1);
+@softShadow: drop-shadow(5px 5px 20px rgba(0,0,0,0.20));
+
+@borderNone: 1px solid rgba(0,0,0,0.0);
+@borderLight: 1px solid lighten(@light, 40%);
+@borderMedium: 1px solid @light;
+@borderDark: 1px solid @dark;
+
+@fontStack: 'freight-text-pro', serif;
+
+
+// Core Typography
+// -----------------------------------
+html {
+	font-size: 62.5%; 
+}
+body {
+	font-size: 1.4em;
+	line-height: 1.6;
+	font-weight: 300;
+	font-family: @fontStack;
+	background-color: white;
+}
+
+a {font-size:1.6rem; text-decoration: none; border-bottom: @borderNone;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: 400;}
+
+h1 { font-size:3.7rem; color: @dark; line-height: 1.4; font-weight: 400;}
+h2 { font-size:2.2rem; color: @dark; margin-bottom: 2*@unit; margin-top: 2*@unit; font-weight:600;}
+h3 { font-size:1.1rem; color: @light; font-weight: 500; font-family: 'freight-sans-pro';text-transform: uppercase; letter-spacing: 0.5px;}
+h4 { font-size:1.6rem; font-weight: 600; letter-spacing: 0.5px; margin-bottom: @unit;margin-top: @unit;}
+h5 { font-size:1.4rem; color: @dark; font-weight: 600; letter-spacing: 0.5px;margin-bottom: 0.5*@unit;}
+
+p {font-size:1.6rem;color: @medium; line-height: 1.8; font-family: @fontStack;}
+p {width: 50%; max-width: 608px; margin-bottom: 2*@unit;}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, ul:hover {cursor: default;}
+
+
+.mono{
+	font-family: 'fira-mono';
+	font-size: 1.2rem;
+}
+
+// Core layout
+// -----------------------------------
+nav ul{
+	justify-content:flex-end;
+	position: relative;
+}
+nav ul li:first-child{
+	position: absolute;
+	left: 0;
+}
+nav #caseNavLi::after{
+	background-color: @dark;
+	width: 74px
+}
+nav #caseNavLi h3{
+	color: @dark;
+}
+header .heroTop{
+	display: flex;
+	justify-content:space-between;
+	flex-direction:row;
+}
+header .heroTop h1{
+	width: 60%;
+}
+main{
+	margin-bottom: 8*@unit;
+}
+main ul li{
+	list-style: square;
+	font-size:1.5rem; 
+	color: @medium; 
+	width: 50%; 
+	max-width: 608px; 
+	margin-bottom: 0.5*@unit;
+	line-height: 1.6;
+	padding-left: 0.75*@unit;
+}
+main ol li{
+	list-style: decimal;
+	font-size:1.5rem; 
+	color: @medium; 
+	width: 50%; 
+	max-width: 608px; 
+	margin-bottom: 0.5*@unit;
+	line-height: 1.6;
+	padding-left: 1.5*@unit;
+}
+main ol{
+	margin-left: 2.5*@unit;
+	margin-bottom: 3*@unit;
+}
+main ul{
+	margin-left: 3*@unit;
+	margin-bottom: 3*@unit;
+}
+main .titleDivider{
+	margin-top: 6*@unit;
+	margin-bottom: 4*@unit;
+}
+
+/* Transitions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body, a, h3, .shift, nav ul li::after, .sAnchor,.sNote::before{
+	-webkit-transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, bottom 0.2s, right 0.2s, opacity 0.2s, background 0.2s, color 0.2s, display 0.2s, border-bottom 0.2s, padding-top 0.2s, padding-bottom 0.2s,margin-top 0.2s,margin-bottom 0.2s;
+}
+
+
+// Side notes
+// -----------------------------------
+
+// Side Note 
+// ------------
+.sAnchor{
+	background-color: lighten(@ghColor, 50%) 
+}
+.sAnchor.invisible{
+	background-color: #FAFFFA;
+}
+.sAnchor:hover{
+	background-color: lighten(@ghColor, 20%) 
+}
+.sAnchor.invisible:hover{
+	background-color: #FAFFFA;
+}
+// p width: 50%; space width: 20%;
+.sNote{
+	font-size: 1.2rem;
+	font-family: 'fira-mono';
+	position: absolute;
+	width: 30%;
+	max-width: 320px;
+	margin-top: 2.75*@unit;
+	right: 0;
+}
+.sNote.low{
+	margin-top: 16*@unit;
+}
+.sNote::before{
+	display: block;
+	position: relative;
+	content: '';
+	left: 0%;
+	width: 10%;
+	height: 1px;
+	top: -@unit;
+	background-color: @ghColor;
+	opacity: 1;
+}
+.sGroup:hover .sNote::before{
+	left: -70%;
+	width: 80%;
+	opacity: 1;
+}
+main section .sNote img{
+	max-width: 100%;
+	margin-bottom: 0;
+}
+.sGroup a{
+	font-size:1.2rem;
+	border-bottom:1px solid lighten(@light , 40%)!important;
+	padding-bottom: 0px !important;
+}
+.sGroup .noUnderline a{
+	font-size:1.2rem;
+	border-bottom:0px solid lighten(@light , 40%)!important;
+	padding-bottom: 0px !important;
+}
+
+
+
+// Images
+// -----------------------------------
+
+// In paragraph
+// ------------
+main section img{
+	max-width: 60%; margin-bottom: 2*@unit;
+}
+
+// Full-bleed
+// ------------
+.fullWidth{
+	background-color: #F2FCF3;
+	width:100%;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	margin-bottom: 3*@unit;
+}
+.halfWidth{
+	background: #F2FCF3;
+// background: rgb(210,255,221); /* Old browsers */
+// background: -moz-linear-gradient(top, rgba(210,255,221,1) 0%, rgba(210,255,221,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(top, rgba(210,255,221,1) 0%,rgba(210,255,221,1) 75%,rgba(255,255,255,1) 75%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(to bottom, rgba(210,255,221,1) 0%,rgba(210,255,221,1) 75%,rgba(255,255,255,1) 75%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	width:100vw;
+	position: relative;
+	left: -5%;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	margin-bottom: 3*@unit;
+	overflow-x: scroll;
+}
+.halfWidth.final{
+	background: black;
+	padding-top: 24px;
+	padding-bottom: 24px;
+// background: -moz-linear-gradient(top, rgba(0,25,38,1) 0%, rgba(0,25,38,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(top, rgba(0,25,38,1) 0%,rgba(20,25,38,1) 75%,rgba(255,255,255,1) 75%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(to bottom, rgba(0,25,38,1) 0%,rgba(20,25,38,1) 75%,rgba(255,255,255,1) 75%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.halfWidth video, .fullWidth video{
+	width: 16%;
+	max-height: 280px;
+}
+
+.halfWidth .horizontal{
+	width: 28%;
+}
+
+.halfWidth.final .phoneBox{
+	width: 18%;
+	position: relative;
+}
+.halfWidth img{
+	max-height:270px;
+	margin-top: 4*@unit;
+	margin-bottom: 4*@unit;
+}
+
+iframe{
+	width:40%;
+	max-width: 536px;
+	height: 70vh;
+	margin-bottom: 3*@unit;
+	background-color: #F2FCF3 !important;
+}	
+
+// Image grid
+// ------------
+
+
+// Carousel
+// ------------
+.carousel img{
+	margin-right: 4*@unit;
+}
+.carousel {
+	justify-content: flex-start;
+	padding-left: 4*@unit;
+}
+
+// Progress bar
+// -----------------------------------
+
+
+// Case colors
+// -----------------------------------
+#grasshopperCase{
+	background-color:#FAFFFA;
+}
+#grasshopperCase .mono, #grasshopperCase h4, #grasshopperCase header{
+	color: darken(@ghColor, 5%);
+}
+#grasshopperCase main a{
+	border-bottom:1px solid lighten(@light , 40%);
+	padding-bottom: 2px;
+}
+#grasshopperCase main a:hover{
+	color: @ghColor;
+}
+
+
+@media(max-width: 650px){
+	.mono{
+		font-size: 1.1rem;
+	}
+	footer a, h3{
+		font-size: 1rem;
+	}
+	.halfWidth img{
+		max-height:110px;
+	}
+	.sAnchor{
+		background-color:#FAFFFA;
+	}
+	.sNote{
+		display: none;
+	}
+	p, main ol li, main ul li, .halfWidth{
+		width: 100%;
+	}
+	.halfWidth.carousel{
+		width: 90%;
+	}
+	header .heroTop h1{
+		width: 100%;
+	}
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-24T22:55:22-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yitong Zhang</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Rebuilding my site in the open pt.1</title><link href="http://localhost:4000/2020/07/24/newblog1.html" rel="alternate" type="text/html" title="Rebuilding my site in the open pt.1" /><published>2020-07-24T22:43:44-07:00</published><updated>2020-07-24T22:43:44-07:00</updated><id>http://localhost:4000/2020/07/24/newblog1</id><content type="html" xml:base="http://localhost:4000/2020/07/24/newblog1.html">&lt;p&gt;I haven’t update my personal website since… late 2017 – probably the longest period ever between two redesigns. It’s held up fairly well over the last 4 years, but it’s time for the next chapter. There motivators for this latest effort. First, I’m writing more so I’d like a blog-first design, something that can be a permanent home for my thoughts on the internet for decades to come. Second, I’m itching to write more code lately, and Jekyll is a pretty low friction way of getting back into. Lastly, I’ve been toying around with the idea of building a Notion-driven Jekyll competitor, so I figured that before embarking on that, I’d make at least a serious attempt at building something on Jekyll to see where it performs well and where it falls short.&lt;/p&gt;
+
+&lt;p&gt;Something else that I’d like to experiment with is designing this site directly in code. I’ve done this on some smaller projects before, but never tried it on anything of this level, so it should be fun. I have a general idea of where I’d like to go with the design, but am planning on figuring most of it out as I go. As a result, I expect this site to be pretty janky while it is under construction.&lt;/p&gt;
+
+&lt;p&gt;Matter of fact, I’m going to figure out how to publish the current version, which runs the default &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt; theme, as soon as I finish this post&lt;/p&gt;</content><author><name></name></author><summary type="html">I haven’t update my personal website since… late 2017 – probably the longest period ever between two redesigns. It’s held up fairly well over the last 4 years, but it’s time for the next chapter. There motivators for this latest effort. First, I’m writing more so I’d like a blog-first design, something that can be a permanent home for my thoughts on the internet for decades to come. Second, I’m itching to write more code lately, and Jekyll is a pretty low friction way of getting back into. Lastly, I’ve been toying around with the idea of building a Notion-driven Jekyll competitor, so I figured that before embarking on that, I’d make at least a serious attempt at building something on Jekyll to see where it performs well and where it falls short.</summary></entry><entry><title type="html">The structure of progress in craft</title><link href="http://localhost:4000/2020/06/03/craft-progress.html" rel="alternate" type="text/html" title="The structure of progress in craft" /><published>2020-06-03T10:58:44-07:00</published><updated>2020-06-03T10:58:44-07:00</updated><id>http://localhost:4000/2020/06/03/craft-progress</id><content type="html" xml:base="http://localhost:4000/2020/06/03/craft-progress.html">&lt;p&gt;There’s a lot of research on the structure of progress in science (Kuhn, Popper, Deutsch, etc.) but what about the progress of professional craft? How do we get better at programming, design, furniture building, cooking, entrepreneurship, etc.&lt;/p&gt;
+
+&lt;p&gt;And by the way, if these fields feel like they are unrelated, you’re right. Cooking is not the same as entrepreneurship. That’s why great cooks are not automatically great restauranteurs. But I’d like to suggest that both fields have a lot of commonality in their epistemology. The process of getting better might be surprisingly similar across all these professions.&lt;/p&gt;
+
+&lt;p&gt;And these professions do advance, some faster than others. Most obvious in programming. The default answer is that the tools are getting better, but that’s not the only thing. Even if it was, we’re still far from understanding how tools get better.&lt;/p&gt;
+
+&lt;p&gt;Just because Figma is better than Illustrator for product design does not automatically make you a better designer. You need process knowledge, understanding of history, a community of practitioners, and much more.&lt;/p&gt;
+
+&lt;p&gt;Really, we don’t even have a reasonable list of inputs into good craft. Here are some questions I’d like to better understand:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the constraining factors on tooling improvement? For example, why did tooling grow far more quickly in programming than product design?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What about the more subjective part of craft? What is beautiful design? What is elegant code? How do our tools internalize and shape subjective practices?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A better understanding of craft would yield great societal dividends. Most people are engaged on a day to day in activities that look more like craft than science.&lt;/p&gt;</content><author><name></name></author><summary type="html">There’s a lot of research on the structure of progress in science (Kuhn, Popper, Deutsch, etc.) but what about the progress of professional craft? How do we get better at programming, design, furniture building, cooking, entrepreneurship, etc.</summary></entry><entry><title type="html">Design tools and design jobs</title><link href="http://localhost:4000/2020/02/25/tools-jobs.html" rel="alternate" type="text/html" title="Design tools and design jobs" /><published>2020-02-25T09:58:44-08:00</published><updated>2020-02-25T09:58:44-08:00</updated><id>http://localhost:4000/2020/02/25/tools-jobs</id><content type="html" xml:base="http://localhost:4000/2020/02/25/tools-jobs.html">&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;Over the last 2 decades, we went from photoshop to sketch to figma, but these are all fundamentally tools for drawing boxes. Where is the Engelbart-esque software for designers? Why has no one implemented any of Bret Victor’s demos? Why is design tooling so stale, and what are the ways forward?&lt;/p&gt;
+
+&lt;p&gt;What drove each major tooling evolution?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Photoshop: 2000 – 2014&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2000: Apple introduces Aqua UI&lt;/li&gt;
+  &lt;li&gt;2008: iOS app store opens&lt;/li&gt;
+  &lt;li&gt;2009: Dribbble launches&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The job of tools: flex your craftsmanship&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sketch: 2014 – 2018&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2013: Apple introduces iOS 7&lt;/li&gt;
+  &lt;li&gt;2014: Google introduces Material Design.&lt;/li&gt;
+  &lt;li&gt;2014: Sketch 3 released&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The job of tools: cheap, accessible way to produce simple UI elements&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sketch to Figma: 2018 – beyond&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2018: Airbnb designers start talking about their internal collaboration tooling&lt;/li&gt;
+  &lt;li&gt;2019: Scaled design teams outside of Google, Facebook, and Airbnb emerge.&lt;/li&gt;
+  &lt;li&gt;The job of tools: enable teams to work together faster and more seamlessly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In short, business needs drive job description, which in turn drive tooling requirements. Each major tooling followed a redefinition of the role of design to respond to a new business context.&lt;/p&gt;
+
+&lt;h2 id=&quot;making-sense-of-the-retro-future&quot;&gt;Making sense of the retro-future&lt;/h2&gt;
+
+&lt;p&gt;So what’s our best guess for the evolution of design tools? Here’s an overview of what people are working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Produce design options faster: since 2016&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem: manually doing visual combinatorics is too slow&lt;/li&gt;
+  &lt;li&gt;Solution: Parametric / declarative design tools&lt;/li&gt;
+  &lt;li&gt;Example: Jon Gold’s declarative design tool demo&lt;/li&gt;
+  &lt;li&gt;Example: Grasshopper, a parametric design tool from architecture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Make it easier to work on complex systems: since 2011&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem: problems are getting more complex. Our brains are not getting faster&lt;/li&gt;
+  &lt;li&gt;Solution: decompose and visualize complex problems&lt;/li&gt;
+  &lt;li&gt;Example: bret victor’s entire body of work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Reduce the distance between creator and creation: since 1996&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem: the longer the feedback loop for each iteration, the slower / worse the outcome&lt;/li&gt;
+  &lt;li&gt;Solution: eliminate steps between idea and code&lt;/li&gt;
+  &lt;li&gt;Example: Airbnb’s wireframe to react demo&lt;/li&gt;
+  &lt;li&gt;Example: Webflow aka wysiwyg HTML + CSS editor&lt;/li&gt;
+  &lt;li&gt;Example: literally a dozendemoofdrawingto vector design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are definitely real problems that designers experience,  but why haven’t we seen any runaway successes? One answer is that they don’t map to the high value parts of a designer’s job description. Gasp! Is the implication that improving designers’ ability to produce a lot of great design solutions to complex problems… is actually not super valuable?&lt;/p&gt;
+
+&lt;h2 id=&quot;professional-angst&quot;&gt;Professional angst&lt;/h2&gt;
+
+&lt;p&gt;How can you argue that when that’s literally what designers spend most of their day doing? I think the answer is that our existing tooling is sufficiently good at helping us solve the problems we are asked to solve at the speed we are asked to solve them. How come?&lt;/p&gt;
+
+&lt;p&gt;First, the problems are becoming more obvious. Complexity has decreased, not increased as the greenfield ideas of this technological eras get picked clean and more and more startups win less from innovating, and more from operating.&lt;/p&gt;
+
+&lt;p&gt;Second, our hardware devices have settled into a steady state, and so have the affordances, and in turn the interaction patterns. There is nothing more for screen-based interfaces after after the edge to edge screens.&lt;/p&gt;
+
+&lt;p&gt;Third, as patterns settle, users get used to them. The benefit of a novel and superior pattern is wiped out by the cost of deviating from user expectations.&lt;/p&gt;
+
+&lt;p&gt;So could the ideas from the last section improve things at the margin? Yes, but the ceiling for improvement is too low to feed a new design tool company. You can see this in the last switch from Sketch to Figma: the actual drawing tool is virtually the same. There are improvements like vector networks and better typesetting features, but they are lost in the sea of praise for their collaboration features.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-the-problems&quot;&gt;Follow the problems&lt;/h2&gt;
+
+&lt;p&gt;I think the mistake of these retro-future ideas so far is that they started thinking from the designer’s job description, as opposed to the wider business context designers practice their profession. So what does the context of tomorrow look like and what kind of tools will we need to solve them? Here are some ideas&lt;/p&gt;
+
+&lt;p&gt;We’re in the early stages of design collaboration compared to software engineering. What can we learn from developers?&lt;/p&gt;
+
+&lt;p&gt;The highest leverage activities designers engage in are critique and reviews. How do you scale and accelerate these processes?&lt;/p&gt;
+
+&lt;p&gt;There will be increasing overlap between PM and design. How do you bake more product tools into design tools?&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-retro-future-good-for&quot;&gt;What’s the retro-future good for?&lt;/h2&gt;
+
+&lt;p&gt;So we have these super compelling demos, can we reverse into the job description for which they would make sense, and the hypothetical context in which these job descriptions would emerge?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Produce design options faster&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Job: iterate as fast as possible over a large visual solution space&lt;/li&gt;
+  &lt;li&gt;For this job to be valuable it must be true that: it is both difficult to manually find the best solution, and finding the best solution really matters.&lt;/li&gt;
+  &lt;li&gt;Circumstances enabling the above: brand design becomes a far more important function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Make it easier to work on complex systems&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Job: navigate idea mazes faster&lt;/li&gt;
+  &lt;li&gt;For this job to be valuable it must be true that: there are deeply complex problems in design for which solutions are really hard to find&lt;/li&gt;
+  &lt;li&gt;Circumstances enabling the above: product + design converge into a single discipline.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Reduce the distance between creator and creation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Job: empower designers to shift the entire speed &amp;lt;&amp;gt; fidelity frontier to the right&lt;/li&gt;
+  &lt;li&gt;For this job to be valuable it must be true that: you can reliably move the whole frontier, as opposed to just traveling along the tradeoff curve.&lt;/li&gt;
+  &lt;li&gt;Circumstances enabling the above: better technology?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Problem</summary></entry><entry><title type="html">Bridgewater culture</title><link href="http://localhost:4000/2020/01/27/bridgewater.html" rel="alternate" type="text/html" title="Bridgewater culture" /><published>2020-01-27T09:58:44-08:00</published><updated>2020-01-27T09:58:44-08:00</updated><id>http://localhost:4000/2020/01/27/bridgewater</id><content type="html" xml:base="http://localhost:4000/2020/01/27/bridgewater.html">&lt;p&gt;Every org should try to be more like Bridgewater if they can pull it off. Radical transparency leads to better decision making, higher resource allocation efficiency, more meritocracy, and some really fun weird shit in the long run. It’s also incredibly hard to pull off, so most are better off not even trying.&lt;/p&gt;
+
+&lt;p&gt;There are 2 things you need to get right for this kinda org to work: a decision tracking system and the right culture.&lt;/p&gt;
+
+&lt;p&gt;Here’s one theoretical example of the Dalio system working: an email marketing manager sends a re-engagement campaign with A, B, C variants in the headline. They predict that A is the most promising. A support agent predicts B instead based on their customer intuition.&lt;/p&gt;
+
+&lt;p&gt;Support analyst wins. Their correct prediction is logged on their profile. Next time, the email marketing manager will consult the support analyst. Better campaigns ensue.&lt;/p&gt;
+
+&lt;p&gt;It gets more interesting when you also gate access to decision making on track record (as opposed to role and title). It’s been a year, this support agent is consistently on point in their predictions. They are now invited to decision making meetings higher up the chain, giving input into the email marketing yearly budget.&lt;/p&gt;
+
+&lt;p&gt;If you take this to the extreme, you get the unbundling of traditional jobs and levels. Each person’s role boundaries are determined purely by what they have a track record on. There are no more pre-defined jobs. People allocated their time and energy on problems they have advantage on, building a track record, and ladder into more and more high impact decisions.&lt;/p&gt;
+
+&lt;p&gt;Add some common record keeping standard and data portability, and you get massive labour market liquidity. Maybe you’ll even see the rise of micro-contracting, e.g. instead of having your pretty-good-support-agent do email marketing, you contract that decision making part to external workers with a track record on this decision in the top 1% percentile. Today, this is only possible for rote decisions where qualifying a worker’s competency is reliable and cheap aka transcriptions, translation, labeling — the MTurk tasks. The better you can assess decision competency, the more you outsource high impact and complexity problems.&lt;/p&gt;
+
+&lt;p&gt;With enough people with tracking standards floating around, you could run functional &lt;a href=&quot;https://wiki.p2pfoundation.net/Decentralized_Autonomous_Organization&quot;&gt;Decentralized Autonomous Organizations&lt;/a&gt;. So why aren’t we on this path? It requires some crazy skillful culture &amp;amp; org building. More on this next time.&lt;/p&gt;</content><author><name></name></author><summary type="html">Every org should try to be more like Bridgewater if they can pull it off. Radical transparency leads to better decision making, higher resource allocation efficiency, more meritocracy, and some really fun weird shit in the long run. It’s also incredibly hard to pull off, so most are better off not even trying.</summary></entry></feed>
