@@ -2,11 +2,10 @@
 layout: post
 title:  "Design tools and design jobs"
 date:   2020-02-25 10:58:44 -0700
+excerpt_separator: <!--more-->
 ---
 
-## Problem
-
-Over the last 2 decades, we went from photoshop to sketch to figma, but these are all fundamentally tools for drawing boxes. Where is the Engelbart-esque software for designers? Why has no one implemented any of Bret Victor’s demos? Why is design tooling so stale, and what are the ways forward?
+Over the last 2 decades, we went from photoshop to sketch to figma, but these are all fundamentally tools for drawing boxes. Where is the Engelbart-esque software for designers?<!--more--> Why has no one implemented any of Bret Victor’s demos? Why is design tooling so stale, and what are the ways forward?
 
 What drove each major tooling evolution?
 
@@ -34,8 +33,6 @@ The job of tools: cheap, accessible way to produce simple UI elements
 
 In short, business needs drive job description, which in turn drive tooling requirements. Each major tooling followed a redefinition of the role of design to respond to a new business context.
 
-## Making sense of the retro-future
-
 So what’s our best guess for the evolution of design tools? Here’s an overview of what people are working on. 
 
 **Produce design options faster: since 2016**
@@ -61,8 +58,6 @@ So what’s our best guess for the evolution of design tools? Here’s an overvi
 
 These are definitely real problems that designers experience,  but why haven’t we seen any runaway successes? One answer is that they don’t map to the high value parts of a designer’s job description. Gasp! Is the implication that improving designers’ ability to produce a lot of great design solutions to complex problems… is actually not super valuable?
 
-## Professional angst
-
 How can you argue that when that’s literally what designers spend most of their day doing? I think the answer is that our existing tooling is sufficiently good at helping us solve the problems we are asked to solve at the speed we are asked to solve them. How come? 
 
 First, the problems are becoming more obvious. Complexity has decreased, not increased as the greenfield ideas of this technological eras get picked clean and more and more startups win less from innovating, and more from operating.
@@ -73,8 +68,6 @@ Third, as patterns settle, users get used to them. The benefit of a novel and su
 
 So could the ideas from the last section improve things at the margin? Yes, but the ceiling for improvement is too low to feed a new design tool company. You can see this in the last switch from Sketch to Figma: the actual drawing tool is virtually the same. There are improvements like vector networks and better typesetting features, but they are lost in the sea of praise for their collaboration features.
 
-## Follow the problems
-
 I think the mistake of these retro-future ideas so far is that they started thinking from the designer’s job description, as opposed to the wider business context designers practice their profession. So what does the context of tomorrow look like and what kind of tools will we need to solve them? Here are some ideas
 
 We’re in the early stages of design collaboration compared to software engineering. What can we learn from developers? 
@@ -82,8 +75,6 @@ We’re in the early stages of design collaboration compared to software enginee
 The highest leverage activities designers engage in are critique and reviews. How do you scale and accelerate these processes?
 
 There will be increasing overlap between PM and design. How do you bake more product tools into design tools?
-
-## What’s the retro-future good for?
 
 So we have these super compelling demos, can we reverse into the job description for which they would make sense, and the hypothetical context in which these job descriptions would emerge?
 

@@ -2,8 +2,9 @@
 layout: post
 title:  "Bridgewater culture"
 date:   2020-01-27 10:58:44 -0700
+excerpt_separator: <!--more-->
 ---
-Every org should try to be more like Bridgewater if they can pull it off. Radical transparency leads to better decision making, higher resource allocation efficiency, more meritocracy, and some really fun weird shit in the long run. It's also incredibly hard to pull off, so most are better off not even trying.
+Every org should try to be more like Bridgewater if they can pull it off.<!--more--> Radical transparency leads to better decision making, higher resource allocation efficiency, more meritocracy, and some really fun weird shit in the long run. It's also incredibly hard to pull off, so most are better off not even trying.
 
 There are 2 things you need to get right for this kinda org to work: a decision tracking system and the right culture.
 
