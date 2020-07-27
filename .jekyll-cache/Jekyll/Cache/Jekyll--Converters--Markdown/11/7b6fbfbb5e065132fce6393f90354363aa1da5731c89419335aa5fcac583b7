@@ -1,41 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Yitong Zhang</title>
-    <link rel="stylesheet" href="/assets/css/default.css">
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Rebuilding my site in the open pt.1</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Rebuilding my site in the open pt.1" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh." />
-<meta property="og:description" content="I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh." />
-<link rel="canonical" href="http://localhost:4000/2020/07/24/newblog1.html" />
-<meta property="og:url" content="http://localhost:4000/2020/07/24/newblog1.html" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-24T22:43:44-07:00" />
-<script type="application/ld+json">
-{"headline":"Rebuilding my site in the open pt.1","dateModified":"2020-07-24T22:43:44-07:00","datePublished":"2020-07-24T22:43:44-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/07/24/newblog1.html"},"description":"I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.","url":"http://localhost:4000/2020/07/24/newblog1.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-  <body>
-    <nav>
-  <div class="name"><h3><a href="/">Yitong Zhang</a></h3></div>
-  <div class="links">
-  
-    <h3><a href="/" >Blog</a></h3>
-  
-    <h3><a href="/about.html" >About</a></h3>
-  
-  </div>
-</nav>
-    <div class="post-title-box">
-    <h1>Rebuilding my site in the open pt.1</h1>
-</div>
-<div class="spacer24"></div>
+I"m
 <p>I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.<!--more--> I have several motivations for this latest effort. First, I’m writing more so I’d like a blog-first design, something that can be a permanent home for my thoughts on the internet for decades to come. Second, I’m itching to write more code lately, and Jekyll is a pretty low friction way of getting back into. Lastly, I’ve been toying around with the idea of building a Notion-driven Jekyll competitor, so I figured that before embarking on that, I’d make at least a serious attempt at building something on Jekyll to see where it performs well and where it falls short.</p>
 
 <p>Something else that I’d like to experiment with is designing this site directly in code. I’ve done this on some smaller projects before, but never tried it on anything of this level, so it should be fun. I have a general idea of where I’d like to go with the design, but am planning on figuring most of it out as I go. As a result, I expect this site to be pretty janky while it is under construction.</p>
@@ -46,9 +9,4 @@
 
 <p>Next time, I’d like to put up a work section covering the projects I’ve done. Might also look into an image layout so that I can stick a couple of pictures up on my about page.</p>
 
-
-<div class="spacer16"></div>
-<h3>24 Jul 2020</h3>
-<div class="spacer40"></div>
-  </body>
-</html>
+:ET
