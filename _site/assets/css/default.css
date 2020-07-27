@@ -35,6 +35,8 @@ h2 { font-size: 1.8rem; }
 
 h3 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #bbb; font-weight: 400; }
 
+h4 { font-size: 1.4rem; color: #bbb; font-weight: 400; }
+
 p, ul, ol { margin-bottom: 16px; color: #4B5566; line-height: 2.6rem; }
 
 p a, ul a, ol a { color: #2E77FF; }
