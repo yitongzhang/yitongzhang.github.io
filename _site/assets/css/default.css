@@ -63,7 +63,9 @@ nav { display: flex; justify-content: space-between; margin: 64px 0px 32px 0px; 
 
 nav .links { display: flex; }
 
-nav .links h3:first-child { margin-right: 24px; }
+nav .links h3 { margin-left: 24px; }
+
+nav .links h3:first-child { margin-left: 0px; }
 
 nav a { transition: color 300ms; }
 
@@ -80,5 +82,13 @@ section:hover { background-color: #FAFAFA; }
 .post-title-box h1 { margin-right: 12px; }
 
 .post-title-box h2 { margin-right: 12px; }
+
+.profilePic { height: 96px; width: 96px; border-radius: 96px; }
+
+.test { display: flex; justify-content: center; }
+
+.masonry { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 2px; padding: 2px; background-color: #FAFAFA; }
+
+.masonry-item { max-width: 100%; border-radius: 1px; }
 
 /*# sourceMappingURL=default.css.map */
