@@ -63,7 +63,9 @@ nav { display: flex; justify-content: space-between; margin: 64px 0px 32px 0px; 
 
 nav .links { display: flex; }
 
-nav .links h3:first-child { margin-right: 24px; }
+nav .links h3 { margin-left: 24px; }
+
+nav .links h3:first-child { margin-left: 0px; }
 
 nav a { transition: color 300ms; }
 

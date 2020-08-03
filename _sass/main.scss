@@ -32,8 +32,12 @@ nav{
     .links{
         display: flex;
     }
+    .links h3{
+        margin-left: 24px;
+
+    }
     .links h3:first-child{
-        margin-right: 24px;
+        margin-left: 0px;
     }
     a{
         transition: color 300ms;
