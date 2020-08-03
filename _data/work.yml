@@ -26,25 +26,25 @@
   endDate: Now
   images: []
 
-- name: Google Soli
-  company: O/M Studio
-  description: Project Soli is developing a new interaction sensor using radar technology. I worked with the team to demonstrate use cases for the chip. My work is super crazy NDA, so here are some public explainer videos.
-  startDate: 2018-01-01
-  endDate: 2018-03-01
-  images: []
-
-- name: Google Grasshopper
-  company: O/M Studio
-  description: Grasshopper is the code learning app for everyone. Our studio worked with the team for 11 months to design a complete mobile coding environment from the ground up. The project is currently in beta.
-  startDate: 2016-11-01
-  endDate: 2018-03-01
-  images: []
-
 - name: Goodweb.design
   company: Yitong & Charlie
   description: Goodweb.design curates, tags and sorts well-designed landing pages. Our aim is to help designers, marketers, and product builders of all stripes learn from best web design practices.
   startDate: 2017-08-01
   endDate: now
+  images: []
+
+- name: Google Grasshopper
+  company: O/M Studio
+  description: Grasshopper is the code learning app for everyone. Our studio worked with the team for 11 months to design a complete mobile coding environment from the ground up. The project is currently in beta.
+  startDate: 2016-10-01
+  endDate: 2018-03-01
+  images: []
+
+- name: Google Soli
+  company: O/M Studio
+  description: Project Soli is developing a new interaction sensor using radar technology. I worked with the team to demonstrate use cases for the chip. My work is super crazy NDA, so here are some public explainer videos.
+  startDate: 2018-01-01
+  endDate: 2018-03-01
   images: []
 
 - name: Google Skybound
@@ -57,6 +57,6 @@
 - name: Hemingly
   company: Yitong & Charlie
   description: Hemingly was a startup I co-founded to help companies get their paperwork done quickly and cheaply. We built a hiring, training and distribution system to manage a global workforce.
-  startDate: 
-  endDate: 
+  startDate: 2014-05-01
+  endDate: 2015-12-01
   images: []

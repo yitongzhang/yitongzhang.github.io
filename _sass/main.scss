@@ -76,3 +76,26 @@ section:hover{
         margin-right: 12px;
     }
 }
+
+.profilePic{
+    height: 96px;
+    width: 96px;
+    border-radius: 96px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.masonry{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2px;
+    padding: 2px;
+    background-color: $color-wash;
+}
+
+.masonry-item{
+    max-width: 100%;
+    border-radius: 1px;
+}

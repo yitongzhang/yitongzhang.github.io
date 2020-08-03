@@ -6,7 +6,11 @@ title: "Work"
 
 {% for item in site.data.work %}
   <section>
-    <h2>{{ item.name }}</h3>
+    <div class="post-title-box">
+      <h2>{{ item.name }}</h2>
+      <h3>with  {{ item.company }}  from  {{ item.startDate | date: "%m/%Y" }}  to  {{ item.endDate | date: "%m/%Y" }}</h3>
+    </div>
+    
     <p>{{ item.description }}</p>
   </section>
 {% endfor %}
