@@ -43,6 +43,8 @@ p a, ul a, ol a { color: #2E77FF; }
 
 a { text-decoration: none; color: inherit; }
 
+em { font-weight: 500; color: #0A1832; }
+
 .current { color: #0A1832; }
 
 .hstack { display: flex; }
