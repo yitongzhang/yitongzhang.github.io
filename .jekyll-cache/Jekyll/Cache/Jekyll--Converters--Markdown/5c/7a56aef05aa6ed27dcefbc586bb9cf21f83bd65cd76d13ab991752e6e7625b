@@ -1,0 +1,50 @@
+I"�<p>You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there? <!--more--></p>
+
+<h2 id="kinda-tough-learning-from-the-internet">Kinda tough learning from the Internet</h2>
+
+<p>Imagine you’re an early-career designer who wanted to depeen their understanding of typography, what do you do? Plugging “how to get better at typography” into Google returns a deluge of mediocre “content” from SaaS company blogs. Eventually, you read enough of these guides to understand the components of type usage: font choice &amp; pairings, size scale, accessibility, etc. Then, you make your queries more specific and find the best guide on each topic.</p>
+
+<p>That’s the process of learning anything on the internet. There are several metaskills at work here:</p>
+
+<ol>
+  <li>Knowing what to search for</li>
+  <li>Decomposing your need into different steps</li>
+  <li>Knowing which guide to follow for each step</li>
+</ol>
+
+<p>The tricky thing is that most of these skills are catch-22s. How do you know to search for when you don’t know what you’re supposed to learn? How do you decompose a problem into steps when you don’t understand a problem? How do you know what the best guide is for each step when you don’t know how that step works?</p>
+
+<p>As a result, I’ve lost track of the number of times I’ve said to myself “I’m going to learn how to build a basic CRUD app this weekend” only to lose the entire two days wading through an ocean of guides without writing any code.</p>
+
+<p>For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the wrold, the marginal unit of expert time is better spent organizing than producing.</p>
+
+<h2 id="knowledge-maps-out-there-today">Knowledge maps out there today</h2>
+
+<p>One great example of this is <em>Khan Academy’s knowledge map of K–12 math</em>, now defunct, alas. Having an authoritative source map out the knowledge space and their dependencies + provide a good resource to learn it means that a lot of the metawork outlined above is done for learners.</p>
+
+<figure>
+  <img class="blogImage" src="/assets/blogImg/curation/knowledgeMap.png" alt="khan academy knowledge map" />
+  <figcaption>Khan academy knowledge map of K-12 math. Now deprecated 😢.</figcaption>
+</figure>
+
+<p>Unfortunately, K-12 math today is not too different from where it was 10 years ago. So a map of knowledge here has limited utility compared to domains that are rapidly changing like software engineering, where the canonical way of doing something today is often radically different than 10 years ago.</p>
+
+<p>Another drawback of this map is that it only links to first party content. Sal Khan is an amazing educator, but is he better than the rest of the Internet combined?</p>
+
+<p>Addressing exactly the above two is the <em>Open Source Society University</em> – most well known for their <a href="https://github.com/ossu/computer-science">open source computer science curriculum</a>. It works like the name says: the whole thing is a github read.me that anyone can contribute to (though in practice, there seems to be only 1-2 maintainers), describing a computer science syllabus where all the content is from free 3rd parties sources.</p>
+
+<figure>
+  <img class="blogImage" src="/assets/blogImg/curation/ossu.png" alt="OSSU" />
+  <figcaption>Screenshot of the OSSU curriculum</figcaption>
+</figure>
+
+<h2 id="tending-the-garden-of-collective-knowledge">Tending the garden of collective knowledge</h2>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Mostly true for fundamental topics. There’s obviously not enough documentation at the edges of any domain, but most people are not there, and the people who are are better equipped with the metaskills needed to help themselves. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

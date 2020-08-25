@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-08T11:33:02-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Being negatively driven</title><link href="http://localhost:4000/2020/08/07/negative-drive.html" rel="alternate" type="text/html" title="Being negatively driven" /><published>2020-08-07T22:43:44-07:00</published><updated>2020-08-07T22:43:44-07:00</updated><id>http://localhost:4000/2020/08/07/negative-drive</id><content type="html" xml:base="http://localhost:4000/2020/08/07/negative-drive.html">&lt;p&gt;For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college&lt;!--more--&gt;, having done a professional bootcamp, competing with coworkers (secretly!), being an alien in an anti-immigrant country, and a million other nothings that find their way on my shoulder and stay there to become chips.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-25T00:05:41-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Experts should curate</title><link href="http://localhost:4000/2020/08/16/curation.html" rel="alternate" type="text/html" title="Experts should curate" /><published>2020-08-16T12:01:44-07:00</published><updated>2020-08-16T12:01:44-07:00</updated><id>http://localhost:4000/2020/08/16/curation</id><content type="html" xml:base="http://localhost:4000/2020/08/16/curation.html">&lt;p&gt;You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there? &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;kinda-tough-learning-from-the-internet&quot;&gt;Kinda tough learning from the Internet&lt;/h2&gt;
+
+&lt;p&gt;Imagine you’re an early-career designer who wanted to depeen their understanding of typography, what do you do? Plugging “how to get better at typography” into Google returns a deluge of mediocre “content” from SaaS company blogs. Eventually, you read enough of these guides to understand the components of type usage: font choice &amp;amp; pairings, size scale, accessibility, etc. Then, you make your queries more specific and find the best guide on each topic.&lt;/p&gt;
+
+&lt;p&gt;That’s the process of learning anything on the internet. There are several metaskills at work here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Knowing what to search for&lt;/li&gt;
+  &lt;li&gt;Decomposing your need into different steps&lt;/li&gt;
+  &lt;li&gt;Knowing which guide to follow for each step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The tricky thing is that most of these skills are catch-22s. How do you know to search for when you don’t know what you’re supposed to learn? How do you decompose a problem into steps when you don’t understand a problem? How do you know what the best guide is for each step when you don’t know how that step works?&lt;/p&gt;
+
+&lt;p&gt;As a result, I’ve lost track of the number of times I’ve said to myself “I’m going to learn how to build a basic CRUD app this weekend” only to lose the entire two days wading through an ocean of guides without writing any code.&lt;/p&gt;
+
+&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the wrold, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
+
+&lt;h2 id=&quot;knowledge-maps-out-there-today&quot;&gt;Knowledge maps out there today&lt;/h2&gt;
+
+&lt;p&gt;One great example of this is &lt;em&gt;Khan Academy’s knowledge map of K–12 math&lt;/em&gt;, now defunct, alas. Having an authoritative source map out the knowledge space and their dependencies + provide a good resource to learn it means that a lot of the metawork outlined above is done for learners.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/curation/knowledgeMap.png&quot; alt=&quot;khan academy knowledge map&quot; /&gt;
+  &lt;figcaption&gt;Khan academy knowledge map of K-12 math. Now deprecated 😢.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Unfortunately, K-12 math today is not too different from where it was 10 years ago. So a map of knowledge here has limited utility compared to domains that are rapidly changing like software engineering, where the canonical way of doing something today is often radically different than 10 years ago.&lt;/p&gt;
+
+&lt;p&gt;Another drawback of this map is that it only links to first party content. Sal Khan is an amazing educator, but is he better than the rest of the Internet combined?&lt;/p&gt;
+
+&lt;p&gt;Addressing exactly the above two is the &lt;em&gt;Open Source Society University&lt;/em&gt; – most well known for their &lt;a href=&quot;https://github.com/ossu/computer-science&quot;&gt;open source computer science curriculum&lt;/a&gt;. It works like the name says: the whole thing is a github read.me that anyone can contribute to (though in practice, there seems to be only 1-2 maintainers), describing a computer science syllabus where all the content is from free 3rd parties sources.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/curation/ossu.png&quot; alt=&quot;OSSU&quot; /&gt;
+  &lt;figcaption&gt;Screenshot of the OSSU curriculum&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While an improvement over some dimensions, this approach still leaves much to be desired in the following aspects:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Maintenance cost&lt;/em&gt; There are only &lt;a href=&quot;https://github.com/ossu/computer-science/graphs/contributors&quot;&gt;~1.5 contributors&lt;/a&gt;. We need 100x more if we want to tend a truly comprehensive garden of knowledge for any topic. How do we motivate them? For a deep dive on the people who work on open source, I recommend picking up the book &lt;a href=&quot;https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862&quot;&gt;Working in Public&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Modularity of content&lt;/em&gt; Probably a downstream consequence of lacking maintainers, but almost all sections of OSSU lead to full EDX style courses. This is not particularly useful for the most common mode of Internet learning: picking up only the exact knowledge necessary to unblock yourself on a project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Connecting the dots&lt;/em&gt; How does the knowledge from one course relate to the next? This gets especially tricky when the material is cobbled together from 3rd party sources that don’t talk to each other. Having even a 5% gap in coverage between modules can send learners down a rabbit hole that exhausts their motivation. This problem gets worse when you start making content more modular.&lt;/p&gt;
+
+&lt;h2 id=&quot;tending-the-garden-of-collective-knowledge&quot;&gt;Tending the garden of collective knowledge&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Mostly true for fundamental topics. There’s obviously not enough documentation at the edges of any domain, but most people are not there, and the people who are are better equipped with the metaskills needed to help themselves. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there?</summary></entry><entry><title type="html">Being negatively-driven</title><link href="http://localhost:4000/2020/08/07/negative-drive.html" rel="alternate" type="text/html" title="Being negatively-driven" /><published>2020-08-07T22:43:44-07:00</published><updated>2020-08-07T22:43:44-07:00</updated><id>http://localhost:4000/2020/08/07/negative-drive</id><content type="html" xml:base="http://localhost:4000/2020/08/07/negative-drive.html">&lt;p&gt;For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college&lt;!--more--&gt;, having done a professional bootcamp, competing with coworkers (secretly!), being an alien in an anti-immigrant country, and a million other nothings that find their way on my shoulder and stay there to become chips.&lt;/p&gt;
 
 &lt;p&gt;My friends are the same – absurdly driven by a sense of not being enough. One of them almost comically so. The guy had a blue light lamp on his desk pointed to his face to keep him awake so he can work longer hours. (Love you Mike, but you’re gonna die young). Maybe this is a Canadian thing. Always being in the shadow of the US can really give you a complex.&lt;/p&gt;
 

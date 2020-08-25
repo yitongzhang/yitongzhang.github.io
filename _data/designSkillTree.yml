@@ -1,0 +1,7 @@
+- skill: 
+  prereq: []
+  description: I'm working on the design system from all Coinbase products and platforms. 
+  sources: [
+    {link: test.com, reason: This link is good in the following ways, and less in these other ways. For the parts that aren't good, you can check out the second link.},
+    {link: test.com, reason: The coverage of this link is not nearly as broad, but it shines where the previous link has holes}
+  ]
