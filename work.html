@@ -5,10 +5,17 @@ title: "Work"
 <h1>Work</h1>
 
 {% for item in site.data.work %}
-  <section>
+  <section class="section-wide">
+    <img src="{{ item.images[0] }}" class="project-image">
     <div class="post-title-box">
       <h2>{{ item.name }}</h2>
-      <h5>with  {{ item.company }}  from  {{ item.startDate | date: "%m/%Y" }}  to  {{ item.endDate | date: "%m/%Y" }}</h5>
+      <h5>from  {{ item.startDate | date: "%m/%Y" }}  to  
+        {% if item.endDate == "Now" %}
+        now
+        {% else %}
+        {{ item.endDate | date: "%m/%Y" }}
+        {% endif %}
+      </h5>
     </div>
     
     <p>{{ item.description }}</p>

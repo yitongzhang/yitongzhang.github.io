@@ -43,9 +43,11 @@ p a, ul a, ol a { color: #2E77FF; }
 
 ol { list-style: decimal; list-style-position: inside; }
 
+ul li::before { content: "\2022"; color: #A7ACB5; display: inline-block; width: 0.8em; }
+
 a { text-decoration: none; color: inherit; }
 
-em { font-weight: 500; }
+em, strong { font-weight: 500; margin-bottom: -8px; }
 
 .footnote { transition: color 300ms; }
 
@@ -87,7 +89,7 @@ section p { margin-bottom: 0px; }
 
 section:hover { background-color: #FAFAFA; }
 
-.post-title-box { display: flex; align-items: baseline; margin-bottom: 4px; }
+.post-title-box { display: flex; align-items: baseline; margin-bottom: 8px; }
 
 .post-title-box h1 { margin-right: 12px; }
 
@@ -112,5 +114,9 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 .footnotes p { position: relative; top: -26px; text-indent: 16px; }
 
 .post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 2.0rem; }
+
+.project-image { max-width: 100%; margin-bottom: 8px; }
+
+.section-wide { margin-bottom: 32px; }
 
 /*# sourceMappingURL=default.css.map */

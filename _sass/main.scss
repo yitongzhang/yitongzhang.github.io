@@ -57,7 +57,7 @@ section:hover{
 .post-title-box{
     display:flex;
     align-items: baseline;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 
     h1{
         margin-right: 12px;
@@ -132,4 +132,13 @@ figure{
         margin-top: 32px;
         font-size: 2.0rem;
     }
+}
+
+.project-image{
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.section-wide{
+    margin-bottom: 32px;
 }
