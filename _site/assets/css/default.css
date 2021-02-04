@@ -31,25 +31,35 @@ h1, h2, h3, h4, h5, h6 { font-weight: 500; }
 
 h1 { font-size: 2.8rem; }
 
-h2 { font-size: 1.8rem; }
+h2 { font-size: 1.6rem; }
 
-h3 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #bbb; font-weight: 400; }
+h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #bbb; font-weight: 400; }
 
-h4 { font-size: 1.4rem; color: #bbb; font-weight: 400; }
+h6 { font-size: 1.4rem; color: #bbb; font-weight: 400; }
 
-p, ul, ol { margin-bottom: 16px; color: #4B5566; line-height: 2.6rem; }
+p, ul, ol { margin-bottom: 16px; color: #38404D; line-height: 2.6rem; }
 
 p a, ul a, ol a { color: #2E77FF; }
 
+ol { list-style: decimal; list-style-position: inside; }
+
+ul li::before { content: "\2022"; color: #A7ACB5; display: inline-block; width: 0.8em; }
+
 a { text-decoration: none; color: inherit; }
 
-em { font-weight: 500; color: #0A1832; }
+em, strong { font-weight: 500; margin-bottom: -8px; }
+
+.footnote { transition: color 300ms; }
+
+.footnote a:hover { color: #2E77FF; }
+
+.footnote:hover { color: #38404D; }
+
+sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding: 0 4px; }
+
+.reversefootnote { font-size: 1.4rem; position: relative; top: 2px; }
 
 .current { color: #0A1832; }
-
-.hstack { display: flex; }
-
-.vstack { display: flex; flex-direction: column; }
 
 .spacer8 { height: 8px; }
 
@@ -65,9 +75,9 @@ nav { display: flex; justify-content: space-between; margin: 64px 0px 32px 0px; 
 
 nav .links { display: flex; }
 
-nav .links h3 { margin-left: 24px; }
+nav .links h5 { margin-left: 24px; }
 
-nav .links h3:first-child { margin-left: 0px; }
+nav .links h5:first-child { margin-left: 0px; }
 
 nav a { transition: color 300ms; }
 
@@ -79,7 +89,7 @@ section p { margin-bottom: 0px; }
 
 section:hover { background-color: #FAFAFA; }
 
-.post-title-box { display: flex; align-items: baseline; margin-bottom: 4px; }
+.post-title-box { display: flex; align-items: baseline; margin-bottom: 8px; }
 
 .post-title-box h1 { margin-right: 12px; }
 
@@ -89,8 +99,24 @@ section:hover { background-color: #FAFAFA; }
 
 .test { display: flex; justify-content: center; }
 
-.masonry { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 2px; padding: 2px; background-color: #FAFAFA; }
+.masonry { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; gap: 0px; padding: 0px; background-color: #FAFAFA; width: 160%; margin-left: -30%; }
 
 .masonry-item { max-width: 100%; border-radius: 1px; }
+
+figure { margin-bottom: 16px; }
+
+figure figcaption { color: #38404D; font-family: "IBMPlexMono", monospace; font-size: 1.4rem; padding: 6px 16px; position: relative; border: 1px solid #F0F0F0; border-radius: 0px 0px 8px 8px; position: relative; top: -1px; }
+
+figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; box-sizing: border-box; border: 1px solid #F0F0F0; }
+
+.footnotes { border-top: 1px solid #F0F0F0; padding-top: 16px; margin-top: 16px; }
+
+.footnotes p { position: relative; top: -26px; text-indent: 16px; }
+
+.post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 2.0rem; }
+
+.project-image { max-width: 100%; margin-bottom: 8px; }
+
+.section-wide { margin-bottom: 32px; }
 
 /*# sourceMappingURL=default.css.map */

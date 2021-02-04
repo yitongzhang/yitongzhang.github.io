@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Being negatively driven"
+title:  "Being negatively-driven"
 date:   2020-08-07 22:43:44 -0700
 excerpt_separator: <!--more-->
 ---

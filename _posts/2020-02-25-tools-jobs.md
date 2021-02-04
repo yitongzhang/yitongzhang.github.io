@@ -9,7 +9,7 @@ Over the last 2 decades, we went from photoshop to sketch to figma, but these ar
 
 What drove each major tooling evolution?
 
-**Photoshop: 2000 – 2014**
+*Photoshop: 2000 – 2014*
 
 * 2000: Apple introduces Aqua UI
 * 2008: iOS app store opens
@@ -17,7 +17,7 @@ What drove each major tooling evolution?
 
 The job of tools: flex your craftsmanship
 
-**Sketch: 2014 – 2018**
+*Sketch: 2014 – 2018*
 
 * 2013: Apple introduces iOS 7 
 * 2014: Google introduces Material Design.
@@ -25,7 +25,7 @@ The job of tools: flex your craftsmanship
 
 The job of tools: cheap, accessible way to produce simple UI elements
 
-**Sketch to Figma: 2018 – beyond**
+*Sketch to Figma: 2018 – beyond*
 
 * 2018: Airbnb designers start talking about their internal collaboration tooling
 * 2019: Scaled design teams outside of Google, Facebook, and Airbnb emerge. 
@@ -35,14 +35,14 @@ In short, business needs drive job description, which in turn drive tooling requ
 
 So what’s our best guess for the evolution of design tools? Here’s an overview of what people are working on. 
 
-**Produce design options faster: since 2016**
+*Produce design options faster: since 2016*
 
 * Problem: manually doing visual combinatorics is too slow
 * Solution: Parametric / declarative design tools
 * Example: Jon Gold’s declarative design tool demo
 * Example: Grasshopper, a parametric design tool from architecture
 
-**Make it easier to work on complex systems: since 2011**
+*Make it easier to work on complex systems: since 2011*
 
 * Problem: problems are getting more complex. Our brains are not getting faster
 * Solution: decompose and visualize complex problems

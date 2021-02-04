@@ -1,8 +1,8 @@
-I"�<p>Over the last 2 decades, we went from photoshop to sketch to figma, but these are all fundamentally tools for drawing boxes. Where is the Engelbart-esque software for designers?<!--more--> Why has no one implemented any of Bret Victor’s demos? Why is design tooling so stale, and what are the ways forward?</p>
+I"�<p>Over the last 2 decades, we went from photoshop to sketch to figma, but these are all fundamentally tools for drawing boxes. Where is the Engelbart-esque software for designers?<!--more--> Why has no one implemented any of Bret Victor’s demos? Why is design tooling so stale, and what are the ways forward?</p>
 
 <p>What drove each major tooling evolution?</p>
 
-<p><strong>Photoshop: 2000 – 2014</strong></p>
+<p><em>Photoshop: 2000 – 2014</em></p>
 
 <ul>
   <li>2000: Apple introduces Aqua UI</li>
@@ -12,7 +12,7 @@
 
 <p>The job of tools: flex your craftsmanship</p>
 
-<p><strong>Sketch: 2014 – 2018</strong></p>
+<p><em>Sketch: 2014 – 2018</em></p>
 
 <ul>
   <li>2013: Apple introduces iOS 7</li>
@@ -22,7 +22,7 @@
 
 <p>The job of tools: cheap, accessible way to produce simple UI elements</p>
 
-<p><strong>Sketch to Figma: 2018 – beyond</strong></p>
+<p><em>Sketch to Figma: 2018 – beyond</em></p>
 
 <ul>
   <li>2018: Airbnb designers start talking about their internal collaboration tooling</li>
@@ -34,7 +34,7 @@
 
 <p>So what’s our best guess for the evolution of design tools? Here’s an overview of what people are working on.</p>
 
-<p><strong>Produce design options faster: since 2016</strong></p>
+<p><em>Produce design options faster: since 2016</em></p>
 
 <ul>
   <li>Problem: manually doing visual combinatorics is too slow</li>
@@ -43,7 +43,7 @@
   <li>Example: Grasshopper, a parametric design tool from architecture</li>
 </ul>
 
-<p><strong>Make it easier to work on complex systems: since 2011</strong></p>
+<p><em>Make it easier to work on complex systems: since 2011</em></p>
 
 <ul>
   <li>Problem: problems are getting more complex. Our brains are not getting faster</li>
