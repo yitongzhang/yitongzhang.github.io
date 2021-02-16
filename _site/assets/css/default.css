@@ -115,7 +115,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 2.0rem; }
 
-.project-image { max-width: 100%; margin-bottom: 8px; }
+.project-image { max-width: 100%; margin-bottom: 8px; height: 288px; background-color: #FAFAFA; }
 
 .section-wide { margin-bottom: 32px; }
 

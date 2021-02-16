@@ -1,11 +1,11 @@
-- name: Design System
+- name: Coinbase Design System
   company: Coinbase
   description: I'm currently working on the design system that grew out of the react native rewrite. It is slowly becoming a larger system that emcompasses all products and platforms at Coinbase.
   startDate: 2020-03-01
   endDate: Now
   images: [assets/img/screenshot-ds.jpg]
 
-- name: React Native rewrite
+- name: Coinbase React Native rewrite
   company: Coinbase
   description: For six months, I PM'ed the react native rewrite of the Coinbase Android app. We also used this opportunity to greenfield a new design system, which later became my whole focus.
   startDate: 2020-01-09
