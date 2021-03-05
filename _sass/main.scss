@@ -144,3 +144,51 @@ figure{
 .section-wide{
     margin-bottom: 32px;
 }
+
+.no-hover-section:hover{
+    background-color: white;
+}
+
+.table-row{
+
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    width: 640px;
+    transition: background-color 300ms;
+    border-radius: 8px;
+    position: relative;
+    left: -16px;
+    align-items: flex-end;
+    justify-content: space-between;
+    p{
+        margin-bottom: 0px;
+        margin-right: 16px;
+    }
+    .table-metadata{
+        display: flex;
+        flex-direction: row;
+    }
+    h6{
+        margin-bottom: 2px;
+    }
+    .table-location{
+        margin-right: 16px;
+    }
+    .table-date{
+        width:80px;
+        text-align: right;
+    }
+}
+
+.table-row:hover{
+    background-color: $color-wash
+}
+
+.achievements{
+    margin-top: -12px;
+    h2{
+        margin-bottom: 4px;
+        margin-top: 24px;
+    }
+}
