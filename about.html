@@ -13,7 +13,52 @@ title: About
 <p>In my spare time, I like to make things like this Figma plugin called <a href="https://www.flowchart.design/">Autoflow</a>, or this marketing page pattern library called <a href="http://goodweb.design/">Goodweb.design</a>, or this vegetable seasonality <a href="http://howfresh.co/">website</a>. The latter two could really use a bit of maintenance. Oh and I also tend to a beautiful <a href="https://twitter.com/zhayitong/status/1238957144604467201">vegetable garden</a>.</p>
 
 <p>By the way, you can check out my old site <a href="/oldsite">here</a>.</p>
+<div class="achievements">
+<h2>Media appearance</h2>
+{% for item in site.data.achievements %}
+{% if item.type == "media" %}
+  <a href="{{ item.link }}">
+  <div class="table-row">
+    <p class="">{{ item.name }}</p>
+    <div class="table-metadata">
+        <h6 class="table-location">{{ item.location }}</h6>
+        <h6 class="table-date">{{ item.date }}</h6>
+    </div>
+  </div>
+  </a>
+{% endif %}
+{% endfor %}
 
+<h2>Speaking</h2>
+{% for item in site.data.achievements %}
+{% if item.type == "speaking" %}
+  <a href="{{ item.link }}">
+  <div class="table-row">
+    <p class="">{{ item.name }}</p>
+    <div class="table-metadata">
+        <h6 class="table-location">{{ item.location }}</h6>
+        <h6 class="table-date">{{ item.date }}</h6>
+    </div>
+  </div>
+  </a>
+{% endif %}
+{% endfor %}
+
+<h2>Judging</h2>
+{% for item in site.data.achievements %}
+{% if item.type == "judging" %}
+  <a href="{{ item.link }}">
+  <div class="table-row">
+    <p class="">{{ item.name }}</p>
+    <div class="table-metadata">
+        <h6 class="table-location">{{ item.location }}</h6>
+        <h6 class="table-date">{{ item.date }}</h6>
+    </div>
+  </div>
+  </a>
+{% endif %}
+{% endfor %}
+</div>
 <div class="masonry">
     <img class="masonry-item" src="/assets/img/Frame 1.jpg">
     <img class="masonry-item" src="/assets/img/Frame 2.jpg">

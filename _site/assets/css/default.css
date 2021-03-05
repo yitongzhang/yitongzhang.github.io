@@ -119,4 +119,24 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .section-wide { margin-bottom: 32px; }
 
+.no-hover-section:hover { background-color: white; }
+
+.table-row { display: flex; flex-direction: row; padding: 8px 16px; width: 640px; transition: background-color 300ms; border-radius: 8px; position: relative; left: -16px; align-items: flex-end; justify-content: space-between; }
+
+.table-row p { margin-bottom: 0px; margin-right: 16px; }
+
+.table-row .table-metadata { display: flex; flex-direction: row; }
+
+.table-row h6 { margin-bottom: 2px; }
+
+.table-row .table-location { margin-right: 16px; }
+
+.table-row .table-date { width: 80px; text-align: right; }
+
+.table-row:hover { background-color: #FAFAFA; }
+
+.achievements { margin-top: -12px; }
+
+.achievements h2 { margin-bottom: 4px; margin-top: 24px; }
+
 /*# sourceMappingURL=default.css.map */
