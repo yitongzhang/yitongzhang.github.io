@@ -95,7 +95,7 @@ section p { margin-bottom: 0px; }
 
 section:hover { background-color: #FAFAFA; }
 
-.post-title-box { display: flex; align-items: center; margin-bottom: 16px; justify-content: space-between; }
+.post-title-box { display: flex; align-items: center; margin-bottom: 8px; justify-content: space-between; }
 
 .post-title-box h1 { margin-right: 12px; }
 
