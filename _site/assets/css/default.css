@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: 500; }
 
 h1 { font-size: 2.8rem; }
 
+.pageHeader { margin-bottom: 16px; }
+
 h2 { font-size: 1.6rem; }
 
 h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #bbb; font-weight: 400; }
@@ -39,19 +41,23 @@ h6 { font-size: 1.4rem; color: #bbb; font-weight: 400; }
 
 p, ul, ol { margin-bottom: 16px; color: #38404D; line-height: 2.6rem; }
 
-p a, ul a, ol a { color: #2E77FF; }
+p a, ul a, ol a { transition: 200ms; border-bottom: 1px dashed #A7ACB5; }
+
+p a:hover, ul a:hover, ol a:hover { background-color: #ffe343; }
 
 ol { list-style: decimal; list-style-position: inside; }
 
-ul li::before { content: "\2022"; color: #A7ACB5; display: inline-block; width: 0.8em; }
+ul li::before { content: "\2022"; color: #38404D; width: 0.8em; position: relative; left: -8px; }
 
 a { text-decoration: none; color: inherit; }
 
-em, strong { font-weight: 500; margin-bottom: -8px; }
+em, strong { font-weight: 500; margin-bottom: -8px; color: #0A1832; }
 
-.footnote { transition: color 300ms; }
+.footnote { transition: color 200ms; }
 
-.footnote a:hover { color: #2E77FF; }
+.footnote a { border-bottom: 1px dashed #A7ACB5; transition: border 300ms; }
+
+.footnote a:hover { background-color: #ffe343; }
 
 .footnote:hover { color: #38404D; }
 
@@ -71,7 +77,7 @@ sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding:
 
 body { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; justify-content: center; }
 
-nav { display: flex; justify-content: space-between; margin: 64px 0px 32px 0px; }
+nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 32px 0px; border-radius: 32px; }
 
 nav .links { display: flex; }
 
@@ -79,7 +85,7 @@ nav .links h5 { margin-left: 24px; }
 
 nav .links h5:first-child { margin-left: 0px; }
 
-nav a { transition: color 300ms; }
+nav a { transition: color 200ms; }
 
 nav a:hover { color: #0A1832; }
 
@@ -89,11 +95,13 @@ section p { margin-bottom: 0px; }
 
 section:hover { background-color: #FAFAFA; }
 
-.post-title-box { display: flex; align-items: baseline; margin-bottom: 8px; }
+.post-title-box { display: flex; align-items: center; margin-bottom: 16px; justify-content: space-between; }
 
 .post-title-box h1 { margin-right: 12px; }
 
 .post-title-box h2 { margin-right: 12px; }
+
+.postDate { border-radius: 100px; border: 1px solid #F0F0F0; padding: 4px 12px; }
 
 .profilePic { height: 96px; width: 96px; border-radius: 96px; }
 
@@ -121,7 +129,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .no-hover-section:hover { background-color: white; }
 
-.table-row { display: flex; flex-direction: row; padding: 8px 16px; width: 640px; transition: background-color 300ms; border-radius: 8px; position: relative; left: -16px; align-items: flex-end; justify-content: space-between; }
+.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 640px; transition: background-color 300ms; border-radius: 8px; position: relative; left: -12px; align-items: flex-end; justify-content: space-between; }
 
 .table-row p { margin-bottom: 0px; margin-right: 16px; }
 
@@ -138,5 +146,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 .achievements { margin-top: -12px; }
 
 .achievements h2 { margin-bottom: 4px; margin-top: 24px; }
+
+footer { margin-top: 24px; margin-bottom: 48px; }
 
 /*# sourceMappingURL=default.css.map */

@@ -52,6 +52,10 @@ h1{ //big title
     font-size: 2.8rem;
 }
 
+.pageHeader{
+    margin-bottom: 16px;
+}
+
 h2{ //small title
     font-size: 1.6rem;
 }
@@ -73,7 +77,11 @@ p, ul, ol{
     color: $color-secondary;
     line-height: 2.6rem;
     a{
-        color: $color-accent;
+        transition: 200ms;
+        border-bottom: 1px dashed $color-tertiary;
+    }
+    a:hover{
+        background-color: $color-accent;
     }
 }
 
@@ -84,9 +92,10 @@ ol{
 
 ul li::before {
     content: "\2022"; 
-    color:$color-tertiary;
-    display: inline-block;
+    color:$color-secondary;
     width: 0.8em;
+    position: relative;
+    left: -8px;
   }
 
 a{
@@ -97,13 +106,17 @@ a{
 em, strong{
     font-weight: 500;
     margin-bottom: -8px;
+    color: $color-primary;
 }
 
 .footnote{
-    transition: color 300ms;
-
+    transition: color 200ms;
+    a{
+        border-bottom: 1px dashed $color-tertiary;
+        transition: border 300ms;
+    }
     a:hover{
-        color: $color-accent;
+        background-color: $color-accent;
     }
 }
 .footnote:hover{

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The structure of progress in craft"
-date:   2020-06-03 10:58:44 -0700
+date:   2020-06-03 -0700
 excerpt_separator: <!--more-->
 ---
 There's a lot of research on the structure of progress in science (Kuhn, Popper, Deutsch, etc.) but what about the progress of professional craft?<!--more--> How do we get better at programming, design, furniture building, cooking, entrepreneurship, etc.
