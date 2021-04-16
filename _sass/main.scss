@@ -74,6 +74,10 @@ section:hover{
     border-radius: 100px;
     border: 1px solid $color-line;
     padding: 4px 12px;
+    transition: all 300ms;
+}
+.postDate:hover{
+    color: $color-secondary;
 }
 .profilePic{
     height: 96px;
