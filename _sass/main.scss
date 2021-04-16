@@ -18,8 +18,9 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin:64px 0px 32px 0px;
-
+    align-items: center;
+    margin:32px 0px 32px 0px;
+    border-radius: 32px;
     .links{
         display: flex;
     }
@@ -31,11 +32,12 @@ nav{
         margin-left: 0px;
     }
     a{
-        transition: color 300ms;
+        transition: color 200ms;
     }
     a:hover{
         color:$color-primary;
     }
+
 }
 
 section{
@@ -56,8 +58,9 @@ section:hover{
 
 .post-title-box{
     display:flex;
-    align-items: baseline;
-    margin-bottom: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: space-between;
 
     h1{
         margin-right: 12px;
@@ -67,7 +70,11 @@ section:hover{
         margin-right: 12px;
     }
 }
-
+.postDate{
+    border-radius: 100px;
+    border: 1px solid $color-line;
+    padding: 4px 12px;
+}
 .profilePic{
     height: 96px;
     width: 96px;
@@ -153,12 +160,12 @@ figure{
 
     display: flex;
     flex-direction: row;
-    padding: 8px 16px;
+    padding: 8px 12px;
     width: 640px;
     transition: background-color 300ms;
     border-radius: 8px;
     position: relative;
-    left: -16px;
+    left: -12px;
     align-items: flex-end;
     justify-content: space-between;
     p{
@@ -191,4 +198,9 @@ figure{
         margin-bottom: 4px;
         margin-top: 24px;
     }
+}
+
+footer{
+    margin-top: 24px;
+    margin-bottom: 48px;
 }

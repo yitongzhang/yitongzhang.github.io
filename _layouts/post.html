@@ -3,11 +3,12 @@ layout: default
 ---
 <div class="post-title-box">
     <h1>{{ page.title }}</h1>
+    <h5 class="postDate">{{ page.date | date_to_string }}</h5>
 </div>
 <div class="spacer16"></div>
 <div class="post">
 {{ content }}
 </div>
 <div class="spacer16"></div>
-<h5>{{ page.date | date_to_string }}</h5>
+
 <div class="spacer40"></div>

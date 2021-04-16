@@ -2,3 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:        
+    id: UA-83606903-1        
+    anonymizeIp: false    

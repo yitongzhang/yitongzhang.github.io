@@ -2,19 +2,16 @@
 layout: default
 title: Blog
 ---
-<h1>Latest posts</h1>
+<h1 class="pageHeader">Latest posts</h1>
 
 {% for post in site.posts %}
   <section>
     <a href="{{ post.url }}">
       <div class="post-title-box">
         <h2>{{ post.title }}</h2>
-        <h5>{{ post.date | date: "%m/%d/%y" }}</h5>
+        <h5>{{ post.date | date_to_string }}</h5>
       </div>
       <div>{{ post.excerpt }}</div>
     </a>
   </section>
 {% endfor %}
-<div class="spacer24"></div>
-<h6 class="footnote">Stay up to date by subscribing via RSS! No emails. RSS is the best. I can't spam you, and it's better reading experience. Don't already use it? I recommend starting with <a href="https://feedly.com/">Feedly</a>. You can also treat yourself a little by getting <a href="https://reederapp.com/">Reeder</a>.</h6> 
-<div class="spacer24"></div>
