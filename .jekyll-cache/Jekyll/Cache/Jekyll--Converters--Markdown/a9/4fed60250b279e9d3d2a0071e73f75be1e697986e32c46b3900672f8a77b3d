@@ -1,0 +1,14 @@
+I"�<p>It’s been… uh nine months since the last update on this site’s open redesign progress, and I’ve finally gotten around to some some bug fixes<!--more--></p>
+
+<h2 id="fixing-some-long-overdue-issues">Fixing some long overdue issues</h2>
+<p>Can you believe this site didn’t work on mobile this entire time? I mean, I started the design with almost no layout, relying mostly on basic typography to create hierachy, so I thought the mobile would be usable enough I could come back and update it later. Turns out, I forgot to add <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> to the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> because who knew jekyll would initialize the boiler without? Anyway, that’s fixed.</p>
+
+<p>The other embarassing that I forgot is to set up analytics. Turns out, only the events fired from my hidden archival site were making it through to Google Analytics. That’s fixed too.</p>
+
+<p>Lastly, I cleaned up the date formatting on this site so that it’s always: date + month spelled out + last two letters of year (e.g. 03 mar 21), which I like for being unambiguous for non-US readers. You can also drop the date and it’s still readable.</p>
+
+<h2 id="a-quick-pass-at-typography">A quick pass at typography</h2>
+<p>One cool thing about pulling out a font you’ve already bought is that you can have a font that you like, for free! Yay!</p>
+
+<h2 id="whats-next">What’s next</h2>
+:ET

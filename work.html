@@ -7,11 +7,11 @@ title: "Work"
 {% for item in site.data.work %}
   <section class="section-wide no-hover-section">
     <img src="{{ item.images[0] }}" class="project-image">
-    <div class="post-title-box">
+    <div class="main-title-box">
       <h2>{{ item.name }}</h2>
       <h5>{{ item.startDate | date: "%b %y" }}  to  
         {% if item.endDate == "Now" %}
-        now
+        Today
         {% else %}
         {{ item.endDate | date: "%b %y" }}
         {% endif %}

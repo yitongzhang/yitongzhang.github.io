@@ -1,0 +1,7 @@
+I"@<p>It’s been, uh, nine months since the last update on this site’s open redesign progress.</p>
+
+<h2 id="fixing-some-long-overdue-bugs">Fixing some long overdue bugs</h2>
+<p>Can you believe this site didn’t work on mobile this entire time? I mean, I started the design with almost no layout, relying mostly on basic typography to create hierachy, so I thought the mobile would be usable enough I could come back and update it later. Turns out, I forgot to add <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> to the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> because who knew jekyll would initialize the boiler without? Anyway, that’s fixed.</p>
+
+<p>The other embarassing that I forgot to set up analytics.</p>
+:ET
