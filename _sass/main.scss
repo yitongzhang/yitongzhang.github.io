@@ -1,18 +1,14 @@
-.current {
-    color:$color-primary;
+html{
+    display: flex;
+    justify-content: center;
 }
 
-.spacer8{height: 8px;}
-.spacer16{height: 16px;}
-.spacer24{height:24px;}
-.spacer40{height:40px;}
-
 body{
-    max-width: 640px;
-    margin: 0 auto;
+    margin: 0 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: $size-body;
 }
 
 nav{
@@ -20,7 +16,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin:32px 0px 32px 0px;
-    border-radius: 32px;
+    .current {
+        color:$color-primary;
+    }
     .links{
         display: flex;
     }
@@ -41,9 +39,9 @@ nav{
 }
 
 section{
+    width: 100%;
     border-radius: 16px;
     padding: 16px 16px;
-    width: 640px;
     transition: background-color 300ms;
     position: relative;
     left: -16px;
@@ -65,17 +63,14 @@ section:hover{
     h1{
         margin-right: 12px;
     }
-
-    h2{
-        margin-right: 12px;
+    .postDate{
+        border-radius: 100px;
+        border: 1px solid $color-line;
+        padding: 4px 12px;
+        transition: all 300ms;
     }
 }
-.postDate{
-    border-radius: 100px;
-    border: 1px solid $color-line;
-    padding: 4px 12px;
-    transition: all 300ms;
-}
+
 .postDate:hover{
     color: $color-secondary;
 }
@@ -148,7 +143,6 @@ figure{
 .project-image{
     max-width: 100%;
     margin-bottom: 8px;
-    height: 288px;
     background-color: $color-wash;
 }
 
@@ -161,11 +155,10 @@ figure{
 }
 
 .table-row{
-
     display: flex;
     flex-direction: row;
     padding: 8px 12px;
-    width: 640px;
+    width: 100%;
     transition: background-color 300ms;
     border-radius: 8px;
     position: relative;

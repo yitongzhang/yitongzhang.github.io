@@ -22,7 +22,7 @@ title: About
     <p class="">{{ item.name }}</p>
     <div class="table-metadata">
         <h6 class="table-location">{{ item.location }}</h6>
-        <h6 class="table-date">{{ item.date }}</h6>
+        <h6 class="table-date">{{ item.date | date: "%d %b %y" }}</h6>
     </div>
   </div>
   </a>
@@ -37,7 +37,7 @@ title: About
     <p class="">{{ item.name }}</p>
     <div class="table-metadata">
         <h6 class="table-location">{{ item.location }}</h6>
-        <h6 class="table-date">{{ item.date }}</h6>
+        <h6 class="table-date">{{ item.date | date: "%d %b %y" }}</h6>
     </div>
   </div>
   </a>
@@ -52,7 +52,7 @@ title: About
     <p class="">{{ item.name }}</p>
     <div class="table-metadata">
         <h6 class="table-location">{{ item.location }}</h6>
-        <h6 class="table-date">{{ item.date }}</h6>
+        <h6 class="table-date">{{ item.date | date: "%d %b %y" }}</h6>
     </div>
   </div>
   </a>
