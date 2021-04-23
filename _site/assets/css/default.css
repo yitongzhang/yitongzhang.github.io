@@ -81,7 +81,7 @@ html { display: flex; justify-content: center; }
 
 body { margin: 0 24px; display: flex; flex-direction: column; justify-content: center; max-width: 640px; }
 
-nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 80px 0px; }
+nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 96px 0px; }
 
 nav .current { color: #060c17; }
 
@@ -109,7 +109,15 @@ section:hover { background-color: #FAFAFA; }
 
 .post-title-box { margin-bottom: 16px; }
 
-.post-title-box h1 { margin-bottom: 0px; }
+.postMetaData { display: flex; margin: 32px 0px; }
+
+.postMetaData h5 { margin-right: 8px; }
+
+.postMetaData h5:last-child { margin-right: 0px; }
+
+.postMetaData .metaDataItem { transition: 200ms; }
+
+.metaDataItem:hover { color: #060c17; }
 
 .profilePic { height: 96px; width: 96px; border-radius: 96px; }
 
@@ -137,11 +145,11 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .no-hover-section:hover { background-color: white; }
 
-.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 200ms; border-radius: 8px; position: relative; left: -12px; align-items: flex-end; justify-content: space-between; }
+.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 200ms; border-radius: 8px; position: relative; left: -12px; justify-content: space-between; }
 
 .table-row p { margin-bottom: 0px; margin-right: 16px; }
 
-.table-row .table-metadata { display: flex; flex-direction: row; }
+.table-row .table-metadata { display: flex; flex-direction: row; position: relative; top: 1px; }
 
 .table-row h6 { margin-bottom: 2px; }
 
@@ -151,12 +159,12 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .table-row:hover { background-color: #FAFAFA; }
 
-.achievements { margin-top: -12px; }
+.achievements { margin-bottom: 16px; }
 
-.achievements h2 { margin-bottom: 4px; margin-top: 24px; }
+.achievements h2 { margin-bottom: 4px; margin-top: 32px; }
 
 footer { margin-top: 24px; margin-bottom: 48px; }
 
-@media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
+@media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; margin: 4px 0px; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
 
 /*# sourceMappingURL=default.css.map */
