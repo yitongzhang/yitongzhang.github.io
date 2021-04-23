@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-22T23:12:58-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Redesigning my site in the open</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Redesigning my site in the open" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-23T09:25:56-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Redesigning my site in the open</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Redesigning my site in the open" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/before.png&quot; alt=&quot;OSSU&quot; /&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/before.png&quot; alt=&quot;image of the blog, before&quot; /&gt;
   &lt;figcaption&gt;Where we left off a few months ago.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/after.png&quot; alt=&quot;OSSU&quot; /&gt;
-  &lt;figcaption&gt;New update: cleaner, less default-feeling.&lt;/figcaption&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/after.png&quot; alt=&quot;image of the blog, after&quot; /&gt;
+  &lt;figcaption&gt;New update: still pretty basic, but cleaner, less default-feeling. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;fixing-some-long-overdue-issues&quot;&gt;Fixing some long overdue issues&lt;/h2&gt;

@@ -1,13 +1,13 @@
-I"�<p>It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.<!--more--></p>
+I"�<p>It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.<!--more--></p>
 
 <figure>
-  <img class="blogImage" src="/assets/blogImg/newblog2/before.png" alt="OSSU" />
+  <img class="blogImage" src="/assets/blogImg/newblog2/before.png" alt="image of the blog, before" />
   <figcaption>Where we left off a few months ago.</figcaption>
 </figure>
 
 <figure>
-  <img class="blogImage" src="/assets/blogImg/newblog2/after.png" alt="OSSU" />
-  <figcaption>Where we left off a few months ago.</figcaption>
+  <img class="blogImage" src="/assets/blogImg/newblog2/after.png" alt="image of the blog, after" />
+  <figcaption>New update: still pretty basic, but cleaner, less default-feeling. </figcaption>
 </figure>
 
 <h2 id="fixing-some-long-overdue-issues">Fixing some long overdue issues</h2>
@@ -26,6 +26,8 @@
 
 <h2 id="whats-next">What’s next</h2>
 <p>My big goal is to land on a good type system for the site. I’m eager to try a serif for the body, play around with some of the weird stuff from <a href="https://www.futurefonts.xyz/">Future Fonts</a>, and try to develop a multi-typeface site. But really, I’m ready to read Bethany Heck’s <a href="https://www.futurefonts.xyz/">Font Review Journal</a> from front to back.</p>
+
+<p>Oh and I think some kind of medium-like image zoom would be nice, now that I have more than one picture in my posts.</p>
 
 <p>Overall, it continues to be fun designing directly in code. I still don’t have a Figma file or a Notion doc. Switching on the fly between blogging, designing, and coding in the same session is giving me a sense of flow that I’ve not experienced at work in a while. Everything feels so dangerously immediate, and I love it.</p>
 :ET
