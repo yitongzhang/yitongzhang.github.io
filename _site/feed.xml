@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-23T09:25:56-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Redesigning my site in the open</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Redesigning my site in the open" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-23T09:34:00-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Site redesign update</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Site redesign update" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/before.png&quot; alt=&quot;image of the blog, before&quot; /&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/siteBefore.png&quot; alt=&quot;image of the blog, before&quot; /&gt;
   &lt;figcaption&gt;Where we left off a few months ago.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/after.png&quot; alt=&quot;image of the blog, after&quot; /&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/siteAfter.png&quot; alt=&quot;image of the blog, after&quot; /&gt;
   &lt;figcaption&gt;New update: still pretty basic, but cleaner, less default-feeling. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -75,7 +75,7 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
 
 &lt;p&gt;As a result, I’ve lost track of the number of times I’ve said to myself “I’m going to learn how to build a basic CRUD app this weekend” only to lose the entire two days wading through an ocean of guides without writing any code.&lt;/p&gt;
 
-&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the world, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
+&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the world, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
 
 &lt;h2 id=&quot;knowledge-maps-out-there-today&quot;&gt;Knowledge maps out there today&lt;/h2&gt;
 
