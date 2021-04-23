@@ -1,0 +1,41 @@
+@media all and (max-width: 560px) {
+    h1{
+        font-size: 2.4rem;
+    }
+    nav{
+        .links h5{
+            margin-left: 16px;
+        }
+    }
+    .post-title-box.post-specific{
+        h1{
+            margin-right: 0px;
+        }
+        flex-direction: column;
+        align-items: flex-start;
+        .postDate{
+            margin-top: 4px;
+            margin-bottom: 8px;
+            border: 0px solid $color-line;
+            padding: 0px;
+        }
+    }
+    .table-row{
+        flex-direction: column;
+        align-items: flex-start;
+        .table-location{
+            margin-right: 8px;
+        }
+        .table-date{
+            text-align: left;
+        }
+    }
+    .masonry{
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 0px;
+        .masonry-item{
+            width: 100%;
+        }
+    }
+}
