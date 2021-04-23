@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:32px 0px 32px 0px;
+    margin:32px 0px 80px 0px;
     .current {
         color:$color-primary;
     }
@@ -30,7 +30,7 @@ nav{
         margin-left: 0px;
     }
     a{
-        transition: color 200ms;
+        transition: color $speed-fast;
     }
     a:hover{
         color:$color-primary;
@@ -42,7 +42,7 @@ section{
     width: 100%;
     border-radius: 16px;
     padding: 16px 16px;
-    transition: background-color 300ms;
+    transition: background-color $speed-fast;
     position: relative;
     left: -16px;
     p{
@@ -54,26 +54,26 @@ section:hover{
     background-color: $color-wash;
 }
 
-.post-title-box{
+.main-title-box{
     display:flex;
-    align-items: center;
     margin-bottom: 8px;
-    justify-content: space-between;
 
-    h1{
+    h2{
         margin-right: 12px;
     }
-    .postDate{
-        border-radius: 100px;
-        border: 1px solid $color-line;
-        padding: 4px 12px;
-        transition: all 300ms;
+    h5{
+        position: relative;
+        top: 1px;
     }
 }
 
-.postDate:hover{
-    color: $color-secondary;
+.post-title-box{
+    h1{
+        margin-bottom: 0px;
+    }
+    margin-bottom: 16px;
 }
+
 .profilePic{
     height: 96px;
     width: 96px;
@@ -136,7 +136,7 @@ figure{
     h2{
         margin-bottom: 16px;
         margin-top: 32px;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -159,7 +159,7 @@ figure{
     flex-direction: row;
     padding: 8px 12px;
     width: 100%;
-    transition: background-color 300ms;
+    transition: background-color $speed-fast;
     border-radius: 8px;
     position: relative;
     left: -12px;

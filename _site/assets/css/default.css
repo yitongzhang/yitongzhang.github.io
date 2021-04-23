@@ -23,8 +23,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 @font-face { font-family: "Colfax"; src: url("../fonts/ColfaxWebRegular.woff"); font-weight: 400; }
 
-@font-face { font-family: "Colfax"; src: url("../fonts/ColfaxWebMedium.woff"); font-weight: 500; }
-
 @font-face { font-family: "IBMPlexMono"; src: url("../fonts/IBMPlexMono-Regular.ttf"); font-weight: 400; }
 
 @font-face { font-family: "IBMPlexMono"; src: url("../fonts/IBMPlexMono-Medium.ttf"); font-weight: 500; }
@@ -33,43 +31,49 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html { font-size: 62.5%; }
 
-body { font-size: 1.6rem; line-height: 1.6; font-weight: 400; font-family: "Colfax", Sans-Serif; color: #0A1832; }
+body { font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #060c17; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 500; }
-
-h1 { font-size: 2.8rem; }
+h1 { font-size: 3.2rem; }
 
 .pageHeader { margin-bottom: 16px; }
 
-h2 { font-size: 1.6rem; }
+h2 { font-size: 1.6rem; -webkit-text-stroke: 0.4px; letter-spacing: 0.02rem; }
 
-h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #bbb; font-weight: 400; }
+h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #abb0b6; }
 
-h6 { font-size: 1.4rem; color: #bbb; font-weight: 400; }
+h6 { font-size: 1.4rem; color: #abb0b6; }
 
-p, ul, ol { margin-bottom: 12px; color: #38404D; line-height: 2.6rem; }
+code { padding: 2px 4px; font-family: "IBMPlexMono", monospace; transition: 200ms; }
 
-p a, ul a, ol a { transition: 200ms; border-bottom: 1px dashed #A7ACB5; }
+pre { padding: 16px; background-color: #FAFAFA; transition: 200ms; }
 
-p a:hover, ul a:hover, ol a:hover { background-color: #ffe343; }
+pre code { color: #4c525c; }
+
+code:hover, pre:hover { background-color: #F0F0F0; color: #060c17; }
+
+p, ul, ol { margin-bottom: 12px; color: #4c525c; line-height: 2.6rem; }
+
+p a, ul a, ol a { transition: 200ms; border-bottom: 1px dashed #abb0b6; }
+
+p a:hover, ul a:hover, ol a:hover { background-color: #fff6c0; }
 
 ol { list-style: decimal; list-style-position: inside; }
 
-ul li::before { content: "\2022"; color: #38404D; width: 0.8em; position: relative; left: -8px; }
+ul li::before { content: "\2022"; color: #4c525c; width: 0.8em; position: relative; left: -8px; }
 
 a { text-decoration: none; color: inherit; }
 
-em, strong { font-weight: 500; margin-bottom: -8px; color: #0A1832; }
+sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding: 0 4px; }
+
+em { font-weight: 400; color: #060c17; background-color: #fff6c0; }
 
 .footnote { transition: color 200ms; }
 
-.footnote a { border-bottom: 1px dashed #A7ACB5; transition: border 300ms; }
+.footnote a { border-bottom: 1px dashed #abb0b6; transition: border 200ms; }
 
-.footnote a:hover { background-color: #ffe343; }
+.footnote a:hover { background-color: #fff6c0; }
 
-.footnote:hover { color: #38404D; }
-
-sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding: 0 4px; }
+.footnote:hover { color: #4c525c; }
 
 .reversefootnote { font-size: 1.4rem; position: relative; top: 2px; }
 
@@ -77,9 +81,9 @@ html { display: flex; justify-content: center; }
 
 body { margin: 0 24px; display: flex; flex-direction: column; justify-content: center; max-width: 640px; }
 
-nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 32px 0px; }
+nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 80px 0px; }
 
-nav .current { color: #0A1832; }
+nav .current { color: #060c17; }
 
 nav .links { display: flex; }
 
@@ -89,21 +93,23 @@ nav .links h5:first-child { margin-left: 0px; }
 
 nav a { transition: color 200ms; }
 
-nav a:hover { color: #0A1832; }
+nav a:hover { color: #060c17; }
 
-section { width: 100%; border-radius: 16px; padding: 16px 16px; transition: background-color 300ms; position: relative; left: -16px; }
+section { width: 100%; border-radius: 16px; padding: 16px 16px; transition: background-color 200ms; position: relative; left: -16px; }
 
 section p { margin-bottom: 0px; }
 
 section:hover { background-color: #FAFAFA; }
 
-.post-title-box { display: flex; align-items: center; margin-bottom: 8px; justify-content: space-between; }
+.main-title-box { display: flex; margin-bottom: 8px; }
 
-.post-title-box h1 { margin-right: 12px; }
+.main-title-box h2 { margin-right: 12px; }
 
-.post-title-box .postDate { border-radius: 100px; border: 1px solid #F0F0F0; padding: 4px 12px; transition: all 300ms; }
+.main-title-box h5 { position: relative; top: 1px; }
 
-.postDate:hover { color: #38404D; }
+.post-title-box { margin-bottom: 16px; }
+
+.post-title-box h1 { margin-bottom: 0px; }
 
 .profilePic { height: 96px; width: 96px; border-radius: 96px; }
 
@@ -115,7 +121,7 @@ section:hover { background-color: #FAFAFA; }
 
 figure { margin-bottom: 16px; }
 
-figure figcaption { color: #38404D; font-family: "IBMPlexMono", monospace; font-size: 1.4rem; padding: 6px 16px; position: relative; border: 1px solid #F0F0F0; border-radius: 0px 0px 8px 8px; position: relative; top: -1px; }
+figure figcaption { color: #4c525c; font-family: "IBMPlexMono", monospace; font-size: 1.4rem; padding: 6px 16px; position: relative; border: 1px solid #F0F0F0; border-radius: 0px 0px 8px 8px; position: relative; top: -1px; }
 
 figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; box-sizing: border-box; border: 1px solid #F0F0F0; }
 
@@ -123,7 +129,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .footnotes p { position: relative; top: -26px; text-indent: 16px; }
 
-.post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 2.0rem; }
+.post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 1.8rem; }
 
 .project-image { max-width: 100%; margin-bottom: 8px; background-color: #FAFAFA; }
 
@@ -131,7 +137,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .no-hover-section:hover { background-color: white; }
 
-.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 300ms; border-radius: 8px; position: relative; left: -12px; align-items: flex-end; justify-content: space-between; }
+.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 200ms; border-radius: 8px; position: relative; left: -12px; align-items: flex-end; justify-content: space-between; }
 
 .table-row p { margin-bottom: 0px; margin-right: 16px; }
 
@@ -151,6 +157,6 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 footer { margin-top: 24px; margin-bottom: 48px; }
 
-@media all and (max-width: 560px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box.post-specific { flex-direction: column; align-items: flex-start; } .post-title-box.post-specific h1 { margin-right: 0px; } .post-title-box.post-specific .postDate { margin-top: 4px; margin-bottom: 8px; border: 0px solid #F0F0F0; padding: 0px; } .table-row { flex-direction: column; align-items: flex-start; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
+@media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
 
 /*# sourceMappingURL=default.css.map */

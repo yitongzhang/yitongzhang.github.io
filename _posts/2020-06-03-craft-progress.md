@@ -15,7 +15,6 @@ Just because Figma is better than Illustrator for product design does not automa
 Really, we don't even have a reasonable list of inputs into good craft. Here are some questions I'd like to better understand:
 
 * What are the constraining factors on tooling improvement? For example, why did tooling grow far more quickly in programming than product design?
-
 * What about the more subjective part of craft? What is beautiful design? What is elegant code? How do our tools internalize and shape subjective practices?
 
 A better understanding of craft would yield great societal dividends. Most people are engaged on a day to day in activities that look more like craft than science.

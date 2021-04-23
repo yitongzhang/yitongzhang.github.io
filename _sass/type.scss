@@ -4,12 +4,6 @@
     font-weight: 400;
 }
 
-@font-face {
-    font-family: "Colfax";
-    src: url("../fonts/ColfaxWebMedium.woff");
-    font-weight: 500;
-}
-
 @font-face{
     font-family: "IBMPlexMono";
     src: url("../fonts/IBMPlexMono-Regular.ttf");
@@ -39,17 +33,12 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.6;
-    font-weight: 400;
     font-family: $font-sans;
     color: $color-primary;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: 500;
-}
-
 h1{ //big title
-    font-size: 2.8rem;
+    font-size: 3.2rem;
 }
 
 .pageHeader{
@@ -58,26 +47,45 @@ h1{ //big title
 
 h2{ //small title
     font-size: 1.6rem;
+    -webkit-text-stroke:0.4px;
+    letter-spacing: 0.02rem;
 }
 h5{ //small mono
     font-family: $font-mono;
     font-size:1.4rem;
-    color: #bbb;
-    font-weight: 400;
+    color: $color-tertiary;
 }
 h6{ //small normal
     font-size:1.4rem;
-    color: #bbb;
-    font-weight: 400;
+    color: $color-tertiary;
 }
 
+code{
+    padding: 2px 4px;
+    font-family: $font-mono;
+    transition: $speed-fast;
+}
+
+pre{
+    padding: 16px;
+    background-color: $color-wash;
+    code{
+        color: $color-secondary;
+    }
+    transition: $speed-fast;
+}
+
+code:hover, pre:hover{
+    background-color: $color-line;
+    color: $color-primary;
+}
 
 p, ul, ol{
     margin-bottom: 12px;
     color: $color-secondary;
     line-height: 2.6rem;
     a{
-        transition: 200ms;
+        transition: $speed-fast;
         border-bottom: 1px dashed $color-tertiary;
     }
     a:hover{
@@ -103,17 +111,24 @@ a{
     color: inherit;
 }
 
-em, strong{
+sup{
+    position: relative;
+    top: -6px;
+    font-size: 1rem;
     font-weight: 500;
-    margin-bottom: -8px;
-    color: $color-primary;
+    padding: 0 4px;
 }
 
+em{
+    font-weight: 400;
+    color:$color-primary;
+    background-color: $color-accent;
+}
 .footnote{
-    transition: color 200ms;
+    transition: color $speed-fast;
     a{
         border-bottom: 1px dashed $color-tertiary;
-        transition: border 300ms;
+        transition: border $speed-fast;
     }
     a:hover{
         background-color: $color-accent;
@@ -121,14 +136,6 @@ em, strong{
 }
 .footnote:hover{
     color: $color-secondary;
-}
-
-sup{
-    position: relative;
-    top: -6px;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0 4px;
 }
 
 .reversefootnote{

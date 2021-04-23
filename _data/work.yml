@@ -5,7 +5,7 @@
   endDate: Now
   images: [assets/img/screenshot-ds.jpg]
 
-- name: Coinbase React Native rewrite
+- name: Coinbase mobile rewrite
   company: Coinbase
   description: For six months, I PM'ed the react native rewrite of the Coinbase Android app. We also used this opportunity to greenfield a new design system, which later became my whole focus.
   startDate: 2020-01-09

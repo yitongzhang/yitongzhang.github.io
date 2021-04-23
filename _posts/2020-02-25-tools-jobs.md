@@ -9,7 +9,7 @@ Over the last 2 decades, we went from photoshop to sketch to figma, but these ar
 
 What drove each major tooling evolution?
 
-*Photoshop: 2000 – 2014*
+## Photoshop: 2000 – 2014
 
 * 2000: Apple introduces Aqua UI
 * 2008: iOS app store opens
@@ -17,7 +17,7 @@ What drove each major tooling evolution?
 
 The job of tools: flex your craftsmanship
 
-*Sketch: 2014 – 2018*
+## Sketch: 2014 – 2018
 
 * 2013: Apple introduces iOS 7 
 * 2014: Google introduces Material Design.
@@ -25,7 +25,7 @@ The job of tools: flex your craftsmanship
 
 The job of tools: cheap, accessible way to produce simple UI elements
 
-*Sketch to Figma: 2018 – beyond*
+## Sketch to Figma: 2018 – beyond
 
 * 2018: Airbnb designers start talking about their internal collaboration tooling
 * 2019: Scaled design teams outside of Google, Facebook, and Airbnb emerge. 
@@ -35,20 +35,20 @@ In short, business needs drive job description, which in turn drive tooling requ
 
 So what’s our best guess for the evolution of design tools? Here’s an overview of what people are working on. 
 
-*Produce design options faster: since 2016*
+## Produce design options faster: since 2016
 
 * Problem: manually doing visual combinatorics is too slow
 * Solution: Parametric / declarative design tools
 * Example: Jon Gold’s declarative design tool demo
 * Example: Grasshopper, a parametric design tool from architecture
 
-*Make it easier to work on complex systems: since 2011*
+## Make it easier to work on complex systems: since 2011
 
 * Problem: problems are getting more complex. Our brains are not getting faster
 * Solution: decompose and visualize complex problems
 * Example: bret victor’s entire body of work
 
-**Reduce the distance between creator and creation: since 1996**
+## Reduce the distance between creator and creation: since 1996
 
 * Problem: the longer the feedback loop for each iteration, the slower / worse the outcome
 * Solution: eliminate steps between idea and code
@@ -78,19 +78,19 @@ There will be increasing overlap between PM and design. How do you bake more pro
 
 So we have these super compelling demos, can we reverse into the job description for which they would make sense, and the hypothetical context in which these job descriptions would emerge?
 
-**Produce design options faster**
+## Produce design options faster
 
 * Job: iterate as fast as possible over a large visual solution space
 * For this job to be valuable it must be true that: it is both difficult to manually find the best solution, and finding the best solution really matters.
 * Circumstances enabling the above: brand design becomes a far more important function.
 
-**Make it easier to work on complex systems**
+## Make it easier to work on complex systems
 
 * Job: navigate idea mazes faster
 * For this job to be valuable it must be true that: there are deeply complex problems in design for which solutions are really hard to find
 * Circumstances enabling the above: product + design converge into a single discipline.
 
-**Reduce the distance between creator and creation**
+## Reduce the distance between creator and creation
 
 * Job: empower designers to shift the entire speed <> fidelity frontier to the right
 * For this job to be valuable it must be true that: you can reliably move the whole frontier, as opposed to just traveling along the tradeoff curve.
