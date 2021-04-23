@@ -1,2 +1,8 @@
 # This is Yitong’s personal site
-zhayitong.com
+
+# Colophon
+[Skeleton CSS](https://github.com/dhg/Skeleton)
+
+[LESS](http://lesscss.org/)
+
+[jQuery](https://jquery.com/)
