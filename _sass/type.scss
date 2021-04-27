@@ -28,6 +28,9 @@ $font-mono: "IBMPlexMono", monospace;
 
 html {
     font-size: 62.5%;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 body {
@@ -35,10 +38,16 @@ body {
     line-height: 1.6;
     font-family: $font-sans;
     color: $color-primary;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 h1{ //big title
     font-size: 3.2rem;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 .pageHeader{
@@ -49,21 +58,33 @@ h2{ //small title
     font-size: 1.6rem;
     -webkit-text-stroke:0.4px;
     letter-spacing: 0.02rem;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 h5{ //small mono
     font-family: $font-mono;
     font-size:1.4rem;
     color: $color-tertiary;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
-h6{ //small normal
+h6, figcaption{ //small normal
     font-size:1.4rem;
     color: $color-tertiary;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 code{
     padding: 2px 4px;
     font-family: $font-mono;
     transition: $speed-fast;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 pre{
@@ -73,6 +94,9 @@ pre{
         color: $color-secondary;
     }
     transition: $speed-fast;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 code:hover, pre:hover{
@@ -91,11 +115,17 @@ p, ul, ol{
     a:hover{
         background-color: $color-accent;
     }
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 ol{
     list-style: decimal;
     list-style-position: inside;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 ul li::before {
@@ -109,6 +139,9 @@ ul li::before {
 a{
     text-decoration: none;
     color: inherit;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 sup{
@@ -117,13 +150,20 @@ sup{
     font-size: 1rem;
     font-weight: 500;
     padding: 0 4px;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
 
 em{
     font-weight: 400;
     color:$color-primary;
     background-color: $color-accent;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
+
 .footnote{
     transition: color $speed-fast;
     a{

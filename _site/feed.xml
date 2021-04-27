@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-23T09:34:00-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Site redesign update</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Site redesign update" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-26T23:08:40-07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Site redesign update</title><link href="http://localhost:4000/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Site redesign update" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2021/04/22/newblog2</id><content type="html" xml:base="http://localhost:4000/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/siteBefore.png&quot; alt=&quot;image of the blog, before&quot; /&gt;
-  &lt;figcaption&gt;Where we left off a few months ago.&lt;/figcaption&gt;
+  &lt;figcaption&gt;Where we left off a few months ago: barely a step up from Jekyll's default theme.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -11,21 +11,21 @@
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;fixing-some-long-overdue-issues&quot;&gt;Fixing some long overdue issues&lt;/h2&gt;
-&lt;p&gt;Can you believe this site didn’t work on mobile this entire time? I mean, I started the design with almost no layout, relying mostly on basic typography to create hierachy, so I thought the mobile would be usable enough I could come back and update it later. Turns out, I forgot to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;&lt;/code&gt; to the head because who knew jekyll would initialize the boiler without? Anyway, that’s fixed.&lt;/p&gt;
+&lt;p&gt;Can you believe this site didn’t work on mobile this entire time? I mean, I started the design with almost no layout, relying mostly on basic typography to create hierachy, so I thought the mobile would be usable enough I could come back and update it later. Turns out, I forgot to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;&lt;/code&gt; to the head because who knew jekyll would initialize the boilerplate without? Anyway, that’s fixed.&lt;/p&gt;
 
-&lt;p&gt;The other embarassing that I forgot is to set up analytics. Only the events fired from my hidden archival site were making it through to Google Analytics. That’s fixed too.&lt;/p&gt;
+&lt;p&gt;I also apparently forgot is to set up analytics, so for the last few months only the events fired from my hidden archival site were making it through to Google Analytics. That’s fixed too.&lt;/p&gt;
 
 &lt;p&gt;Lastly, I cleaned up the date formatting on this site so that it’s always: date + month spelled out + last two letters of year (e.g. 03 mar 21), which I like for being unambiguous for non-US readers. You can also drop the date and it’s still readable.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-quick-pass-at-typography&quot;&gt;A quick pass at typography&lt;/h2&gt;
-&lt;p&gt;One cool thing about re-using a font you’ve already purchased is that you can have a font that you like, for free! Yay! That’s probably the only cool thing, because it’s all downhill from here.&lt;/p&gt;
+&lt;p&gt;One cool thing about re-using a font you’ve already purchased is that you can have a font that you like, for free! Yay! But after that it all starts going downhill.&lt;/p&gt;
 
-&lt;p&gt;While Colfax slightly furistic yet friendly geometry served me well on the &lt;a href=&quot;http://flowchart.design/&quot;&gt;Autoflow marketing page&lt;/a&gt;, it’s not particularly ergonomic for text-heavy sites. The jump between regular and medium is pretty aggresive. I’ve seen this issue with Graphik too. You can manage by either sticking mostly to regular, or just build that thick medium into your design, which I don’t want to.&lt;/p&gt;
+&lt;p&gt;While Colfax’s slightly furistic yet friendly geometry served me well on the &lt;a href=&quot;http://flowchart.design/&quot;&gt;Autoflow marketing page&lt;/a&gt;, it’s not particularly ergonomic for text-heavy sites. The jump between regular and medium is pretty aggresive. I’ve seen this issue with Graphik too. You can manage by either sticking mostly to regular, or just build that thick medium into your design, which I don’t want to.&lt;/p&gt;
 
-&lt;p&gt;For now, I settled on a hacky compromise between the two approaches: using mostly regular, while subtly boosting my titles like such to give them just a little bit of weight, like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h2{-webkit-text-stroke:0.4px; letter-spacing: 0.02rem;}&lt;/code&gt; I’m not particularly proud of it, but compared to before, I think this change along with some small tweaks to link styles will dial back the typographic presence a bit, which will tide me over while I look for a real type solution.&lt;/p&gt;
+&lt;p&gt;For now, I settled on a hacky compromise between the two approaches: using mostly regular, while subtly boosting the weight of my titles like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h2{-webkit-text-stroke:0.4px; letter-spacing: 0.02rem;}&lt;/code&gt; I’m not particularly proud of it, but compared to before, I think this change, paired with some small tweaks to link styles and paragraph spacing will dial back the typographic presence a bit, which will tide me over while I look for a real type solution.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
-&lt;p&gt;My big goal is to land on a good type system for the site. I’m eager to try a serif for the body, play around with some of the weird stuff from &lt;a href=&quot;https://www.futurefonts.xyz/&quot;&gt;Future Fonts&lt;/a&gt;, and try to develop a multi-typeface site. But really, I’m ready to read Bethany Heck’s &lt;a href=&quot;https://www.futurefonts.xyz/&quot;&gt;Font Review Journal&lt;/a&gt; from front to back.&lt;/p&gt;
+&lt;p&gt;My big goal is to land on a good type system for the site. I’m eager to try a serif for the body, play around with some of the weird stuff from &lt;a href=&quot;https://www.futurefonts.xyz/&quot;&gt;Future Fonts&lt;/a&gt;, and try to develop a multi-typeface site. But really, I’m just excited to have a reason to read Bethany Heck’s &lt;a href=&quot;https://www.futurefonts.xyz/&quot;&gt;Font Review Journal&lt;/a&gt; from front to back.&lt;/p&gt;
 
 &lt;p&gt;Oh and I think some kind of medium-like image zoom would be nice, now that I have more than one picture in my posts.&lt;/p&gt;
 
@@ -75,7 +75,7 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
 
 &lt;p&gt;As a result, I’ve lost track of the number of times I’ve said to myself “I’m going to learn how to build a basic CRUD app this weekend” only to lose the entire two days wading through an ocean of guides without writing any code.&lt;/p&gt;
 
-&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the world, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
+&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the world, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
 
 &lt;h2 id=&quot;knowledge-maps-out-there-today&quot;&gt;Knowledge maps out there today&lt;/h2&gt;
 

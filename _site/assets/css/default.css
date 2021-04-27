@@ -21,6 +21,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .spacer40 { height: 40px; }
 
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
 @font-face { font-family: "Colfax"; src: url("../fonts/ColfaxWebRegular.woff"); font-weight: 400; }
 
 @font-face { font-family: "IBMPlexMono"; src: url("../fonts/IBMPlexMono-Regular.ttf"); font-weight: 400; }
@@ -31,45 +34,71 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html { font-size: 62.5%; }
 
+html::selection { background-color: #fff6c0; }
+
 body { font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #060c17; }
 
+body::selection { background-color: #fff6c0; }
+
 h1 { font-size: 3.2rem; }
+
+h1::selection { background-color: #fff6c0; }
 
 .pageHeader { margin-bottom: 16px; }
 
 h2 { font-size: 1.6rem; -webkit-text-stroke: 0.4px; letter-spacing: 0.02rem; }
 
+h2::selection { background-color: #fff6c0; }
+
 h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #abb0b6; }
 
-h6 { font-size: 1.4rem; color: #abb0b6; }
+h5::selection { background-color: #fff6c0; }
 
-code { padding: 2px 4px; font-family: "IBMPlexMono", monospace; transition: 200ms; }
+h6, figcaption { font-size: 1.4rem; color: #abb0b6; }
 
-pre { padding: 16px; background-color: #FAFAFA; transition: 200ms; }
+h6::selection, figcaption::selection { background-color: #fff6c0; }
+
+code { padding: 2px 4px; font-family: "IBMPlexMono", monospace; transition: 300ms; }
+
+code::selection { background-color: #fff6c0; }
+
+pre { padding: 16px; background-color: #FAFAFA; transition: 300ms; }
 
 pre code { color: #4c525c; }
+
+pre::selection { background-color: #fff6c0; }
 
 code:hover, pre:hover { background-color: #F0F0F0; color: #060c17; }
 
 p, ul, ol { margin-bottom: 12px; color: #4c525c; line-height: 2.6rem; }
 
-p a, ul a, ol a { transition: 200ms; border-bottom: 1px dashed #abb0b6; }
+p a, ul a, ol a { transition: 300ms; border-bottom: 1px dashed #abb0b6; }
 
 p a:hover, ul a:hover, ol a:hover { background-color: #fff6c0; }
 
+p::selection, ul::selection, ol::selection { background-color: #fff6c0; }
+
 ol { list-style: decimal; list-style-position: inside; }
+
+ol::selection { background-color: #fff6c0; }
 
 ul li::before { content: "\2022"; color: #4c525c; width: 0.8em; position: relative; left: -8px; }
 
 a { text-decoration: none; color: inherit; }
 
+a::selection { background-color: #fff6c0; }
+
 sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding: 0 4px; }
+
+sup::selection { background-color: #fff6c0; }
 
 em { font-weight: 400; color: #060c17; background-color: #fff6c0; }
 
-.footnote { transition: color 200ms; }
+em::selection { background-color: #fff6c0; }
 
-.footnote a { border-bottom: 1px dashed #abb0b6; transition: border 200ms; }
+.footnote { transition: color 300ms; }
+
+.footnote a { border-bottom: 1px dashed #abb0b6; transition: border 300ms; }
 
 .footnote a:hover { background-color: #fff6c0; }
 
@@ -91,11 +120,11 @@ nav .links h5 { margin-left: 24px; }
 
 nav .links h5:first-child { margin-left: 0px; }
 
-nav a { transition: color 200ms; }
+nav a { transition: color 300ms; }
 
 nav a:hover { color: #060c17; }
 
-section { width: 100%; border-radius: 16px; padding: 16px 16px; transition: background-color 200ms; position: relative; left: -16px; }
+section { width: 100%; border-radius: 16px; padding: 16px 16px; transition: background-color 300ms; position: relative; left: -16px; }
 
 section p { margin-bottom: 0px; }
 
@@ -115,7 +144,7 @@ section:hover { background-color: #FAFAFA; }
 
 .postMetaData h5:last-child { margin-right: 0px; }
 
-.postMetaData .metaDataItem { transition: 200ms; }
+.postMetaData .metaDataItem { transition: 300ms; }
 
 .metaDataItem:hover { color: #060c17; }
 
@@ -127,11 +156,15 @@ section:hover { background-color: #FAFAFA; }
 
 .masonry-item { max-width: 100%; border-radius: 1px; }
 
-figure { margin-bottom: 16px; }
+figure { position: relative; top: 0px; margin-bottom: 16px; transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); }
 
-figure figcaption { color: #4c525c; font-family: "IBMPlexMono", monospace; font-size: 1.4rem; padding: 6px 16px; position: relative; border: 1px solid #F0F0F0; border-radius: 0px 0px 8px 8px; position: relative; top: -1px; }
+figure figcaption { transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); color: #4c525c; padding-top: 8px; position: relative; }
 
-figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; box-sizing: border-box; border: 1px solid #F0F0F0; }
+figure img { transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); border-radius: 8px; display: block; max-width: 100%; box-sizing: border-box; border: 1px solid #F0F0F0; }
+
+figure:hover { cursor: zoom-in; }
+
+.modalBackground { opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; z-index: 10; }
 
 .footnotes { border-top: 1px solid #F0F0F0; padding-top: 16px; margin-top: 16px; }
 
@@ -145,7 +178,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 
 .no-hover-section:hover { background-color: white; }
 
-.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 200ms; border-radius: 8px; position: relative; left: -12px; justify-content: space-between; }
+.table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 300ms; border-radius: 8px; position: relative; left: -12px; justify-content: space-between; }
 
 .table-row p { margin-bottom: 0px; margin-right: 16px; }
 
@@ -166,5 +199,7 @@ figure img { border-radius: 8px 8px 0px 0px; display: block; max-width: 100%; bo
 footer { margin-top: 24px; margin-bottom: 48px; }
 
 @media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; margin: 4px 0px; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
+
+.modalBackgroundOpen { opacity: 0.8; display: block; }
 
 /*# sourceMappingURL=default.css.map */
