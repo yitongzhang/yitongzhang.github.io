@@ -107,25 +107,39 @@ section:hover{
 }
 
 figure{
+    position:relative;
+    top: 0px;
     margin-bottom: 16px;
+    transition: $speed-fast $timing-easeInOutCubic;
     figcaption{
+        transition: $speed-fast $timing-easeInOutCubic;
         color: $color-secondary;
-        font-family: $font-mono;
-        font-size: 1.4rem;
-        padding:6px 16px;
+        padding-top:8px;
         position: relative;
-        border:1px solid $color-line;
-        border-radius: 0px 0px 8px 8px;
-        position: relative;
-        top: -1px;
     }
     img{
-        border-radius: 8px 8px 0px 0px;
+        transition: $speed-fast $timing-easeInOutCubic;
+        border-radius: 8px;
         display: block;
         max-width: 100%;
         box-sizing: border-box;
         border:1px solid $color-line;
     }
+}
+figure:hover{
+    cursor: zoom-in;
+}
+
+.modalBackground{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-neutral;
+    z-index: 10;
 }
 
 .footnotes{

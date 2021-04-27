@@ -1,59 +1,8 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yitong Zhang</title>
-    <link rel="stylesheet" href="/assets/css/default.css">
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Site redesign update</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Site redesign update" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun." />
-<meta property="og:description" content="It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun." />
-<link rel="canonical" href="http://localhost:4000/2021/04/22/newblog2.html" />
-<meta property="og:url" content="http://localhost:4000/2021/04/22/newblog2.html" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-04-22T00:00:00-07:00" />
-<script type="application/ld+json">
-{"headline":"Site redesign update","dateModified":"2021-04-22T00:00:00-07:00","datePublished":"2021-04-22T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/04/22/newblog2.html"},"description":"It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.","url":"http://localhost:4000/2021/04/22/newblog2.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-779ZWM5CSN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-779ZWM5CSN');
-</script>
-  </head>
-  <body>
-    <nav>
-  <div class="name"><h5><a href="/">Yitong Zhang</a></h5></div>
-  <div class="links">
-  
-    <h5><a href="/" >Writing</a></h5>
-  
-    <h5><a href="/work.html" >Work</a></h5>
-  
-    <h5><a href="/about.html" >About</a></h5>
-  
-  </div>
-</nav>
-    <div class="modalBackground"></div>
-<div class="post-title-box">
-    <h1>Site redesign update</h1>
-</div>
-<div class="spacer16"></div>
-<div class="post">
-<p>It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.<!--more--></p>
+I"�<p>It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.<!--more--></p>
 
 <figure>
   <img class="blogImage" src="/assets/blogImg/newblog2/siteBefore.png" alt="image of the blog, before" />
-  <figcaption>Where we left off a few months ago: barely a step up from Jekyll's default theme.</figcaption>
+  <figcaption>Where we left off a few months ago.</figcaption>
 </figure>
 
 <figure>
@@ -81,18 +30,4 @@
 <p>Oh and I think some kind of medium-like image zoom would be nice, now that I have more than one picture in my posts.</p>
 
 <p>Overall, it continues to be fun designing directly in code. I still don’t have a Figma file or a Notion doc. Switching on the fly between blogging, designing, and coding in the same session is giving me a sense of flow that I’ve not experienced at work in a while. Everything feels so dangerously immediate, and I love it.</p>
-
-</div>
-<div class="postMetaData">
-    <h5 class="metaDataItem author">Yitong Zhang</h5>
-    <h5>/</h5>
-    <h5 class="metaDataItem postDate">22 Apr 21</h5>
-    <h5>/</h5>
-    <h5 class="metaDataItem location">Oakland, CA</h5>
-</div>
-<script src="/assets/js/modal.js"></script>
-    <footer>
-    <h6 class="footnote">Stay up to date by subscribing via <a href="/feed.xml">RSS</a>. Don't already use it? I recommend starting with Feedly. You can also treat yourself a little by getting Reeder. Find me elsewhere on <a href="https://twitter.com/zhayitong">Twitter</a>, <a href="https://github.com/yitongzhang">Github</a>, and <a href="https://www.linkedin.com/in/yitongzhang/">Linkedin</a>.</h6> 
-</footer>
-  </body>
-</html>
+:ET

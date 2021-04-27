@@ -1,0 +1,30 @@
+$color-primary: #060c17;
+$color-secondary: #4c525c;
+$color-tertiary: #abb0b6;
+$color-line:#F0F0F0;
+$color-wash:#FAFAFA;
+$color-accent: #fff6c0;
+$color-neutral: #fff;
+
+.spacer8{height: 8px;}
+.spacer16{height: 16px;}
+.spacer24{height:24px;}
+.spacer40{height:40px;}
+
+$size-body: 640px;
+$speed-fast: 300ms;
+$speed-medium: 500ms;
+$speed-slow: 800ms;
+$speed-instant: 0ms;
+$timing-easeInOutCubic: cubic-bezier(0.65, 0, 0.35, 1);
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+        // transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        // transform: translateY(0);
+    }
+  }
