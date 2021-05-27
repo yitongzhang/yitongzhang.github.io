@@ -1,0 +1,10 @@
+I"�<p><a href="zkga.me">Dark forest</a> space is vast. But I didn’t know that at first, busy as I was, claiming all celestial bodies in sight. But space had a way of quickly teaching you its lessons. <!--more--></p>
+
+<p>The issue I ran into was the fog of war. With my laptop’s paltry 600 hashes/sec, I quickly ran out of planets to claim. I had to find a way increase my exploration speed. First, I let dark forest use all the cores in my CPU with <code class="language-plaintext highlighter-rouge">df.setMinerCores(6)</code>, which gave me a nice 6x boost to 2400 hashes/sec, but even that was not sufficient, so I set up a most efficient rust miner on my machine with <a href="https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast">mimi-fast</a> and <a href="https://github.com/darkforest-eth/plugins/tree/master/content/productivity/remote-explore">remote explore</a>.</p>
+
+<p>In the depths of space, I met my two neighbours: jimjim_eth in yellow and 0xe985cb1f0a06ec400a3d4fcdb4b1eee9d01c3f9c in purple, the latter of whom will henceforth be knwon as 0xe98 for short. Jimjim controls few astral bodies, but they’re all highly valuable. 0xe98 is the opposite: controlling most bodies in his sector, indiscriminate of value, most likely through the use of the <a href="https://github.com/darkforest-eth/plugins/blob/master/content/productivity/crawl-planets/plugin.js">crawl planets plugin</a>. I can tell because I’ve been using the same tool, and the shape of his holding looks much like mine.</p>
+
+<p>At first, I was threatened by the discovery of two neighbouring civilizations so close by, but after examining their silver withdrawals on the global leaderboard, I was reassured to find that they were roughly in the same order of magnitude in power as me. I have no desire to fight them, but if I had to, I’m comforted my the thought that it wouldn’t be totally one-sided.</p>
+
+<p>For now,</p>
+:ET
