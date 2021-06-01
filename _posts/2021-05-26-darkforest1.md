@@ -2,7 +2,7 @@
 layout: post
 title:  "Dark Forest captain's log 1"
 date:   2021-05-26 -0700
-location:   "the Dark Forest"
+location:   "Dark Forest"
 excerpt_separator: <!--more-->
 ---
 
