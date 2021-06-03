@@ -9,11 +9,11 @@ title: "Work"
     <img src="{{ item.images[0] }}" class="project-image">
     <div class="main-title-box">
       <h2>{{ item.name }}</h2>
-      <h5>{{ item.startDate | date: "%b %y" }}  to  
+      <h5>{{ item.startDate | date: "%b %Y" }}  to  
         {% if item.endDate == "Now" %}
         Today
         {% else %}
-        {{ item.endDate | date: "%b %y" }}
+        {{ item.endDate | date: "%b %Y" }}
         {% endif %}
       </h5>
     </div>
