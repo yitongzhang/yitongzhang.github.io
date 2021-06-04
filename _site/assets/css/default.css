@@ -36,7 +36,7 @@ html { font-size: 62.5%; }
 
 html::selection { background-color: #fff6c0; }
 
-body { font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #060c17; }
+body { font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #000000; }
 
 body::selection { background-color: #fff6c0; }
 
@@ -64,13 +64,13 @@ code::selection { background-color: #fff6c0; }
 
 pre { padding: 16px; background-color: #FAFAFA; transition: 300ms; }
 
-pre code { color: #4c525c; }
+pre code { color: #424850; }
 
 pre::selection { background-color: #fff6c0; }
 
-code:hover, pre:hover { background-color: #F0F0F0; color: #060c17; }
+code:hover, pre:hover { background-color: #F0F0F0; color: #000000; }
 
-p, ul, ol { margin-bottom: 12px; color: #4c525c; line-height: 2.6rem; }
+p, ul, ol { margin-bottom: 12px; color: #424850; line-height: 2.6rem; }
 
 p a, ul a, ol a { transition: 300ms; border-bottom: 1px dashed #abb0b6; }
 
@@ -82,7 +82,7 @@ ol { list-style: decimal; list-style-position: inside; }
 
 ol::selection { background-color: #fff6c0; }
 
-ul li::before { content: "\2022"; color: #4c525c; width: 0.8em; position: relative; left: -8px; }
+ul li::before { content: "\2022"; color: #424850; width: 0.8em; position: relative; left: -8px; }
 
 a { text-decoration: none; color: inherit; }
 
@@ -92,7 +92,7 @@ sup { position: relative; top: -6px; font-size: 1rem; font-weight: 500; padding:
 
 sup::selection { background-color: #fff6c0; }
 
-em { font-weight: 400; color: #060c17; background-color: #fff6c0; }
+em { font-weight: 400; color: #000000; background-color: #fff6c0; }
 
 em::selection { background-color: #fff6c0; }
 
@@ -102,7 +102,7 @@ em::selection { background-color: #fff6c0; }
 
 .footnote a:hover { background-color: #fff6c0; }
 
-.footnote:hover { color: #4c525c; }
+.footnote:hover { color: #424850; }
 
 .reversefootnote { font-size: 1.4rem; position: relative; top: 2px; }
 
@@ -112,7 +112,7 @@ body { margin: 0 24px; display: flex; flex-direction: column; justify-content: c
 
 nav { display: flex; justify-content: space-between; align-items: center; margin: 32px 0px 96px 0px; }
 
-nav .current { color: #060c17; }
+nav .current { color: #000000; }
 
 nav .links { display: flex; }
 
@@ -122,7 +122,7 @@ nav .links h5:first-child { margin-left: 0px; }
 
 nav a { transition: color 300ms; }
 
-nav a:hover { color: #060c17; }
+nav a:hover { color: #000000; }
 
 section { width: 100%; border-radius: 16px; padding: 16px 16px; transition: background-color 300ms; position: relative; left: -16px; }
 
@@ -146,7 +146,7 @@ section:hover { background-color: #FAFAFA; }
 
 .postMetaData .metaDataItem { transition: 300ms; }
 
-.metaDataItem:hover { color: #060c17; }
+.metaDataItem:hover { color: #000000; }
 
 .profilePic { height: 96px; width: 96px; border-radius: 96px; }
 
@@ -158,7 +158,7 @@ section:hover { background-color: #FAFAFA; }
 
 figure { position: relative; top: 0px; margin-bottom: 16px; transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); }
 
-figure figcaption { transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); color: #4c525c; padding-top: 8px; position: relative; }
+figure figcaption { transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); color: #424850; padding-top: 8px; position: relative; }
 
 figure img { transition: 300ms cubic-bezier(0.65, 0, 0.35, 1); border-radius: 8px; display: block; max-width: 100%; box-sizing: border-box; border: 1px solid #F0F0F0; }
 
