@@ -98,13 +98,9 @@ Arrows: Example of a service that semi-automates high touch services via softwar
 
 
 ### Tech enabled professional services
-Onemedical
-
-Compass
+Examples in this category include: Onemedical, Compass real estate, Compound, etc. 
 
 Opendoor
-
-Compound
 
 
 
