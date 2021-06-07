@@ -50,6 +50,8 @@ h2 { font-size: 1.6rem; -webkit-text-stroke: 0.4px; letter-spacing: 0.02rem; }
 
 h2::selection { background-color: #fff6c0; }
 
+h3 { -webkit-text-stroke: 0.4px; }
+
 h5 { font-family: "IBMPlexMono", monospace; font-size: 1.4rem; color: #abb0b6; }
 
 h5::selection { background-color: #fff6c0; }
@@ -78,7 +80,7 @@ p a:hover, ul a:hover, ol a:hover { background-color: #fff6c0; }
 
 p::selection, ul::selection, ol::selection { background-color: #fff6c0; }
 
-ol { list-style: decimal; list-style-position: inside; }
+ol { list-style: decimal; }
 
 ol::selection { background-color: #fff6c0; }
 
@@ -105,6 +107,10 @@ em::selection { background-color: #fff6c0; }
 .footnote:hover { color: #424850; }
 
 .reversefootnote { font-size: 1.4rem; position: relative; top: 2px; }
+
+strong { -webkit-text-stroke: 0.4px; color: #000000; }
+
+strong::selection { background-color: #fff6c0; }
 
 html { display: flex; justify-content: center; }
 
@@ -166,11 +172,17 @@ figure:hover { cursor: zoom-in; }
 
 .modalBackground { opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; z-index: 10; }
 
-.footnotes { border-top: 1px solid #F0F0F0; padding-top: 16px; margin-top: 16px; }
+.footnotes { border-top: 1px solid #F0F0F0; padding-top: 32px; margin-top: 32px; }
 
-.footnotes p { position: relative; top: -26px; text-indent: 16px; }
+.footnotes p { position: relative; top: -26px; text-indent: 16px; margin-bottom: 0px; }
+
+.footnotes .reversefootnote { border: 0px; color: #abb0b6; }
+
+.footnotes .reversefootnote:hover { color: #000000; background-color: transparent; }
 
 .post h2 { margin-bottom: 16px; margin-top: 32px; font-size: 1.8rem; }
+
+.post h3 { margin-bottom: 8px; margin-top: 4px; }
 
 .project-image { max-width: 100%; margin-bottom: 8px; background-color: #FAFAFA; }
 

@@ -144,12 +144,21 @@ figure:hover{
 
 .footnotes{
     border-top: 1px solid $color-line;
-    padding-top: 16px;
-    margin-top: 16px;
+    padding-top: 32px;
+    margin-top: 32px;
     p{
         position: relative;
         top: -26px;
         text-indent: 16px;
+        margin-bottom: 0px;
+    }
+    .reversefootnote{
+        border: 0px;
+        color: $color-tertiary;
+    }
+    .reversefootnote:hover{
+        color: $color-primary;
+        background-color:transparent;
     }
 }
 
@@ -158,6 +167,10 @@ figure:hover{
         margin-bottom: 16px;
         margin-top: 32px;
         font-size: 1.8rem;
+    }
+    h3{
+        margin-bottom: 8px;
+        margin-top: 4px;
     }
 }
 

@@ -1,0 +1,114 @@
+I"4+<p>I think a software-enabled immigration law firm would be a great business. <!--more--></p>
+
+<p>I’m not a lawyer, just a tech person who’s had a lot of personal experience with immigration. When I was seven, my family moved to Canada, where we became citizens a few years later. After college, I filed my own TN for my first job in San Francisco, then filed another TN for my second job. Greencard-wise, I’ve filed two applications concurrently: an EB3 with my employer and an EB1 with a private immigration firm.</p>
+
+<p>Based on these experiences, <em>my core insight is that immigration law is actually very little law, and mostly ops</em>. In fact, more than 90% of the human hours involved are spent on non lawyering activities like: completing forms, gathering support material, sending and responding information requests, filling out templates, etc. What’s worse is that you have to do a lot of these tasks yourself because your lawyers don’t know your situation as well as you do. Thankfully, these are all activities we know how to scale with software.</p>
+
+<h2 id="why-not-just-sell-the-software">Why not just sell the software?</h2>
+<p>Isn’t a pure play software model more profitable? Yes, but nobody is buying because:</p>
+
+<ol>
+  <li>Law firms hate new software. I mean, have you ever tried to get them to use Google docs instead of .docx files?</li>
+  <li><em>If it works, law firms have to fire most of their staff, requiring disruptive org change.</em></li>
+</ol>
+
+<p>The obvious objection is that several companies have tried the software-enhanced service firm and failed, Atrium being most top of mind. We’ll dive into comparable companies in detail later, but I think the key lessons are:</p>
+
+<ol>
+  <li>Prefer software &gt; ops &gt; law, <a href="https://twitter.com/justinkan/status/1397730770790141954?s=20">even at the cost of growth</a>: This forces discipline because once you scale up the org, it’s hard to reverse. Legal should only ever do legal strategy and final review<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Everything else is at first ops, then moving to software.</li>
+  <li>Stick strictly to the grunt work: doing the same rote thing over and over is automatable. Doing a bunch different things is not.</li>
+  <li>Don’t burn out: afaik a big reason Atrium didn’t work is that Justin Kan <a href="https://twitter.com/justinkan/status/1397730765727617025?s=20">burned out</a>.</li>
+</ol>
+
+<h2 id="product--scaling">Product &amp; scaling</h2>
+<p>First, start with most common types of visas and greencards: L1, H1-B, TN, E3, ajustment of status. These are high volume, low legal work, and something most companies have to deal with. Next move to low proof burden greencards like EB3 and EB2. Then tackle the high proof categories like: O1, E2, NIW, EB1, EB5. After all employment visas are covered, evaluate family-based greencards and naturalization vs moving on to other law categories.</p>
+
+<p>But that that part was obvious. <em>The sauce lies in how the firm can scale with software instead of labour</em>. Let’s attack this for each category of work.</p>
+
+<p>Initial consultations: Usually done by the partners (read: expensive) because they are trying to both qualify and sell you. But there’s no reason a good SDR can’t do it just as well if we make the qualification part async software.</p>
+
+<p>Evidence gathering: this is where we build a turbotax-style form to leverage the applicant’s own labour – after all, they usually know their evidence the best. This can also be used in combination with templates to gather support letters from third parties too.</p>
+
+<p>Legal arguments: we’ll <em>obtain a large sample of past cases by FOIAing the shit out of the USCIS and build a series of legal argument templates based on effective past arguments.</em> Templates should also have the required evidenced attached so applicants can self determine whether they can use any of the arguments. If FOIAs don’t yield a large number of cases, will need to either hire immigration law firms on contract, or former USCIS officers<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> to build contracts based on their experience instead of data.</p>
+
+<p>Emails: This is all about <em>making information well-organized so applicants can self-serve</em>. For information requests and status updates: build a well-designed knowledge base and status tracker so applicants can answer their own questions. For requesting and sending documentation, build a well-designed document center that explains what is needed, from whom, and when so users can again self-serve. For signatures, see if any of these doc signing services have a “wet ink” feature that makes it look like you had printed out the form and signed in blue ink, then send applicants a “sign” button automatically when something is required</p>
+
+<p>Application preparation: Package should be auto-generated based on legal argument templates and evidence uploaded to the document center. Once that’s done, a lawyer manually reviews the final package. This should be the only human labour in the system.</p>
+
+<h2 id="distribution">Distribution</h2>
+
+<p>We need to reach two audiences: applicants and sponsoring companies. For the first category, we’ll need:</p>
+
+<p><strong>Great content</strong>: there is surprisingly not a lot of good content out there on Immigration. Many law firms run a blog, but no one has taken SEO + content quality seriously.</p>
+
+<p><strong>Search ads</strong>: Seems uncompetitive right now in this space.</p>
+
+<p><strong>Referrals</strong>: Immigrants ask each other all the time about immigration. I was referred to my lawyer, and have in turn referred five other people. Since visa applications typically take a few months, this is the perfect time to offer a fee discount to applicants who refer friends.</p>
+
+<p>For founders, we’ll do:</p>
+
+<p><strong>Sales</strong>: No special sauce here. Just gotta build a sales org.</p>
+
+<p><strong>Partnerships</strong>: Funds, accelerators, other startup tools (Stripe atlas, Gusto, Carta, etc.) The former two will be easier, especially if they are investors. The latter will require having some relationship or exisiting content presence.</p>
+
+<p><strong>Great founder focused content</strong>: how to hire visa workers? Not sure what other types of content exist here.</p>
+
+<p><strong>Proxy services</strong>: Not sure about the ROI, but could be cool to provide Visa harbours for future immigrant entrepreneurs. Basically offer EIR-ships to potential customers. In the same vein, we could also provide a friendly third party who joins as an owner of your company as a service to E2 seekers.</p>
+
+<h2 id="how-the-moat-grows">How the moat grows</h2>
+
+<p><strong>Data and software</strong>: The more cases we see, the more data we have to build our templates from. This in turn makes our ops cheaper, our applications better, and the experience better for our users, leading to more cases.</p>
+
+<p><strong>Relationships</strong>: Over time, we’ll build relationships with educational institutions and professional associations to get bettter access to support letters. Is value add for applicants. Also builds relationshoip with USCIS?</p>
+
+<p><strong>Brand</strong>: The better we do, the more we have positive word of mouth. Testimonials from E2 and EB1 applicants are going to look especially good on the site.</p>
+
+<h2 id="risks">Risks</h2>
+
+<p>Remote work might eat into people’s willingness to immigrate. Not super confident this is true beecause I think most immigrants move for want of a better life, not because they are forced to by their job. A related risk is the decline of America as an immigration destination in the long tem</p>
+
+<p>Market size for employment visas and greencards is relatively small. Need to <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/annual-reports/report-of-the-visa-office-2019.html">check</a> exactly how small. Immigration is not a growing market, I think. Things are harder when the market is not growing. This might not be a bad thing assuming that immigration is just a springboard to general legal tech, since it means the first market is not outrageously difficult to acquire.</p>
+
+<h2 id="relevant-businesses">Relevant businesses</h2>
+<p>Here, we figure out who are competing against and who we can learn from.</p>
+
+<h3 id="tech-enabled-law-firms">Tech-enabled law firms</h3>
+<p>Envoy global: we want to do this, but with a less shitty tech side.</p>
+
+<p>Boundless: they look like they’re doing it right by taking a page out of Turbotax’s playbook, but only for family-based greencards. Great content game too.</p>
+
+<p>Atrium: Justin burned out, too much money, too many customers, too many lawyers, not enough product.</p>
+
+<p>Do not pay: like Boundless, but applying the Turbotax approach to even more menial cases. Likely fully automated. Possibly good case study for automating easier visas.</p>
+
+<p>Rocker lawyer: Does anyone even use them?</p>
+
+<h3 id="tech-companies-automating-paperwork">Tech companies automating paperwork</h3>
+<p>Turbo tax: the OG in automating paperwork. Still a lot of good UX patterns to steal from.</p>
+
+<p>Stripe atlas: new kid on the block in terms of paperwork automation. Would love to see how it works on the backend. What is software? What is ops?</p>
+
+<p>Kenchi: Great customer support software. Key insight is to create a template update loop so that new learning is distributed to all.</p>
+
+<p>Arrows: Example of a service that semi-automates high touch services via software. Makes it ops team superpowered.</p>
+
+<h3 id="tech-enabled-professional-services">Tech enabled professional services</h3>
+<p>Onemedical</p>
+
+<p>Compass</p>
+
+<p>Opendoor</p>
+
+<p>Compound</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Another reason to keep legal in check: you don’t want them to become a <a href="https://twitter.com/justinkan/status/1397730772476256256?s=20">“customer”</a>. They’re also inheritently more risk-averse, which is not the right attitude for startups. Coinbase suffers from this: live by compliance, die by compliance. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>A cursory search on <a href="https://www.linkedin.com/talent/search?searchContextId=ee1b266b-a031-4c44-9501-60545d1f57d7&amp;searchHistoryId=4607099776&amp;searchKeyword=Appeals%20Officer&amp;searchRequestId=709c98e0-72de-44be-bb87-3eb103037b7f&amp;start=0&amp;uiOrigin=FACET_SEARCH">linkedin</a> reveals that, like most government jobs, people just don’t leave. However, for how valuable it would be to have an insider, I’m surprised immigration lawyers haven’t tried harder. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
