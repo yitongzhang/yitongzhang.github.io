@@ -62,6 +62,9 @@ h2{ //small title
         background-color:$color-accent;
     }
 }
+h3{
+    -webkit-text-stroke:0.4px;
+}
 h5{ //small mono
     font-family: $font-mono;
     font-size:1.4rem;
@@ -122,7 +125,7 @@ p, ul, ol{
 
 ol{
     list-style: decimal;
-    list-style-position: inside;
+
     &::selection{
         background-color:$color-accent;
     }
@@ -134,7 +137,7 @@ ul li::before {
     width: 0.8em;
     position: relative;
     left: -8px;
-  }
+}
 
 a{
     text-decoration: none;
@@ -182,4 +185,12 @@ em{
     font-size: 1.4rem;
     position: relative;
     top: 2px;
+}
+
+strong{
+    -webkit-text-stroke:0.4px;
+    color: $color-primary;
+    &::selection{
+        background-color:$color-accent;
+    }
 }
