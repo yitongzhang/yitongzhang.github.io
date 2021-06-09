@@ -9,11 +9,6 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
-<div class="postMetaData">
-    <h5 class="metaDataItem author">{{ page.author }}</h5>
-    <h5>/</h5>
-    <h5 class="metaDataItem postDate">{{ page.date | date: "%d %b %y" }}</h5>
-    <h5>/</h5>
-    <h5 class="metaDataItem location">{{ page.location }}</h5>
-</div>
 <script src="/assets/js/modal.js"></script>
+
+{% include mailinglist.html %}

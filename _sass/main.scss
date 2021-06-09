@@ -236,3 +236,55 @@ footer{
     margin-top: 24px;
     margin-bottom: 48px;
 }
+.mailinglist{
+    margin: 24px 0px 16px 0px;
+    padding: 20px 24px;
+    background-color: $color-wash;
+    display: flex;
+    flex-direction: row;
+    .whySignUp {
+        p{margin-bottom: 0px;}
+        h6{color:$color-secondary;}
+        h6 a{
+            transition: $speed-fast;
+            border-bottom: 1px dashed $color-tertiary;
+        }
+        h6 a:hover{
+            background-color: $color-accent;
+        }
+    }
+    
+    #mc_embed_signup{
+        margin-left: 24px;
+        display: flex;
+        align-items: center;
+    }
+    #mc_embed_signup_scroll{
+        display: flex;
+        flex-direction: row;
+    }
+    .button{
+        position: relative;
+        left: -1px;
+    }
+
+}
+.thanks{
+    background-color: $color-wash;
+    padding: 32px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    p{
+        margin-bottom: 0px;
+    }
+    img{
+        height: 120px;
+        margin-right: 32px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
