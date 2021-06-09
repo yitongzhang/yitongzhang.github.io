@@ -3,6 +3,7 @@ layout: post
 title:  "Dark Forest captain's log 2"
 date:   2021-05-31 -0700
 location:   "Dark Forest"
+author:   "Yitong"
 excerpt_separator: <!--more-->
 ---
 Day seven in the dark forest, where I'm now strategically watching commit logs and deploying more hash power. Also, a dispatch from meatspace. <!--more--> It's a good thing that my still humble civilization is now large enough that the pending transaction queue is preventing me from logging in to pilot, because otherwise, I'd still be doing that. Anyway, let's start with a check in on the todos from last time. 
