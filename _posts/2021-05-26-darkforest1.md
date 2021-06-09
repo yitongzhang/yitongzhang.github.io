@@ -3,6 +3,7 @@ layout: post
 title:  "Dark Forest captain's log 1"
 date:   2021-05-26 -0700
 location:   "Dark Forest"
+author:   "Yitong"
 excerpt_separator: <!--more-->
 ---
 

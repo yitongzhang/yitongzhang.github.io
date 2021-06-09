@@ -3,6 +3,7 @@ layout: post
 title:  "Being negatively-driven"
 date:   2020-08-07 -0700
 location:   "San Francisco, CA"
+author:   "Yitong"
 excerpt_separator: <!--more-->
 ---
 For as long as I remember, I've derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college<!--more-->, having done a professional bootcamp, competing with coworkers (secretly!), being an alien in an anti-immigrant country, and a million other nothings that find their way on my shoulder and stay there to become chips.
