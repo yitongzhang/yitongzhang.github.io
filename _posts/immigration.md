@@ -83,6 +83,8 @@ Boundless: they look like they're doing it right by taking a page out of Turbota
 
 Atrium: Justin burned out, too much money, too many customers, too many lawyers, not enough product.
 
+Rally legal: selling productivity tools to lawyers, like the opposite of what i'm proposing here
+
 Do not pay: like Boundless, but applying the Turbotax approach to even more menial cases. Likely fully automated. Possibly good case study for automating easier visas.
 
 Rocker lawyer: Does anyone even use them?
@@ -98,9 +100,7 @@ Arrows: Example of a service that semi-automates high touch services via softwar
 
 
 ### Tech enabled professional services
-Examples in this category include: Onemedical, Compass real estate, Compound, etc. 
-
-Opendoor
+Examples in this category include: Onemedical, Compass, Compound, etc. I don't have much insight here. Would love to learn why none of them have been breakout businesses. What lessons have they learned operating both a software company and a professional service? How would they do things differently?
 
 
 
