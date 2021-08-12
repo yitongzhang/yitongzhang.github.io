@@ -112,15 +112,15 @@ strong { -webkit-text-stroke: 0.4px; color: #000000; }
 
 strong::selection { background-color: #fff6c0; }
 
-.button { font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #fff; padding: 12px 16px; background-color: #000000; border: 0px; cursor: pointer; transition: 300ms; }
+.button { font-size: 1.4rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #fff; padding: 10px 16px; background-color: #000000; border: 0px; cursor: pointer; transition: 300ms; border: 1px solid #F0F0F0; }
 
 .button:hover { color: #abb0b6; }
 
-input[type=email] { width: 160px; padding: 11px 16px; font-size: 1.6rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #000000; border: 1px solid #F0F0F0; transition: 300ms; }
+input[type=email] { width: 160px; padding: 10px 16px; font-size: 1.4rem; line-height: 1.6; font-family: "Colfax", Sans-Serif; color: #000000; border: 1px solid #F0F0F0; transition: 300ms; }
 
 input[type=email]:focus { outline: 0px; border: 1px solid #abb0b6; }
 
-html { display: flex; justify-content: center; }
+html { display: flex; justify-content: center; background-color: #fff; }
 
 body { margin: 0 24px; display: flex; flex-direction: column; justify-content: center; max-width: 640px; }
 
@@ -192,11 +192,13 @@ figure:hover { cursor: zoom-in; }
 
 .post h3 { margin-bottom: 8px; margin-top: 4px; }
 
-.project-image { max-width: 100%; margin-bottom: 8px; background-color: #FAFAFA; }
+.project-image { max-width: 100%; background-color: #FAFAFA; border-radius: 16px; }
+
+.work-title-box { margin-top: 16px; }
 
 .section-wide { margin-bottom: 32px; }
 
-.no-hover-section:hover { background-color: white; }
+.no-hover-section:hover { background-color: #fff; }
 
 .table-row { display: flex; flex-direction: row; padding: 8px 12px; width: 100%; transition: background-color 300ms; border-radius: 8px; position: relative; left: -12px; justify-content: space-between; }
 
@@ -242,7 +244,13 @@ footer { margin-top: 24px; margin-bottom: 48px; }
 
 .thanks .text { display: flex; flex-direction: column; justify-content: center; }
 
-@media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; margin: 4px 0px; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } }
+.fixed-ratio { display: block; position: relative; height: 0; overflow: hidden; }
+
+.fixed-ratio-content { position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: inherit; }
+
+.fixed-ratio-1600-720 { /* ratio: 720/1600 = */ padding-bottom: 45%; }
+
+@media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; margin: 4px 0px; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } .mailinglist { margin: 24px 0px 16px 0px; padding: 16px; display: flex; flex-direction: column; justify-content: center; } .mailinglist .whySignUp { margin-bottom: 8px; } .mailinglist #mc_embed_signup { margin-left: 0px; } .mailinglist #mc_embed_signup_scroll { justify-content: center; width: 100%; } .mailinglist form { width: 100%; } .mailinglist input[type=email] { width: 100%; } .mailinglist .mc-field-group { width: calc( 100% - 100px); } }
 
 .modalBackgroundOpen { opacity: 0.8; display: block; }
 

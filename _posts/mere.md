@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Mere software"
-date:   2020-02-25 10:58:44 -0700
+date:   2020-02-25  -0700
 excerpt_separator: <!--more-->
 ---
-
 I've been watching a lot of woodworking Youtube lately, and one subgenre that I've been particularly obsessed with is the workshop tour. You can probably picture it: rows of clamps, half a dozen well-honed hand planes, a rack of chisels, small tools neatly arranged on a peg board. There's some guy with a beard gently cradling each item in his hands, telling you how he's had the same plane for as long as his daughter's been alive, and how they just don't make them this well anymore. He makes one clean sweep with the thing, and holds up the shaving against the light to show you how impossibly thin it is. The way it dances in the breeze reminds you of the katsuobushi on those crazy good takoyakis you once had in Osaka.
 
 That's the stuff, and we don't have any of it in software.

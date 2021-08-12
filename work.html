@@ -5,9 +5,11 @@ title: "Work"
 <h1 class="pageHeader">Work</h1>
 
 {% for item in site.data.work %}
-  <section class="section-wide no-hover-section">
-    <img src="{{ item.images[0] }}" class="project-image">
-    <div class="main-title-box">
+  <section class="section-wide no-hover-section project-image-wrapper">
+    <picture class="fixed-ratio fixed-ratio-1600-720">
+      <img src="{{ item.images[0] }}" class="project-image fixed-ratio-content">
+  </picture>
+    <div class="main-title-box work-title-box">
       <h2>{{ item.name }}</h2>
       <h5>{{ item.startDate | date: "%b %Y" }}  to  
         {% if item.endDate == "Now" %}

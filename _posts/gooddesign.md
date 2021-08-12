@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Great design at scale"
-date:   2021-06-2 -0700
+date:   2021-06-2  -0700
 location:   "Oakland, CA"
 excerpt_separator: <!--more-->
 ---
