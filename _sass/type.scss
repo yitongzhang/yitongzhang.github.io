@@ -124,20 +124,15 @@ p, ul, ol{
 }
 
 ol{
-    list-style: decimal;
-
     &::selection{
         background-color:$color-accent;
     }
 }
 
-ul li::before {
-    content: "\2022"; 
-    color:$color-secondary;
-    width: 0.8em;
-    position: relative;
-    left: -8px;
+ol,ul{
+    padding: auto;
 }
+
 
 a{
     text-decoration: none;

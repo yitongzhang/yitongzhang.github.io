@@ -1,17 +1,25 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
 body { line-height: 1; }
 
-ol, ul { list-style: none; }
-
 blockquote, q { quotes: none; }
 
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
+
+ol, ul { padding-left: 16px; }
+
+ol li { padding-left: 4px; }
+
+.ol { counter-reset: item; }
+
+.ol li { display: block; }
+
+.ol li:before { content: counter(item) ". "; counter-increment: item; width: 2em; display: inline-block; }
 
 .spacer8 { height: 8px; }
 
@@ -80,11 +88,9 @@ p a:hover, ul a:hover, ol a:hover { background-color: #fff6c0; }
 
 p::selection, ul::selection, ol::selection { background-color: #fff6c0; }
 
-ol { list-style: decimal; }
-
 ol::selection { background-color: #fff6c0; }
 
-ul li::before { content: "\2022"; color: #424850; width: 0.8em; position: relative; left: -8px; }
+ol, ul { padding: auto; }
 
 a { text-decoration: none; color: inherit; }
 
