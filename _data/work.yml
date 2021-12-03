@@ -1,8 +1,22 @@
+- name: Vector DAO
+  company: Vector DAO
+  description: I cofounded Vector DAO, a collective of designers in crypto. Our mission is to accelerate the mainstream adoption of crypto protocols through design and investment.
+  startDate: 2021-09-01
+  endDate: Now
+  images: [assets/img/screenshot-vector.jpg]
+
+- name: Coinbase speculative projects
+  company: Coinbase
+  description: After my stint on design systems, I spent a year working on various speculative projects. Some of which, like ETH2 staking, have shipped, while others remain in the works. I hope to share them here one day.
+  startDate: 2021-01-01
+  endDate: Now
+  images: [assets/img/screenshot-cbmor.jpg]
+
 - name: Coinbase Design System
   company: Coinbase
-  description: Right after the the mobile rewrite, I worked on the design system supporting the new app. It is slowly becoming a larger system that emcompasses all products and platforms at Coinbase.
+  description: Right after the the mobile rewrite, I worked on the design system supporting the new app. This work has since been taken over by a larger team, and is growing to encompass all Coinbase products.
   startDate: 2020-03-01
-  endDate: Now
+  endDate: 2020-12-31
   images: [assets/img/screenshot-ds.jpg]
 
 - name: Coinbase mobile rewrite
