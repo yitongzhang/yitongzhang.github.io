@@ -254,7 +254,7 @@ footer { margin-top: 24px; margin-bottom: 48px; }
 
 .fixed-ratio-content { position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: inherit; }
 
-.fixed-ratio-1600-720 { /* ratio: 720/1600 = */ padding-bottom: 45%; }
+.fixed-ratio-1600-800 { /* ratio: 800/1600 = */ padding-bottom: 50%; }
 
 @media all and (max-width: 700px) { h1 { font-size: 2.4rem; } nav .links h5 { margin-left: 16px; } .post-title-box h1 { margin-right: 0px; } .table-row { flex-direction: column; align-items: flex-start; margin: 4px 0px; } .table-row .table-location { margin-right: 8px; } .table-row .table-date { text-align: left; } .masonry { grid-template-columns: 1fr; width: 100%; margin-left: 0px; } .masonry .masonry-item { width: 100%; } .mailinglist { margin: 24px 0px 16px 0px; padding: 16px; display: flex; flex-direction: column; justify-content: center; } .mailinglist .whySignUp { margin-bottom: 8px; } .mailinglist #mc_embed_signup { margin-left: 0px; } .mailinglist #mc_embed_signup_scroll { justify-content: center; width: 100%; } .mailinglist form { width: 100%; } .mailinglist input[type=email] { width: 100%; } .mailinglist .mc-field-group { width: calc( 100% - 100px); } }
 
