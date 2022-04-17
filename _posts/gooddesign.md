@@ -1,11 +1,21 @@
 ---
 layout: post
-title:  "Great design at scale"
+title:  "What's happening to product design?"
 date:   2021-06-2  -0700
 location:   "Oakland, CA"
 excerpt_separator: <!--more-->
 ---
 
-Watching WWDC21, and was blown away by the new safari and cross device mouse travel. Why are some organizations able to consistently prioritize great design? Apple, Cash app, Airbnb, Stripe.
+Lack of discourse
 
-In the beginning, the answer is similar: hire great people who care. But how do they manage to make it work at scale?
+What are the big topics: 
+1. Design systems
+2. Super senior IC career ladder
+3. Management
+
+Seat at the table lost
+
+Confusion on what the role actually is: 
+1. Solve customer problems
+2. Create scalable systems
+

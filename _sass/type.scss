@@ -50,10 +50,6 @@ h1{ //big title
     }
 }
 
-.pageHeader{
-    margin-bottom: 16px;
-}
-
 h2{ //small title
     font-size: 1.6rem;
     -webkit-text-stroke:0.4px;
@@ -62,7 +58,7 @@ h2{ //small title
         background-color:$color-accent;
     }
 }
-h3{
+h3{ //emphasis
     -webkit-text-stroke:0.4px;
 }
 h5{ //small mono
@@ -160,6 +156,10 @@ em{
     &::selection{
         background-color:$color-accent;
     }
+}
+
+.pageHeader{
+    margin-bottom: 16px;
 }
 
 .footnote{
