@@ -2,4 +2,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
