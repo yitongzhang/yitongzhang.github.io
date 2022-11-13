@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-14T12:53:01-08:00</updated><id>/feed.xml</id><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-11-13T13:32:35-08:00</updated><id>/feed.xml</id><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
+
+&lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://worrydream.com&quot;&gt;Bret Victor’s research&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shapeofdesignbook.com&quot;&gt;The Shape of Design, by Frank Chimero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@millsbaker/designer-duds-f59c964513ef&quot;&gt;Designer Duds, by Mills Baker – and his general writing wit large&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://edwardtufte.com/tufte/books_vdqi&quot;&gt;All of Tufte’s books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe I’m just entering my old man yells at clouds phase, but nothing remotely as interesting has come out since 2017. We can lament the silliness of designer news, and the “should designers code” debate, but at least they were lurching towards something. Now we don’t even have that.&lt;/p&gt;
+
+&lt;p&gt;You could argue that product design is a practice, not a field of study, but graphic design, product managegement, engineer, and game design all have vibrant discourse, journals, research, etc. It’s hard to watch any &lt;a href=&quot;https://www.youtube.com/c/Gdconf/videos&quot;&gt;GDC talk&lt;/a&gt; and not feel like we’re missing something!&lt;/p&gt;
+
+&lt;p&gt;And because I dislike just whining, here are some things I’d love to see:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magazines&lt;/strong&gt;: in the absence of journals, something like &lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt; or &lt;a href=&quot;https://www.offscreenmag.com/&quot;&gt;Offscreen&lt;/a&gt; that published long form pieces at a slower cadence focused on the practice of product and interaction design in tech.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conferences&lt;/strong&gt;: but organized around disseminating knowledge &amp;amp; research. Having our own &lt;a href=&quot;https://gdconf.com/&quot;&gt;GDC&lt;/a&gt; or &lt;a href=&quot;https://devcon.org/&quot;&gt;Devcon&lt;/a&gt; would be amazing. But we can start much, much smaller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meetups&lt;/strong&gt;: bring back &lt;a href=&quot;https://wafflejs.com/&quot;&gt;WaffleJS&lt;/a&gt;: the perfect blend of serious and silly. We need regular in person meetings for low stakes demos &amp;amp; conversations that can be tricky to have on the Internet.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep adding to this list as I think of more stuff, but maybe one deeper and more worrying theme is that we’re now fully in the era of designer duds that Mills Baker warned about circa 2014&lt;/p&gt;
+
+&lt;p&gt;If ours is primarily the practice of optimally stacking as many IC5s as possible while minimizing diminishing returns at scale through good management and design system investment, then maybe magazines and meetups are the wrong level to be operating at.&lt;/p&gt;
+
+&lt;p&gt;Instead, maybe what we need is for more cases of design-driven business moats.&lt;/p&gt;
+
+&lt;p&gt;And because strict UX moats don’t exist, we’ll need a class of designers who are able to reason about subjects far outside of what we currently understand to be “product design” – designers who understand enough about semi-conductors to invest in custom chips, see and invest in Wasm before anyone else, can explain the tradeoff between smart contract &amp;amp; mpc wallets for end users, are well-versed in fine tuning LLMs for practical use, and so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
+
+&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
 I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned. &lt;!--more--&gt; My own journey started when I read a similar blog post by &lt;a href=&quot;https://www.julian.com/&quot;&gt;Julian Shapiro&lt;/a&gt; almost three years ago, so it’s only fair to pay it forward.&lt;/p&gt;
 
 &lt;p&gt;I have a lot of feelings about the way immigration works in this country, but I’ll be saving those for the next posts, where I’ll go more in-depth about the price we all pay for the bad employment policy, and some ideas on how to fix it. If you’d like to get an email when that comes out, consider subscribing via email or RSS.&lt;/p&gt;
@@ -300,19 +333,4 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
 
 &lt;p&gt;Incidentally, I really appreciate foundries like &lt;a href=&quot;https://processtypefoundry.com/help/base/how-many-domains-can-use-the-fonts/&quot;&gt;Process&lt;/a&gt; that issue licenses allowing for usage on multiple domains. It’s nice to have a small roster of fonts that can be easily used on small projects. Typekit used to serve this purpose for me, but I’ve grown to hate the subscription fee lately. I’d much rather pay the maker of the product directly and own the license.&lt;/p&gt;
 
-&lt;p&gt;Next time, I’d like to put up a work section covering the projects I’ve done. Might also look into an image layout so that I can stick a couple of pictures up on my about page.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.</summary></entry><entry><title type="html">The structure of progress in craft</title><link href="/2020/06/03/craft-progress.html" rel="alternate" type="text/html" title="The structure of progress in craft" /><published>2020-06-03T00:00:00-07:00</published><updated>2020-06-03T00:00:00-07:00</updated><id>/2020/06/03/craft-progress</id><content type="html" xml:base="/2020/06/03/craft-progress.html">&lt;p&gt;There’s a lot of research on the structure of progress in science (Kuhn, Popper, Deutsch, etc.) but what about the progress of professional craft?&lt;!--more--&gt; How do we get better at programming, design, furniture building, cooking, entrepreneurship, etc.&lt;/p&gt;
-
-&lt;p&gt;And by the way, if these fields feel like they are unrelated, you’re right. Cooking is not the same as entrepreneurship. That’s why great cooks are not automatically great restauranteurs. But I’d like to suggest that both fields have a lot of commonality in their epistemology. The process of getting better might be surprisingly similar across all these professions.&lt;/p&gt;
-
-&lt;p&gt;And these professions do advance, some faster than others. Most obvious in programming. The default answer is that the tools are getting better, but that’s not the only thing. Even if it was, we’re still far from understanding how tools get better.&lt;/p&gt;
-
-&lt;p&gt;Just because Figma is better than Illustrator for product design does not automatically make you a better designer. You need process knowledge, understanding of history, a community of practitioners, and much more.&lt;/p&gt;
-
-&lt;p&gt;Really, we don’t even have a reasonable list of inputs into good craft. Here are some questions I’d like to better understand:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What are the constraining factors on tooling improvement? For example, why did tooling grow far more quickly in programming than product design?&lt;/li&gt;
-  &lt;li&gt;What about the more subjective part of craft? What is beautiful design? What is elegant code? How do our tools internalize and shape subjective practices?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A better understanding of craft would yield great societal dividends. Most people are engaged on a day to day in activities that look more like craft than science.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">There’s a lot of research on the structure of progress in science (Kuhn, Popper, Deutsch, etc.) but what about the progress of professional craft?</summary></entry></feed>
+&lt;p&gt;Next time, I’d like to put up a work section covering the projects I’ve done. Might also look into an image layout so that I can stick a couple of pictures up on my about page.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.</summary></entry></feed>

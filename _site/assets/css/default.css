@@ -52,8 +52,6 @@ h1 { font-size: 3.2rem; }
 
 h1::selection { background-color: #fff6c0; }
 
-.pageHeader { margin-bottom: 16px; }
-
 h2 { font-size: 1.6rem; -webkit-text-stroke: 0.4px; letter-spacing: 0.02rem; }
 
 h2::selection { background-color: #fff6c0; }
@@ -103,6 +101,8 @@ sup::selection { background-color: #fff6c0; }
 em { font-weight: 400; color: #000000; background-color: #fff6c0; }
 
 em::selection { background-color: #fff6c0; }
+
+.pageHeader { margin-bottom: 16px; }
 
 .footnote { transition: color 300ms; }
 
