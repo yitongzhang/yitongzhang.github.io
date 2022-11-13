@@ -1,0 +1,127 @@
+I"�<p>2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.<!--more--></p>
+
+<h1 id="what-to-read">What to read</h1>
+<p>This seems kinda obvious to me, but people have relatively few original ideas. Most of the time, what seems like new ideas are just mashups of various things we’ve read. It’s like in design: there are no new designs, only interesting remixes.</p>
+
+<p>By this logic it’s really important to read the right things, because the rate of new idea generation = what you read * your ability to make interesting mashups.</p>
+
+<p>So what should you read?</p>
+
+<ol>
+  <li>Things that few people are reading</li>
+  <li>Facts over analysis over opinions</li>
+  <li>Things you don’t understand</li>
+</ol>
+
+<p>Number two is especially tough when it comes to history and social sciences because opinions often masquerade as facts.</p>
+
+<h1 id="mere-tools">Mere tools</h1>
+<p>I’ve been watching a lot of woodworking Youtube lately, and one subgenre that I’ve been particularly obsessed with is the workshop tour. You can probably picture it: rows of clamps, half a dozen well-honed hand planes, a rack of chisels, small tools neatly arranged on a peg board. There’s some guy with a beard gently cradling each item in his hands, telling you how he’s had the same plane for as long as his daughter’s been alive, and how they just don’t make them this well anymore. He makes one clean sweep with the thing, and holds up the shaving against the light to show you how impossibly thin it is. The way it dances in the breeze reminds you of the katsuobushi on those crazy good takoyakis you once had in Osaka.</p>
+
+<p>That’s the stuff, and we don’t have any of it in software.</p>
+
+<p>All we have are these horrible power tools with 25 attachment heads that don’t work well. Five years ago, you find this neat little cloud file sync app that you love. Today, it’s grown a productivity suite, upselling you to the business plan every third interaction, and is somehow trying to replace your filesystem. And the story repeats itself over and over: dropbox, invision, google analytics. This is not limited to big companies either: donut is now offering 15 other services.</p>
+
+<p>Why this happens is complicated, but at least one key reason is founders misjudging their company’s fit for venture capital.</p>
+
+<ol>
+  <li>Ambition</li>
+  <li>Hiring</li>
+  <li>Competition</li>
+  <li>Boostrapping is hard</li>
+</ol>
+
+<p><strong>The boostrapped conglomerate</strong>
+https://basecamp.com/
+https://panic.com/</p>
+
+<p>I think panic is doing it right: picking products with inheritently limited scope, many products. Basecamp is doing it wrong: going after huge and complex products</p>
+
+<h1 id="human-systems-in-crypto">Human systems in crypto</h1>
+
+<hr />
+<p>layout: post
+title:  “An overview of human in the loop crypto systems”
+date:   2022-02-21  -0700
+excerpt_separator: <!--more-->
+—
+Overview of permissionless human-in-the-loop crypto-mechanisms.</p>
+
+<h2 id="protocols-for-coordinating-human-activity">Protocols for coordinating human activity:</h2>
+
+<p><strong>Proof of stake</strong></p>
+
+<p>Most crypto protocols coordinate money. I want to look at the ones that coordinate people. Most protocols for coordinating humans work by introducing skin in game via a stake to induce strangers to behave correctly.</p>
+
+<p>Kleros court: a decentralized court (more of a research project than an actual protocol) that uses staking rewards to incentive juries to arrive at the right conclusion. Jurors put up a stake to participate in a case, and get rewarded for voting with the majority (basically a schellingpoint vote). It’s a bit of an overwrought system, but a couple of interesting mechanics worth highlighting:</p>
+
+<ol>
+  <li>The use of a schelling point votes</li>
+  <li>The more you stake, the more of you have a chance of being drawn as juror – prioritizing people with the most skin in the game</li>
+  <li>One worry I have is juror qualification, in theory people self-select into the right courts since their decision acumen is proportional to their earning potential, but in reality I suspect many will duning kruger themselves.</li>
+</ol>
+
+<p>Erasure bay: a research marketplace whose core innovation is a “truth staking” mechanism where both information requesters and fulfillers have to put up a stake that’s subject to slashing to incentivize accuracy. Some thoughts:</p>
+
+<ol>
+  <li>The tasks are too small to necessitate this level of double slashing mechanism. The mechanism is an overkill. Would get more interesting if the average request size was $10k.</li>
+  <li>So the question is: why has no one tried to use it for a large task?</li>
+</ol>
+
+<p>Numerai: a quant fund that trades based on a metamodel of crowd-submitted models. The “crowd” is incentivized to contribute models because successful models can earn high staking rewards of their native NMR token.</p>
+
+<ol>
+  <li>My worry is that the max cap of 25% monthly gain will not cover fluctuation of the locked NMR</li>
+  <li>Kinda interesting that they make money not on the competition, but off the fund running the metamodel</li>
+</ol>
+
+<p>Polymarket / Omen: both of these are prediction market mechanisms for coordinating a bunch of people’s selfish profit seeking motives to arrive at a useful prediction for the future.</p>
+
+<ol>
+  <li>Unfortunately, relatively limited to current events.</li>
+</ol>
+
+<p>Goldfinch: though technically a protocol for coordinating loans, Goldfinch has a very interesting backers system, which coordinates underwriters.</p>
+
+<p><strong>Proof of work</strong></p>
+
+<p>Write race: more like a popularity contest or something</p>
+
+<p>Rabbithole</p>
+
+<h2 id="collective-decision-making-techiques">Collective decision making techiques</h2>
+
+<p>Quadratic funding: is a method of allocating a pool of funds towards projects that benefit a wide spread of people. QF oprioritizes funds matching based on the number of people who contributed by using the square root of each contribution summed up, then squared.</p>
+
+<p>Quadratic voting: allows voters to not just express which option they prefer, but also how strongly. each voter has a certain number of credits to deploy. The more they deploy to the same option, the more it costs credits – testing their conviction in their belief.</p>
+
+<p>Retroactive funding: is a way to deploy public goods funding more accurately, by fund things that have worked after they have proven themselves. This creates venture-style returns for public goods.</p>
+
+<p>Conviction voting: frankly i don’t fully understand this, but it’s a way to solve a lot of the pitfalls of onchain voting like vote buying and last minute swings by time weighting votes.</p>
+
+<h2 id="other-interesting-mechanisms">Other interesting mechanisms</h2>
+
+<p>Token curated registry</p>
+
+<p>Bonding curves</p>
+
+<p>Harbringer tax for price discovery</p>
+
+<p>Perpetual auctions</p>
+
+<hr />
+
+<h2 id="public-goods-funding">Public goods funding</h2>
+
+<p><strong>Quadratic voting:</strong></p>
+
+<p>Problem: public goods funding via matching concentrate fund allocation power in the hands of a minority of wealthy people</p>
+
+<p>Solution: quadratic funding prioritizes projects based on the number of people who contributed. By weighing the number of people more than the dollar amount, this ensures that projects with the broadest benefits get funded</p>
+
+<p><strong>Retroactive funding:</strong></p>
+
+<p>Problem: funders don’t know ahead of time what’s going to work</p>
+
+<p>Retroactive funding: fund things that have worked, after they have proven themselves. This creates venture-style returns for public goods.</p>
+:ET
