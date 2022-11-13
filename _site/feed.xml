@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-11-13T13:32:35-08:00</updated><id>/feed.xml</id><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-11-13T14:15:12-08:00</updated><id>/feed.xml</id><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
 
 &lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
 
@@ -31,7 +31,89 @@
 
 &lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
 
-&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
+&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">2022 WIP ideas</title><link href="/2022/11/13/wip.html" rel="alternate" type="text/html" title="2022 WIP ideas" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/wip</id><content type="html" xml:base="/2022/11/13/wip.html">&lt;p&gt;2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mere-tools&quot;&gt;Mere tools&lt;/h2&gt;
+&lt;p&gt;I’ve been watching a lot of &lt;a href=&quot;https://www.youtube.com/channel/UCwP3-YxYpWeeeo7_-MUyj5Q&quot;&gt;woodworking Youtube&lt;/a&gt; lately, and one subgenre that I’ve been particularly obsessed with is the workshop tour. You can probably picture it: rows of clamps, half a dozen well-honed hand planes, a rack of chisels, small tools neatly arranged on a peg board. There’s some guy with a beard gently cradling each item in his hands, telling you how he’s had the same plane for as long as his daughter’s been alive, and how they just don’t make them this well anymore. He makes one clean sweep with the thing, and holds up the shaving against the light to show you how impossibly thin it is. The way it dances in the breeze reminds you of the katsuobushi on those crazy good takoyakis you once had in Osaka.&lt;/p&gt;
+
+&lt;p&gt;That’s the stuff, and we don’t have any of it in software.&lt;/p&gt;
+
+&lt;p&gt;All we have are these horrible power tools with 25 attachment heads that don’t work well. Five years ago, you find this neat little cloud file sync app that you love. Today, it’s grown a productivity suite, upselling you to the business plan every third interaction, and is somehow trying to replace your filesystem. And the story repeats itself over and over: dropbox, invision, google analytics. This is not limited to big companies either: donut is now offering 15 other services.&lt;/p&gt;
+
+&lt;p&gt;Why this happens is complicated, but at least one key reason is founders misjudging their company’s fit for venture capital.&lt;/p&gt;
+
+&lt;p&gt;And so I believe that there’s an opportunity for a patient generalist software maker to create a series of boostrapped businesses that differentiate based on their simplicity. It’s like Dropbox, but less. Like Mailchimp, but less. Of course, there are many indie hackers in the world, so the competition is stiff! I think the art of doing this kind of stuff lies in identifying niche products with a passionate userbase who would pay premium for speed, quality and simplicity – a different spin on the traditional VMS. And over time, you can grow this business into a mini-conglomerate – like a modern day &lt;a href=&quot;https://www.csisoftware.com/&quot;&gt;Constellation Software&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://panic.com/&quot;&gt;Panic&lt;/a&gt; seems like one example of such a business: picking products with inheritently limited scope, and doing many products. The counter example would be something like &lt;a href=&quot;https://basecamp.com/&quot;&gt;Basecamp&lt;/a&gt;: going after huge and complex products.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-read&quot;&gt;What to read&lt;/h2&gt;
+&lt;p&gt;This seems kinda obvious to me, but people have relatively few original ideas. Most of the time, what seems like new ideas are just mashups of various things we’ve read. It’s like in design: there are no new designs, only interesting remixes.&lt;/p&gt;
+
+&lt;p&gt;By this logic it’s really important to read the right things, because the rate of new idea generation = what you read * your ability to make interesting mashups.&lt;/p&gt;
+
+&lt;p&gt;So what should you read?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Things that few people are reading&lt;/li&gt;
+  &lt;li&gt;Facts over analysis over opinions&lt;/li&gt;
+  &lt;li&gt;Things you don’t understand&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Number two is especially tough when it comes to history and social sciences because opinions often masquerade as facts.&lt;/p&gt;
+
+&lt;h2 id=&quot;protocols-that-coordinate-humans&quot;&gt;Protocols that coordinate humans&lt;/h2&gt;
+
+&lt;h3 id=&quot;proof-of-stake&quot;&gt;Proof of stake&lt;/h3&gt;
+
+&lt;p&gt;Most crypto protocols coordinate money. I want to look at the ones that coordinate people. Most protocols for coordinating humans work by introducing skin in game via a stake to induce strangers to behave correctly.&lt;/p&gt;
+
+&lt;p&gt;Kleros court: a decentralized court (more of a research project than an actual protocol) that uses staking rewards to incentive juries to arrive at the right conclusion. Jurors put up a stake to participate in a case, and get rewarded for voting with the majority (basically a schellingpoint vote). It’s a bit of an overwrought system, but a couple of interesting mechanics worth highlighting:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The use of a schelling point votes&lt;/li&gt;
+  &lt;li&gt;The more you stake, the more of you have a chance of being drawn as juror – prioritizing people with the most skin in the game&lt;/li&gt;
+  &lt;li&gt;One worry I have is juror qualification, in theory people self-select into the right courts since their decision acumen is proportional to their earning potential, but in reality I suspect many will duning kruger themselves.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Erasure bay: a research marketplace whose core innovation is a “truth staking” mechanism where both information requesters and fulfillers have to put up a stake that’s subject to slashing to incentivize accuracy. Some thoughts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The tasks are too small to necessitate this level of double slashing mechanism. The mechanism is an overkill. Would get more interesting if the average request size was $10k.&lt;/li&gt;
+  &lt;li&gt;So the question is: why has no one tried to use it for a large task?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Numerai: a quant fund that trades based on a metamodel of crowd-submitted models. The “crowd” is incentivized to contribute models because successful models can earn high staking rewards of their native NMR token.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;My worry is that the max cap of 25% monthly gain will not cover fluctuation of the locked NMR&lt;/li&gt;
+  &lt;li&gt;Kinda interesting that they make money not on the competition, but off the fund running the metamodel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Polymarket / Omen: both of these are prediction market mechanisms for coordinating a bunch of people’s selfish profit seeking motives to arrive at a useful prediction for the future.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Unfortunately, relatively limited to current events.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Goldfinch: though technically a protocol for coordinating loans, Goldfinch has a very interesting backers system, which coordinates underwriters.&lt;/p&gt;
+
+&lt;h3 id=&quot;proof-of-work&quot;&gt;Proof of work&lt;/h3&gt;
+
+&lt;p&gt;Write race: more like a popularity contest. Great growth mechanism.&lt;/p&gt;
+
+&lt;p&gt;Rabbithole: airdrop distribution mechanism that sends tokens in the hands of more engaged people.&lt;/p&gt;
+
+&lt;h3 id=&quot;collective-decision-making-techiques&quot;&gt;Collective decision making techiques&lt;/h3&gt;
+
+&lt;p&gt;Quadratic funding: is a method of allocating a pool of funds towards projects that benefit a wide spread of people. QF oprioritizes funds matching based on the number of people who contributed by using the square root of each contribution summed up, then squared.&lt;/p&gt;
+
+&lt;p&gt;Quadratic voting: allows voters to not just express which option they prefer, but also how strongly. each voter has a certain number of credits to deploy. The more they deploy to the same option, the more it costs credits – testing their conviction in their belief.&lt;/p&gt;
+
+&lt;p&gt;Retroactive funding: is a way to deploy public goods funding more accurately, by fund things that have worked after they have proven themselves. This creates venture-style returns for public goods.&lt;/p&gt;
+
+&lt;p&gt;Conviction voting: frankly i don’t fully understand this, but it’s a way to solve a lot of the pitfalls of onchain voting like vote buying and last minute swings by time weighting votes.&lt;/p&gt;
+
+&lt;p&gt;Others: Token curated registry, Harbringer tax, Perpetual auctions.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
 I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned. &lt;!--more--&gt; My own journey started when I read a similar blog post by &lt;a href=&quot;https://www.julian.com/&quot;&gt;Julian Shapiro&lt;/a&gt; almost three years ago, so it’s only fair to pay it forward.&lt;/p&gt;
 
 &lt;p&gt;I have a lot of feelings about the way immigration works in this country, but I’ll be saving those for the next posts, where I’ll go more in-depth about the price we all pay for the bad employment policy, and some ideas on how to fix it. If you’d like to get an email when that comes out, consider subscribing via email or RSS.&lt;/p&gt;
@@ -325,12 +407,4 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
 
 &lt;p&gt;&lt;em&gt;Happiness is worth investing in&lt;/em&gt; I’ve never prioritized my own happiness because it felt more important to do great things. But I’m starting to think that being happy will unlock a new frontier of things that I would otherwise not be able to do.&lt;/p&gt;
 
-&lt;p&gt;There’s no solution here, but laying out the problem statement is a start to what I hope is a series of posts digging deeper into my negative energy, and turning that around.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college</summary></entry><entry><title type="html">Redesigning my site in the open</title><link href="/2020/07/24/newblog1.html" rel="alternate" type="text/html" title="Redesigning my site in the open" /><published>2020-07-24T00:00:00-07:00</published><updated>2020-07-24T00:00:00-07:00</updated><id>/2020/07/24/newblog1</id><content type="html" xml:base="/2020/07/24/newblog1.html">&lt;p&gt;I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.&lt;!--more--&gt; I have several motivations for this latest effort. First, I’m writing more so I’d like a blog-first design, something that can be a permanent home for my thoughts on the internet for decades to come. Second, I’m itching to write more code lately, and Jekyll is a pretty low friction way of getting back into. Lastly, I’ve been toying around with the idea of building a Notion-driven Jekyll competitor, so I figured that before embarking on that, I’d make at least a serious attempt at building something on Jekyll to see where it performs well and where it falls short.&lt;/p&gt;
-
-&lt;p&gt;Something else that I’d like to experiment with is designing this site directly in code. I’ve done this on some smaller projects before, but never tried it on anything of this level, so it should be fun. I have a general idea of where I’d like to go with the design, but am planning on figuring most of it out as I go. As a result, I expect this site to be pretty janky while it is under construction.&lt;/p&gt;
-
-&lt;p&gt;First up, getting rid of &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt; in order to roll my own theme. Things are gonna look pretty barebones to start with, but I’m exciting to get something out there. After a few hours of noodling around, I got myself set up with a pretty basic site from scratch – it’s barely designed at all, but at least the typography no longer hurts my eyes. I went with Colfax and a bit of IBM Plex, the former because it was a typeface I had already paid for, and the latter for dates and, at least aspirationally, code snippets. I’d like to buy something more fun from &lt;a href=&quot;https://www.futurefonts.xyz/&quot;&gt;Future Fonts&lt;/a&gt; later, but I’ve got to figure out the baseline for the rest of the site before letting myself fall down the type rabbit hole.&lt;/p&gt;
-
-&lt;p&gt;Incidentally, I really appreciate foundries like &lt;a href=&quot;https://processtypefoundry.com/help/base/how-many-domains-can-use-the-fonts/&quot;&gt;Process&lt;/a&gt; that issue licenses allowing for usage on multiple domains. It’s nice to have a small roster of fonts that can be easily used on small projects. Typekit used to serve this purpose for me, but I’ve grown to hate the subscription fee lately. I’d much rather pay the maker of the product directly and own the license.&lt;/p&gt;
-
-&lt;p&gt;Next time, I’d like to put up a work section covering the projects I’ve done. Might also look into an image layout so that I can stick a couple of pictures up on my about page.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">I haven’t updated my personal website since late 2017 – probably the longest period ever between two redesigns. It’s held up well for over 4 years, but it’s time for a refresh.</summary></entry></feed>
+&lt;p&gt;There’s no solution here, but laying out the problem statement is a start to what I hope is a series of posts digging deeper into my negative energy, and turning that around.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college</summary></entry></feed>
