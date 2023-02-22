@@ -1,3 +1,10 @@
+- name: Agora
+  company: Agora
+  description: I cofounded Agora – a public governance infrastructure product for onchain communities who really care about doing things right. 
+  startDate: 2022-06-01
+  endDate: Now
+  images: [assets/img/screenshot-agora.jpg]
+
 - name: Vector DAO
   company: Vector DAO
   description: I cofounded Vector DAO, a collective of designers in crypto. Our mission is to accelerate the mainstream adoption of crypto protocols through design and investment.
