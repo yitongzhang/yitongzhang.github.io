@@ -1,111 +1,100 @@
-- name: "Designing in Ethereum"
-  type: media
-  location: "ETH Denver Mainstage"
-  link: https://www.ethdenver.com/
-  date: 2023-03-08
-  
-- name: "Designing in Ethereum"
-  type: media
-  location: "ETH Denver Mainstage"
-  link: 
-  date: 2023-03-08
-
 - name: "Designing dApps with great UX"
   type: media
   location: "Coinbase Twitter Spaces"
   link: https://headliner.ai/buidl-crypto-designing-dapps-with-great-user-experiences/
   date: 2021-11-30
 
-
 - name: "Navigating the individual contributor career path"
   type: media
   location: "Staff design"
-  link: https://staff.design/yitong-zhang 
+  link: https://staff.design/yitong-zhang
   date: 2021-01-01
 
 - name: "Designing on a visa"
   type: media
   location: "Design details"
-  link: https://designdetails.fm/episodes/1xROYMXj 
+  link: https://designdetails.fm/episodes/1xROYMXj
   date: 2020-07-28
 
 - name: "Behind the Plugins: Yitong Zhang"
   type: media
   location: "Figma blog"
-  link: https://www.figma.com/blog/behind-the-plugins-yitong-zhang-coinbase/ 
+  link: https://www.figma.com/blog/behind-the-plugins-yitong-zhang-coinbase/
   date: 2019-07-25
 
 - name: "Designing an open financial system at Coinbase"
   type: media
   location: "Figma blog"
-  link: https://www.figma.com/blog/coinbase-case-study/ 
+  link: https://www.figma.com/blog/coinbase-case-study/
   date: 2018-12-19
+
+- name: "Designing in Ethereum"
+  type: speaking
+  location: "ETH Denver Mainstage"
+  link: https://www.ethdenver.com/
+  date: 2023-03-08
 
 - name: "Influencing strategy as a Product Designer"
   type: speaking
   location: "RETHINK"
-  link: https://www.eventbrite.com/e/influencing-strategy-as-a-product-designer-workshop-tickets-129613588733# 
+  link: https://www.eventbrite.com/e/influencing-strategy-as-a-product-designer-workshop-tickets-129613588733#
   date: 2020-12-10
 
 - name: "Career Growth Strategies for Product Designers"
   type: speaking
   location: "RETHINK"
-  link: https://www.eventbrite.com/e/career-growth-strategies-for-product-designers-and-ux-researchers-tickets-130306182299 
+  link: https://www.eventbrite.com/e/career-growth-strategies-for-product-designers-and-ux-researchers-tickets-130306182299
   date: 2020-12-02
 
 - name: "A Designer’s Guide to the Dark Arts of Workplace Politics"
   type: speaking
   location: "DesignX"
-  link: https://designx.community/events/a-designers-guide-to-the-dark-arts-of-workplace-politics/ 
+  link: https://designx.community/events/a-designers-guide-to-the-dark-arts-of-workplace-politics/
   date: 2020-08-19
 
 - name: "How Design Teams Collaborate Remotely"
   type: speaking
   location: "Remote Career Summit"
-  link: https://hopin.com/events/remote-job-fair-2020?ref=d36b43895eb0 
+  link: https://hopin.com/events/remote-job-fair-2020?ref=d36b43895eb0
   date: 2020-06-20
 
 - name: "Autoflow demo"
   type: speaking
   location: "Figma plugins launch event"
-  link: https://www.youtube.com/watch?v=6r5n1SFkEtQ 
+  link: https://www.youtube.com/watch?v=6r5n1SFkEtQ
   date: 2019-08-01
 
 - name: "Improving Crypto UX for Mass Adoption"
   type: speaking
   location: "CUBC"
-  link: https://cubs2019.splashthat.com/ 
+  link: https://cubs2019.splashthat.com/
   date: 2019-05-18
+# - name: "Hack the North 2021"
+#   type: judging
+#   location: "University of Waterloo"
+#   link: https://hackthenorth.com/
+#   date: 2021-01-15
 
+# - name: "Hack TX 2020"
+#   type: judging
+#   location: "UT Austin"
+#   link: https://hacktx.com/
+#   date: 2020-10-23
 
+# - name: "Dubhacks 2020"
+#   type: judging
+#   location: "University of Washington"
+#   link: https://dubhacks.co/
+#   date: 2020-10-17
 
+# - name: "HackGT 2020"
+#   type: judging
+#   location: "Georgia Tech"
+#   link: https://2020.hack.gt/
+#   date: 2020-10-16
 
-- name: "Hack the North 2021"
-  type: judging
-  location: "University of Waterloo"
-  link: https://hackthenorth.com/
-  date: 2021-01-15
-
-- name: "Hack TX 2020"
-  type: judging
-  location: "UT Austin"
-  link: https://hacktx.com/
-  date: 2020-10-23
-
-- name: "Dubhacks 2020"
-  type: judging
-  location: "University of Washington"
-  link: https://dubhacks.co/
-  date: 2020-10-17
-
-- name: "HackGT 2020"
-  type: judging
-  location: "Georgia Tech"
-  link: https://2020.hack.gt/
-  date: 2020-10-16
-  
-- name: "Hack the North 2019"
-  type: judging
-  location: "University of Waterloo"
-  link: https://2019.hackthenorth.com/
-  date: 2019-09-13
+# - name: "Hack the North 2019"
+#   type: judging
+#   location: "University of Waterloo"
+#   link: https://2019.hackthenorth.com/
+#   date: 2019-09-13

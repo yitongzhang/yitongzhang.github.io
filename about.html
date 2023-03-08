@@ -12,9 +12,11 @@ title: About
   very cold place my family moved to when I was young. Immigration is a big part
   of my story. You can listen to me talk about it on
   <a href="https://designdetails.fm/episodes/1xROYMXj">Design Details</a>. I
-  currently work on <a href="https://nounsagora.com/">Agora</a> and <a href="https://vectordao.com/">Vector DAO</a>. Before that, I spent almost four
-  years at Coinbase, where I've had the priviledge of designing and redesigning
-  much of the consumer app, as well as establishing the design system.
+  currently work on <a href="https://nounsagora.com/">Agora</a> and
+  <a href="https://vectordao.com/">Vector DAO</a>. Before that, I spent almost
+  four years at Coinbase, where I've had the priviledge of designing and
+  redesigning much of the consumer app, as well as establishing the design
+  system.
 </p>
 
 <p>
@@ -29,6 +31,19 @@ title: About
   >.
 </p>
 <div class="achievements">
+  <h2>Speaking</h2>
+  {% for item in site.data.achievements %} {% if item.type == "speaking" %}
+  <a href="{{ item.link }}" target="_BLANK">
+    <div class="table-row">
+      <p class="">{{ item.name }}</p>
+      <div class="table-metadata">
+        <h5 class="table-location">{{ item.location }}</h5>
+        <h5 class="table-date">{{ item.date | date: "%b %Y" }}</h5>
+      </div>
+    </div>
+  </a>
+  {% endif %} {% endfor %}
+  
   <h2>Media appearance</h2>
   {% for item in site.data.achievements %} {% if item.type == "media" %}
   <a href="{{ item.link }}" target="_BLANK">
@@ -42,20 +57,7 @@ title: About
   </a>
   {% endif %} {% endfor %}
 
-  <h2>Speaking</h2>
-  {% for item in site.data.achievements %} {% if item.type == "speaking" %}
-  <a href="{{ item.link }}" target="_BLANK">
-    <div class="table-row">
-      <p class="">{{ item.name }}</p>
-      <div class="table-metadata">
-        <h5 class="table-location">{{ item.location }}</h5>
-        <h5 class="table-date">{{ item.date | date: "%b %Y" }}</h5>
-      </div>
-    </div>
-  </a>
-  {% endif %} {% endfor %}
-
-  <h2>Judging</h2>
+  <!-- <h2>Judging</h2>
   {% for item in site.data.achievements %} {% if item.type == "judging" %}
   <a href="{{ item.link }}" target="_BLANK">
     <div class="table-row">
@@ -66,7 +68,7 @@ title: About
       </div>
     </div>
   </a>
-  {% endif %} {% endfor %}
+  {% endif %} {% endfor %} -->
 </div>
 <div class="masonry">
   <img class="masonry-item" src="/assets/img/Frame 1.jpg" />
