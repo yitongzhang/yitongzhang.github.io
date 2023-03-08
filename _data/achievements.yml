@@ -1,3 +1,15 @@
+- name: "Designing in Ethereum"
+  type: media
+  location: "ETH Denver Mainstage"
+  link: https://www.ethdenver.com/
+  date: 2023-03-08
+  
+- name: "Designing in Ethereum"
+  type: media
+  location: "ETH Denver Mainstage"
+  link: 
+  date: 2023-03-08
+
 - name: "Designing dApps with great UX"
   type: media
   location: "Coinbase Twitter Spaces"
