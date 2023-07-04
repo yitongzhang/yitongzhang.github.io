@@ -1,37 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-04-24T22:23:12-07:00</updated><id>/feed.xml</id><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-07-03T23:06:35-07:00</updated><id>/feed.xml</id><entry><title type="html">How to enjoy SF pt 1</title><link href="/2023/06/17/sf1.html" rel="alternate" type="text/html" title="How to enjoy SF pt 1" /><published>2023-06-17T00:00:00-07:00</published><updated>2023-06-17T00:00:00-07:00</updated><id>/2023/06/17/sf1</id><content type="html" xml:base="/2023/06/17/sf1.html">&lt;p&gt;San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.&lt;!--more--&gt; It’s the postcard city with the bridge, the piers, and the museums, but it’s also the shit-stained hell hole much decried on Twitter, and also the has-been tech hub so often lamented in “Goodbye SF” medium posts from tech guys who lived in SOMA for three years, yet somehow also the bastion of radical social progressivism.&lt;/p&gt;
 
-&lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
+&lt;p&gt;All of these faces of SF exist as someone’s truth, but they’re not mine. They’re not the reason I fell in love with the place many years ago, and certainly not the cause for my continuously renewed passion. To me – SF has always been about a kind of low key, unabashed passion for niches, a place where people are deeply and weirdly interested in things for no other motivation than the joy of being interested. It’s the quiet, intense, and sometimes awkward passion rolling off from people sitting at a cafe on their laptop reading papers on days so nice it should be illegal to be anywhere but outside.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://worrydream.com&quot;&gt;Bret Victor’s research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shapeofdesignbook.com&quot;&gt;The Shape of Design, by Frank Chimero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@millsbaker/designer-duds-f59c964513ef&quot;&gt;Designer Duds, by Mills Baker – and his general writing wit large&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://edwardtufte.com/tufte/books_vdqi&quot;&gt;All of Tufte’s books&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;And the more it deviates from that – which it can’t help but do every decade like clockwork – the worse it gets. In meme format, it goes something like this:&lt;/p&gt;
 
-&lt;p&gt;Maybe I’m just entering my old man yells at clouds phase, but nothing remotely as interesting has come out since 2017. We can lament the silliness of designer news, and the “should designers code” debate, but at least they were lurching towards something. Now we don’t even have that.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/sf/hardtimes.jpg&quot; alt=&quot;Hard times select for nerds&quot; /&gt;
+  &lt;figcaption&gt;You can substitue &quot;nerds&quot; for &quot;peope with niche passions&quot;, but it just doesn&apos;t work well in a meme&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;You could argue that product design is a practice, not a field of study, but graphic design, product managegement, engineer, and game design all have vibrant discourse, journals, research, etc. It’s hard to watch any &lt;a href=&quot;https://www.youtube.com/c/Gdconf/videos&quot;&gt;GDC talk&lt;/a&gt; and not feel like we’re missing something!&lt;/p&gt;
+&lt;p&gt;So this is my attempt to show you the parts of SF that compell me. I’ll walk through what I think are the best parts of “popular” SF, then get into some really niche stuff. This is by no means an easy guide to follow. In fact, it would probably take several months. It’s what makes SF illegible. But if you’re the kind of person I’m writing for, and you make an effort to experience SF like this, I think you will love it as much as I do.&lt;/p&gt;
 
-&lt;p&gt;And because I dislike just whining, here are some things I’d love to see:&lt;/p&gt;
+&lt;h2 id=&quot;enjoying-sf-with-your-body&quot;&gt;Enjoying SF with your body&lt;/h2&gt;
+&lt;p&gt;Though SF has a tendency to attract people who live like they’re brains in a vat, it is not without its charm! If you’re here for the first time, take your body outside!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Magazines&lt;/strong&gt;: in the absence of journals, something like &lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt; or &lt;a href=&quot;https://www.offscreenmag.com/&quot;&gt;Offscreen&lt;/a&gt; that published long form pieces at a slower cadence focused on the practice of product and interaction design in tech.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doing stuff&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Conferences&lt;/strong&gt;: but organized around disseminating knowledge &amp;amp; research. Having our own &lt;a href=&quot;https://gdconf.com/&quot;&gt;GDC&lt;/a&gt; or &lt;a href=&quot;https://devcon.org/&quot;&gt;Devcon&lt;/a&gt; would be amazing. But we can start much, much smaller.&lt;/p&gt;
+&lt;p&gt;So let’s start niche: there are some very pretty &lt;a href=&quot;https://sf.curbed.com/2020/5/19/21264034/best-urban-stairs-steps-sf-san-francisco&quot;&gt;stairs&lt;/a&gt; and slides. If this is your kind of thing, you can make a whole day out of hunting for these steps. For most people though, I’d recommend bookmarking these on your map and checking them out when you’re nearby&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/sf/slides.jpg&quot; alt=&quot;Seward St slides!&quot; /&gt;
+  &lt;figcaption&gt;Seward street slides!&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;Meetups&lt;/strong&gt;: bring back &lt;a href=&quot;https://wafflejs.com/&quot;&gt;WaffleJS&lt;/a&gt;: the perfect blend of serious and silly. We need regular in person meetings for low stakes demos &amp;amp; conversations that can be tricky to have on the Internet.&lt;/p&gt;
+&lt;p&gt;Then there are the parks: Land’s end is my top pick if you don’t have a lot of time. You can also pair it with a trip to the Legion of Honor – a smaller Fine Art mueseum that is just the right size to be interesting, but not so big that it’s a chore. Presidio is huge and a little hard to experience as a tourist, but if you have to pick one spot, Lover’s Lane is gorgeous. Golden gate park is really nice and pairs easily with a trip to De Young museum&lt;/p&gt;
 
-&lt;p&gt;I’ll keep adding to this list as I think of more stuff, but maybe one deeper and more worrying theme is that we’re now fully in the era of designer duds that Mills Baker warned about circa 2014&lt;/p&gt;
+&lt;p&gt;If you’re staying at a place with a kitchen, you should shop at a local grocery like Rainbow / Birite /Berkeley Bowl / Gus’s, and cook yourself a meal. California produce is out of this world – especially in the summer! Lower commitment version of this is picking something up from Birite, and going for a picnic at Dolores Park.&lt;/p&gt;
 
-&lt;p&gt;If ours is primarily the practice of optimally stacking as many IC5s as possible while minimizing diminishing returns at scale through good management and design system investment, then maybe magazines and meetups are the wrong level to be operating at.&lt;/p&gt;
+&lt;p&gt;In the evenings, it’s fun to move your body a bit. Mission Fusion is a great spot for some very SF kind of dancing – it’s loosey goosey, and each dancer will tend to bring a little of their own background and experience into it – so every dance is a little bit of an improvisation. The church in which the dances are usually held is also really cool! If a little bit more structure is your thing, head to the Church of 8 wheels. It’s a roller skating rink… also in a church! Something about SF makes people want to do silly things with their bodies in churches.&lt;/p&gt;
 
-&lt;p&gt;Instead, maybe what we need is for more cases of design-driven business moats.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outdoorsy / sporty things&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;And because strict UX moats don’t exist, we’ll need a class of designers who are able to reason about subjects far outside of what we currently understand to be “product design” – designers who understand enough about semi-conductors to invest in custom chips, see and invest in Wasm before anyone else, can explain the tradeoff between smart contract &amp;amp; mpc wallets for end users, are well-versed in fine tuning LLMs for practical use, and so on and so forth.&lt;/p&gt;
+&lt;p&gt;There’s a type of “SF guy” (gender neutral) you’ll often hear about who’s into climbing and endurance sport. If you’re here, try to be that person for a bit – this city is made for runs, rides, swims, and climbs!&lt;/p&gt;
 
-&lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
+&lt;p&gt;Most accessible among all of these is likely Midnight Runners. Available in many cities of course, but the SF one has a lot of people, and they typically go hit up a bar afterwards to hang too, providing a great chance to meet people. One step up (haha) from running is climbing. Yosemite being the birthplace of climbing, SF is naturally full of climbing gyms. If you’re visiting the Presidio, would recommend going to Movement for the views. Otherwise, a morning climb + lunch in the mission is always a great way to start the day too.&lt;/p&gt;
 
-&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">2022 WIP ideas</title><link href="/2022/11/13/wip.html" rel="alternate" type="text/html" title="2022 WIP ideas" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/wip</id><content type="html" xml:base="/2022/11/13/wip.html">&lt;p&gt;2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Though more effortful, my favorite way to see the sights around here is through a bike ride in Marin: yes, it’s streanuous and you’ll likely need to be here for longer than a week to justify this, but the ride up Mt Tam, or the seven sisters, or down to Stinson Beach is just ineffably beautiful!&lt;/p&gt;
+
+&lt;p&gt;Equally effortful and fun is open Water swimming in Aquatic Park / Berkeley Pier. Swimming here is a great cultural contrast to SoCal. The water is cold, the beaches suck, and it’s often gloomy – but the whole thing is surprisingly popular with NorCal people. It’s intense, but also very meditative. Forces you to be present and focused on your body!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pastries&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As someone who grew up in Montreal, I feel like I have a reasonably high bar for pastries. San Francisco probably has one of the highest concentrations of excellent pastry shops per square mile outside of Paris. Almost every neighbourhood has a world class patisserie, with some like the mission boasting up to 4-5! Some favorites below:&lt;/p&gt;
+
+&lt;p&gt;Maison Nico: a recent favorite for me. Incredibly luxurious pastries paired with some of the most delicately beautiful French aspic gelés, tartines, and other savoury goods. They’re quite under-reported by the local food media for how amazing they are, but I think that’s changing now.&lt;/p&gt;
+
+&lt;p&gt;Tartine: Perhaps a classic at this point, and well deserved! To me, they have deeply American take to viennoserie in the best possible way. Everything is big, bold, crispy, flavourful – yet somehow still refined!&lt;/p&gt;
+
+&lt;p&gt;Arsicault: probably top croissant in the city for me, best enjoyed with a coffee, after bike ride up Hawk Hill. To me, Arsicault is the opposite of Tartine. Where the former is bold and rustique, Arsicault is more refined and classic.&lt;/p&gt;
+
+&lt;p&gt;Arizmendi – more homey, but still fun because they’re a coop, which imo is a very SF thing.&lt;/p&gt;
+
+&lt;p&gt;Breadbelly and Jina Bakes are both incredible Asian flavoured French-style bakeries. Breadbelly has a super good kaya bun (rare to find kaya anything in SF!). Jina has a collab with Daeho for a galbijim croissant.&lt;/p&gt;
+
+&lt;p&gt;Craftman &amp;amp; Wolves – a little pretentious, but they kinda deserve it. Muffin thing with egg inside is incredibe. Particularly delightful to me that it comes with a tiny bit of salt and pickles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coffee&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I won’t get into this too much, since the guides are quite good. My only tip is to avoid blue bottle and Philz even though they started here because they’re ubiquitous now. For local chains, try Sightglass and Equator instead. For small shops, go to: Saint Frank, Four barrel, Wrecking Ball, Coffee Movement, Sextant, Ritual, Linea, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chinese food&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Honestly, the chinese food in SF is not that good compared to NYC and LA, which is sad. South and East bay have all the best spots. Especially overrated spots that I would avoid: Mission Chinese, China Live, literally all the dimsum spots in the city (except Dragon Beaux, Palette Teahouse and Koi Palace), San Tung, and most of the old school spots that usually pop up in guides. Don’t trust reviews when it comes to Chinese in the Bay Area, not on Yelp, not on Eater. I feel like the reviewers feel some kind of cultural obligation to put some of the old school joints in the list, despite them not being that good.&lt;/p&gt;
+
+&lt;p&gt;If you must eat Chinese: Yuanbao jiaozi, Z&amp;amp;Y, and Mr. Jiu’s are great. In a pinch, I will cook you some good Chinese food if you’re craving it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;East Bay&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some East Bay favorites: Wojia, Good to eat dumpling, East Ocean HK seafood restaurant, Mam Hanoi, Bhan Mae Vane in Alameda, Soba Ichi, Fournée, Flowerland, Tokyo fish market, Berkeley horticultural nursery, Thai Temple on Sunday, Bake sum, Sunday bake shop, ordinarie wine, La guerrera’s kitchen. Berkeley bowl (my goodness!), Nyum bai, Church of mushroom… some day I’ll make a real list for the east bay. It’s just too big to fit in a single section!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-spirit-of-the-city&quot;&gt;The Spirit of the City&lt;/h2&gt;
+
+&lt;p&gt;Ok so you read all of this and somewhere in the back of your mind you’re like – wait these sound fun, but I can get some version of most of the above in [insert city] but cheaper or better. That’s true! At the end of the day, if you’re living in SF in pursuit of the highest quality of life per dollar, you’ve already lost. Every day here is a reminder that you must want more out of life than to live well.&lt;/p&gt;
+
+&lt;p&gt;SF wants you to be interesting, weird, ambitious – anything other than to be simply content because the price of contentment in this city makes no sense. More on this in part 2. See you next time!&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.</summary></entry><entry><title type="html">2022 WIP ideas</title><link href="/2022/11/13/wip.html" rel="alternate" type="text/html" title="2022 WIP ideas" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/wip</id><content type="html" xml:base="/2022/11/13/wip.html">&lt;p&gt;2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;mere-tools&quot;&gt;Mere tools&lt;/h2&gt;
 &lt;p&gt;I’ve been watching a lot of &lt;a href=&quot;https://www.youtube.com/channel/UCwP3-YxYpWeeeo7_-MUyj5Q&quot;&gt;woodworking Youtube&lt;/a&gt; lately, and one subgenre that I’ve been particularly obsessed with is the workshop tour. You can probably picture it: rows of clamps, half a dozen well-honed hand planes, a rack of chisels, small tools neatly arranged on a peg board. There’s some guy with a beard gently cradling each item in his hands, telling you how he’s had the same plane for as long as his daughter’s been alive, and how they just don’t make them this well anymore. He makes one clean sweep with the thing, and holds up the shaving against the light to show you how impossibly thin it is. The way it dances in the breeze reminds you of the katsuobushi on those crazy good takoyakis you once had in Osaka.&lt;/p&gt;
@@ -113,7 +154,40 @@
 
 &lt;p&gt;Conviction voting: frankly i don’t fully understand this, but it’s a way to solve a lot of the pitfalls of onchain voting like vote buying and last minute swings by time weighting votes.&lt;/p&gt;
 
-&lt;p&gt;Others: Token curated registry, Harbringer tax, Perpetual auctions.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
+&lt;p&gt;Others: Token curated registry, Harbringer tax, Perpetual auctions.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.</summary></entry><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
+
+&lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://worrydream.com&quot;&gt;Bret Victor’s research&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shapeofdesignbook.com&quot;&gt;The Shape of Design, by Frank Chimero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@millsbaker/designer-duds-f59c964513ef&quot;&gt;Designer Duds, by Mills Baker – and his general writing wit large&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://edwardtufte.com/tufte/books_vdqi&quot;&gt;All of Tufte’s books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe I’m just entering my old man yells at clouds phase, but nothing remotely as interesting has come out since 2017. We can lament the silliness of designer news, and the “should designers code” debate, but at least they were lurching towards something. Now we don’t even have that.&lt;/p&gt;
+
+&lt;p&gt;You could argue that product design is a practice, not a field of study, but graphic design, product managegement, engineer, and game design all have vibrant discourse, journals, research, etc. It’s hard to watch any &lt;a href=&quot;https://www.youtube.com/c/Gdconf/videos&quot;&gt;GDC talk&lt;/a&gt; and not feel like we’re missing something!&lt;/p&gt;
+
+&lt;p&gt;And because I dislike just whining, here are some things I’d love to see:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magazines&lt;/strong&gt;: in the absence of journals, something like &lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt; or &lt;a href=&quot;https://www.offscreenmag.com/&quot;&gt;Offscreen&lt;/a&gt; that published long form pieces at a slower cadence focused on the practice of product and interaction design in tech.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conferences&lt;/strong&gt;: but organized around disseminating knowledge &amp;amp; research. Having our own &lt;a href=&quot;https://gdconf.com/&quot;&gt;GDC&lt;/a&gt; or &lt;a href=&quot;https://devcon.org/&quot;&gt;Devcon&lt;/a&gt; would be amazing. But we can start much, much smaller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meetups&lt;/strong&gt;: bring back &lt;a href=&quot;https://wafflejs.com/&quot;&gt;WaffleJS&lt;/a&gt;: the perfect blend of serious and silly. We need regular in person meetings for low stakes demos &amp;amp; conversations that can be tricky to have on the Internet.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep adding to this list as I think of more stuff, but maybe one deeper and more worrying theme is that we’re now fully in the era of designer duds that Mills Baker warned about circa 2014&lt;/p&gt;
+
+&lt;p&gt;If ours is primarily the practice of optimally stacking as many IC5s as possible while minimizing diminishing returns at scale through good management and design system investment, then maybe magazines and meetups are the wrong level to be operating at.&lt;/p&gt;
+
+&lt;p&gt;Instead, maybe what we need is for more cases of design-driven business moats.&lt;/p&gt;
+
+&lt;p&gt;And because strict UX moats don’t exist, we’ll need a class of designers who are able to reason about subjects far outside of what we currently understand to be “product design” – designers who understand enough about semi-conductors to invest in custom chips, see and invest in Wasm before anyone else, can explain the tradeoff between smart contract &amp;amp; mpc wallets for end users, are well-versed in fine tuning LLMs for practical use, and so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
+
+&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
 I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned. &lt;!--more--&gt; My own journey started when I read a similar blog post by &lt;a href=&quot;https://www.julian.com/&quot;&gt;Julian Shapiro&lt;/a&gt; almost three years ago, so it’s only fair to pay it forward.&lt;/p&gt;
 
 &lt;p&gt;I have a lot of feelings about the way immigration works in this country, but I’ll be saving those for the next posts, where I’ll go more in-depth about the price we all pay for the bad employment policy, and some ideas on how to fix it. If you’d like to get an email when that comes out, consider subscribing via email or RSS.&lt;/p&gt;
@@ -385,26 +459,4 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
       &lt;p&gt;Mostly true for fundamental topics. There’s obviously not enough documentation at the edges of any domain, but most people are not there, and the people who are are better equipped with the metaskills needed to help themselves. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Yitong</name></author><summary type="html">You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there?</summary></entry><entry><title type="html">Being negatively-driven</title><link href="/2020/08/07/negative-drive.html" rel="alternate" type="text/html" title="Being negatively-driven" /><published>2020-08-07T00:00:00-07:00</published><updated>2020-08-07T00:00:00-07:00</updated><id>/2020/08/07/negative-drive</id><content type="html" xml:base="/2020/08/07/negative-drive.html">&lt;p&gt;For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college&lt;!--more--&gt;, having done a professional bootcamp, competing with coworkers (secretly!), being an alien in an anti-immigrant country, and a million other nothings that find their way on my shoulder and stay there to become chips.&lt;/p&gt;
-
-&lt;p&gt;My friends are the same – absurdly driven by a sense of not being enough. One of them almost comically so. The guy had a blue light lamp on his desk pointed to his face to keep him awake so he can work longer hours. (Love you Mike, but you’re gonna die young). Maybe this is a Canadian thing. Always being in the shadow of the US can really give you a complex.&lt;/p&gt;
-
-&lt;p&gt;I’ve always know that this was unhealthy. Obviously, wouldn’t it be nice if I could have the same drive to do things, but also be more happy? Of course I’d want to change this. But it’s hard for several reasons.&lt;/p&gt;
-
-&lt;p&gt;Most obviously, this &lt;em&gt;negativity fuel really works&lt;/em&gt;. I’m a high level designer at a pretty famous tech company where I work daily with people whose work I grew up looking up to. And this job provides me financial comfort in the most expensive city in the world. By all accounts, this is what young Yitong would have considered a successful life. Why mess with the source of my willfullness when being willfull has given me success and, because of that, now constitutes a large part of my identity. What if in doing away with the negativity, I also lose some of the drive? Would I even want to be happier, but less driven?&lt;/p&gt;
-
-&lt;p&gt;Then there’s the guilt that I feel when I try to think too deeply about this. Even as I’m writing this, I can hear my inner voice saying “do you think [insert successful friend] is wasting time on thoughts like this? They’re working on their next thing while you’re wallowing in self-doubt. Move on already!”&lt;/p&gt;
-
-&lt;p&gt;A slightly more rational rephrasing of the same thought could be: what if the solution is to fake it ‘till you make it? Maybe you just have convince yourself that the negativity is not a problem until it really isn’t anymore. Certainly a lot of life works this way, so why wouldn’t this?&lt;/p&gt;
-
-&lt;p&gt;And this last one is silly, but I just can’t get over the aesthetics of the solution space, which is often tinged with an orientalist worship of meditation, and adjacent to weird Tim Ferris-style productivity-guru-ism. Conversely, I also like the aesthetics of the negativity-driven energy. Wearing all the chips on my shoulder makes feel like the underdog or an outsider.&lt;/p&gt;
-
-&lt;p&gt;Maybe six months of quarantine has made me feel listless too many Fridays in a row. Maybe work kinda sucks right now. Maybe I have this shiny new blog that needs content. Whatever it is, I’ve decided to try to talk about and process these feelings in public, much like Ankit has done with &lt;a href=&quot;https://www.ankit.fyi/being-alone&quot;&gt;loneliness&lt;/a&gt;, and Laura with with &lt;a href=&quot;https://ldeming.posthaven.com/how-not-to-be-sad&quot;&gt;sadness&lt;/a&gt;. Solving this problem now is valuable to me because:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Negative energy is brittle&lt;/em&gt;. You can accumulate so much of it that you get bent out of shape over silly things. It’s also a poor source of energy when you are dealing with hardship in life (and since it’s COVID times, we’re all dealing with hardhships 24/7).&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Negative energy is less creative&lt;/em&gt; It really gets you going when what needs doing is clear, and the challenge is in the execution, but lately the problems I face have shifted from doing to figuring out what to do.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Happiness is worth investing in&lt;/em&gt; I’ve never prioritized my own happiness because it felt more important to do great things. But I’m starting to think that being happy will unlock a new frontier of things that I would otherwise not be able to do.&lt;/p&gt;
-
-&lt;p&gt;There’s no solution here, but laying out the problem statement is a start to what I hope is a series of posts digging deeper into my negative energy, and turning that around.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">For as long as I remember, I’ve derived much of my force of will from negativity: feeling not smart enough, watching my peers be more successful, not having gone to a famous college</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Yitong</name></author><summary type="html">You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there?</summary></entry></feed>
