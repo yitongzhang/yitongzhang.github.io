@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-09-28T22:43:09-07:00</updated><id>/feed.xml</id><entry><title type="html">How to enjoy SF</title><link href="/2023/06/17/sf.html" rel="alternate" type="text/html" title="How to enjoy SF" /><published>2023-06-17T00:00:00-07:00</published><updated>2023-06-17T00:00:00-07:00</updated><id>/2023/06/17/sf</id><content type="html" xml:base="/2023/06/17/sf.html">&lt;p&gt;San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.&lt;!--more--&gt; It’s the postcard city with the bridge, the piers, and the museums, but also the shit-stained hell hole much decried on Twitter, and also the has-been tech hub so often lamented in “Goodbye SF” medium posts from tech guys who lived in SOMA for three years, yet somehow also the bastion of radical social progressivism.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-10-22T22:32:16-06:00</updated><id>/feed.xml</id><entry><title type="html">A Change in SF’s Tech Fauna</title><link href="/2023/06/17/sf-fauna.html" rel="alternate" type="text/html" title="A Change in SF’s Tech Fauna" /><published>2023-06-17T00:00:00-06:00</published><updated>2023-06-17T00:00:00-06:00</updated><id>/2023/06/17/sf-fauna</id><content type="html" xml:base="/2023/06/17/sf-fauna.html">&lt;p&gt;Over the past few years, there’s been an under-discussed, but consequential vibe shift in the SF tech scene.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;In the 2010s, the late stage tech boom of the 2010s attracted lots of big tech workers and IPO goldrush chasers to the city. Many lived in isolation tanks in SOMA, working at late stage startups in search of that elusive IPO. Others lived in the Mission, busing down to South Bay to work at big tech co’s that offered the best total comps. Everyone and their grandma seemed to have arrived in the city.&lt;/p&gt;
+
+&lt;p&gt;If you’ve been reading the deluge of articles about the SF AI boom, it may seem like we’re about to enter another cycle like the last one. But the reality on the ground is quite the opposite. The field is so young (being comprised primarily of one medium-sized company, a few retooled ML teams at SaaS companies, and a bunch of startups still working out of their bedroom) that there are no at scale AI companies hiring buckets of senior software engineers (yet).&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/sffauna/sfthenandnow.png&quot; alt=&quot;over the last few years, we&apos;ve flattened the curve in more ways than one&quot; /&gt;
+  &lt;figcaption&gt;Over the last few years, we&apos;ve flattened the curve in more ways than one.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So while it’s true that at least anecdotally, it does seem like more and more people are moving here because of AI, the flavour and scale of this migration feels totally distinct from what we saw during the ZIRP-y hiring frenzy of the 2010s. Most of the newcomers I’ve met are entrepreneurs, explorers, and weirdos who came here to be among like-minded people, in spite of the doom-loop narratives and poor quality of life per dollar.&lt;/p&gt;
+
+&lt;p&gt;Overall, though fewer techies live in SF than before, the one who are here really want to be here. As a result, the techie relationship to the city has changed too: where many techies of the last era viewed themselves as gentrifiers / interlopers and wrestled with the guilt of their impact one the city, this era of techies love the city, feel like they belong, and want to put in the work to make their city better.&lt;/p&gt;
+
+&lt;p&gt;To me, this is the most bullish I’ve ever been about SF. The food still sucks (except the pastries), but being here is counter-cultural again. Choosing to live here causes your friends to raise their eyebrows now in the same way I imagine moving to Silicon Valley in the 80s did.&lt;/p&gt;
+
+&lt;p&gt;We’ve made SF weird again, and that’s a good thing.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Over the past few years, there’s been an under-discussed, but consequential vibe shift in the SF tech scene.</summary></entry><entry><title type="html">How to enjoy SF</title><link href="/2023/06/17/sf.html" rel="alternate" type="text/html" title="How to enjoy SF" /><published>2023-06-17T00:00:00-06:00</published><updated>2023-06-17T00:00:00-06:00</updated><id>/2023/06/17/sf</id><content type="html" xml:base="/2023/06/17/sf.html">&lt;p&gt;San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.&lt;!--more--&gt; It’s the postcard city with the bridge, the piers, and the museums, but also the shit-stained hell hole much decried on Twitter, and also the has-been tech hub so often lamented in “Goodbye SF” medium posts from tech guys who lived in SOMA for three years, yet somehow also the bastion of radical social progressivism.&lt;/p&gt;
 
 &lt;p&gt;All of these faces of SF exist as someone’s truth, but they’re not mine. They’re not the reason I fell in love with the place many years ago, and certainly not the cause for my continuously renewed passion. To me – SF has always been about a kind of low key, unabashed passion for niches, a place where people are deeply and weirdly interested in things for no other motivation than the joy of being interested. SF exists in the quiet, intense, and sometimes awkward passion rolling off of people sitting at a cafe on their laptop reading papers on days so nice it should be illegal to be anywhere but outside.&lt;/p&gt;
 
@@ -98,7 +115,40 @@
 
 &lt;p&gt;Ok, so what does this mean for someone who’s trying to become an SF enjoyoor? Be whole heartedly interested in niches, derive your enjoyment from pursuing your whims, create your own experiences, have way too many hobbies, go unreasonably far when pursuing them, bring a friend or five along (maybe it’s a startup, maybe it’s an art car – it doesn’t matter), stay up far too late  completely sober doing projects with your friends, celebrate outrageous ideas whether they work or not, when they inevitably do not work embrace the experience as &lt;a href=&quot;https://sketchplanations.com/the-fun-scale&quot;&gt;type 2 (or is it 3) fun&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;None of these are easy things to do, but that’s what makes SF fun!&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.</summary></entry><entry><title type="html">2022 WIP ideas</title><link href="/2022/11/13/wip.html" rel="alternate" type="text/html" title="2022 WIP ideas" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/wip</id><content type="html" xml:base="/2022/11/13/wip.html">&lt;p&gt;2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;None of these are easy things to do, but that’s what makes SF fun!&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">San Francisco is a place that defies legibility. It’s hard, yet very fun to love – and definitely not for everyone.</summary></entry><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-06:00</published><updated>2022-11-13T00:00:00-06:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
+
+&lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://worrydream.com&quot;&gt;Bret Victor’s research&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shapeofdesignbook.com&quot;&gt;The Shape of Design, by Frank Chimero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@millsbaker/designer-duds-f59c964513ef&quot;&gt;Designer Duds, by Mills Baker – and his general writing wit large&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://edwardtufte.com/tufte/books_vdqi&quot;&gt;All of Tufte’s books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe I’m just entering my old man yells at clouds phase, but nothing remotely as interesting has come out since 2017. We can lament the silliness of designer news, and the “should designers code” debate, but at least they were lurching towards something. Now we don’t even have that.&lt;/p&gt;
+
+&lt;p&gt;You could argue that product design is a practice, not a field of study, but graphic design, product managegement, engineer, and game design all have vibrant discourse, journals, research, etc. It’s hard to watch any &lt;a href=&quot;https://www.youtube.com/c/Gdconf/videos&quot;&gt;GDC talk&lt;/a&gt; and not feel like we’re missing something!&lt;/p&gt;
+
+&lt;p&gt;And because I dislike just whining, here are some things I’d love to see:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magazines&lt;/strong&gt;: in the absence of journals, something like &lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt; or &lt;a href=&quot;https://www.offscreenmag.com/&quot;&gt;Offscreen&lt;/a&gt; that published long form pieces at a slower cadence focused on the practice of product and interaction design in tech.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conferences&lt;/strong&gt;: but organized around disseminating knowledge &amp;amp; research. Having our own &lt;a href=&quot;https://gdconf.com/&quot;&gt;GDC&lt;/a&gt; or &lt;a href=&quot;https://devcon.org/&quot;&gt;Devcon&lt;/a&gt; would be amazing. But we can start much, much smaller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meetups&lt;/strong&gt;: bring back &lt;a href=&quot;https://wafflejs.com/&quot;&gt;WaffleJS&lt;/a&gt;: the perfect blend of serious and silly. We need regular in person meetings for low stakes demos &amp;amp; conversations that can be tricky to have on the Internet.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep adding to this list as I think of more stuff, but maybe one deeper and more worrying theme is that we’re now fully in the era of designer duds that Mills Baker warned about circa 2014&lt;/p&gt;
+
+&lt;p&gt;If ours is primarily the practice of optimally stacking as many IC5s as possible while minimizing diminishing returns at scale through good management and design system investment, then maybe magazines and meetups are the wrong level to be operating at.&lt;/p&gt;
+
+&lt;p&gt;Instead, maybe what we need is for more cases of design-driven business moats.&lt;/p&gt;
+
+&lt;p&gt;And because strict UX moats don’t exist, we’ll need a class of designers who are able to reason about subjects far outside of what we currently understand to be “product design” – designers who understand enough about semi-conductors to invest in custom chips, see and invest in Wasm before anyone else, can explain the tradeoff between smart contract &amp;amp; mpc wallets for end users, are well-versed in fine tuning LLMs for practical use, and so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
+
+&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">2022 WIP ideas</title><link href="/2022/11/13/wip.html" rel="alternate" type="text/html" title="2022 WIP ideas" /><published>2022-11-13T00:00:00-06:00</published><updated>2022-11-13T00:00:00-06:00</updated><id>/2022/11/13/wip</id><content type="html" xml:base="/2022/11/13/wip.html">&lt;p&gt;2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;mere-tools&quot;&gt;Mere tools&lt;/h2&gt;
 &lt;p&gt;I’ve been watching a lot of &lt;a href=&quot;https://www.youtube.com/channel/UCwP3-YxYpWeeeo7_-MUyj5Q&quot;&gt;woodworking Youtube&lt;/a&gt; lately, and one subgenre that I’ve been particularly obsessed with is the workshop tour. You can probably picture it: rows of clamps, half a dozen well-honed hand planes, a rack of chisels, small tools neatly arranged on a peg board. There’s some guy with a beard gently cradling each item in his hands, telling you how he’s had the same plane for as long as his daughter’s been alive, and how they just don’t make them this well anymore. He makes one clean sweep with the thing, and holds up the shaving against the light to show you how impossibly thin it is. The way it dances in the breeze reminds you of the katsuobushi on those crazy good takoyakis you once had in Osaka.&lt;/p&gt;
@@ -180,40 +230,7 @@
 
 &lt;p&gt;Conviction voting: frankly i don’t fully understand this, but it’s a way to solve a lot of the pitfalls of onchain voting like vote buying and last minute swings by time weighting votes.&lt;/p&gt;
 
-&lt;p&gt;Others: Token curated registry, Harbringer tax, Perpetual auctions.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.</summary></entry><entry><title type="html">We are still duds</title><link href="/2022/11/13/duds-still.html" rel="alternate" type="text/html" title="We are still duds" /><published>2022-11-13T00:00:00-08:00</published><updated>2022-11-13T00:00:00-08:00</updated><id>/2022/11/13/duds-still</id><content type="html" xml:base="/2022/11/13/duds-still.html">&lt;p&gt;Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.&lt;!--more--&gt; If I had started my career today, I most likely would have done something else.&lt;/p&gt;
-
-&lt;p&gt;In my youth, these were the writings that inspired me to get in the field&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://worrydream.com&quot;&gt;Bret Victor’s research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shapeofdesignbook.com&quot;&gt;The Shape of Design, by Frank Chimero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@millsbaker/designer-duds-f59c964513ef&quot;&gt;Designer Duds, by Mills Baker – and his general writing wit large&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://edwardtufte.com/tufte/books_vdqi&quot;&gt;All of Tufte’s books&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Maybe I’m just entering my old man yells at clouds phase, but nothing remotely as interesting has come out since 2017. We can lament the silliness of designer news, and the “should designers code” debate, but at least they were lurching towards something. Now we don’t even have that.&lt;/p&gt;
-
-&lt;p&gt;You could argue that product design is a practice, not a field of study, but graphic design, product managegement, engineer, and game design all have vibrant discourse, journals, research, etc. It’s hard to watch any &lt;a href=&quot;https://www.youtube.com/c/Gdconf/videos&quot;&gt;GDC talk&lt;/a&gt; and not feel like we’re missing something!&lt;/p&gt;
-
-&lt;p&gt;And because I dislike just whining, here are some things I’d love to see:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Magazines&lt;/strong&gt;: in the absence of journals, something like &lt;a href=&quot;https://increment.com/&quot;&gt;Increment&lt;/a&gt; or &lt;a href=&quot;https://www.offscreenmag.com/&quot;&gt;Offscreen&lt;/a&gt; that published long form pieces at a slower cadence focused on the practice of product and interaction design in tech.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conferences&lt;/strong&gt;: but organized around disseminating knowledge &amp;amp; research. Having our own &lt;a href=&quot;https://gdconf.com/&quot;&gt;GDC&lt;/a&gt; or &lt;a href=&quot;https://devcon.org/&quot;&gt;Devcon&lt;/a&gt; would be amazing. But we can start much, much smaller.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Meetups&lt;/strong&gt;: bring back &lt;a href=&quot;https://wafflejs.com/&quot;&gt;WaffleJS&lt;/a&gt;: the perfect blend of serious and silly. We need regular in person meetings for low stakes demos &amp;amp; conversations that can be tricky to have on the Internet.&lt;/p&gt;
-
-&lt;p&gt;I’ll keep adding to this list as I think of more stuff, but maybe one deeper and more worrying theme is that we’re now fully in the era of designer duds that Mills Baker warned about circa 2014&lt;/p&gt;
-
-&lt;p&gt;If ours is primarily the practice of optimally stacking as many IC5s as possible while minimizing diminishing returns at scale through good management and design system investment, then maybe magazines and meetups are the wrong level to be operating at.&lt;/p&gt;
-
-&lt;p&gt;Instead, maybe what we need is for more cases of design-driven business moats.&lt;/p&gt;
-
-&lt;p&gt;And because strict UX moats don’t exist, we’ll need a class of designers who are able to reason about subjects far outside of what we currently understand to be “product design” – designers who understand enough about semi-conductors to invest in custom chips, see and invest in Wasm before anyone else, can explain the tradeoff between smart contract &amp;amp; mpc wallets for end users, are well-versed in fine tuning LLMs for practical use, and so on and so forth.&lt;/p&gt;
-
-&lt;p&gt;I mean, despite how much we love Figma as a community, how many of us can legitimately claim that we would have seen, understood, and believed in Wasm the way Dylan &amp;amp; Evan did way back in 2016? So I guess this is a long winded way of saying: maybe it does come back to discourse &amp;amp; research after all. We need to develop the kind of community that fosters more Dylans and Evans, so that we can finally put this Designer Duds thing to bed.&lt;/p&gt;
-
-&lt;p&gt;Oh and just in case it wasn’t clear, I say all of this from a place of great love and care for our practice, and yearn for us to be much more than we are today&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Tech product design as a field feels like an intellectual desert these days. No discourse, no research, no dreams. It’s just eerily quiet.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-07:00</published><updated>2021-10-30T00:00:00-07:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
+&lt;p&gt;Others: Token curated registry, Harbringer tax, Perpetual auctions.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">2022 was apparently a difficult writing year for me. There was a full 13 months during which I wrote nothing but fragments of unpublishable posts. Instead of trying to finish all of them, I’ll publish them all here as WIP ideas.</summary></entry><entry><title type="html">How to get the fastest green card</title><link href="/2021/10/30/fast-greencard.html" rel="alternate" type="text/html" title="How to get the fastest green card" /><published>2021-10-30T00:00:00-05:00</published><updated>2021-10-30T00:00:00-05:00</updated><id>/2021/10/30/fast-greencard</id><content type="html" xml:base="/2021/10/30/fast-greencard.html">&lt;p&gt;With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1.
 I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned. &lt;!--more--&gt; My own journey started when I read a similar blog post by &lt;a href=&quot;https://www.julian.com/&quot;&gt;Julian Shapiro&lt;/a&gt; almost three years ago, so it’s only fair to pay it forward.&lt;/p&gt;
 
 &lt;p&gt;I have a lot of feelings about the way immigration works in this country, but I’ll be saving those for the next posts, where I’ll go more in-depth about the price we all pay for the bad employment policy, and some ideas on how to fix it. If you’d like to get an email when that comes out, consider subscribing via email or RSS.&lt;/p&gt;
@@ -304,7 +321,7 @@ I recently went through the process, so I’m documenting how it works and shari
   &lt;li&gt;When challenging an RFE, it is best to also respond to the request, even if unreasonable, as a show of good faith.&lt;/li&gt;
   &lt;li&gt;USCIS publishes a &lt;a href=&quot;https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-2#footnote-4&quot;&gt;policy manual&lt;/a&gt; with a detailed explanation of how adjudicators should think about EB1 eligibility and references specific articles of law.&lt;/li&gt;
   &lt;li&gt;One increasingly popular form of denial is granting all the criteria, but denying the final merits. In anticipation of this, it is helpful to explicitly address this requirement in I-140 application.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yitong</name></author><summary type="html">With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1. I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned.</summary></entry><entry><title type="html">Dark Forest captain’s log 2</title><link href="/2021/05/31/darkforest2.html" rel="alternate" type="text/html" title="Dark Forest captain’s log 2" /><published>2021-05-31T00:00:00-07:00</published><updated>2021-05-31T00:00:00-07:00</updated><id>/2021/05/31/darkforest2</id><content type="html" xml:base="/2021/05/31/darkforest2.html">&lt;p&gt;Day seven in the dark forest, where I’m now strategically watching commit logs and deploying more hash power. Also, a dispatch from meatspace. &lt;!--more--&gt; It’s a good thing that my still humble civilization is now large enough that the pending transaction queue is preventing me from logging in to pilot, because otherwise, I’d still be doing that. Anyway, let’s start with a check in on the todos from last time.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Yitong</name></author><summary type="html">With the right background, enough commitment, and a bit of luck, it is possible to functionally get a green card in under a year with the EB1. I recently went through the process, so I’m documenting how it works and sharing some lessons I’ve learned.</summary></entry><entry><title type="html">Dark Forest captain’s log 2</title><link href="/2021/05/31/darkforest2.html" rel="alternate" type="text/html" title="Dark Forest captain’s log 2" /><published>2021-05-31T00:00:00-05:00</published><updated>2021-05-31T00:00:00-05:00</updated><id>/2021/05/31/darkforest2</id><content type="html" xml:base="/2021/05/31/darkforest2.html">&lt;p&gt;Day seven in the dark forest, where I’m now strategically watching commit logs and deploying more hash power. Also, a dispatch from meatspace. &lt;!--more--&gt; It’s a good thing that my still humble civilization is now large enough that the pending transaction queue is preventing me from logging in to pilot, because otherwise, I’d still be doing that. Anyway, let’s start with a check in on the todos from last time.&lt;/p&gt;
 
 &lt;p&gt;Exploration server: I found this managed deployment tool called Zeet. Following their &lt;a href=&quot;https://blog.zeet.co/eth/&quot;&gt;Dark Forest guide&lt;/a&gt;, I deployed three instances of the explorer for free, adding another ~3600 hash/s to my exploration. This is an improvement, but to be competitive, I’ll most likely still have to set up my own servers, since scaling on Zeet is quite expensive.&lt;/p&gt;
 
@@ -330,7 +347,7 @@ I recently went through the process, so I’m documenting how it works and shari
 
 &lt;p&gt;Quasars: Inverts the defender’s advantage since they take time to capture and charge up, and so are often left empty. Can be an good mounting point for an attack.&lt;/p&gt;
 
-&lt;p&gt;Until next time, space farers. Capatain Zhang, out.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Day seven in the dark forest, where I’m now strategically watching commit logs and deploying more hash power. Also, a dispatch from meatspace.</summary></entry><entry><title type="html">Dark Forest captain’s log 1</title><link href="/2021/05/26/darkforest1.html" rel="alternate" type="text/html" title="Dark Forest captain’s log 1" /><published>2021-05-26T00:00:00-07:00</published><updated>2021-05-26T00:00:00-07:00</updated><id>/2021/05/26/darkforest1</id><content type="html" xml:base="/2021/05/26/darkforest1.html">&lt;p&gt;Dark forest space is vast. But I didn’t know that at first, busy as I was, claiming all celestial bodies in sight. But space had a way of quickly teaching you its lessons. &lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Until next time, space farers. Capatain Zhang, out.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Day seven in the dark forest, where I’m now strategically watching commit logs and deploying more hash power. Also, a dispatch from meatspace.</summary></entry><entry><title type="html">Dark Forest captain’s log 1</title><link href="/2021/05/26/darkforest1.html" rel="alternate" type="text/html" title="Dark Forest captain’s log 1" /><published>2021-05-26T00:00:00-05:00</published><updated>2021-05-26T00:00:00-05:00</updated><id>/2021/05/26/darkforest1</id><content type="html" xml:base="/2021/05/26/darkforest1.html">&lt;p&gt;Dark forest space is vast. But I didn’t know that at first, busy as I was, claiming all celestial bodies in sight. But space had a way of quickly teaching you its lessons. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;The first issue I ran into was the fog of war. With my laptop’s paltry 600 hashes/sec, I quickly ran out of planets to claim. I had to find a way to increase my exploration speed. The easiest solution was to let dark forest use all the cores in my CPU with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;df.setMinerCores(6)&lt;/code&gt;, which gave me a nice 6x boost to 2400 hashes/sec. But even that was not sufficient, so I set up a more efficient rust miner on my machine with &lt;a href=&quot;https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast&quot;&gt;mimi-fast&lt;/a&gt; and &lt;a href=&quot;https://github.com/darkforest-eth/plugins/tree/master/content/productivity/remote-explore&quot;&gt;remote explore&lt;/a&gt;, which brought me to a nice 6000 hashes/sec. This gave me far more planets in view than I knew what to do with, which is what lead me to the &lt;a href=&quot;https://github.com/darkforest-eth/plugins/blob/master/content/productivity/crawl-planets/plugin.js&quot;&gt;crawl planets plugin&lt;/a&gt;. It’s not very smart, but sure helps cover ground quickly.&lt;/p&gt;
 
@@ -347,7 +364,7 @@ I recently went through the process, so I’m documenting how it works and shari
   &lt;li&gt;Increase my exploration hash rate with a remote server.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Captain Zhang, signing off. See you all in the &lt;a href=&quot;zkga.me&quot;&gt;Dark Forest&lt;/a&gt;.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Dark forest space is vast. But I didn’t know that at first, busy as I was, claiming all celestial bodies in sight. But space had a way of quickly teaching you its lessons.</summary></entry><entry><title type="html">Site redesign update</title><link href="/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Site redesign update" /><published>2021-04-22T00:00:00-07:00</published><updated>2021-04-22T00:00:00-07:00</updated><id>/2021/04/22/newblog2</id><content type="html" xml:base="/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Captain Zhang, signing off. See you all in the &lt;a href=&quot;zkga.me&quot;&gt;Dark Forest&lt;/a&gt;.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">Dark forest space is vast. But I didn’t know that at first, busy as I was, claiming all celestial bodies in sight. But space had a way of quickly teaching you its lessons.</summary></entry><entry><title type="html">Site redesign update</title><link href="/2021/04/22/newblog2.html" rel="alternate" type="text/html" title="Site redesign update" /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>/2021/04/22/newblog2</id><content type="html" xml:base="/2021/04/22/newblog2.html">&lt;p&gt;It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/newblog2/siteBefore.png&quot; alt=&quot;image of the blog, before&quot; /&gt;
@@ -378,7 +395,7 @@ I recently went through the process, so I’m documenting how it works and shari
 
 &lt;p&gt;Oh and I think some kind of medium-like image zoom would be nice, now that I have more than one picture in my posts.&lt;/p&gt;
 
-&lt;p&gt;Overall, it continues to be fun designing directly in code. I still don’t have a Figma file or a Notion doc. Switching on the fly between blogging, designing, and coding in the same session is giving me a sense of flow that I’ve not experienced at work in a while. Everything feels so dangerously immediate, and I love it.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.</summary></entry><entry><title type="html">Some interesting tensions</title><link href="/2021/04/15/tensions.html" rel="alternate" type="text/html" title="Some interesting tensions" /><published>2021-04-15T00:00:00-07:00</published><updated>2021-04-15T00:00:00-07:00</updated><id>/2021/04/15/tensions</id><content type="html" xml:base="/2021/04/15/tensions.html">&lt;p&gt;This is a grab bag of tensions I wrestle with. They’re starting to take up too much space in my head, so I’m writing them down. &lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Overall, it continues to be fun designing directly in code. I still don’t have a Figma file or a Notion doc. Switching on the fly between blogging, designing, and coding in the same session is giving me a sense of flow that I’ve not experienced at work in a while. Everything feels so dangerously immediate, and I love it.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">It’s been… uh nine months since the last update on this site’s open redesign. Progress is slow, but working this way has been dangerously fun.</summary></entry><entry><title type="html">Some interesting tensions</title><link href="/2021/04/15/tensions.html" rel="alternate" type="text/html" title="Some interesting tensions" /><published>2021-04-15T00:00:00-05:00</published><updated>2021-04-15T00:00:00-05:00</updated><id>/2021/04/15/tensions</id><content type="html" xml:base="/2021/04/15/tensions.html">&lt;p&gt;This is a grab bag of tensions I wrestle with. They’re starting to take up too much space in my head, so I’m writing them down. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;agency-vs-determinism&quot;&gt;Agency vs determinism&lt;/h2&gt;
 
@@ -396,7 +413,7 @@ So here’s where I am on this today: on an individual level, I think of it a li
 &lt;p&gt;The smaller your self is, the more resilient you are. It’s easier to differentiate having negative thoughts from believing and being those thoughts, easier to shed bad habits when they do not define you, easier to change course when a temporary injury becomes permanent, easier to reinvent yourself over and over again.
 But in my experience, it is also helpful to have a strong sense of self. When you know what you want, life sort of just lines up: you experience less FOMO, have more time to do what you want, and are more present when doing them.&lt;/p&gt;
 
-&lt;p&gt;So how do you both have a small and strong self? For me, it goes back to that old cliché of “strong beliefs, loosely held”. Applied to selfhood, this means being able to simultaneously strongly express and quickly shed identities. It’s hard when you have to constantly explain the change to your friends, and especially hard when you discover self-perceptions that you didn’t even know you had until you tried to shed them.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">This is a grab bag of tensions I wrestle with. They’re starting to take up too much space in my head, so I’m writing them down.</summary></entry><entry><title type="html">A Short note on grace</title><link href="/2021/02/04/grace.html" rel="alternate" type="text/html" title="A Short note on grace" /><published>2021-02-04T00:00:00-08:00</published><updated>2021-02-04T00:00:00-08:00</updated><id>/2021/02/04/grace</id><content type="html" xml:base="/2021/02/04/grace.html">&lt;p&gt;In different periods of my life, I paid attention to different kinds of character traits. These days, it’s grace. But it hasn’t always been.&lt;!--more--&gt;  Early in my career, I was particularly drawn to ambition. I read all the PG essays and idolized the early YC founders. I believed that ambition was 80% of the reason behind any success. It was the trait that lead to enormous risk appetites, and fueled the grit and creativity to satiate it.&lt;/p&gt;
+&lt;p&gt;So how do you both have a small and strong self? For me, it goes back to that old cliché of “strong beliefs, loosely held”. Applied to selfhood, this means being able to simultaneously strongly express and quickly shed identities. It’s hard when you have to constantly explain the change to your friends, and especially hard when you discover self-perceptions that you didn’t even know you had until you tried to shed them.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">This is a grab bag of tensions I wrestle with. They’re starting to take up too much space in my head, so I’m writing them down.</summary></entry><entry><title type="html">A Short note on grace</title><link href="/2021/02/04/grace.html" rel="alternate" type="text/html" title="A Short note on grace" /><published>2021-02-04T00:00:00-06:00</published><updated>2021-02-04T00:00:00-06:00</updated><id>/2021/02/04/grace</id><content type="html" xml:base="/2021/02/04/grace.html">&lt;p&gt;In different periods of my life, I paid attention to different kinds of character traits. These days, it’s grace. But it hasn’t always been.&lt;!--more--&gt;  Early in my career, I was particularly drawn to ambition. I read all the PG essays and idolized the early YC founders. I believed that ambition was 80% of the reason behind any success. It was the trait that lead to enormous risk appetites, and fueled the grit and creativity to satiate it.&lt;/p&gt;
 
 &lt;p&gt;I still love ambition, but lately, I’ve also become far more attuned to the presence of grace. Definining grace is tricky. We often use it casually to mean beauty. That’s not what I’m interested in. The version I like is closer to the Christian definition, which is “free and unmerited favour that God gave to humanity by sending Jesus to die”. I think the first time I became aware of Grace was in my senior year of college. My seatmate Louisa spotted me reading Khalil Gibran in a particularly boring business school class and invited me to her Bible study group.&lt;/p&gt;
 
@@ -404,85 +421,4 @@ But in my experience, it is also helpful to have a strong sense of self. When yo
 
 &lt;p&gt;It wasn’t until much later that I had come to understand what they exibited as grace. If I have to describe it in my own words, it’s when you are good only because it is the right thing to do. Grace is a stronger version of nice, a more private version of generosity, a more intrinsict version charity. It’s in some ways the opposite of justice – which is about dealing to each what they deserve. Grace is when you believe in each person’s inherent worth in all cicumstances, and act according to that.&lt;/p&gt;
 
-&lt;p&gt;These days, graceful is now the highest level of compliment I give.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">In different periods of my life, I paid attention to different kinds of character traits. These days, it’s grace. But it hasn’t always been.</summary></entry><entry><title type="html">Experts should curate</title><link href="/2020/08/16/curation.html" rel="alternate" type="text/html" title="Experts should curate" /><published>2020-08-16T00:00:00-07:00</published><updated>2020-08-16T00:00:00-07:00</updated><id>/2020/08/16/curation</id><content type="html" xml:base="/2020/08/16/curation.html">&lt;p&gt;You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there? &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;learning-from-the-internet&quot;&gt;Learning from the Internet&lt;/h2&gt;
-
-&lt;p&gt;Imagine you’re an early-career designer who wanted to depeen their understanding of typography, what do you do? Plugging “how to get better at typography” into Google returns a deluge of mediocre “content” from SaaS company blogs. Eventually, you read enough of these guides to understand the components of type usage: font choice &amp;amp; pairings, size scale, accessibility, etc. Then, you make your queries more specific and find the best guide on each topic.&lt;/p&gt;
-
-&lt;p&gt;That’s the process of learning anything on the internet. There are several metaskills at work here:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Knowing what to search for&lt;/li&gt;
-  &lt;li&gt;Decomposing your need into different steps&lt;/li&gt;
-  &lt;li&gt;Knowing which guide to follow for each step&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The tricky thing is that most of these skills are catch-22s. How do you know to search for when you don’t know what you’re supposed to learn? How do you decompose a problem into steps when you don’t understand a problem? How do you know what the best guide is for each step when you don’t know how that step works?&lt;/p&gt;
-
-&lt;p&gt;As a result, I’ve lost track of the number of times I’ve said to myself “I’m going to learn how to build a basic CRUD app this weekend” only to lose the entire two days wading through an ocean of guides without writing any code.&lt;/p&gt;
-
-&lt;p&gt;For many domains of craft like product design and software engineering (though I can’t speak as well to the latter), there’s already a ton of great guides out there for most things you’d want to learn&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The real problem is figuring out which ones to follow. If we want to increase the amount of knowledge in the world, the marginal unit of expert time is better spent organizing than producing.&lt;/p&gt;
-
-&lt;h2 id=&quot;knowledge-maps-out-there-today&quot;&gt;Knowledge maps out there today&lt;/h2&gt;
-
-&lt;p&gt;One great example of this is &lt;em&gt;Khan Academy’s knowledge map of K–12 math&lt;/em&gt;, now defunct, alas. Having an authoritative source map out the knowledge space and their dependencies + provide a good resource to learn it means that a lot of the metawork outlined above is done for learners.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/curation/knowledgeMap.png&quot; alt=&quot;khan academy knowledge map&quot; /&gt;
-  &lt;figcaption&gt;Khan academy knowledge map of K-12 math. Now deprecated 😢.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Unfortunately, K-12 math today is not too different from where it was 10 years ago. So a map of knowledge here has limited utility compared to domains that are rapidly changing like software engineering, where the canonical way of doing something today is often radically different than 10 years ago.&lt;/p&gt;
-
-&lt;p&gt;Another drawback of this map is that it only links to first party content. Sal Khan is an amazing educator, but is he better than the rest of the Internet combined?&lt;/p&gt;
-
-&lt;p&gt;Addressing exactly the above two is the &lt;em&gt;Open Source Society University&lt;/em&gt; – most well known for their &lt;a href=&quot;https://github.com/ossu/computer-science&quot;&gt;open source computer science curriculum&lt;/a&gt;. It works like the name says: the whole thing is a github read.me that anyone can contribute to (though in practice, there seems to be only 1-2 maintainers), describing a computer science syllabus where all the content is from free 3rd parties sources.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img class=&quot;blogImage&quot; src=&quot;/assets/blogImg/curation/ossu.png&quot; alt=&quot;OSSU&quot; /&gt;
-  &lt;figcaption&gt;Screenshot of the OSSU curriculum&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;While an improvement over some dimensions, this approach still leaves much to be desired in the following aspects:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Maintenance cost&lt;/em&gt; There are only &lt;a href=&quot;https://github.com/ossu/computer-science/graphs/contributors&quot;&gt;~1.5 contributors&lt;/a&gt;. We need 100x more if we want to tend a truly comprehensive garden of knowledge for any topic. How do we motivate them? For a deep dive on the people who work on open source, I recommend picking up the book &lt;a href=&quot;https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862&quot;&gt;Working in Public&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Modularity of content&lt;/em&gt; Probably a downstream consequence of lacking maintainers, but almost all sections of OSSU lead to full EDX style courses. This is not particularly useful for the most common mode of Internet learning: picking up only the exact knowledge necessary to unblock yourself on a project.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Connecting the dots&lt;/em&gt; How does the knowledge from one course relate to the next? This gets especially tricky when the material is cobbled together from 3rd party sources that don’t talk to each other. Having even a 5% gap in coverage between modules can send learners down a rabbit hole that exhausts their motivation. This problem gets worse when you start making content more modular.&lt;/p&gt;
-
-&lt;h2 id=&quot;an-even-better-knowledge-map&quot;&gt;An even better knowledge map&lt;/h2&gt;
-
-&lt;p&gt;Based on the lessons from KA and OSSU, how do you make a better knowledge map?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Comprehensive and detailed syllabus of knowledge&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Third party, to leverage the Internet&lt;/li&gt;
-  &lt;li&gt;Granular, so you can drill into a specific topic&lt;/li&gt;
-  &lt;li&gt;Comprehensive, so you can situate yourself within the domain&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Discussion of source material&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;For different kinds of learners (video vs text vs project) with different kinds of prereqs&lt;/li&gt;
-  &lt;li&gt;Discuss how they relate to prereqs. Fill in any gaps.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Community of maintainers&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;To keep expading the graph, and updating content.&lt;/li&gt;
-  &lt;li&gt;To Identify areas with weaker coverage, and call for writers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You could boostrap the first two for a while, but will eventually need to find a solution to the community problem – whether in an open source way, or by forming a company.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, a knowledge map on its own is not useful unless people are active deriving value from it and the answer to the community problem will entirely depend on who derives value.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Mostly true for fundamental topics. There’s obviously not enough documentation at the edges of any domain, but most people are not there, and the people who are are better equipped with the metaskills needed to help themselves. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Yitong</name></author><summary type="html">You ever want to learn something, and just get totally overwhelmed by the near infinite number of guides out there?</summary></entry></feed>
+&lt;p&gt;These days, graceful is now the highest level of compliment I give.&lt;/p&gt;</content><author><name>Yitong</name></author><summary type="html">In different periods of my life, I paid attention to different kinds of character traits. These days, it’s grace. But it hasn’t always been.</summary></entry></feed>
