@@ -4,12 +4,20 @@
   startDate: 2022-06-01
   endDate: Now
   images: [assets/img/screenshot-agora.jpg]
-# - name: Vector DAO
-#   company: Vector DAO
-#   description: I cofounded Vector DAO, a collective of designers in crypto. Our mission is to accelerate the mainstream adoption of crypto protocols through design and investment.
-#   startDate: 2021-09-01
-#   endDate: Now
-#   images: [assets/img/screenshot-vector.jpg]
+
+- name: Vector DAO
+  company: Vector DAO
+  description: I cofounded Vector DAO, a collective of designers in crypto. Our mission is to accelerate the mainstream adoption of crypto protocols through design and investment.
+  startDate: 2021-09-01
+  endDate: Now
+  images: [assets/img/screenshot-vector.jpg]
+
+- name: Demos & Chill
+  company: Demos & Chill
+  description: I co-created Demos & Chill community, which hosts a series of demo events for hackers and designers in SF. Check out a list of past demos at demos.club.
+  startDate: 2023-01-01
+  endDate: Now
+  images: [assets/img/screenshot-demos.jpg]
 
 - name: Coinbase speculative projects
   company: Coinbase
