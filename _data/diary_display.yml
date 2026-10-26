@@ -1,6 +1,7 @@
 # Optional short labels for the table only; canonical diary details stay untouched.
 # Entries sharing a label are counted together within each day.
 labels:
+  Premier Protein chocolate shake: protein shake
   Protein shake: protein shake
   Evening protein shake: protein shake
   Noodle soup and shared side: noodle soup

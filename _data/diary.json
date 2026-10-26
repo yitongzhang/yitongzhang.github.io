@@ -280,6 +280,25 @@
       },
       "confidence": "low",
       "estimate_note": "Approximate visual and ingredient-based estimate, not official restaurant nutrition. Ingredients checked against Wooly Pig's menu; portions and preparation fats were not weighed. Counts only the individual pictured sandwich."
+    },
+    {
+      "id": "meal-20261026-004",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Premier Protein chocolate shake",
+      "portion_notes": "One full 11 fl oz (325 ml) carton assumed consumed. Front label shows 160 calories and 30 g protein.",
+      "nutrition": {
+        "calories_kcal": 160,
+        "protein_g": 30,
+        "carbs_g": 4,
+        "fat_g": 3
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Calories and protein visible on the carton; carbohydrate and fat from the manufacturer's 11 fl oz chocolate-shake nutrition information. Full carton assumed; label rounding and formulation differences may slightly affect values."
     }
   ],
   "workouts": [
