@@ -15,6 +15,11 @@
       "date": "2026-10-25",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -93,6 +98,25 @@
       },
       "confidence": "high",
       "estimate_note": "Nutrition is approximate; label-based for shakes, visual estimates for mixed meals."
+    },
+    {
+      "id": "meal-20261026-001",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Pizza and black coffee",
+      "portion_notes": "One thick, deep-dish-style cheese-and-tomato pizza slice with a small white-cheese topping, plus one mug of black coffee. Full pictured serving assumed eaten; coffee assumed unsweetened, with no milk. Exact slice weight, cheese type and amount, and added oil unknown.",
+      "nutrition": {
+        "calories_kcal": 650,
+        "protein_g": 28,
+        "carbs_g": 60,
+        "fat_g": 33
+      },
+      "calorie_range": {
+        "low": 500,
+        "high": 850
+      },
+      "confidence": "low",
+      "estimate_note": "Visual estimate, not a weighed serving or restaurant nutrition label. Pizza style and white-cheese topping are inferred from appearance; nutrition may change with portion or ingredient clarification."
     }
   ],
   "workouts": [
