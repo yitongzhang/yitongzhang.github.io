@@ -33,3 +33,14 @@ two.button.fire('focus'); window.fire('resize'); assert.equal(two.panel.hidden, 
 one.button.fire('focus'); document.fire('scroll'); assert.equal(one.panel.hidden, true);
 one.fire('pointerenter', { pointerType: 'touch' }); assert.equal(one.panel.hidden, true);
 console.log('PASS: hover, focus, tap pin/unpin, Escape, outside dismissal, exclusive opening, viewport clamp, resize/scroll and touch handling');
+
+const path = require('node:path');
+const css = fs.readFileSync(path.join(__dirname, '../assets/css/log.css'), 'utf8');
+const template = fs.readFileSync(path.join(__dirname, '../log/index.html'), 'utf8');
+assert(!css.includes('text-decoration: underline'));
+assert(css.includes('margin-right: 0;'));
+assert(css.includes('.food-tip + .food-tip { margin: 0; }'));
+assert(css.includes(':focus-visible'));
+assert(template.includes('class="training-tip food-tip"'));
+assert(template.includes('actual_names | escape'));
+console.log('PASS: food uses shared accessible tooltip, canonical names/counts, zero spacing, no underline, visible keyboard focus');

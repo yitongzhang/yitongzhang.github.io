@@ -26,5 +26,8 @@ training_types:
   bike: { label: Bike, exercise: Bike }
   swim: { label: Swim, exercise: Swim }
 training:
-  workout-20261024-001: { type: crossfit }
+  workout-20261024-001: { type: hyrox_sim }
   workout-20261025-001: { type: gym }
+  workout-20261018-001: { type: gym }
+  workout-20261019-001: { type: gym }
+  workout-20261020-001: { type: gym }

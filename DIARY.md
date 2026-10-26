@@ -90,14 +90,14 @@ No scheduled job is needed: each authorized new diary report triggers this workf
 contains presentation-only food emoji mappings and training classifications.
 Food emoji keys match the normalized `labels` value (or the original title).
 Supply a meaningful short label; the template exposes it as an accessible name
-and hover title. Repeated matching labels are counted. Unknown foods use a plate
+and hover/focus/tap tooltip with the matching canonical food titles. Repeated matching labels are counted. Unknown foods use a plate
 emoji until mapped. Do not remove canonical details when shortening the display.
 
 For each new workout, assign its stable ID in `training` to one of the
 `training_types` keys: `gym`, `crossfit` (Crossfit (Flagship)), `barrys`,
 `hyrox_sim`, `run`, `bike`, `swim`. Use only confirmed venue/type information;
-unknown sessions default to Gym. Do not classify a partial HYROX station workout
-as a full Hyrox Sim, or scheduled classes as completed. A run within a gym/class
+unknown sessions default to Gym. Use Hyrox Sim when explicitly reported as such; do not infer additional stations
+or distances from that label. Do not classify scheduled classes as completed. A run within a gym/class
 session is not a separate session unless explicitly reported as one.
 Standalone Run/Bike/Swim labels derive known distance from matching canonical
 exercise details in meters and display kilometers; leave genuinely unknown
@@ -111,3 +111,6 @@ update needs display mappings too, atomically commit both against latest master
 using its base tree, then update the branch with the expected-head lease and no
 force. Reconcile rejected leases rather than overwriting concurrent changes.
 
+
+Food groups have no inter-group spacing or decorative underlines. Repeated groups
+retain their count and all matching canonical food titles in the accessible tooltip.

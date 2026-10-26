@@ -20,6 +20,21 @@
       "date": "2026-10-26",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-18",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-10-19",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-10-20",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
     }
   ],
   "meals": [
@@ -162,7 +177,7 @@
       "id": "workout-20261024-001",
       "date": "2026-10-24",
       "timezone": "America/Los_Angeles",
-      "title": "Doubles-style stations and 4 km run",
+      "title": "Hyrox Sim",
       "status": "completed",
       "duration_minutes": null,
       "description": "Sled pull, sled push, wall balls and burpees, sharing the station work roughly half with a partner at reported Pro weight, then a 4 km run.",
@@ -198,7 +213,7 @@
           "distance_meters": 4000
         }
       ],
-      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course."
+      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course. Session type confirmed as Hyrox Sim; this label does not imply additional stations or distances."
     },
     {
       "id": "workout-20261025-001",
@@ -241,6 +256,114 @@
         }
       ],
       "notes": "45 minutes including rests. Date assumed to be the local reporting day. Lunges interpreted as 100 repetitions; total versus per-leg and equipment unspecified. Row resistance is user-described, not a numeric drag factor."
+    },
+    {
+      "id": "workout-20261018-001",
+      "date": "2026-10-18",
+      "timezone": "America/Los_Angeles",
+      "title": "Gym: lunges, wall balls, row and run",
+      "status": "completed",
+      "duration_minutes": 45,
+      "description": "100 weighted lunges, 100 wall balls, 1,000 m row and 1-mile run.",
+      "details": [
+        {
+          "exercise": "Weighted lunges",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Wall balls",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Row",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1000
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1609.344
+        }
+      ],
+      "notes": "Reported gym session. Lunges and wall-ball weights not specified."
+    },
+    {
+      "id": "workout-20261019-001",
+      "date": "2026-10-19",
+      "timezone": "America/Los_Angeles",
+      "title": "Gym: lunges, wall balls, row and run",
+      "status": "completed",
+      "duration_minutes": 45,
+      "description": "100 weighted lunges, 100 wall balls, 1,000 m row and 1-mile run.",
+      "details": [
+        {
+          "exercise": "Weighted lunges",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Wall balls",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Row",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1000
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1609.344
+        }
+      ],
+      "notes": "Reported gym session. Lunges and wall-ball weights not specified."
+    },
+    {
+      "id": "workout-20261020-001",
+      "date": "2026-10-20",
+      "timezone": "America/Los_Angeles",
+      "title": "Gym: lunges, wall balls, row and run",
+      "status": "completed",
+      "duration_minutes": 45,
+      "description": "100 weighted lunges, 100 wall balls, 1,000 m row and 1-mile run.",
+      "details": [
+        {
+          "exercise": "Weighted lunges",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Wall balls",
+          "reps": 100,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Row",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1000
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 1609.344
+        }
+      ],
+      "notes": "Reported gym session. Lunges and wall-ball weights not specified."
     }
   ]
 }
