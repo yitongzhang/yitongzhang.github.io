@@ -117,6 +117,25 @@
       },
       "confidence": "low",
       "estimate_note": "Visual estimate, not a weighed serving or restaurant nutrition label. Pizza style and white-cheese topping are inferred from appearance; nutrition may change with portion or ingredient clarification."
+    },
+    {
+      "id": "meal-20261026-002",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake and coconut water",
+      "portion_notes": "One full Premier Protein chocolate shake carton, 11 fl oz (325 ml), and one full Kirkland Signature organic coconut water carton, 330 ml, assumed consumed. Shake front label shows 160 calories and 30 g protein; coconut water estimated at 60 calories.",
+      "nutrition": {
+        "calories_kcal": 220,
+        "protein_g": 30,
+        "carbs_g": 20,
+        "fat_g": 3
+      },
+      "calorie_range": {
+        "low": 210,
+        "high": 230
+      },
+      "confidence": "medium",
+      "estimate_note": "Products and carton sizes identified from the photo. Shake calories and protein are label-visible. Coconut water nutrition and combined carbohydrate/fat values are approximate because the full nutrition panels are not visible; formulation differences may change these slightly."
     }
   ],
   "workouts": [
