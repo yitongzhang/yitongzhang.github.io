@@ -49,3 +49,8 @@ assert(template.includes('{% for occurrence in (1..count) %}'));
 assert(!template.includes('food-count'));
 assert(!template.includes('×'));
 console.log('PASS: repeated foods use emoji repetitions, not numeric multipliers');
+
+const display = fs.readFileSync(path.join(__dirname, '../_data/diary_display.yml'), 'utf8');
+assert(/hyrox_race:.*Hyrox Race/.test(display));
+assert(/hyrox_sim:.*Hyrox Sim/.test(display));
+console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');

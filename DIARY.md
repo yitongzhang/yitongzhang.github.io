@@ -95,7 +95,7 @@ emoji until mapped. Do not remove canonical details when shortening the display.
 
 For each new workout, assign its stable ID in `training` to one of the
 `training_types` keys: `gym`, `crossfit` (Crossfit (Flagship)), `barrys`,
-`hyrox_sim`, `run`, `bike`, `swim`. Use only confirmed venue/type information;
+`hyrox_sim`, `hyrox_race` (Hyrox Race), `run`, `bike`, `swim`. Use only confirmed venue/type information;
 unknown sessions default to Gym. Use Hyrox Sim when explicitly reported as such; do not infer additional stations
 or distances from that label. Do not classify scheduled classes as completed. A run within a gym/class
 session is not a separate session unless explicitly reported as one.
@@ -116,3 +116,5 @@ Food groups have no decorative underlines. Repeated groups
 retain their count and all matching canonical food titles in the accessible tooltip.
 
 Repeated food groups render their emoji sequence once per entry (🥤🥤, never a numeric multiplier). Keep the entry count in accessible names/tooltips, with canonical meal titles; use a consistent small gap between every individual emoji. Emoji mappings are arrays of complete emoji strings (preserve variation selectors), so multi-icon meals and repeated meals get the same gap.
+
+Use Hyrox Race only for explicitly reported actual competition sessions, distinct from Hyrox Sim. Preserve exact finish time in the description and duration_minutes as finish seconds / 60; do not invent start times, splits or distances. Race benchmark records remain private unless specifically requested for the public diary.

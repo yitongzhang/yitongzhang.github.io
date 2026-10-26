@@ -107,6 +107,11 @@
       "food_log_status": "not_logged"
     },
     {
+      "date": "2026-10-03",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
       "date": "2026-10-18",
       "timezone": "America/Los_Angeles",
       "food_log_status": "not_logged"
@@ -637,6 +642,17 @@
         }
       ],
       "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20261003-001",
+      "date": "2026-10-03",
+      "timezone": "America/Los_Angeles",
+      "title": "HYROX Toronto — Men’s Open Singles",
+      "status": "completed",
+      "duration_minutes": 104.93333333333334,
+      "description": "HYROX Toronto — Men’s Open Singles; finish 1:44:56.",
+      "details": [],
+      "notes": "Race held October 3 in Toronto. Duration is finish time; no start time recorded."
     },
     {
       "id": "workout-20261018-001",

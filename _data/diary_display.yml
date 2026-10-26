@@ -22,6 +22,7 @@ training_types:
   crossfit: { label: "Crossfit (Flagship)" }
   barrys: { label: "Barry's" }
   hyrox_sim: { label: "Hyrox Sim" }
+  hyrox_race: { label: "Hyrox Race" }
   run: { label: Run, exercise: Run }
   bike: { label: Bike, exercise: Bike }
   swim: { label: Swim, exercise: Swim }
@@ -52,3 +53,4 @@ training:
   workout-20260913-001: { type: run }
   workout-20260927-001: { type: run }
   workout-20261022-001: { type: barrys }
+  workout-20261003-001: { type: hyrox_race }

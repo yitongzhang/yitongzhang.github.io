@@ -26,7 +26,7 @@ permalink: /log/
           {% if type.exercise %}{% for detail in workout.details %}{% assign exercise = detail.exercise | downcase %}{% assign expected_exercise = type.exercise | downcase %}{% if exercise == expected_exercise %}{% assign distance = distance | plus: detail.distance_meters %}{% endif %}{% endfor %}{% endif %}
           <span class="training-tip">
             <button type="button" class="training-trigger" aria-expanded="false" aria-describedby="tip-{{ workout.id | escape }}">{{ type.label | default: 'Gym' | escape }}{% if distance > 0 %} · {{ distance | divided_by: 1000.0 | round: 2 }} km{% endif %}{% if workout.status != 'completed' %} ({{ workout.status | escape }}){% endif %}</button>
-            <span role="tooltip" class="training-tooltip" id="tip-{{ workout.id | escape }}" hidden>{{ workout.description | escape }}{% if workout.duration_minutes %}<span class="tip-duration">{{ workout.duration_minutes }} minutes total</span>{% endif %}</span>
+            <span role="tooltip" class="training-tooltip" id="tip-{{ workout.id | escape }}" hidden>{{ workout.description | escape }}{% if workout.duration_minutes and type_key != 'hyrox_race' %}<span class="tip-duration">{{ workout.duration_minutes }} minutes total</span>{% endif %}</span>
           </span>
         {% endfor %}</td>
         <td class="nutrition">{% if meals.size > 0 %}<span class="total">{{ calories | round }} / {{ protein | round }} g</span>{% endif %}</td>
