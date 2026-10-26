@@ -4,7 +4,7 @@ title: Food & workout log
 description: A simple daily food and workout log.
 permalink: /log/
 ---
-<link rel="stylesheet" href="{{ '/assets/css/log.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/log.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <main class="diary">
   <h1 class="pageHeader">Log</h1>
   <table class="diary-table">
@@ -38,4 +38,4 @@ permalink: /log/
 </main>
 
 
-<script src="{{ '/assets/js/log.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/log.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
