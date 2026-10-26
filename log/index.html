@@ -17,12 +17,25 @@ permalink: /log/
       {% assign calories = 0 %}{% assign protein = 0 %}
       <tr id="day-{{ day.date | escape }}">
         <th scope="row"><a href="#day-{{ day.date | escape }}"><time datetime="{{ day.date | escape }}">{% assign day_number = day.date | date: '%-d' | plus: 0 %}{{ day.date | date: '%B %-d' }}{% if day_number == 1 or day_number == 21 or day_number == 31 %}st{% elsif day_number == 2 or day_number == 22 %}nd{% elsif day_number == 3 or day_number == 23 %}rd{% else %}th{% endif %}</time></a></th>
-        <td>{% capture food_labels %}{% for meal in meals %}{% assign calories = calories | plus: meal.nutrition.calories_kcal %}{% assign protein = protein | plus: meal.nutrition.protein_g %}{{ site.data.diary_display.labels[meal.title] | default: meal.title }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}{% assign labels = food_labels | split: '|' %}{% assign unique_labels = labels | uniq %}{% for label in unique_labels %}{% assign count = 0 %}{% for item in labels %}{% if item == label %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}{% if count > 1 %}{{ count }} {% if site.data.diary_display.plurals[label] %}{{ site.data.diary_display.plurals[label] | escape }}{% else %}× {{ label | escape }}{% endif %}{% else %}{{ label | escape }}{% endif %}{% unless forloop.last %} · {% endunless %}{% else %}<span class="muted">—</span>{% endfor %}</td>
-        <td>{% for workout in workouts %}{{ workout.title | escape }}{% if workout.duration_minutes %}<span class="duration"> · {{ workout.duration_minutes }} min</span>{% endif %}{% if workout.status != 'completed' %} ({{ workout.status | escape }}){% endif %}{% unless forloop.last %}; {% endunless %}{% else %}<span class="muted">—</span>{% endfor %}</td>
-        <td class="nutrition">{% if meals.size > 0 %}<span class="total">{{ calories | round }} / {{ protein | round }} g</span>{% if day.food_log_status != 'complete' %}<span class="incomplete">partial</span>{% endif %}{% else %}<span class="muted">—</span>{% endif %}</td>
+        <td class="food-cell">{% capture food_labels %}{% for meal in meals %}{% assign calories = calories | plus: meal.nutrition.calories_kcal %}{% assign protein = protein | plus: meal.nutrition.protein_g %}{{ site.data.diary_display.labels[meal.title] | default: meal.title }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}{% assign labels = food_labels | split: '|' %}{% assign unique_labels = labels | uniq %}{% for label in unique_labels %}{% assign count = 0 %}{% for item in labels %}{% if item == label %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}<span class="food-emoji" role="img" aria-label="{% if count > 1 %}{{ count }} × {% endif %}{{ label | escape }}" title="{% if count > 1 %}{{ count }} × {% endif %}{{ label | escape }}">{% if count > 1 %}<span class="food-count">{{ count }}×</span>{% endif %}{{ site.data.diary_display.emojis[label] | default: '🍽️' }}</span>{% endfor %}</td>
+        <td>{% for workout in workouts %}
+          {% assign training = site.data.diary_display.training[workout.id] %}
+          {% assign type_key = training.type | default: 'gym' %}
+          {% assign type = site.data.diary_display.training_types[type_key] %}
+          {% assign distance = 0 %}
+          {% if type.exercise %}{% for detail in workout.details %}{% assign exercise = detail.exercise | downcase %}{% assign expected_exercise = type.exercise | downcase %}{% if exercise == expected_exercise %}{% assign distance = distance | plus: detail.distance_meters %}{% endif %}{% endfor %}{% endif %}
+          <span class="training-tip">
+            <button type="button" class="training-trigger" aria-expanded="false" aria-describedby="tip-{{ workout.id | escape }}">{{ type.label | default: 'Gym' | escape }}{% if distance > 0 %} · {{ distance | divided_by: 1000.0 | round: 2 }} km{% endif %}{% if workout.status != 'completed' %} ({{ workout.status | escape }}){% endif %}</button>
+            <span role="tooltip" class="training-tooltip" id="tip-{{ workout.id | escape }}" hidden>{{ workout.description | escape }}{% if workout.duration_minutes %}<span class="tip-duration">{{ workout.duration_minutes }} minutes total</span>{% endif %}</span>
+          </span>
+        {% endfor %}</td>
+        <td class="nutrition">{% if meals.size > 0 %}<span class="total">{{ calories | round }} / {{ protein | round }} g</span>{% endif %}</td>
       </tr>
     {% endfor %}
     </tbody>
   </table>
   {% if days.size == 0 %}<p class="diary-caption">No entries yet.</p>{% endif %}
 </main>
+
+
+<script src="{{ '/assets/js/log.js' | relative_url }}" defer></script>

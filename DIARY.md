@@ -83,3 +83,31 @@ fetch latest and reapply the patch on a clean latest-master working copy; do not
 force or blindly resolve data conflicts. Preserve the failed attempt for diagnosis.
 
 No scheduled job is needed: each authorized new diary report triggers this workflow.
+
+## Display labels and training types
+
+`_data/diary.json` remains the full canonical diary. `_data/diary_display.yml`
+contains presentation-only food emoji mappings and training classifications.
+Food emoji keys match the normalized `labels` value (or the original title).
+Supply a meaningful short label; the template exposes it as an accessible name
+and hover title. Repeated matching labels are counted. Unknown foods use a plate
+emoji until mapped. Do not remove canonical details when shortening the display.
+
+For each new workout, assign its stable ID in `training` to one of the
+`training_types` keys: `gym`, `crossfit` (Crossfit (Flagship)), `barrys`,
+`hyrox_sim`, `run`, `bike`, `swim`. Use only confirmed venue/type information;
+unknown sessions default to Gym. Do not classify a partial HYROX station workout
+as a full Hyrox Sim, or scheduled classes as completed. A run within a gym/class
+session is not a separate session unless explicitly reported as one.
+Standalone Run/Bike/Swim labels derive known distance from matching canonical
+exercise details in meters and display kilometers; leave genuinely unknown
+distances unspecified rather than inventing them. Keep exercise names Run,
+Bike, or Swim for these distance-bearing details. Tooltip content comes from
+canonical description and duration. Hover/focus opens it; click/tap pins it;
+a second click/tap, Escape, outside click, resize or scroll dismisses it.
+
+Run `node scripts/test_log.js` after changing tooltip behavior. When a diary
+update needs display mappings too, atomically commit both against latest master
+using its base tree, then update the branch with the expected-head lease and no
+force. Reconcile rejected leases rather than overwriting concurrent changes.
+

@@ -7,3 +7,24 @@ labels:
   Turkey, vegetables and rice: turkey & rice
 plurals:
   protein shake: protein shakes
+
+# Visual summaries only. Names remain available to assistive technology and on hover.
+emojis:
+  protein shake: 🥤
+  noodle soup: 🍜
+  turkey & rice: 🍗🍚
+  Pizza and black coffee: 🍕☕
+  Protein shake and coconut water: 🥤🥥
+  Wooly Pig Asian Cubano: 🥪
+# Assign only completed/reported sessions; venue or sub-exercises do not create sessions.
+training_types:
+  gym: { label: Gym }
+  crossfit: { label: "Crossfit (Flagship)" }
+  barrys: { label: "Barry's" }
+  hyrox_sim: { label: "Hyrox Sim" }
+  run: { label: Run, exercise: Run }
+  bike: { label: Bike, exercise: Bike }
+  swim: { label: Swim, exercise: Swim }
+training:
+  workout-20261024-001: { type: crossfit }
+  workout-20261025-001: { type: gym }

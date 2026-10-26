@@ -3,13 +3,12 @@
 .diary .pageHeader { margin-bottom: 32px; }
 .diary-table { width: 100%; table-layout: fixed; font-size: 14px; line-height: 1.6; text-align: left; }
 .diary-table th, .diary-table td { vertical-align: top; padding: 16px 14px 16px 0; }
-.diary-table thead th { padding-top: 0; padding-bottom: 10px; font-family: IBMPlexMono, monospace; font-size: 11px; font-weight: 400; color: #707780; }
+.diary-table thead th { padding-top: 0; padding-bottom: 10px; font-family: IBMPlexMono, monospace; font-size: inherit; font-weight: 400; color: #707780; }
 .diary-table tbody tr { border-top: 1px solid #eceeef; }
 .diary-table th:first-child { width: 100px; font-weight: 400; }
 .diary-table td { color: #424850; }
-.diary-table .nutrition { width: 105px; text-align: right; padding-right: 0; }
+.diary-table .nutrition { width: 125px; text-align: right; padding-right: 0; }
 .diary-table .total { white-space: nowrap; color: #000; }
-.diary-table .incomplete { display: block; color: #8a9097; font-size: 11px; }
 .diary-table .muted { color: #8a9097; }
 .diary-table a:focus-visible { outline: 1px solid #424850; outline-offset: 4px; }
 @media (max-width: 520px) {
@@ -18,5 +17,17 @@
   .diary-table th, .diary-table td { padding-right: 10px; }
   .diary-table th:first-child { width: 62px; }
   .diary-table .nutrition { width: 72px; }
-  .diary-table thead th { font-size: 9px; }
 }
+
+
+.diary-table .food-emoji { display: inline-block; white-space: nowrap; margin-right: 8px; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; font-size: inherit; line-height: 1.5; vertical-align: top; }
+.diary-table .food-count { font-family: Colfax, sans-serif; font-size: inherit; margin-right: 2px; }
+
+.training-tip { position: relative; display: inline-block; max-width: 100%; }
+.training-tip + .training-tip { margin-top: 6px; }
+.training-trigger { max-width: 100%; white-space: normal; font: inherit; color: inherit; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline dotted #abb0b6; text-underline-offset: 4px; }
+.training-trigger:focus-visible { outline: 1px solid #424850; outline-offset: 4px; }
+.training-tooltip { display: block; position: fixed; z-index: 5; top: calc(100% + 8px); left: -12px; width: 250px; max-width: calc(100vw - 48px); box-sizing: border-box; padding: 12px 14px; border: 1px solid #e6e8ea; border-radius: 4px; background: #fff; box-shadow: 0 3px 12px #00000010; font-size: 13px; line-height: 1.6; color: #424850; }
+.training-tooltip[hidden] { display: none; }
+.tip-duration { display: block; margin-top: 8px; color: #707780; }
+@media (max-width: 520px) { .training-tooltip { font-size: 12px; } }
