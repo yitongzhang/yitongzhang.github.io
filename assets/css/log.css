@@ -32,6 +32,10 @@
 .tip-duration { display: block; margin-top: 8px; color: #707780; }
 @media (max-width: 520px) { .training-tooltip { font-size: 12px; } }
 
-/* Food groups touch: no inserted text nodes, margins, or flex gaps. */
+/* Consistent small spacing between every individual emoji. */
 .food-tip + .food-tip { margin: 0; }
 .training-trigger:hover, .training-trigger:focus, .training-trigger:active { text-decoration: none; }
+
+.food-list { display: inline-flex; flex-wrap: wrap; gap: .2em; }
+.diary-table .food-emoji { display: inline-flex; gap: .2em; }
+.food-tip { display: inline-flex; }

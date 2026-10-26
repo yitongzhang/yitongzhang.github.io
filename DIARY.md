@@ -112,5 +112,7 @@ using its base tree, then update the branch with the expected-head lease and no
 force. Reconcile rejected leases rather than overwriting concurrent changes.
 
 
-Food groups have no inter-group spacing or decorative underlines. Repeated groups
+Food groups have no decorative underlines. Repeated groups
 retain their count and all matching canonical food titles in the accessible tooltip.
+
+Repeated food groups render their emoji sequence once per entry (🥤🥤, never a numeric multiplier). Keep the entry count in accessible names/tooltips, with canonical meal titles; use a consistent small gap between every individual emoji. Emoji mappings are arrays of complete emoji strings (preserve variation selectors), so multi-icon meals and repeated meals get the same gap.

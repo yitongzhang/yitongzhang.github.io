@@ -10,12 +10,12 @@ plurals:
 
 # Visual summaries only. Names remain available to assistive technology and on hover.
 emojis:
-  protein shake: 🥤
-  noodle soup: 🍜
-  turkey & rice: 🍗🍚
-  Pizza and black coffee: 🍕☕
-  Protein shake and coconut water: 🥤🥥
-  Wooly Pig Asian Cubano: 🥪
+  protein shake: ["🥤"]
+  noodle soup: ["🍜"]
+  turkey & rice: ["🍗", "🍚"]
+  Pizza and black coffee: ["🍕", "☕"]
+  Protein shake and coconut water: ["🥤", "🥥"]
+  Wooly Pig Asian Cubano: ["🥪"]
 # Assign only completed/reported sessions; venue or sub-exercises do not create sessions.
 training_types:
   gym: { label: Gym }
