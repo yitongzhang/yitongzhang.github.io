@@ -51,3 +51,4 @@ training:
   workout-20260905-001: { type: run }
   workout-20260913-001: { type: run }
   workout-20260927-001: { type: run }
+  workout-20261022-001: { type: barrys }

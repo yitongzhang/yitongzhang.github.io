@@ -122,6 +122,11 @@
       "food_log_status": "not_logged"
     },
     {
+      "date": "2026-10-22",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
       "date": "2026-10-24",
       "timezone": "America/Los_Angeles",
       "food_log_status": "not_logged"
@@ -484,7 +489,7 @@
           "exercise": "Run",
           "reps": null,
           "load": null,
-          "distance_meters": 10930.0
+          "distance_meters": 10930
         }
       ],
       "notes": "GPS-recorded run. Duration is moving time, excluding stops."
@@ -740,6 +745,17 @@
         }
       ],
       "notes": "Reported gym session. Lunges and wall-ball weights not specified."
+    },
+    {
+      "id": "workout-20261022-001",
+      "date": "2026-10-22",
+      "timezone": "America/Los_Angeles",
+      "title": "Barry's",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Barry's class.",
+      "details": [],
+      "notes": "Duration, exercises and location not specified."
     },
     {
       "id": "workout-20261024-001",
