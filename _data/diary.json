@@ -136,6 +136,25 @@
       },
       "confidence": "medium",
       "estimate_note": "Products and carton sizes identified from the photo. Shake calories and protein are label-visible. Coconut water nutrition and combined carbohydrate/fat values are approximate because the full nutrition panels are not visible; formulation differences may change these slightly."
+    },
+    {
+      "id": "meal-20261026-003",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Wooly Pig Asian Cubano",
+      "portion_notes": "One whole toasted Asian Cubano sandwich, pictured cut into two halves, assumed eaten. No side or drink visible or included. Wooly Pig menu lists char siu ham, pulled pork, provolone, cilantro pesto and house pickles on ciabatta. Bread weight, meat and cheese portions, and added butter or oil are unknown.",
+      "nutrition": {
+        "calories_kcal": 900,
+        "protein_g": 45,
+        "carbs_g": 85,
+        "fat_g": 42
+      },
+      "calorie_range": {
+        "low": 750,
+        "high": 1100
+      },
+      "confidence": "low",
+      "estimate_note": "Approximate visual and ingredient-based estimate, not official restaurant nutrition. Ingredients checked against Wooly Pig's menu; portions and preparation fats were not weighed. Counts only the individual pictured sandwich."
     }
   ],
   "workouts": [
