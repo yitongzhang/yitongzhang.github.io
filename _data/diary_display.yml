@@ -31,3 +31,23 @@ training:
   workout-20261018-001: { type: gym }
   workout-20261019-001: { type: gym }
   workout-20261020-001: { type: gym }
+  workout-20260110-001: { type: run }
+  workout-20260119-001: { type: run }
+  workout-20260125-001: { type: run }
+  workout-20260208-001: { type: run }
+  workout-20260307-001: { type: run }
+  workout-20260503-001: { type: run }
+  workout-20260517-001: { type: run }
+  workout-20260613-001: { type: run }
+  workout-20260620-001: { type: run }
+  workout-20260628-001: { type: run }
+  workout-20260712-001: { type: run }
+  workout-20260714-001: { type: run }
+  workout-20260726-001: { type: run }
+  workout-20260802-001: { type: run }
+  workout-20260816-001: { type: run }
+  workout-20260818-001: { type: run }
+  workout-20260829-001: { type: run }
+  workout-20260905-001: { type: run }
+  workout-20260913-001: { type: run }
+  workout-20260927-001: { type: run }

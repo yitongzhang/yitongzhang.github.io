@@ -7,19 +7,104 @@
   ],
   "days": [
     {
-      "date": "2026-10-24",
+      "date": "2026-01-10",
       "timezone": "America/Los_Angeles",
       "food_log_status": "not_logged"
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-01-19",
       "timezone": "America/Los_Angeles",
-      "food_log_status": "incomplete"
+      "food_log_status": "not_logged"
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-01-25",
       "timezone": "America/Los_Angeles",
-      "food_log_status": "incomplete"
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-02-08",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-03-07",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-05-03",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-05-17",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-06-13",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-06-20",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-06-28",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-07-12",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-07-14",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-07-26",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-08-02",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-08-16",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-08-18",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-08-29",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-09-05",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-09-13",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-09-27",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
     },
     {
       "date": "2026-10-18",
@@ -35,6 +120,21 @@
       "date": "2026-10-20",
       "timezone": "America/Los_Angeles",
       "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-10-24",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -174,88 +274,364 @@
   ],
   "workouts": [
     {
-      "id": "workout-20261024-001",
-      "date": "2026-10-24",
+      "id": "workout-20260110-001",
+      "date": "2026-01-10",
       "timezone": "America/Los_Angeles",
-      "title": "Hyrox Sim",
+      "title": "Run",
       "status": "completed",
-      "duration_minutes": null,
-      "description": "Sled pull, sled push, wall balls and burpees, sharing the station work roughly half with a partner at reported Pro weight, then a 4 km run.",
+      "duration_minutes": 93,
+      "description": "12.5 km run.",
       "details": [
-        {
-          "exercise": "Sled pull",
-          "reps": null,
-          "load": null,
-          "distance_meters": null
-        },
-        {
-          "exercise": "Sled push",
-          "reps": null,
-          "load": null,
-          "distance_meters": null
-        },
-        {
-          "exercise": "Wall balls",
-          "reps": null,
-          "load": null,
-          "distance_meters": null
-        },
-        {
-          "exercise": "Burpees",
-          "reps": null,
-          "load": null,
-          "distance_meters": null
-        },
         {
           "exercise": "Run",
           "reps": null,
           "load": null,
-          "distance_meters": 4000
+          "distance_meters": 12472.4
         }
       ],
-      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course. Session type confirmed as Hyrox Sim; this label does not imply additional stations or distances."
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
     },
     {
-      "id": "workout-20261025-001",
-      "date": "2026-10-25",
+      "id": "workout-20260119-001",
+      "date": "2026-01-19",
       "timezone": "America/Los_Angeles",
-      "title": "Wall balls, lunges, row and run",
+      "title": "Run",
       "status": "completed",
-      "duration_minutes": 45,
-      "description": "100 wall balls with a 12 lb ball, 100 weighted lunges at 55 lb, a 2 km row at reported maximum resistance, and a 2 mile run.",
+      "duration_minutes": 58,
+      "description": "11.2 km run.",
       "details": [
-        {
-          "exercise": "Wall balls",
-          "reps": 100,
-          "load": {
-            "value": 12,
-            "unit": "lb"
-          },
-          "distance_meters": null
-        },
-        {
-          "exercise": "Weighted lunges",
-          "reps": 100,
-          "load": {
-            "value": 55,
-            "unit": "lb"
-          },
-          "distance_meters": null
-        },
-        {
-          "exercise": "Row",
-          "reps": null,
-          "load": null,
-          "distance_meters": 2000
-        },
         {
           "exercise": "Run",
           "reps": null,
           "load": null,
-          "distance_meters": 3218.688
+          "distance_meters": 11234.3
         }
       ],
-      "notes": "45 minutes including rests. Date assumed to be the local reporting day. Lunges interpreted as 100 repetitions; total versus per-leg and equipment unspecified. Row resistance is user-described, not a numeric drag factor."
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260125-001",
+      "date": "2026-01-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 110,
+      "description": "19.6 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 19594.9
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260208-001",
+      "date": "2026-02-08",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 103,
+      "description": "16.1 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 16148.1
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260307-001",
+      "date": "2026-03-07",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 63,
+      "description": "10.3 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10332.9
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260503-001",
+      "date": "2026-05-03",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 63,
+      "description": "11 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10975.6
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260517-001",
+      "date": "2026-05-17",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 99,
+      "description": "13.1 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 13051.7
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260613-001",
+      "date": "2026-06-13",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 127,
+      "description": "20.4 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 20407.5
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260620-001",
+      "date": "2026-06-20",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 180,
+      "description": "28.3 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 28326.2
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260628-001",
+      "date": "2026-06-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 209,
+      "description": "32 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 32009.7
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260712-001",
+      "date": "2026-07-12",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 151,
+      "description": "21.1 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 21079.5
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260714-001",
+      "date": "2026-07-14",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 59,
+      "description": "10.9 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10930.0
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260726-001",
+      "date": "2026-07-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 291,
+      "description": "43.2 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 43192.6
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260802-001",
+      "date": "2026-08-02",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 67,
+      "description": "10.2 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10152.2
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260816-001",
+      "date": "2026-08-16",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 56,
+      "description": "10.1 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10082.3
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260818-001",
+      "date": "2026-08-18",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 51,
+      "description": "10.1 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10072.6
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260829-001",
+      "date": "2026-08-29",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 91,
+      "description": "15 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 15029.5
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260905-001",
+      "date": "2026-09-05",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 61,
+      "description": "10 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 10017.8
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260913-001",
+      "date": "2026-09-13",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 97,
+      "description": "16.6 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 16557.6
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
+    },
+    {
+      "id": "workout-20260927-001",
+      "date": "2026-09-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Run",
+      "status": "completed",
+      "duration_minutes": 171,
+      "description": "21.9 km run.",
+      "details": [
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 21894.2
+        }
+      ],
+      "notes": "GPS-recorded run. Duration is moving time, excluding stops."
     },
     {
       "id": "workout-20261018-001",
@@ -364,6 +740,90 @@
         }
       ],
       "notes": "Reported gym session. Lunges and wall-ball weights not specified."
+    },
+    {
+      "id": "workout-20261024-001",
+      "date": "2026-10-24",
+      "timezone": "America/Los_Angeles",
+      "title": "Hyrox Sim",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Sled pull, sled push, wall balls and burpees, sharing the station work roughly half with a partner at reported Pro weight, then a 4 km run.",
+      "details": [
+        {
+          "exercise": "Sled pull",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Sled push",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Wall balls",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Burpees",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 4000
+        }
+      ],
+      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course. Session type confirmed as Hyrox Sim; this label does not imply additional stations or distances."
+    },
+    {
+      "id": "workout-20261025-001",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Wall balls, lunges, row and run",
+      "status": "completed",
+      "duration_minutes": 45,
+      "description": "100 wall balls with a 12 lb ball, 100 weighted lunges at 55 lb, a 2 km row at reported maximum resistance, and a 2 mile run.",
+      "details": [
+        {
+          "exercise": "Wall balls",
+          "reps": 100,
+          "load": {
+            "value": 12,
+            "unit": "lb"
+          },
+          "distance_meters": null
+        },
+        {
+          "exercise": "Weighted lunges",
+          "reps": 100,
+          "load": {
+            "value": 55,
+            "unit": "lb"
+          },
+          "distance_meters": null
+        },
+        {
+          "exercise": "Row",
+          "reps": null,
+          "load": null,
+          "distance_meters": 2000
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 3218.688
+        }
+      ],
+      "notes": "45 minutes including rests. Date assumed to be the local reporting day. Lunges interpreted as 100 repetitions; total versus per-leg and equipment unspecified. Row resistance is user-described, not a numeric drag factor."
     }
   ]
 }
