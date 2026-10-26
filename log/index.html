@@ -1,65 +1,28 @@
 ---
 layout: default
 title: Food & workout log
-description: A running diary of meals and workouts, with approximate nutrition for the food logged.
+description: A simple daily food and workout log.
 permalink: /log/
 ---
 <link rel="stylesheet" href="{{ '/assets/css/log.css' | relative_url }}">
 <main class="diary">
-  <h1 class="pageHeader">Food &amp; workouts</h1>
-  <div class="diary-intro">
-    <p>A running log of what I eat and how I train.</p>
-    <p class="entry-note">Nutrition is approximate, and most days are a work in progress. Totals cover only the meals logged—not necessarily everything I ate. Dates are in Pacific time.</p>
-  </div>
-  {% assign days = site.data.diary.days | sort: 'date' | reverse %}
-  {% for day in days %}
-  {% assign meals = site.data.diary.meals | where: 'date', day.date %}
-  {% assign workouts = site.data.diary.workouts | where: 'date', day.date %}
-  <article class="diary-day" id="day-{{ day.date | escape }}">
-    <header>
-      <h2><a href="#day-{{ day.date | escape }}"><time datetime="{{ day.date | escape }}">{{ day.date | date: '%B %-d, %Y' }}</time></a></h2>
-      <span class="day-status">{% if day.food_log_status == 'complete' %}Food log complete{% elsif day.food_log_status == 'not_logged' %}Food not logged{% else %}Food log incomplete{% endif %}</span>
-    </header>
-    {% if meals.size > 0 %}
-    <h3>Food</h3>
-    <ul>
-      {% assign calories = 0 %}{% assign protein = 0 %}{% assign carbs = 0 %}{% assign fat = 0 %}
-      {% for meal in meals %}
-      {% assign calories = calories | plus: meal.nutrition.calories_kcal %}
-      {% assign protein = protein | plus: meal.nutrition.protein_g %}
-      {% assign carbs = carbs | plus: meal.nutrition.carbs_g %}
-      {% assign fat = fat | plus: meal.nutrition.fat_g %}
-      <li id="{{ meal.id | escape }}">
-        <p class="entry-label">{{ meal.title | escape }}</p>
-        <p class="entry-note">{{ meal.portion_notes | escape }}</p>
-        <p class="entry-note">≈ {{ meal.nutrition.calories_kcal | round }} kcal · {{ meal.nutrition.protein_g | round: 1 }} g protein · {{ meal.nutrition.carbs_g | round: 1 }} g carbs · {{ meal.nutrition.fat_g | round: 1 }} g fat{% if meal.calorie_range.low %}<br>Estimated range: {{ meal.calorie_range.low | round }}–{{ meal.calorie_range.high | round }} kcal{% endif %}</p>
-      </li>
-      {% endfor %}
-    </ul>
-    <dl class="macros" aria-label="Approximate totals for logged food">
-      <div><dt>Calories</dt><dd>≈ {{ calories | round }} kcal</dd></div>
-      <div><dt>Protein</dt><dd>≈ {{ protein | round: 1 }} g</dd></div>
-      <div><dt>Carbs</dt><dd>≈ {{ carbs | round: 1 }} g</dd></div>
-      <div><dt>Fat</dt><dd>≈ {{ fat | round: 1 }} g</dd></div>
-    </dl>
-    <p class="totals-note">Logged food only{% unless day.food_log_status == 'complete' %} · incomplete day{% endunless %}. Estimates can change as portions are clarified.</p>
-    {% else %}
-    <p class="entry-note">No food entries for this day. That doesn't mean no food was eaten.</p>
-    {% endif %}
-    {% if workouts.size > 0 %}
-    <h3>Training</h3>
-    <ul>
-      {% for workout in workouts %}
-      <li id="{{ workout.id | escape }}">
-        <p class="entry-label">{{ workout.title | escape }}{% if workout.duration_minutes %} · {{ workout.duration_minutes }} min{% endif %}</p>
-        <p>{{ workout.description | escape }}</p>
-        {% if workout.status != 'completed' %}<p class="entry-note">{{ workout.status | escape | capitalize }}</p>{% endif %}
-        {% if workout.notes != '' %}<p class="entry-note">{{ workout.notes | escape }}</p>{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-  </article>
-  {% endfor %}
-  {% if days.size == 0 %}<p>No entries yet.</p>{% endif %}
+  <h1 class="pageHeader">Log</h1>
+  <table class="diary-table">
+    <thead><tr><th scope="col">Date</th><th scope="col">Food</th><th scope="col">Training</th><th scope="col" class="nutrition">kcal / protein</th></tr></thead>
+    <tbody>
+    {% assign days = site.data.diary.days | sort: 'date' | reverse %}
+    {% for day in days %}
+      {% assign meals = site.data.diary.meals | where: 'date', day.date %}
+      {% assign workouts = site.data.diary.workouts | where: 'date', day.date %}
+      {% assign calories = 0 %}{% assign protein = 0 %}
+      <tr id="day-{{ day.date | escape }}">
+        <th scope="row"><a href="#day-{{ day.date | escape }}"><time datetime="{{ day.date | escape }}">{% assign day_number = day.date | date: '%-d' | plus: 0 %}{{ day.date | date: '%B %-d' }}{% if day_number == 1 or day_number == 21 or day_number == 31 %}st{% elsif day_number == 2 or day_number == 22 %}nd{% elsif day_number == 3 or day_number == 23 %}rd{% else %}th{% endif %}</time></a></th>
+        <td>{% capture food_labels %}{% for meal in meals %}{% assign calories = calories | plus: meal.nutrition.calories_kcal %}{% assign protein = protein | plus: meal.nutrition.protein_g %}{{ site.data.diary_display.labels[meal.title] | default: meal.title }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}{% assign labels = food_labels | split: '|' %}{% assign unique_labels = labels | uniq %}{% for label in unique_labels %}{% assign count = 0 %}{% for item in labels %}{% if item == label %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}{% if count > 1 %}{{ count }} {% if site.data.diary_display.plurals[label] %}{{ site.data.diary_display.plurals[label] | escape }}{% else %}× {{ label | escape }}{% endif %}{% else %}{{ label | escape }}{% endif %}{% unless forloop.last %} · {% endunless %}{% else %}<span class="muted">—</span>{% endfor %}</td>
+        <td>{% for workout in workouts %}{{ workout.title | escape }}{% if workout.duration_minutes %}<span class="duration"> · {{ workout.duration_minutes }} min</span>{% endif %}{% if workout.status != 'completed' %} ({{ workout.status | escape }}){% endif %}{% unless forloop.last %}; {% endunless %}{% else %}<span class="muted">—</span>{% endfor %}</td>
+        <td class="nutrition">{% if meals.size > 0 %}<span class="total">{{ calories | round }} / {{ protein | round }} g</span>{% if day.food_log_status != 'complete' %}<span class="incomplete">partial</span>{% endif %}{% else %}<span class="muted">—</span>{% endif %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% if days.size == 0 %}<p class="diary-caption">No entries yet.</p>{% endif %}
 </main>
