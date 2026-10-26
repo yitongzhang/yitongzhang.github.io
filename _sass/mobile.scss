@@ -3,6 +3,8 @@
         font-size: 2.4rem;
     }
     nav{
+        flex-wrap: wrap;
+        gap: 12px;
         .links h5{
             margin-left: 16px;
         }

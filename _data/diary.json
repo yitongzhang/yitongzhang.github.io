@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "default_timezone": "America/Los_Angeles",
+  "display_notes": [
+    "A personal food and workout diary, not a complete intake or medical record.",
+    "Food quantities and nutrition are estimates. An incomplete day is not a zero-intake or under-target day."
+  ],
+  "days": [
+    {
+      "date": "2026-10-24",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "not_logged"
+    },
+    {
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal-20261025-001",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "One full Fairlife Core Power chocolate 42 g protein bottle, 414 ml, assumed.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Nutrition is approximate; label-based for shakes, visual estimates for mixed meals."
+    },
+    {
+      "id": "meal-20261025-002",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Noodle soup and shared side",
+      "portion_notes": "Half the photographed spread: one noodle-soup bowl, half the grain/corn/tofu-like side, and half the orange drink. Ingredients and portions estimated.",
+      "nutrition": {
+        "calories_kcal": 700,
+        "protein_g": 25,
+        "carbs_g": 100,
+        "fat_g": 22
+      },
+      "calorie_range": {
+        "low": 450,
+        "high": 900
+      },
+      "confidence": "low",
+      "estimate_note": "Nutrition is approximate; label-based for shakes, visual estimates for mixed meals."
+    },
+    {
+      "id": "meal-20261025-003",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Turkey, vegetables and rice",
+      "portion_notes": "Half a dinner for two: cooked ground turkey (about 125 g estimated), bok choy, one king oyster mushroom, one egg, rice and oil. Half a cup rice assumed dry for the whole recipe; user share one-quarter cup dry. Two tablespoons oil total; user share one tablespoon. Turkey weight and fat percentage uncertain. If rice was measured cooked, this share would be about 120 kcal lower.",
+      "nutrition": {
+        "calories_kcal": 600,
+        "protein_g": 40,
+        "carbs_g": 48,
+        "fat_g": 28
+      },
+      "calorie_range": {
+        "low": 450,
+        "high": 800
+      },
+      "confidence": "low",
+      "estimate_note": "Nutrition is approximate; label-based for shakes, visual estimates for mixed meals."
+    },
+    {
+      "id": "meal-20261025-004",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Evening protein shake",
+      "portion_notes": "One full Fairlife Core Power chocolate 42 g protein bottle, 414 ml, assumed.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Nutrition is approximate; label-based for shakes, visual estimates for mixed meals."
+    }
+  ],
+  "workouts": [
+    {
+      "id": "workout-20261024-001",
+      "date": "2026-10-24",
+      "timezone": "America/Los_Angeles",
+      "title": "Doubles-style stations and 4 km run",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Sled pull, sled push, wall balls and burpees, sharing the station work roughly half with a partner at reported Pro weight, then a 4 km run.",
+      "details": [
+        {
+          "exercise": "Sled pull",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Sled push",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Wall balls",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Burpees",
+          "reps": null,
+          "load": null,
+          "distance_meters": null
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 4000
+        }
+      ],
+      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course."
+    },
+    {
+      "id": "workout-20261025-001",
+      "date": "2026-10-25",
+      "timezone": "America/Los_Angeles",
+      "title": "Wall balls, lunges, row and run",
+      "status": "completed",
+      "duration_minutes": 45,
+      "description": "100 wall balls with a 12 lb ball, 100 weighted lunges at 55 lb, a 2 km row at reported maximum resistance, and a 2 mile run.",
+      "details": [
+        {
+          "exercise": "Wall balls",
+          "reps": 100,
+          "load": {
+            "value": 12,
+            "unit": "lb"
+          },
+          "distance_meters": null
+        },
+        {
+          "exercise": "Weighted lunges",
+          "reps": 100,
+          "load": {
+            "value": 55,
+            "unit": "lb"
+          },
+          "distance_meters": null
+        },
+        {
+          "exercise": "Row",
+          "reps": null,
+          "load": null,
+          "distance_meters": 2000
+        },
+        {
+          "exercise": "Run",
+          "reps": null,
+          "load": null,
+          "distance_meters": 3218.688
+        }
+      ],
+      "notes": "45 minutes including rests. Date assumed to be the local reporting day. Lunges interpreted as 100 repetitions; total versus per-leg and equipment unspecified. Row resistance is user-described, not a numeric drag factor."
+    }
+  ]
+}

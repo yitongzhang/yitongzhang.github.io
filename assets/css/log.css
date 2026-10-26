@@ -1,0 +1,22 @@
+/* Diary styles deliberately reuse the site's type, width and quiet palette. */
+.diary { width: 100%; min-width: 0; }
+.diary-intro { margin-bottom: 40px; max-width: 56ch; }
+.diary .eyebrow, .diary .day-status { font-family: IBMPlexMono, monospace; font-size: 12px; color: #59616a; }
+.diary-day { border-top: 1px solid #e6e8ea; padding: 24px 0 32px; }
+.diary-day header { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; margin-bottom: 16px; }
+.diary-day h2 { font-size: 20px; }
+.diary .day-status { border: 1px solid #e6e8ea; border-radius: 20px; padding: 2px 9px; }
+.diary h3 { margin: 24px 0 8px; }
+.diary ul { list-style: none; padding: 0; margin: 0; }
+.diary li { padding: 10px 0; }
+.diary li + li { border-top: 1px solid #f0f0f0; }
+.diary li p { margin-bottom: 4px; }
+.diary .entry-label { color: #000; }
+.diary .entry-note { font-size: 14px; color: #59616a; }
+.diary .macros { display: flex; flex-wrap: wrap; gap: 8px 24px; background: #fafafa; border-radius: 12px; padding: 14px 18px; margin-top: 20px; }
+.diary .macros div { display: flex; flex-direction: column; }
+.diary .macros dt { font-size: 12px; color: #59616a; }
+.diary .macros dd { font-size: 16px; color: #000; }
+.diary .totals-note { font-size: 13px; color: #59616a; margin: 8px 0 0; }
+.diary a:focus-visible { outline: 2px solid #424850; outline-offset: 4px; }
+@media (max-width: 520px) { nav { flex-wrap: wrap; gap: 12px; margin-bottom: 48px; } nav .links { flex-wrap: wrap; } .diary-day header { gap: 8px; } }
