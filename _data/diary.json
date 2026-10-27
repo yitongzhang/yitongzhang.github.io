@@ -875,6 +875,17 @@
         }
       ],
       "notes": "45 minutes including rests. Date assumed to be the local reporting day. Lunges interpreted as 100 repetitions; total versus per-leg and equipment unspecified. Row resistance is user-described, not a numeric drag factor."
+    },
+    {
+      "id": "workout-20261026-001",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "Flagship workout",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Flagship workout.",
+      "details": [],
+      "notes": "Duration and exercises not specified."
     }
   ]
 }

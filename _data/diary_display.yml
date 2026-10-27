@@ -55,3 +55,4 @@ training:
   workout-20260927-001: { type: run }
   workout-20261022-001: { type: barrys }
   workout-20261003-001: { type: hyrox_race }
+  workout-20261026-001: { type: crossfit }
