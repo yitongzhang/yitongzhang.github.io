@@ -3,7 +3,7 @@
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const RAMP = ['#e9ebed', '#cfd3d7', '#a9aeb4', '#7c8288', '#4d535a'];
-  const INK = '#000', EMPTY = '#F0F0F0', WASH = '#FAFAFA';
+  const INK = '#000', WASH = '#FAFAFA', EMPTY = WASH;
 
   const shortDate = d => MONTHS[Number(d.slice(5, 7)) - 1] + ' ' + Number(d.slice(8, 10));
   const length = min => { const m = Math.round(min); return m < 60 ? m + ' min' : Math.floor(m / 60) + 'h' + (m % 60 ? ' ' + (m % 60) + 'm' : ''); };
@@ -94,34 +94,47 @@
       return node;
     };
     host.textContent = '';
-    // Every square, the label squares included, sits g apart.
-    const w = host.clientWidth, g = 3, padL = w < 520 ? 78 : 96, cw = (w - padL + g) / 12, ch = 40, top = 24, H = top + 2 * ch + g;
+    // Every square, the label squares included, sits g apart. Training is a bar per month; meals a square.
+    const w = host.clientWidth, g = 3, padL = w < 520 ? 78 : 96, cw = (w - padL + g) / 12, bh = 136, ch = 40, top = 0, H = top + bh + g + ch;
     const cell = cw - g, labelled = cell >= 34;
     const maxHours = Math.max(1, ...months.map(o => o.hours));
-    const rows = [
-      { key: 'training', name: 'Training', value: o => o.hours, level: o => Math.min(4, Math.ceil(o.hours / maxHours * 4)), text: o => hours(o.hours) },
-      { key: 'meals', name: 'Meals', value: o => o.share, level: o => Math.min(4, Math.ceil(o.share * 4)), text: (o, bare) => percent(o.share, bare) }
-    ];
     const svg = el('svg', { viewBox: `0 0 ${w} ${H}`, width: w, height: H, role: 'img', 'aria-label': `Hours trained and share of days with meals logged, per month of ${year}` }, host);
-    el('text', { x: 8, y: top - 9, text: year }, svg);
-    months.forEach(o => el('text', { x: padL + o.m * cw + cell / 2, y: top - 9, 'text-anchor': 'middle', class: o.current ? 'dark' : '', text: cw < 34 ? MONTHS[o.m][0] : MONTHS[o.m] }, svg));
-    rows.forEach((r, ri) => {
-      const y = top + ri * (ch + g), values = [];
-      el('rect', { x: 0, y, width: padL - g, height: ch, rx: 3, fill: WASH }, svg);
-      el('text', { x: 8, y: y + ch / 2 + 5, class: 'name', text: r.name }, svg);
-      months.forEach(o => {
-        const x = padL + o.m * cw, v = r.value(o), level = v ? r.level(o) : 0;
-        const square = el('rect', { x, y, width: cell, height: ch, rx: 3, fill: o.future || !v ? EMPTY : RAMP[level] }, svg);
-        if (o.future) return;
-        if (labelled) values.push({ o, node: el('text', { x: x + cell / 2, y: y + ch / 2 + 5, 'text-anchor': 'middle', class: 'value', ...(v ? { style: `fill:${level >= 3 ? '#fff' : INK}` } : {}), text: r.text(o) }, svg) });
-        const info = explain(o, r.key);
-        square.setAttribute('tabindex', '0');
-        square.setAttribute('aria-label', info.head);
-        bind(square, info);
-      });
-      // Drop the % for the whole row if any value would crowd its square.
-      if (values.some(v => v.node.getComputedTextLength() > cell - 10)) values.forEach(v => { v.node.textContent = r.text(v.o, true); });
+    const label = (y, h, name) => {
+      el('rect', { x: 0, y, width: padL - g, height: h, rx: 3, fill: WASH }, svg);
+      el('text', { x: 8, y: y + h / 2 + 5, class: 'name', text: name }, svg);
+    };
+    const hover = (square, o, key) => {
+      const info = explain(o, key);
+      square.setAttribute('tabindex', '0');
+      square.setAttribute('aria-label', info.head);
+      bind(square, info);
+    };
+
+    // Training: a bar per month, its height in hours against the biggest month, under the month's name.
+    label(top, bh, 'Training');
+    months.forEach(o => {
+      const x = padL + o.m * cw, base = top + bh;
+      const track = el('rect', { x, y: top, width: cell, height: bh, rx: 3, fill: EMPTY }, svg);
+      el('text', { x: x + cell / 2, y: top + 18, 'text-anchor': 'middle', class: o.current ? 'dark' : '', text: cw < 34 ? MONTHS[o.m][0] : MONTHS[o.m] }, svg);
+      if (o.future) return;
+      const h = o.hours / maxHours * (bh - 52);
+      if (h) el('rect', { x, y: base - h, width: cell, height: h, rx: 3, fill: RAMP[4], 'pointer-events': 'none' }, svg);
+      if (labelled) el('text', { x: x + cell / 2, y: base - h - 8, 'text-anchor': 'middle', class: 'value', ...(h ? { style: `fill:${INK}` } : {}), text: hours(o.hours) }, svg);
+      hover(track, o, 'training');
     });
+
+    // Meals: a square per month, darker as more of its days were logged.
+    const y = top + bh + g, values = [];
+    label(y, ch, 'Meals');
+    months.forEach(o => {
+      const x = padL + o.m * cw, level = o.share ? Math.min(4, Math.ceil(o.share * 4)) : 0;
+      const square = el('rect', { x, y, width: cell, height: ch, rx: 3, fill: o.future || !o.share ? EMPTY : RAMP[level] }, svg);
+      if (o.future) return;
+      if (labelled) values.push({ o, node: el('text', { x: x + cell / 2, y: y + ch / 2 + 5, 'text-anchor': 'middle', class: 'value', ...(o.share ? { style: `fill:${level >= 3 ? '#fff' : INK}` } : {}), text: percent(o.share) }, svg) });
+      hover(square, o, 'meals');
+    });
+    // Drop the % for the whole row if any value would crowd its square.
+    if (values.some(v => v.node.getComputedTextLength() > cell - 10)) values.forEach(v => { v.node.textContent = percent(v.o.share, true); });
   }
 
   if (typeof module !== 'undefined') { module.exports = { summarize, explain }; return; }

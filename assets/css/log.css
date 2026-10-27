@@ -1,7 +1,8 @@
 /* Keep the diary as quiet as the rest of the site. */
 .diary { width: 100%; min-width: 0; }
-.diary .pageHeader { margin-bottom: 32px; }
-.log-chart { margin-bottom: 40px; min-height: 107px; }
+/* No page title here, so the chart sits closer to the nav. */
+nav { margin-bottom: 48px; }
+.log-chart { margin-bottom: 40px; min-height: 179px; }
 .log-chart svg { display: block; overflow: visible; }
 .log-chart text { font-family: IBMPlexMono, monospace; font-size: 11px; fill: #abb0b6; pointer-events: none; }
 .log-chart text.dark { fill: #000; }
@@ -9,20 +10,22 @@
 .log-chart text.name { fill: #000; }
 .log-chart rect[tabindex] { cursor: default; outline: none; }
 .log-chart rect[tabindex]:focus-visible { stroke: #424850; stroke-width: 1px; }
+.log-chart-tip { pointer-events: none; }
 .log-chart-tip strong { display: block; font-weight: 400; color: #000; margin-bottom: 4px; }
 .log-chart-tip span { display: block; }
-.diary-table { width: 100%; table-layout: fixed; font-size: 14px; line-height: 1.6; text-align: left; }
+.diary-table { width: 100%; table-layout: fixed; font-size: 16px; line-height: 1.6; text-align: left; }
 .diary-table th, .diary-table td { vertical-align: top; padding: 16px 14px 16px 0; }
 .diary-table thead th { padding-top: 0; padding-bottom: 10px; font-family: IBMPlexMono, monospace; font-size: inherit; font-weight: 400; color: #707780; }
-.diary-table tbody tr { border-top: 1px solid #eceeef; }
+.diary-table thead tr { border-bottom: 1px solid #eceeef; }
 .diary-table th:first-child { width: 100px; font-weight: 400; }
 .diary-table td { color: #424850; }
-.diary-table .nutrition { width: 125px; text-align: right; padding-right: 0; }
+.diary-table .nutrition { width: 150px; text-align: right; padding-right: 0; }
 .diary-table .total { white-space: nowrap; color: #000; }
+.diary-table .empty { font-family: IBMPlexMono, monospace; color: #c4c8cc; }
 .diary-table .muted { color: #8a9097; }
 .diary-table a:focus-visible { outline: 1px solid #424850; outline-offset: 4px; }
 @media (max-width: 520px) {
-  nav { flex-wrap: wrap; gap: 12px; margin-bottom: 48px; }
+  nav { flex-wrap: wrap; gap: 12px; margin-bottom: 32px; }
   .diary-table { font-size: 12px; }
   .diary-table th, .diary-table td { padding-right: 10px; }
   .diary-table th:first-child { width: 62px; }
