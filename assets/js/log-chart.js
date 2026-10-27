@@ -41,11 +41,18 @@
     };
     host.textContent = '';
     const w = host.clientWidth, padL = w < 520 ? 78 : 96, cw = (w - padL) / 12, g = 3, ch = 40, top = 24, H = top + 2 * ch + g;
-    const narrow = cw < 44, labelled = cw - g >= 34;
+    const labelled = cw - g >= 34;
+    // Values are body-sized; drop the unit when it would crowd the cell.
+    let values = [];
+    const fit = (node, r, o, cell) => values.push({ node, r, o, cell });
+    const settle = () => {
+      if (values.some(v => v.node.getComputedTextLength() > v.cell - 10)) values.forEach(v => { v.node.textContent = v.r.text(v.o, true); });
+      values = [];
+    };
     const maxHours = Math.max(1, ...months.map(o => o.hours));
     const rows = [
-      { name: 'Training', sub: 'hours', value: o => o.hours, level: o => Math.min(4, Math.ceil(o.hours / maxHours * 4)), text: o => hours(o.hours, narrow) },
-      { name: 'Meals', sub: '% of days', value: o => o.share, level: o => Math.min(4, Math.ceil(o.share * 4)), text: o => percent(o.share, narrow) }
+      { name: 'Training', sub: 'hours', value: o => o.hours, level: o => Math.min(4, Math.ceil(o.hours / maxHours * 4)), text: (o, bare) => hours(o.hours, bare) },
+      { name: 'Meals', sub: '% of days', value: o => o.share, level: o => Math.min(4, Math.ceil(o.share * 4)), text: (o, bare) => percent(o.share, bare) }
     ];
     const svg = el('svg', { viewBox: `0 0 ${w} ${H}`, width: w, height: H, role: 'img', 'aria-label': `Hours trained and share of days with meals logged, per month of ${year}` }, host);
     el('text', { x: 8, y: top - 9, text: year }, svg);
@@ -58,13 +65,14 @@
         const x = padL + o.m * cw + g / 2, cell = cw - g, v = r.value(o);
         if (o.future || !v) {
           el('rect', { x, y, width: cell, height: ch, rx: 3, fill: EMPTY }, svg);
-          if (!o.future && labelled) el('text', { x: x + cell / 2, y: y + ch / 2 + 4, 'text-anchor': 'middle', text: r.text(o) }, svg);
+          if (!o.future && labelled) fit(el('text', { x: x + cell / 2, y: y + ch / 2 + 5, 'text-anchor': 'middle', class: 'value', text: r.text(o) }, svg), r, o, cell);
           return;
         }
         const level = r.level(o);
         el('rect', { x, y, width: cell, height: ch, rx: 3, fill: RAMP[level] }, svg);
-        if (labelled) el('text', { x: x + cell / 2, y: y + ch / 2 + 4, 'text-anchor': 'middle', style: `fill:${level >= 3 ? '#fff' : INK}`, text: r.text(o) }, svg);
+        if (labelled) fit(el('text', { x: x + cell / 2, y: y + ch / 2 + 5, 'text-anchor': 'middle', class: 'value', style: `fill:${level >= 3 ? '#fff' : INK}`, text: r.text(o) }, svg), r, o, cell);
       });
+      settle();
     });
     months.forEach(o => {
       el('text', { x: padL + o.m * cw + cw / 2, y: top - 9, 'text-anchor': 'middle', class: o.current ? 'dark' : '', text: cw < 34 ? MONTHS[o.m][0] : MONTHS[o.m] }, svg);

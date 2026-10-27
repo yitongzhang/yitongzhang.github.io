@@ -5,6 +5,7 @@
 .log-chart svg { display: block; overflow: visible; }
 .log-chart text { font-family: IBMPlexMono, monospace; font-size: 11px; fill: #abb0b6; }
 .log-chart text.dark { fill: #000; }
+.log-chart text.value { font-family: Colfax, sans-serif; font-size: 16px; fill: #abb0b6; }
 .diary-table { width: 100%; table-layout: fixed; font-size: 14px; line-height: 1.6; text-align: left; }
 .diary-table th, .diary-table td { vertical-align: top; padding: 16px 14px 16px 0; }
 .diary-table thead th { padding-top: 0; padding-bottom: 10px; font-family: IBMPlexMono, monospace; font-size: inherit; font-weight: 400; color: #707780; }
