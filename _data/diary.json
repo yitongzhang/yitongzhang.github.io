@@ -342,6 +342,25 @@
       },
       "confidence": "high",
       "estimate_note": "Bacon nutrition read from the photographed package: 90 calories, 6 g protein, 6 g fat and 0 g carbohydrate per two slices. Two large hard-boiled eggs estimated at about 156 calories, 13 g protein, 11 g fat and 1 g carbohydrate. Combined values rounded; egg size and slice weights introduce some uncertainty."
+    },
+    {
+      "id": "meal-20261027-002",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Sweetgreen Harvest Bowl",
+      "portion_notes": "One full individual Harvest Bowl assumed consumed, including the balsamic vinaigrette and goat cheese. Bowl label lists kale x2, wild rice, roasted chicken, apples, sweet potatoes and roasted almonds. No other bowls, sides or drinks counted.",
+      "nutrition": {
+        "calories_kcal": 760,
+        "protein_g": 40,
+        "carbs_g": 60,
+        "fat_g": 42
+      },
+      "calorie_range": {
+        "low": 650,
+        "high": 900
+      },
+      "confidence": "medium",
+      "estimate_note": "Uses Sweetgreen's published standard Harvest Bowl nutrition (760 calories, 40 g protein, 60 g carbohydrate, 42 g fat; https://www.sweetgreen.com/nutrition). This is the regular Harvest Bowl, not the Autumn Harvest Bowl. Actual portions and dressing consumption are unmeasured; calorie range is a practical portion estimate, not official uncertainty."
     }
   ],
   "workouts": [
