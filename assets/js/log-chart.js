@@ -48,7 +48,7 @@
       { name: 'Meals', sub: '% of days', value: o => o.share, level: o => Math.min(4, Math.ceil(o.share * 4)), text: o => percent(o.share, narrow) }
     ];
     const svg = el('svg', { viewBox: `0 0 ${w} ${H}`, width: w, height: H, role: 'img', 'aria-label': `Hours trained and share of days with meals logged, per month of ${year}` }, host);
-    el('text', { x: (padL - g * 1.5) / 2, y: top - 9, 'text-anchor': 'middle', text: year }, svg);
+    el('text', { x: 8, y: top - 9, text: year }, svg);
     rows.forEach((r, ri) => {
       const y = top + ri * (ch + g);
       el('rect', { x: 0, y, width: padL - g * 1.5, height: ch, rx: 3, fill: WASH }, svg);
