@@ -8,7 +8,7 @@ permalink: /log/
 <main class="diary">
   <h1 class="pageHeader">Log</h1>
   <div class="log-chart" id="log-chart"></div>
-  <script type="application/json" id="log-chart-data">{"workouts": {{ site.data.diary.workouts | jsonify }}, "meals": {{ site.data.diary.meals | map: 'date' | uniq | jsonify }}}</script>
+  <script type="application/json" id="log-chart-data">{"workouts": {{ site.data.diary.workouts | jsonify }}, "meals": {{ site.data.diary.meals | jsonify }}, "types": {{ site.data.diary_display.training | jsonify }}, "labels": {{ site.data.diary_display.training_types | jsonify }}}</script>
   <table class="diary-table">
     <thead><tr><th scope="col">Date</th><th scope="col">Food</th><th scope="col">Training</th><th scope="col" class="nutrition">kcal / protein</th></tr></thead>
     <tbody>

@@ -55,20 +55,26 @@ assert(/hyrox_race:.*Hyrox Race/.test(display));
 assert(/hyrox_sim:.*Hyrox Sim/.test(display));
 console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');
 
-const { summarize, describe } = require('../assets/js/log-chart.js');
+const { summarize, explain } = require('../assets/js/log-chart.js');
+const meal = (date, kcal, protein) => ({ date, nutrition: { calories_kcal: kcal, protein_g: protein } });
 const months = summarize({
   workouts: [
-    { date: '2026-06-02', status: 'completed', duration_minutes: 45 },
-    { date: '2026-06-09', status: 'completed', duration_minutes: 60 },
-    { date: '2026-06-10', status: 'planned', duration_minutes: 60 },
-    { date: '2026-10-03', status: 'completed', duration_minutes: 90 }
+    { id: 'a', date: '2026-06-02', status: 'completed', duration_minutes: 45, details: [] },
+    { id: 'r', date: '2026-06-09', status: 'completed', duration_minutes: 60, details: [{ exercise: 'Run', distance_meters: 10000 }] },
+    { id: 'p', date: '2026-06-10', status: 'planned', duration_minutes: 60, details: [] },
+    { id: 'h', date: '2026-10-03', status: 'completed', duration_minutes: 105, details: [] }
   ],
-  meals: ['2026-10-25', '2026-10-26']
+  meals: [meal('2026-10-25', 1000, 80), meal('2026-10-25', 760, 69), meal('2026-10-26', 1930, 133)],
+  types: { r: { type: 'run' }, h: { type: 'hyrox_race' } },
+  labels: { gym: { label: 'Gym' }, run: { label: 'Run', exercise: 'Run' }, hyrox_race: { label: 'Hyrox Race' } }
 }, '2026-10-26');
 assert.equal(months[5].hours, 1.75); // Only completed sessions count, by duration.
 assert.equal(months[5].share, 0); assert.equal(months[5].tracked, false); // Months before meal logging read 0%.
 assert.equal(months[9].logged, 2); assert.equal(months[9].sofar, 26); // Current month counts days so far.
 assert.equal(months[10].future, true);
-assert.equal(describe(months[9]), 'October — 1.5h trained across 1 session · meals logged 2 of 26 days');
+assert.deepEqual(explain(months[5], 'training'), { head: 'June · 1.8 hours', lines: ['Jun 2 — Gym · 45 min', 'Jun 9 — Run 10 km · 1h'] });
+assert.deepEqual(explain(months[9], 'training').lines, ['Oct 3 — Hyrox Race · 1h 45m']);
+assert.deepEqual(explain(months[9], 'meals'), { head: 'October · 8%, 2 of 26 days', lines: ['Oct 25 — 1,760 kcal / 149 g', 'Oct 26 — 1,930 kcal / 133 g'] });
+assert.deepEqual(explain(months[5], 'meals').lines, ['No meals logged. Meal logging started Oct 25.']);
 assert(template.includes("date: '%b %-d'"));
-console.log('PASS: monthly chart counts training by duration, meals as share of days so far, and dates are short');
+console.log('PASS: monthly chart counts training by duration, meals as share of days so far, each square explains itself, and dates are short');
