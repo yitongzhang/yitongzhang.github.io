@@ -982,10 +982,10 @@
       "timezone": "America/Los_Angeles",
       "title": "Flagship workout",
       "status": "completed",
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "description": "Flagship workout.",
       "details": [],
-      "notes": "Duration and exercises not specified."
+      "notes": "Exercises not specified. Duration is the 60-minute Flagship default."
     }
   ]
 }
