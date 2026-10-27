@@ -299,6 +299,25 @@
       },
       "confidence": "high",
       "estimate_note": "Calories and protein visible on the carton; carbohydrate and fat from the manufacturer's 11 fl oz chocolate-shake nutrition information. Full carton assumed; label rounding and formulation differences may slightly affect values."
+    },
+    {
+      "id": "meal-20261026-005",
+      "date": "2026-10-26",
+      "timezone": "America/Los_Angeles",
+      "title": "RT Rotisserie wings, half chicken and squash",
+      "portion_notes": "Three pictured wing pieces, one half rotisserie chicken, and one-third of the pictured half-squash serving (one-sixth of a whole squash). Chicken skin assumed eaten. Includes the squash's proportional creamy topping, seeds and roasting oil, plus an assumed modest two tablespoons total dipping sauce; not both full sauce bowls. No background drinks or other dishes counted.",
+      "nutrition": {
+        "calories_kcal": 1200,
+        "protein_g": 110,
+        "carbs_g": 25,
+        "fat_g": 73
+      },
+      "calorie_range": {
+        "low": 950,
+        "high": 1500
+      },
+      "confidence": "low",
+      "estimate_note": "Approximate visual portion-based estimate, not official restaurant nutrition. The restaurant menu confirms half rotisserie chicken with sauces; exact edible chicken weight, wing size/coating, oil and sauce consumption are unknown. Only the stated portions are counted, not all photographed wings or squash."
     }
   ],
   "workouts": [
