@@ -787,10 +787,10 @@
       "timezone": "America/Los_Angeles",
       "title": "Barry's",
       "status": "completed",
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "description": "Barry's class.",
       "details": [],
-      "notes": "Duration, exercises and location not specified."
+      "notes": "Duration not recorded; uses the 60-minute default for a Barry's class. Exercises and location not specified."
     },
     {
       "id": "workout-20261024-001",
@@ -798,7 +798,7 @@
       "timezone": "America/Los_Angeles",
       "title": "Hyrox Sim",
       "status": "completed",
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "description": "Sled pull, sled push, wall balls and burpees, sharing the station work roughly half with a partner at reported Pro weight, then a 4 km run.",
       "details": [
         {
@@ -832,7 +832,7 @@
           "distance_meters": 4000
         }
       ],
-      "notes": "Exact station volumes, loads and session duration unknown. This is not a claim of completing the full eight-station race course. Session type confirmed as Hyrox Sim; this label does not imply additional stations or distances."
+      "notes": "Exact station volumes and loads unknown. Duration not recorded; uses the 60-minute default for a Hyrox Sim. This is not a claim of completing the full eight-station race course. Session type confirmed as Hyrox Sim; this label does not imply additional stations or distances."
     },
     {
       "id": "workout-20261025-001",

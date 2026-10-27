@@ -118,3 +118,5 @@ retain their count and all matching canonical food titles in the accessible tool
 Repeated food groups render their emoji sequence once per entry (🥤🥤, never a numeric multiplier). Keep the entry count in accessible names/tooltips, with canonical meal titles; use a consistent small gap between every individual emoji. Emoji mappings are arrays of complete emoji strings (preserve variation selectors), so multi-icon meals and repeated meals get the same gap.
 
 Use Hyrox Race only for explicitly reported actual competition sessions, distinct from Hyrox Sim. Preserve exact finish time in the description and duration_minutes as finish seconds / 60; do not invent start times, splits or distances. Race benchmark records remain private unless specifically requested for the public diary.
+
+Every workout has a duration_minutes. When none is reported, use the default for its training type and say so in notes: gym 45; Barry's, Hyrox Sim and Crossfit (Flagship) 60. Runs, bikes and swims use recorded moving time; Hyrox Race uses finish time.
