@@ -361,6 +361,25 @@
       },
       "confidence": "medium",
       "estimate_note": "Uses Sweetgreen's published standard Harvest Bowl nutrition (760 calories, 40 g protein, 60 g carbohydrate, 42 g fat; https://www.sweetgreen.com/nutrition). This is the regular Harvest Bowl, not the Autumn Harvest Bowl. Actual portions and dressing consumption are unmeasured; calorie range is a practical portion estimate, not official uncertainty."
+    },
+    {
+      "id": "meal-20261027-003",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Gion Tsujiri matcha roll cookie",
+      "portion_notes": "One matcha-filled roll cookie (8 g), not the 15-piece box.",
+      "nutrition": {
+        "calories_kcal": 32,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 1.7
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Nutrition read directly from the photographed package's per-piece label. Quantity one reported; label values may be rounded."
     }
   ],
   "workouts": [
