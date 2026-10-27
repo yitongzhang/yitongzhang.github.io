@@ -145,6 +145,11 @@
       "date": "2026-10-26",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -318,6 +323,25 @@
       },
       "confidence": "low",
       "estimate_note": "Approximate visual portion-based estimate, not official restaurant nutrition. The restaurant menu confirms half rotisserie chicken with sauces; exact edible chicken weight, wing size/coating, oil and sauce consumption are unknown. Only the stated portions are counted, not all photographed wings or squash."
+    },
+    {
+      "id": "meal-20261027-001",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Bacon and hard-boiled eggs",
+      "portion_notes": "Four strips of Kirkland Signature bacon and two hard-boiled eggs. Bacon label serving is two slices (18 g); four strips counted as two servings. Eggs assumed large. No additional cooking fat or toppings counted.",
+      "nutrition": {
+        "calories_kcal": 340,
+        "protein_g": 25,
+        "carbs_g": 1,
+        "fat_g": 23
+      },
+      "calorie_range": {
+        "low": 320,
+        "high": 360
+      },
+      "confidence": "high",
+      "estimate_note": "Bacon nutrition read from the photographed package: 90 calories, 6 g protein, 6 g fat and 0 g carbohydrate per two slices. Two large hard-boiled eggs estimated at about 156 calories, 13 g protein, 11 g fat and 1 g carbohydrate. Combined values rounded; egg size and slice weights introduce some uncertainty."
     }
   ],
   "workouts": [
