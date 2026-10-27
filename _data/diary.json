@@ -380,6 +380,25 @@
       },
       "confidence": "high",
       "estimate_note": "Nutrition read directly from the photographed package's per-piece label. Quantity one reported; label values may be rounded."
+    },
+    {
+      "id": "meal-20261027-004",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "One full Fairlife Core Power Elite chocolate 42 g protein bottle (414 ml), assumed to be the usual product.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Uses the previously verified usual Fairlife bottle nutrition. Product variant and full-bottle portion inferred from the report; only this one newly reported bottle is counted."
     }
   ],
   "workouts": [
