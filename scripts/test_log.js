@@ -54,3 +54,21 @@ const display = fs.readFileSync(path.join(__dirname, '../_data/diary_display.yml
 assert(/hyrox_race:.*Hyrox Race/.test(display));
 assert(/hyrox_sim:.*Hyrox Sim/.test(display));
 console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');
+
+const { summarize, describe } = require('../assets/js/log-chart.js');
+const months = summarize({
+  workouts: [
+    { date: '2026-06-02', status: 'completed', duration_minutes: 45 },
+    { date: '2026-06-09', status: 'completed', duration_minutes: 60 },
+    { date: '2026-06-10', status: 'planned', duration_minutes: 60 },
+    { date: '2026-10-03', status: 'completed', duration_minutes: 90 }
+  ],
+  meals: ['2026-10-25', '2026-10-26']
+}, '2026-10-26');
+assert.equal(months[5].hours, 1.75); // Only completed sessions count, by duration.
+assert.equal(months[5].share, 0); assert.equal(months[5].tracked, false); // Months before meal logging read 0%.
+assert.equal(months[9].logged, 2); assert.equal(months[9].sofar, 26); // Current month counts days so far.
+assert.equal(months[10].future, true);
+assert.equal(describe(months[9]), 'October — 1.5h trained across 1 session · meals logged 2 of 26 days');
+assert(template.includes("date: '%b %-d'"));
+console.log('PASS: monthly chart counts training by duration, meals as share of days so far, and dates are short');

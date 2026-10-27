@@ -7,6 +7,8 @@ permalink: /log/
 <link rel="stylesheet" href="{{ '/assets/css/log.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <main class="diary">
   <h1 class="pageHeader">Log</h1>
+  <div class="log-chart" id="log-chart"></div>
+  <script type="application/json" id="log-chart-data">{"workouts": {{ site.data.diary.workouts | jsonify }}, "meals": {{ site.data.diary.meals | map: 'date' | uniq | jsonify }}}</script>
   <table class="diary-table">
     <thead><tr><th scope="col">Date</th><th scope="col">Food</th><th scope="col">Training</th><th scope="col" class="nutrition">kcal / protein</th></tr></thead>
     <tbody>
@@ -16,7 +18,7 @@ permalink: /log/
       {% assign workouts = site.data.diary.workouts | where: 'date', day.date %}
       {% assign calories = 0 %}{% assign protein = 0 %}
       <tr id="day-{{ day.date | escape }}">
-        <th scope="row"><a href="#day-{{ day.date | escape }}"><time datetime="{{ day.date | escape }}">{% assign day_number = day.date | date: '%-d' | plus: 0 %}{{ day.date | date: '%B %-d' }}{% if day_number == 1 or day_number == 21 or day_number == 31 %}st{% elsif day_number == 2 or day_number == 22 %}nd{% elsif day_number == 3 or day_number == 23 %}rd{% else %}th{% endif %}</time></a></th>
+        <th scope="row"><a href="#day-{{ day.date | escape }}"><time datetime="{{ day.date | escape }}">{% assign day_number = day.date | date: '%-d' | plus: 0 %}{{ day.date | date: '%b %-d' }}{% if day_number == 1 or day_number == 21 or day_number == 31 %}st{% elsif day_number == 2 or day_number == 22 %}nd{% elsif day_number == 3 or day_number == 23 %}rd{% else %}th{% endif %}</time></a></th>
         <td class="food-cell"><span class="food-list">{% capture food_labels %}{% for meal in meals %}{% assign calories = calories | plus: meal.nutrition.calories_kcal %}{% assign protein = protein | plus: meal.nutrition.protein_g %}{{ site.data.diary_display.labels[meal.title] | default: meal.title }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}{% assign labels = food_labels | split: '|' %}{% assign unique_labels = labels | uniq %}{% for label in unique_labels %}{% assign count = 0 %}{% for item in labels %}{% if item == label %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}{% capture food_names %}{% for meal in meals %}{% assign meal_label = site.data.diary_display.labels[meal.title] | default: meal.title %}{% if meal_label == label %}|{{ meal.title }}{% endif %}{% endfor %}{% endcapture %}{% assign actual_names = food_names | remove_first: '|' | split: '|' | uniq | join: ', ' %}<span class="training-tip food-tip"><button type="button" class="training-trigger food-emoji" aria-label="{% if count > 1 %}{{ count }} entries: {% endif %}{{ actual_names | escape }}" aria-expanded="false" aria-describedby="food-tip-{{ day.date }}-{{ forloop.index }}">{% assign icons = site.data.diary_display.emojis[label] %}{% unless icons %}{% assign icons = '🍽️' | split: '|' %}{% endunless %}{% for occurrence in (1..count) %}{% for icon in icons %}<span aria-hidden="true">{{ icon }}</span>{% endfor %}{% endfor %}</button><span role="tooltip" class="training-tooltip" id="food-tip-{{ day.date }}-{{ forloop.index }}" hidden>{% if count > 1 %}{{ count }} entries: {% endif %}{{ actual_names | escape }}</span></span>{% endfor %}</span></td>
         <td>{% for workout in workouts %}
           {% assign training = site.data.diary_display.training[workout.id] %}
@@ -39,3 +41,4 @@ permalink: /log/
 
 
 <script src="{{ '/assets/js/log.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/log-chart.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
