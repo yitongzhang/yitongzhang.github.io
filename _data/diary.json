@@ -418,6 +418,25 @@
       },
       "confidence": "low",
       "estimate_note": "Portion-based estimate, not official restaurant nutrition: grilled pork vermicelli bowl about 780 calories, 37 g protein, 95 g carbohydrate and 28 g fat; one fresh rice-paper spring roll with shrimp, sliced meat, vegetables and some dipping sauce about 170 calories, 8 g protein, 20 g carbohydrate and 6 g fat. Noodle and pork quantities, cooking oil and sauce consumption are unmeasured."
+    },
+    {
+      "id": "meal-20261027-006",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "North Coast Organic Honeycrisp applesauce",
+      "portion_notes": "One full 4 oz (113 g) cup assumed consumed. Product and cup size identified from the package; no other items counted.",
+      "nutrition": {
+        "calories_kcal": 70,
+        "protein_g": 0,
+        "carbs_g": 18,
+        "fat_g": 0
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Uses published retailer nutrition for the matching Honeycrisp applesauce, per 4 oz serving: 70 calories, 18 g carbohydrate, 0 g protein and 0 g fat. Nutrition panel is not visible on this cup; full-cup intake is assumed and label values may be rounded."
     }
   ],
   "workouts": [
