@@ -499,6 +499,25 @@
       },
       "confidence": "high",
       "estimate_note": "Uses the previously photographed per-piece package label. One additional cookie reported; label values may be rounded."
+    },
+    {
+      "id": "meal-20261028-004",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "MIXT Orchard salad with blackened chicken",
+      "portion_notes": "Lunch: one full Orchard salad with blackened chicken replacing the standard grilled chicken; full balsamic vinaigrette assumed.",
+      "nutrition": {
+        "calories_kcal": 915,
+        "protein_g": 45,
+        "carbs_g": 33,
+        "fat_g": 69.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Calculated from MIXT's published ingredient nutrition: standard Orchard 875 kcal, subtract grilled chicken (120 kcal, 28 g protein), add blackened chicken (160 kcal, 22 g protein). Ingredient totals give 45 g protein, 33 g carbohydrate and 69.5 g fat after the swap. Includes bacon, cheddar, almonds, avocado and full dressing. Standard portions and chicken substitution are assumed; actual serving and dressing consumption may vary."
     }
   ],
   "workouts": [
