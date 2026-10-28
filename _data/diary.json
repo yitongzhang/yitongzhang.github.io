@@ -518,6 +518,25 @@
       },
       "confidence": "medium",
       "estimate_note": "Calculated from MIXT's published ingredient nutrition: standard Orchard 875 kcal, subtract grilled chicken (120 kcal, 28 g protein), add blackened chicken (160 kcal, 22 g protein). Ingredient totals give 45 g protein, 33 g carbohydrate and 69.5 g fat after the swap. Includes bacon, cheddar, almonds, avocado and full dressing. Standard portions and chicken substitution are assumed; actual serving and dressing consumption may vary."
+    },
+    {
+      "id": "meal-20261028-005",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Chicken rice with half the rice",
+      "portion_notes": "Second lunch: a full portion of chicken and half the served rice. Thai-style poached chicken with skin and a normal amount of sauce assumed.",
+      "nutrition": {
+        "calories_kcal": 600,
+        "protein_g": 45,
+        "carbs_g": 45,
+        "fat_g": 27
+      },
+      "calorie_range": {
+        "low": 450,
+        "high": 800
+      },
+      "confidence": "low",
+      "estimate_note": "Portion-based estimate, not restaurant nutrition data. Assumes roughly 160–180 g cooked chicken, 120–150 g cooked seasoned rice after leaving half, and some sauce. Chicken preparation, skin, rice oil and sauce quantity are unverified; fried chicken or a larger portion could be higher."
     }
   ],
   "workouts": [
