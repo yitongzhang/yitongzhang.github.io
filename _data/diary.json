@@ -399,6 +399,25 @@
       },
       "confidence": "medium",
       "estimate_note": "Uses the previously verified usual Fairlife bottle nutrition. Product variant and full-bottle portion inferred from the report; only this one newly reported bottle is counted."
+    },
+    {
+      "id": "meal-20261027-005",
+      "date": "2026-10-27",
+      "timezone": "America/Los_Angeles",
+      "title": "Hem by Lequy grilled pork vermicelli and spring roll",
+      "portion_notes": "One full Grilled Pork Vermicelli bowl and one Traditional Spring Roll (half of the two-roll order). No other dishes counted. Assumes a standard restaurant bowl and a modest amount of dressing and dipping sauce.",
+      "nutrition": {
+        "calories_kcal": 950,
+        "protein_g": 45,
+        "carbs_g": 115,
+        "fat_g": 34
+      },
+      "calorie_range": {
+        "low": 750,
+        "high": 1200
+      },
+      "confidence": "low",
+      "estimate_note": "Portion-based estimate, not official restaurant nutrition: grilled pork vermicelli bowl about 780 calories, 37 g protein, 95 g carbohydrate and 28 g fat; one fresh rice-paper spring roll with shrimp, sliced meat, vegetables and some dipping sauce about 170 calories, 8 g protein, 20 g carbohydrate and 6 g fat. Noodle and pork quantities, cooking oil and sauce consumption are unmeasured."
     }
   ],
   "workouts": [
