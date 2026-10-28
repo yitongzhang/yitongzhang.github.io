@@ -150,6 +150,11 @@
       "date": "2026-10-27",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -437,6 +442,63 @@
       },
       "confidence": "medium",
       "estimate_note": "Uses published retailer nutrition for the matching Honeycrisp applesauce, per 4 oz serving: 70 calories, 18 g carbohydrate, 0 g protein and 0 g fat. Nutrition panel is not visible on this cup; full-cup intake is assumed and label values may be rounded."
+    },
+    {
+      "id": "meal-20261028-001",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Chobani mixed berry vanilla protein yogurt drink",
+      "portion_notes": "Breakfast: one full 10 fl oz (295 ml) bottle assumed consumed.",
+      "nutrition": {
+        "calories_kcal": 170,
+        "protein_g": 20,
+        "carbs_g": 14,
+        "fat_g": 3
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Matching product nutrition published by H-E-B and Pret: 170 calories, 20 g protein, 14 g carbohydrate and 3 g fat per bottle. Product and size identified from the photo; front label confirms 20 g protein. Full nutrition panel not visible; label rounding and formulation differences may apply."
+    },
+    {
+      "id": "meal-20261028-002",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Cashews",
+      "portion_notes": "Breakfast: four whole cashews, estimated at about 6.3 g.",
+      "nutrition": {
+        "calories_kcal": 35,
+        "protein_g": 1.2,
+        "carbs_g": 1.9,
+        "fat_g": 2.8
+      },
+      "calorie_range": {
+        "low": 30,
+        "high": 40
+      },
+      "confidence": "medium",
+      "estimate_note": "Estimated using typical plain cashew nutrition and approximately 18 kernels per ounce. Nut size and preparation are unknown; no additional coatings counted."
+    },
+    {
+      "id": "meal-20261028-003",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Gion Tsujiri matcha roll cookie",
+      "portion_notes": "Breakfast: one matcha-filled roll cookie (8 g), same product as previously logged.",
+      "nutrition": {
+        "calories_kcal": 32,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 1.7
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Uses the previously photographed per-piece package label. One additional cookie reported; label values may be rounded."
     }
   ],
   "workouts": [
