@@ -556,6 +556,25 @@
       },
       "confidence": "low",
       "estimate_note": "Photo-based estimate of mixed vegetables, starchy pieces, fried pieces and protein in an oily spicy stir-fry. Exact protein ingredients and oil absorbed are uncertain; no specific meat is assumed. Estimated half-bowl portion; calories could vary substantially with oil and ingredients."
+    },
+    {
+      "id": "meal-20261028-007",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "One full Fairlife Core Power chocolate 42 g protein bottle, 14 fl oz (414 ml), assumed consumed.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Calories, protein and bottle size visible on the label. Carbohydrate and fat use the previously verified matching bottle nutrition. Full bottle assumed; label values may be rounded."
     }
   ],
   "workouts": [
