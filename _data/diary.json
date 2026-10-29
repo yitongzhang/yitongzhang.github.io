@@ -1162,6 +1162,17 @@
       "description": "Flagship workout.",
       "details": [],
       "notes": "Exercises not specified. Duration is the 60-minute Flagship default."
+    },
+    {
+      "id": "workout-20261028-001",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Flagship Peak",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Flagship Peak class.",
+      "details": [],
+      "notes": "Attendance confirmed. Actual duration and exercises not reported."
     }
   ]
 }
