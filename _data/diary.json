@@ -537,6 +537,25 @@
       },
       "confidence": "low",
       "estimate_note": "Portion-based estimate, not restaurant nutrition data. Assumes roughly 160–180 g cooked chicken, 120–150 g cooked seasoned rice after leaving half, and some sauce. Chicken preparation, skin, rice oil and sauce quantity are unverified; fried chicken or a larger portion could be higher."
+    },
+    {
+      "id": "meal-20261028-006",
+      "date": "2026-10-28",
+      "timezone": "America/Los_Angeles",
+      "title": "Mala xiang guo",
+      "portion_notes": "Dinner: half of the large main bowl. The small side bowl and any rice are not included.",
+      "nutrition": {
+        "calories_kcal": 600,
+        "protein_g": 25,
+        "carbs_g": 40,
+        "fat_g": 38
+      },
+      "calorie_range": {
+        "low": 400,
+        "high": 850
+      },
+      "confidence": "low",
+      "estimate_note": "Photo-based estimate of mixed vegetables, starchy pieces, fried pieces and protein in an oily spicy stir-fry. Exact protein ingredients and oil absorbed are uncertain; no specific meat is assumed. Estimated half-bowl portion; calories could vary substantially with oil and ingredients."
     }
   ],
   "workouts": [
