@@ -1169,10 +1169,10 @@
       "timezone": "America/Los_Angeles",
       "title": "Flagship Peak",
       "status": "completed",
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "description": "Flagship Peak class.",
       "details": [],
-      "notes": "Attendance confirmed. Actual duration and exercises not reported."
+      "notes": "Attendance and 60-minute duration confirmed. Exercises not reported."
     }
   ]
 }
