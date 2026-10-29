@@ -155,6 +155,11 @@
       "date": "2026-10-28",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-29",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -575,6 +580,63 @@
       },
       "confidence": "high",
       "estimate_note": "Calories, protein and bottle size visible on the label. Carbohydrate and fat use the previously verified matching bottle nutrition. Full bottle assumed; label values may be rounded."
+    },
+    {
+      "id": "meal-20261029-001",
+      "date": "2026-10-29",
+      "timezone": "America/Los_Angeles",
+      "title": "MIXT Mediterranean bowl",
+      "portion_notes": "Breakfast: one Mediterranean bowl with only one-third of the usual quinoa eaten. All other standard toppings and red pepper-walnut drizzle assumed consumed.",
+      "nutrition": {
+        "calories_kcal": 810,
+        "protein_g": 42,
+        "carbs_g": 59.3,
+        "fat_g": 50.7
+      },
+      "calorie_range": {
+        "low": 700,
+        "high": 950
+      },
+      "confidence": "medium",
+      "estimate_note": "MIXT official calculator totals the standard bowl at 930 calories, 46 g protein, 80 g carbohydrate and 54 g fat (https://www.mixt.com/nutrition-calculator/). Quinoa estimated at 180 calories, 6 g protein, 31 g carbohydrate and 5 g fat by subtracting the listed 10-calorie cabbage portion from the 190-calorie quinoa-and-cabbage base. Removing two-thirds of quinoa subtracts about 120 calories. Cabbage is retained; actual restaurant portions and dressing consumption vary."
+    },
+    {
+      "id": "meal-20261029-002",
+      "date": "2026-10-29",
+      "timezone": "America/Los_Angeles",
+      "title": "Chipotle steak bowl",
+      "portion_notes": "Lunch: steak bowl with half the usual white rice and half a standard guacamole portion. Black beans, fajita vegetables and fresh tomato salsa included based on the order description; these toppings are assumed eaten. No cheese, sour cream, chips, shared sides or drink counted.",
+      "nutrition": {
+        "calories_kcal": 545,
+        "protein_g": 33,
+        "carbs_g": 56,
+        "fat_g": 20.5
+      },
+      "calorie_range": {
+        "low": 450,
+        "high": 700
+      },
+      "confidence": "medium",
+      "estimate_note": "Official Chipotle standard-serving nutrition: steak 150 calories; half white rice 105; half guacamole 115; black beans 130; fajita vegetables 20; tomato salsa 25 (https://www.chipotle.com/content/dam/chipotle/menu/nutrition/US-Nutrition-Facts-Paper-Menu-3-2025.pdf). White rice follows the reported meal rather than the earlier order description. Portions unweighed; omitted or additional toppings would change this estimate."
+    },
+    {
+      "id": "meal-20261029-003",
+      "date": "2026-10-29",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "Snack: one full Fairlife Core Power chocolate 42 g protein bottle, 14 fl oz (414 ml), assumed to be the usual product.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Uses the previously verified usual Fairlife bottle nutrition. Product variant and full-bottle portion inferred from the report; counts one newly reported bottle only."
     }
   ],
   "workouts": [
