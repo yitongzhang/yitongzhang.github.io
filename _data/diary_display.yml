@@ -67,3 +67,4 @@ training:
   workout-20261003-001: { type: hyrox_race }
   workout-20261026-001: { type: crossfit }
   workout-20261028-001: { type: crossfit }
+  workout-20261029-001: { type: barrys }

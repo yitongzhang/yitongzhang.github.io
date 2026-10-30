@@ -1235,6 +1235,17 @@
       "description": "Flagship Peak class.",
       "details": [],
       "notes": "Attendance and 60-minute duration confirmed. Exercises not reported."
+    },
+    {
+      "id": "workout-20261029-001",
+      "date": "2026-10-29",
+      "timezone": "America/Los_Angeles",
+      "title": "Barry's Abs & Ass",
+      "status": "completed",
+      "duration_minutes": 50,
+      "description": "Barry's RUN x LIFT Abs & Ass class.",
+      "details": [],
+      "notes": "Attendance confirmed. Duration uses the booked 50-minute class, not a measured workout time. Exercises, loads and running distance not reported."
     }
   ]
 }
