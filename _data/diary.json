@@ -160,6 +160,11 @@
       "date": "2026-10-29",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-30",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -675,6 +680,25 @@
       },
       "confidence": "medium",
       "estimate_note": "Uses the previously verified usual Fairlife bottle nutrition. Product variant and full-bottle portion inferred from the report; counts one newly reported bottle only."
+    },
+    {
+      "id": "meal-20261030-001",
+      "date": "2026-10-30",
+      "timezone": "America/Los_Angeles",
+      "title": "Bun Mee Rainbow Salad with chicken",
+      "portion_notes": "Lunch: one full Rainbow Salad with grilled chicken assumed. Dressing served on the side; estimate assumes the full dressing portion was consumed. No shared side included.",
+      "nutrition": {
+        "calories_kcal": 650,
+        "protein_g": 40,
+        "carbs_g": 40,
+        "fat_g": 36
+      },
+      "calorie_range": {
+        "low": 450,
+        "high": 850
+      },
+      "confidence": "low",
+      "estimate_note": "Ingredient-based estimate, not restaurant-published nutrition. Official menu lists greens, pickled carrots and daikon, pineapple, jalapenos, herbs, crunch mix and green goddess dressing. Assumes roughly 4-5 oz cooked chicken, standard salad and crunch mix, and about 3-4 tablespoons dressing. Chicken, crunch mix and dressing portions are uncertain; using less dressing would lower the estimate."
     }
   ],
   "workouts": [
