@@ -748,7 +748,7 @@
       "date": "2026-10-31",
       "timezone": "America/Los_Angeles",
       "title": "Effie's Homemade biscuits",
-      "portion_notes": "Four biscuits, approximately 42.7 g. Quantity interpreted as individual biscuits, not servings.",
+      "portion_notes": "Four biscuits, approximately 42.7 g.",
       "nutrition": {
         "calories_kcal": 213,
         "protein_g": 4,
@@ -1370,6 +1370,17 @@
       "description": "Barry's RUN x LIFT Abs & Ass class.",
       "details": [],
       "notes": "Attendance confirmed. Duration uses the booked 50-minute class, not a measured workout time. Exercises, loads and running distance not reported."
+    },
+    {
+      "id": "workout-20261031-001",
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "title": "Hyrox Sim",
+      "status": "planned",
+      "duration_minutes": null,
+      "description": "Planned HYROX simulation.",
+      "details": [],
+      "notes": "Planned session only; completion and actual duration not yet confirmed. No exercises, station volumes or loads reported."
     }
   ]
 }

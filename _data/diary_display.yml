@@ -11,6 +11,7 @@ plurals:
 
 # Visual summaries only. Names remain available to assistive technology and on hover.
 emojis:
+  Effie's Homemade biscuits: ["🍪"]
   Chicken rice with half the rice: ["🍗", "🍚"]
   MIXT Orchard salad with blackened chicken: ["🥗"]
   Chobani mixed berry vanilla protein yogurt drink: ["🥤"]
@@ -38,6 +39,7 @@ training_types:
   bike: { label: Bike, exercise: Bike }
   swim: { label: Swim, exercise: Swim }
 training:
+  workout-20261031-001: { type: hyrox_sim }
   workout-20261024-001: { type: hyrox_sim }
   workout-20261025-001: { type: gym }
   workout-20261018-001: { type: gym }
