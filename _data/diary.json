@@ -780,6 +780,25 @@
       },
       "confidence": "medium",
       "estimate_note": "The 42 g variant is confirmed. Uses the previously verified usual chocolate bottle nutrition; flavor and full-bottle portion are assumed. Counts one newly reported bottle only; label values may be rounded."
+    },
+    {
+      "id": "meal-20261031-003",
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "title": "Fried rice, braised pork, sides, egg and fried chicken wings",
+      "portion_notes": "One ordinary bowl of fried rice, some lu rou fan-style braised pork, a few unspecified small side dishes, one braised egg, and three fried chicken wings. Assumes about 250-300 g fried rice, a moderate pork portion (about 75 g), small side portions, and three medium wing pieces. No second bowl of rice counted.",
+      "nutrition": {
+        "calories_kcal": 1300,
+        "protein_g": 60,
+        "carbs_g": 115,
+        "fat_g": 67
+      },
+      "calorie_range": {
+        "low": 950,
+        "high": 1800
+      },
+      "confidence": "low",
+      "estimate_note": "Rough portion-based estimate: fried rice about 500 kcal, pork 250, sides 150, egg 80 and fried wings 320. Portions, side ingredients, pork fat, cooking oil, wing size and coating are unknown; three split wing pieces are assumed, not three whole wings. Plausible meal range is 950-1,800 kcal; approximate macro ranges are 45-85 g protein, 90-160 g carbohydrate and 45-100 g fat. These are estimates, not measured or restaurant-published nutrition."
     }
   ],
   "workouts": [
