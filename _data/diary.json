@@ -761,6 +761,25 @@
       },
       "confidence": "high",
       "estimate_note": "Calculated from the package label: 3 biscuits (32 g) provide 160 kcal, 3 g protein, 18 g carbohydrate and 8 g fat. Four biscuits are 4/3 of a serving; values rounded. Product variety is not specified."
+    },
+    {
+      "id": "meal-20261031-002",
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "One full Fairlife Core Power Elite 42 g protein bottle, 14 fl oz (414 ml), assumed consumed. Chocolate assumed to match the usual bottle.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "The 42 g variant is confirmed. Uses the previously verified usual chocolate bottle nutrition; flavor and full-bottle portion are assumed. Counts one newly reported bottle only; label values may be rounded."
     }
   ],
   "workouts": [
