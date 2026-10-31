@@ -90,8 +90,17 @@ No scheduled job is needed: each authorized new diary report triggers this workf
 contains presentation-only food emoji mappings and training classifications.
 Food emoji keys match the normalized `labels` value (or the original title).
 Supply a meaningful short label; the template exposes it as an accessible name
-and hover/focus/tap tooltip with the matching canonical food titles. Repeated matching labels are counted. Unknown foods use a plate
-emoji until mapped. Do not remove canonical details when shortening the display.
+and hover/focus/tap tooltip with the matching canonical food titles. Repeated matching labels are counted.
+Map every new food label in the same update, choosing a recognizable emoji or short
+sequence from the actual dish or its confirmed main ingredients. Prefer accuracy
+over novelty: do not invent ingredients or replace chips with fries or popcorn.
+A plate is a deliberate last resort for a mixed meal or food with no suitable emoji,
+not the default for an unmapped title. Document deliberate plate choices near the
+mapping. The template retains a neutral fallback for safety, but `node scripts/test_log.js`
+checks that every canonical meal has an explicit mapping so omissions cannot silently
+turn into plates. Run it for every diary update, including data-only updates. Keep
+`labels` as one-line string pairs and `emojis` as one-line JSON-compatible arrays.
+Do not remove canonical details when shortening the display.
 
 For each new workout, assign its stable ID in `training` to one of the
 `training_types` keys: `gym`, `crossfit` (Crossfit (Flagship)), `barrys`,

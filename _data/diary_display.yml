@@ -10,7 +10,17 @@ plurals:
   protein shake: protein shakes
 
 # Visual summaries only. Names remain available to assistive technology and on hover.
+# Choose from the actual food; do not substitute unrelated dishes just for variety.
+# Use one-line entries with JSON-compatible arrays for the dependency-free coverage test.
+# Chips have no dedicated emoji, and their type is unknown: deliberately keep a neutral plate.
 emojis:
+  Mala xiang guo: ["🌶️", "🥘"]
+  MIXT Mediterranean bowl: ["🥗"]
+  Chipotle steak bowl: ["🥩", "🍚"]
+  Wontons, egg, instant noodles and white fish: ["🥟", "🍜"]
+  Bun Mee Rainbow Salad with chicken: ["🥗"]
+  Chips — two small bags: ["🍽️"]
+  Lu rou fan — braised pork rice: ["🍖", "🍚"]
   Effie's Homemade biscuits: ["🍪"]
   Chicken rice with half the rice: ["🍗", "🍚"]
   MIXT Orchard salad with blackened chicken: ["🥗"]

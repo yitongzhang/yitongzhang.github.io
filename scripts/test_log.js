@@ -51,6 +51,35 @@ assert(!template.includes('×'));
 console.log('PASS: repeated foods use emoji repetitions, not numeric multipliers');
 
 const display = fs.readFileSync(path.join(__dirname, '../_data/diary_display.yml'), 'utf8');
+// Read the deliberately small, one-line mapping format used by labels/emojis.
+// This is a coverage check, not a general YAML parser; unexpected syntax fails closed.
+const unquote = value => value.startsWith('"') ? JSON.parse(value) :
+  value.startsWith("'") ? value.slice(1, -1).replace(/''/g, "'") : value;
+function inlineMap(section, parseValue = unquote) {
+  const result = new Map(); let active = false;
+  for (const line of display.split('\n')) {
+    if (/^\S/.test(line) && !line.startsWith('#')) active = line === `${section}:`;
+    if (!active || !line.trim() || line.trimStart().startsWith('#') || line === `${section}:`) continue;
+    const separator = line.lastIndexOf(': ');
+    assert(line.startsWith('  ') && separator > 2, `Expected one-line ${section} entry: ${line}`);
+    const key = unquote(line.slice(2, separator));
+    assert(!result.has(key), `Duplicate ${section} key: ${key}`);
+    result.set(key, parseValue(line.slice(separator + 2)));
+  }
+  return result;
+}
+const foodLabels = inlineMap('labels');
+const foodEmojis = inlineMap('emojis', JSON.parse);
+const diary = JSON.parse(fs.readFileSync(path.join(__dirname, '../_data/diary.json'), 'utf8'));
+for (const meal of diary.meals) {
+  const label = foodLabels.get(meal.title) || meal.title;
+  const icons = foodEmojis.get(label);
+  assert(icons, `Missing food emoji mapping for ${JSON.stringify(label)}; choose from the actual meal, not an automatic plate`);
+  assert(Array.isArray(icons) && icons.length > 0 && icons.every(icon => typeof icon === 'string' && icon.trim()),
+    `Expected a nonempty emoji array for ${JSON.stringify(label)}`);
+}
+console.log(`PASS: all ${diary.meals.length} canonical meals have deliberate, nonempty emoji mappings`);
+
 assert(/hyrox_race:.*Hyrox Race/.test(display));
 assert(/hyrox_sim:.*Hyrox Sim/.test(display));
 console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');
