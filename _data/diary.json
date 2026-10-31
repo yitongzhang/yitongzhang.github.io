@@ -165,6 +165,11 @@
       "date": "2026-10-30",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -737,6 +742,25 @@
       },
       "confidence": "low",
       "estimate_note": "Ingredient-based estimate for a normal bowl, assuming roughly 250-300 g cooked rice plus braised pork and sauce. Actual rice amount, pork cut and fat, sauce and oil are unknown; plausible range 550-950 kcal. No egg or other unreported extras included."
+    },
+    {
+      "id": "meal-20261031-001",
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "title": "Effie's Homemade biscuits",
+      "portion_notes": "Four biscuits, approximately 42.7 g. Quantity interpreted as individual biscuits, not servings.",
+      "nutrition": {
+        "calories_kcal": 213,
+        "protein_g": 4,
+        "carbs_g": 24,
+        "fat_g": 10.7
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "high",
+      "estimate_note": "Calculated from the package label: 3 biscuits (32 g) provide 160 kcal, 3 g protein, 18 g carbohydrate and 8 g fat. Four biscuits are 4/3 of a serving; values rounded. Product variety is not specified."
     }
   ],
   "workouts": [
