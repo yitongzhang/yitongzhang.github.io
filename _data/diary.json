@@ -699,6 +699,44 @@
       },
       "confidence": "low",
       "estimate_note": "Ingredient-based estimate, not restaurant-published nutrition. Official menu lists greens, pickled carrots and daikon, pineapple, jalapenos, herbs, crunch mix and green goddess dressing. Assumes roughly 4-5 oz cooked chicken, standard salad and crunch mix, and about 3-4 tablespoons dressing. Chicken, crunch mix and dressing portions are uncertain; using less dressing would lower the estimate."
+    },
+    {
+      "id": "meal-20261030-002",
+      "date": "2026-10-30",
+      "timezone": "America/Los_Angeles",
+      "title": "Chips — two small bags",
+      "portion_notes": "Afternoon snack: two small bags, 150 kcal each.",
+      "nutrition": {
+        "calories_kcal": 300,
+        "protein_g": 4,
+        "carbs_g": 32,
+        "fat_g": 18
+      },
+      "calorie_range": {
+        "low": 300,
+        "high": 300
+      },
+      "confidence": "medium",
+      "estimate_note": "Calories are reported for the two bags. Brand and chip type are unknown; macros are approximate generic fried-chip values, not verified package nutrition."
+    },
+    {
+      "id": "meal-20261030-003",
+      "date": "2026-10-30",
+      "timezone": "America/Los_Angeles",
+      "title": "Lu rou fan — braised pork rice",
+      "portion_notes": "Dinner: one normal-size bowl of braised pork rice.",
+      "nutrition": {
+        "calories_kcal": 750,
+        "protein_g": 25,
+        "carbs_g": 85,
+        "fat_g": 35
+      },
+      "calorie_range": {
+        "low": 550,
+        "high": 950
+      },
+      "confidence": "low",
+      "estimate_note": "Ingredient-based estimate for a normal bowl, assuming roughly 250-300 g cooked rice plus braised pork and sauce. Actual rice amount, pork cut and fat, sauce and oil are unknown; plausible range 550-950 kcal. No egg or other unreported extras included."
     }
   ],
   "workouts": [
