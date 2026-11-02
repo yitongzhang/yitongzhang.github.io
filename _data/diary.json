@@ -175,6 +175,11 @@
       "date": "2026-11-01",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-11-02",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -918,6 +923,44 @@
       },
       "confidence": "low",
       "estimate_note": "Generic estimate of about 20 kcal and 5 g carbohydrate per mini cup, or roughly 150-300 kcal for ten depending on size and recipe. Count is approximate. No particular brand, sugar-free formulation or konjac ingredient is assumed; protein and fat are treated as negligible. These are estimates, not verified package nutrition."
+    },
+    {
+      "id": "meal-20261102-001",
+      "date": "2026-11-02",
+      "timezone": "America/Los_Angeles",
+      "title": "Financier, bread pudding and muffin",
+      "portion_notes": "Breakfast: half a financier, a quarter of a bread-pudding serving, and a quarter of a muffin. Only these three reported portions are counted; no additional bread pudding.",
+      "nutrition": {
+        "calories_kcal": 300,
+        "protein_g": 6,
+        "carbs_g": 40,
+        "fat_g": 13
+      },
+      "calorie_range": {
+        "low": 200,
+        "high": 450
+      },
+      "confidence": "low",
+      "estimate_note": "Rough bakery-portion estimate: half financier about 90 kcal, quarter bread pudding about 100 kcal, and quarter muffin about 110 kcal. Assumes an ordinary financier around 40 g whole, an individual bread-pudding serving around 180 g whole, and a medium bakery muffin around 100 g whole. Actual sizes, recipes and flavors are unknown; macros are approximate, not measured or bakery-published nutrition."
+    },
+    {
+      "id": "meal-20261102-002",
+      "date": "2026-11-02",
+      "timezone": "America/Los_Angeles",
+      "title": "Chicken salad",
+      "portion_notes": "Lunch: one chicken salad. Assumes a greens-based salad with about 5 oz cooked chicken and a moderate dressing portion, not a mayonnaise-based chicken salad.",
+      "nutrition": {
+        "calories_kcal": 450,
+        "protein_g": 45,
+        "carbs_g": 15,
+        "fat_g": 23
+      },
+      "calorie_range": {
+        "low": 300,
+        "high": 700
+      },
+      "confidence": "low",
+      "estimate_note": "Rough generic portion-based estimate. Vendor, chicken amount, ingredients and dressing quantity were not confirmed. Dressing and chicken preparation are the main uncertainties; no unreported side, drink or separate extras counted."
     }
   ],
   "workouts": [
