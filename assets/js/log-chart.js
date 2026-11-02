@@ -28,24 +28,30 @@
         .map(w => {
           const type = labels[(types[w.id] || {}).type || 'gym'] || {};
           const meters = type.exercise ? w.details.filter(x => x.exercise === type.exercise).reduce((sum, x) => sum + (x.distance_meters || 0), 0) : 0;
-          return { date: w.date, label: type.label || 'Gym', km: meters / 1000, minutes: w.duration_minutes || 0 };
+          return { date: w.date, label: type.label || 'Gym', km: meters / 1000, minutes: w.duration_minutes == null ? null : w.duration_minutes };
         });
-      const minutes = sessions.reduce((sum, s) => sum + s.minutes, 0);
+      const unknownDurations = sessions.filter(s => s.minutes === null).length;
+      const minutes = sessions.reduce((sum, s) => sum + (s.minutes === null ? 0 : s.minutes), 0);
       const mealDays = Object.values(byDay).filter(d => d.date.startsWith(prefix) && d.date <= today).sort((a, b) => a.date < b.date ? -1 : 1);
       const tracked = Boolean(firstMeal) && firstMeal.slice(0, 7) <= prefix;
-      return { m, current: m === month, future, sessions, hours: minutes / 60, mealDays, logged: mealDays.length, sofar, share: tracked && sofar ? mealDays.length / sofar : 0, tracked, firstMeal };
+      return { m, current: m === month, future, sessions, hours: minutes / 60, unknownDurations, mealDays, logged: mealDays.length, sofar, share: tracked && sofar ? mealDays.length / sofar : 0, tracked, firstMeal };
     });
   }
 
   const hours = h => h ? (h < 10 ? (Math.round(h * 10) / 10).toFixed(1) : String(Math.round(h))) : '0';
+  // A plus marks a partial total; an all-unknown month must not look like zero training.
+  const trainingValue = o => o.unknownDurations ? (o.unknownDurations === o.sessions.length ? '?' : hours(o.hours) + '+') : hours(o.hours);
   const percent = (v, bare) => Math.round(v * 100) + (bare ? '' : '%');
 
   // What went into one square: a heading, then one line per session or logged day.
   function explain(o, row) {
     if (row === 'training') {
-      const head = LONG[o.m] + ' · ' + hours(o.hours) + ' hours';
+      const unknown = o.unknownDurations || 0;
+      const head = LONG[o.m] + ' · ' + (unknown
+        ? (unknown === o.sessions.length ? 'Duration unknown' : hours(o.hours) + ' known hours') + ' · ' + unknown + ' session' + (unknown === 1 ? '' : 's') + ' with unknown duration'
+        : hours(o.hours) + ' hours');
       if (!o.sessions.length) return { head, lines: ['No training logged.'] };
-      return { head, lines: o.sessions.map(s => shortDate(s.date) + ' — ' + s.label + (s.km ? ' ' + (Math.round(s.km * 10) / 10) + ' km' : '') + ' · ' + length(s.minutes)) };
+      return { head, lines: o.sessions.map(s => shortDate(s.date) + ' — ' + s.label + (s.km ? ' ' + (Math.round(s.km * 10) / 10) + ' km' : '') + ' · ' + (s.minutes === null ? 'Duration unknown' : length(s.minutes))) };
     }
     if (!o.tracked) return { head: LONG[o.m] + ' · 0%', lines: ['No meals logged. Meal logging started ' + shortDate(o.firstMeal) + '.'] };
     const head = LONG[o.m] + ' · ' + percent(o.share) + ', ' + o.logged + ' of ' + o.sofar + ' days';
@@ -119,7 +125,7 @@
       if (o.future) return;
       const h = o.hours / maxHours * (bh - 52);
       if (h) el('rect', { x, y: base - h, width: cell, height: h, rx: 3, fill: RAMP[4], 'pointer-events': 'none' }, svg);
-      if (labelled) el('text', { x: x + cell / 2, y: base - h - 8, 'text-anchor': 'middle', class: 'value', ...(h ? { style: `fill:${INK}` } : {}), text: hours(o.hours) }, svg);
+      if (labelled) el('text', { x: x + cell / 2, y: base - h - 8, 'text-anchor': 'middle', class: 'value', ...(h ? { style: `fill:${INK}` } : {}), text: trainingValue(o) }, svg);
       hover(track, o, 'training');
     });
 
@@ -137,7 +143,7 @@
     if (values.some(v => v.node.getComputedTextLength() > cell - 10)) values.forEach(v => { v.node.textContent = percent(v.o.share, true); });
   }
 
-  if (typeof module !== 'undefined') { module.exports = { summarize, explain }; return; }
+  if (typeof module !== 'undefined') { module.exports = { summarize, explain, trainingValue }; return; }
 
   const host = document.getElementById('log-chart'), source = document.getElementById('log-chart-data');
   if (!host || !source) return;
@@ -150,3 +156,4 @@
   draw();
   window.addEventListener('resize', draw);
 })();
+

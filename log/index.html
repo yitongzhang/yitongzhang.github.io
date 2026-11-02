@@ -27,7 +27,7 @@ permalink: /log/
           {% if type.exercise %}{% for detail in workout.details %}{% assign exercise = detail.exercise | downcase %}{% assign expected_exercise = type.exercise | downcase %}{% if exercise == expected_exercise %}{% assign distance = distance | plus: detail.distance_meters %}{% endif %}{% endfor %}{% endif %}
           <span class="training-tip">
             <button type="button" class="training-trigger" aria-expanded="false" aria-describedby="tip-{{ workout.id | escape }}">{{ type.label | default: 'Gym' | escape }}{% if distance > 0 %} · {{ distance | divided_by: 1000.0 | round: 2 }} km{% endif %}{% if workout.status != 'completed' %} ({{ workout.status | escape }}){% endif %}</button>
-            <span role="tooltip" class="training-tooltip" id="tip-{{ workout.id | escape }}" hidden>{{ workout.description | escape }}{% if workout.duration_minutes and type_key != 'hyrox_race' %}<span class="tip-duration">{{ workout.duration_minutes }} minutes total</span>{% endif %}</span>
+            <span role="tooltip" class="training-tooltip" id="tip-{{ workout.id | escape }}" hidden>{{ workout.description | escape }}{% if workout.duration_minutes and type_key != 'hyrox_race' %}<span class="tip-duration">{{ workout.duration_minutes }} minutes total</span>{% elsif workout.duration_minutes == nil and workout.status == 'completed' %}<span class="tip-duration">Duration unknown</span>{% endif %}</span>
           </span>
         {% endfor %}{% if workouts.size == 0 %}<span class="empty" aria-hidden="true">·</span>{% endif %}</td>
         <td class="nutrition">{% if meals.size > 0 %}<span class="total">{{ calories | round }} / {{ protein | round }} g</span>{% else %}<span class="empty" aria-hidden="true">·</span>{% endif %}</td>
@@ -41,3 +41,4 @@ permalink: /log/
 
 <script src="{{ '/assets/js/log.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/log-chart.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+

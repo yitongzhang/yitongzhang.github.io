@@ -84,7 +84,7 @@ assert(/hyrox_race:.*Hyrox Race/.test(display));
 assert(/hyrox_sim:.*Hyrox Sim/.test(display));
 console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');
 
-const { summarize, explain } = require('../assets/js/log-chart.js');
+const { summarize, explain, trainingValue } = require('../assets/js/log-chart.js');
 const meal = (date, kcal, protein) => ({ date, nutrition: { calories_kcal: kcal, protein_g: protein } });
 const months = summarize({
   workouts: [
@@ -107,3 +107,37 @@ assert.deepEqual(explain(months[9], 'meals'), { head: 'October · 8%, 2 of 26 da
 assert.deepEqual(explain(months[5], 'meals').lines, ['No meals logged. Meal logging started Oct 25.']);
 assert(template.includes("date: '%b %-d'"));
 console.log('PASS: monthly chart counts training by duration, meals as share of days so far, each square explains itself, and dates are short');
+
+const durationMonths = summarize({
+  workouts: [
+    { id: 'known', date: '2026-10-02', status: 'completed', duration_minutes: 60, details: [] },
+    { id: 'unknown', date: '2026-10-31', status: 'completed', duration_minutes: null, details: [] },
+    { id: 'planned', date: '2026-10-31', status: 'planned', duration_minutes: null, details: [] },
+    { id: 'only-unknown', date: '2026-09-02', status: 'completed', duration_minutes: null, details: [] },
+    { id: 'also-unknown', date: '2026-09-03', status: 'completed', duration_minutes: null, details: [] },
+    { id: 'actual-zero', date: '2026-08-02', status: 'completed', duration_minutes: 0, details: [] }
+  ],
+  meals: [], types: { unknown: { type: 'hyrox_sim' } }, labels: { gym: { label: 'Gym' }, hyrox_sim: { label: 'Hyrox Sim' } }
+}, '2026-11-01');
+assert.equal(durationMonths[9].sessions.length, 2); // Unknown completion counts; planned does not.
+assert.equal(durationMonths[9].sessions[1].minutes, null);
+assert.equal(durationMonths[9].hours, 1); // Known time only, with no invented default.
+assert.equal(durationMonths[9].unknownDurations, 1);
+assert.equal(trainingValue(durationMonths[9]), '1.0+');
+assert.deepEqual(explain(durationMonths[9], 'training'), {
+  head: 'October · 1.0 known hours · 1 session with unknown duration',
+  lines: ['Oct 2 — Gym · 1h', 'Oct 31 — Hyrox Sim · Duration unknown']
+});
+assert.equal(durationMonths[8].unknownDurations, 2);
+assert.equal(trainingValue(durationMonths[8]), '?');
+assert.equal(explain(durationMonths[8], 'training').head, 'September · Duration unknown · 2 sessions with unknown duration');
+assert(!explain(durationMonths[8], 'training').lines.some(line => line.includes('0 min')));
+assert.equal(durationMonths[7].unknownDurations, 0); // An explicit zero is distinct from null.
+assert.equal(trainingValue(durationMonths[7]), '0');
+assert.equal(explain(durationMonths[7], 'training').lines[0], 'Aug 2 — Gym · 0 min');
+assert.equal(trainingValue(durationMonths[10]), '0');
+assert.deepEqual(explain(durationMonths[10], 'training'), { head: 'November · 0 hours', lines: ['No training logged.'] });
+assert(template.includes("elsif workout.duration_minutes == nil and workout.status == 'completed'"));
+assert(template.includes('<span class="tip-duration">Duration unknown</span>'));
+console.log('PASS: unknown completed durations remain unknown in daily/monthly tooltips, partial totals are marked, and known zero/planned/no-session states stay distinct');
+
