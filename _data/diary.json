@@ -899,6 +899,25 @@
       },
       "confidence": "low",
       "estimate_note": "Rough portion-based estimate; chicken amount, greens and dressing are assumed because portions and ingredients were not specified. Dressing and chicken preparation are the main uncertainties. No cheese, croutons, nuts or other unreported extras included."
+    },
+    {
+      "id": "meal-20261101-006",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Mini fruit jelly cups",
+      "portion_notes": "Approximately ten mini, bite-sized fruit jelly cups, not full-size gelatin snack cups. Assumes roughly 20 g per mini cup; brand, flavor and exact size unknown.",
+      "nutrition": {
+        "calories_kcal": 200,
+        "protein_g": 0,
+        "carbs_g": 50,
+        "fat_g": 0
+      },
+      "calorie_range": {
+        "low": 150,
+        "high": 300
+      },
+      "confidence": "low",
+      "estimate_note": "Generic estimate of about 20 kcal and 5 g carbohydrate per mini cup, or roughly 150-300 kcal for ten depending on size and recipe. Count is approximate. No particular brand, sugar-free formulation or konjac ingredient is assumed; protein and fat are treated as negligible. These are estimates, not verified package nutrition."
     }
   ],
   "workouts": [
