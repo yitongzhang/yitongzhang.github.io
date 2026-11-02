@@ -170,6 +170,11 @@
       "date": "2026-10-31",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -799,6 +804,101 @@
       },
       "confidence": "low",
       "estimate_note": "Rough portion-based estimate: fried rice about 500 kcal, pork 250, sides 150, egg 80 and fried wings 320. Portions, side ingredients, pork fat, cooking oil, wing size and coating are unknown; three split wing pieces are assumed, not three whole wings. Plausible meal range is 950-1,800 kcal; approximate macro ranges are 45-85 g protein, 90-160 g carbohydrate and 45-100 g fat. These are estimates, not measured or restaurant-published nutrition."
+    },
+    {
+      "id": "meal-20261101-001",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Scone",
+      "portion_notes": "Breakfast: one scone. Assumes an ordinary medium bakery scone, about 90 g; actual size and flavor unknown.",
+      "nutrition": {
+        "calories_kcal": 350,
+        "protein_g": 6,
+        "carbs_g": 50,
+        "fat_g": 14
+      },
+      "calorie_range": {
+        "low": 250,
+        "high": 500
+      },
+      "confidence": "low",
+      "estimate_note": "Rough generic bakery-scone estimate, not measured or package nutrition. Size, recipe and any glaze are unknown; no separate butter, jam or other topping counted."
+    },
+    {
+      "id": "meal-20261101-002",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Protein shake",
+      "portion_notes": "Lunch: one full Fairlife Core Power Elite 42 g protein bottle, 14 fl oz (414 ml), assumed consumed. Chocolate assumed to match the usual bottle.",
+      "nutrition": {
+        "calories_kcal": 230,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      "calorie_range": {
+        "low": null,
+        "high": null
+      },
+      "confidence": "medium",
+      "estimate_note": "Uses the confirmed usual 42 g variant and previously verified chocolate bottle nutrition. Flavor and full-bottle portion are assumed; label values may be rounded."
+    },
+    {
+      "id": "meal-20261101-003",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Egg-heavy fried rice",
+      "portion_notes": "One serving of fried rice, reported light on rice and heavy on eggs. Estimate assumes about 1/2 cup cooked rice, three large eggs and two teaspoons cooking oil.",
+      "nutrition": {
+        "calories_kcal": 400,
+        "protein_g": 21,
+        "carbs_g": 25,
+        "fat_g": 24
+      },
+      "calorie_range": {
+        "low": 300,
+        "high": 550
+      },
+      "confidence": "low",
+      "estimate_note": "Rough ingredient-based estimate; rice amount, egg count and oil are assumptions, not confirmed measurements. No unreported meat or other extras included. The two separately reported boiled eggs are logged separately and are not part of this three-egg assumption."
+    },
+    {
+      "id": "meal-20261101-004",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Two boiled eggs",
+      "portion_notes": "Two boiled eggs eaten separately from the fried rice. Assumes two large eggs.",
+      "nutrition": {
+        "calories_kcal": 160,
+        "protein_g": 13,
+        "carbs_g": 1,
+        "fat_g": 11
+      },
+      "calorie_range": {
+        "low": 140,
+        "high": 170
+      },
+      "confidence": "medium",
+      "estimate_note": "Generic estimate for two large hard-boiled eggs; egg size is assumed. No added oil or sauce counted."
+    },
+    {
+      "id": "meal-20261101-005",
+      "date": "2026-11-01",
+      "timezone": "America/Los_Angeles",
+      "title": "Chicken salad",
+      "portion_notes": "Dinner: one chicken salad. Assumes a greens-based salad with about 5 oz cooked chicken and a moderate dressing portion, not a mayonnaise-based chicken salad.",
+      "nutrition": {
+        "calories_kcal": 450,
+        "protein_g": 45,
+        "carbs_g": 15,
+        "fat_g": 23
+      },
+      "calorie_range": {
+        "low": 300,
+        "high": 700
+      },
+      "confidence": "low",
+      "estimate_note": "Rough portion-based estimate; chicken amount, greens and dressing are assumed because portions and ingredients were not specified. Dressing and chicken preparation are the main uncertainties. No cheese, croutons, nuts or other unreported extras included."
     }
   ],
   "workouts": [
@@ -1414,11 +1514,11 @@
       "date": "2026-10-31",
       "timezone": "America/Los_Angeles",
       "title": "Hyrox Sim",
-      "status": "planned",
+      "status": "completed",
       "duration_minutes": null,
-      "description": "Planned HYROX simulation.",
+      "description": "HYROX simulation.",
       "details": [],
-      "notes": "Planned session only; completion and actual duration not yet confirmed. No exercises, station volumes or loads reported."
+      "notes": "Completed session. Actual duration, exercises, station volumes and loads not reported."
     }
   ]
 }

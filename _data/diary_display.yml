@@ -14,7 +14,12 @@ plurals:
 # Choose from the actual food; do not substitute unrelated dishes just for variety.
 # Use one-line entries with JSON-compatible arrays for the dependency-free coverage test.
 # Chips have no dedicated emoji, and their type is unknown: deliberately keep a neutral plate.
+# Scone has no dedicated emoji: deliberately use a plate rather than imply a croissant or mooncake.
 emojis:
+  Scone: ["🍽️"]
+  Chicken salad: ["🥗"]
+  Egg-heavy fried rice: ["🍳"]
+  Two boiled eggs: ["🥚"]
   fried rice, pork, egg & wings: ["🍚", "🍖", "🥚", "🍗"]
   Mala xiang guo: ["🌶️", "🥘"]
   MIXT Mediterranean bowl: ["🥗"]
@@ -82,3 +87,4 @@ training:
   workout-20261026-001: { type: crossfit }
   workout-20261028-001: { type: crossfit }
   workout-20261029-001: { type: barrys }
+
