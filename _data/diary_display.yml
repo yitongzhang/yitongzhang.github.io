@@ -16,6 +16,9 @@ plurals:
 # Chips have no dedicated emoji, and their type is unknown: deliberately keep a neutral plate.
 # Scone has no dedicated emoji: deliberately use a plate rather than imply a croissant or mooncake.
 emojis:
+  Slice of cake: ["🍰"]
+  Bun Mee Rainbow Salad: ["🥗"]
+  Chowder and shrimp: ["🥣", "🦐"]
   Financier, bread pudding and muffin: ["🍰", "🍞", "🧁"]
   Mini fruit jelly cups: ["🍬"]
   Scone: ["🍽️"]

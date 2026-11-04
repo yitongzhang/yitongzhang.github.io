@@ -180,6 +180,11 @@
       "date": "2026-11-02",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-11-03",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -980,6 +985,63 @@
       },
       "confidence": "medium",
       "estimate_note": "The 42 g variant is confirmed. Uses the previously verified usual chocolate bottle nutrition; flavor and full-bottle portion are assumed. Counts one newly reported bottle only; label values may be rounded."
+    },
+    {
+      "id": "meal-20261103-001",
+      "date": "2026-11-03",
+      "timezone": "America/Los_Angeles",
+      "title": "Slice of cake",
+      "portion_notes": "Breakfast: one slice of cake. Assumes a medium slice, roughly 100 g; actual size, flavor and frosting are unknown.",
+      "nutrition": {
+        "calories_kcal": 350,
+        "protein_g": 4,
+        "carbs_g": 50,
+        "fat_g": 15
+      },
+      "calorie_range": {
+        "low": 250,
+        "high": 550
+      },
+      "confidence": "low",
+      "estimate_note": "Rough generic cake estimate, not measured or package nutrition. Recipe, slice size and frosting can change the estimate substantially; no particular cake flavor assumed."
+    },
+    {
+      "id": "meal-20261103-002",
+      "date": "2026-11-03",
+      "timezone": "America/Los_Angeles",
+      "title": "Bun Mee Rainbow Salad",
+      "portion_notes": "Lunch: one Bun Mee Rainbow Salad. Assumes a full standard salad with crunch topping and dressing. Protein selection was not reported, so no added protein is included in this provisional estimate.",
+      "nutrition": {
+        "calories_kcal": 400,
+        "protein_g": 8,
+        "carbs_g": 35,
+        "fat_g": 25
+      },
+      "calorie_range": {
+        "low": 250,
+        "high": 600
+      },
+      "confidence": "low",
+      "estimate_note": "Ingredient-based estimate, not restaurant-published nutrition. Official menu lists greens, pickled carrots and daikon, pineapple, jalapenos, herbs, crunch mix and green goddess dressing, with a separate protein choice. Estimate covers only the salad base, crunch and dressing; it does not confirm that no protein was eaten. Any unreported protein would increase the total. Dressing and crunch portions are unknown."
+    },
+    {
+      "id": "meal-20261103-003",
+      "date": "2026-11-03",
+      "timezone": "America/Los_Angeles",
+      "title": "Chowder and shrimp",
+      "portion_notes": "Dinner: one big bowl of chowder and approximately seven shrimp. Assumes roughly 2 cups of chowder and about 85 g cooked shrimp total. Chowder variety and shrimp preparation are unknown.",
+      "nutrition": {
+        "calories_kcal": 690,
+        "protein_g": 40,
+        "carbs_g": 60,
+        "fat_g": 32
+      },
+      "calorie_range": {
+        "low": 460,
+        "high": 1020
+      },
+      "confidence": "low",
+      "estimate_note": "Rough generic estimate: chowder about 600 kcal (400-900), plus seven shrimp about 90 kcal (60-120). No particular chowder variety is assigned. The shrimp are counted once, whether in the chowder or alongside it; assumes cooked, unbreaded shrimp without substantial added butter or oil. Actual bowl size, recipe, shrimp size and cooking fat are uncertain. No bread bowl or unreported sides included; macros are approximate."
     }
   ],
   "workouts": [
