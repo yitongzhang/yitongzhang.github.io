@@ -1042,6 +1042,25 @@
       },
       "confidence": "low",
       "estimate_note": "Rough generic estimate: chowder about 600 kcal (400-900), plus seven shrimp about 90 kcal (60-120). No particular chowder variety is assigned. The shrimp are counted once, whether in the chowder or alongside it; assumes cooked, unbreaded shrimp without substantial added butter or oil. Actual bowl size, recipe, shrimp size and cooking fat are uncertain. No bread bowl or unreported sides included; macros are approximate."
+    },
+    {
+      "id": "meal-20261103-004",
+      "date": "2026-11-03",
+      "timezone": "America/Los_Angeles",
+      "title": "Bread rolls with butter",
+      "portion_notes": "Two bread rolls with butter. Assumes two medium rolls, roughly 75 g each, with about 1 tablespoon (14 g) butter total across both rolls.",
+      "nutrition": {
+        "calories_kcal": 500,
+        "protein_g": 14,
+        "carbs_g": 75,
+        "fat_g": 16
+      },
+      "calorie_range": {
+        "low": 350,
+        "high": 650
+      },
+      "confidence": "low",
+      "estimate_note": "Rough photo-based portion estimate for two rolls like the one pictured. Bread type, roll weight and butter consumed are unknown; the pictured butter cup does not establish how much was eaten. Assumes about 400 kcal of bread plus 100 kcal of butter. This is an additional side, separate from the chowder and shrimp already logged; macros are approximate."
     }
   ],
   "workouts": [
