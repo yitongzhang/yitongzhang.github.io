@@ -185,6 +185,11 @@
       "date": "2026-11-03",
       "timezone": "America/Los_Angeles",
       "food_log_status": "incomplete"
+    },
+    {
+      "date": "2026-11-07",
+      "timezone": "America/Los_Angeles",
+      "food_log_status": "incomplete"
     }
   ],
   "meals": [
@@ -1061,6 +1066,25 @@
       },
       "confidence": "low",
       "estimate_note": "Rough photo-based portion estimate for two rolls like the one pictured. Bread type, roll weight and butter consumed are unknown; the pictured butter cup does not establish how much was eaten. Assumes about 400 kcal of bread plus 100 kcal of butter. This is an additional side, separate from the chowder and shrimp already logged; macros are approximate."
+    },
+    {
+      "id": "meal-20261107-001",
+      "date": "2026-11-07",
+      "timezone": "America/Los_Angeles",
+      "title": "Waffle with whipped cream and jam",
+      "portion_notes": "Breakfast: one decently sized waffle with whipped cream and a little jam. Assumes one large waffle, about 2 tablespoons whipped cream and 1 tablespoon jam; actual portions and recipe unknown.",
+      "nutrition": {
+        "calories_kcal": 450,
+        "protein_g": 9,
+        "carbs_g": 60,
+        "fat_g": 19
+      },
+      "calorie_range": {
+        "low": 350,
+        "high": 600
+      },
+      "confidence": "low",
+      "estimate_note": "Rough generic estimate, not weighed or restaurant nutrition. Approximate macros: protein 7-12 g, carbohydrate 45-80 g, fat 13-28 g; these ranges reflect uncertain waffle size and toppings, not measured values. No syrup or extra butter assumed."
     }
   ],
   "workouts": [
@@ -1681,6 +1705,17 @@
       "description": "HYROX simulation.",
       "details": [],
       "notes": "Completed session. Actual duration, exercises, station volumes and loads not reported."
+    },
+    {
+      "id": "workout-20261107-001",
+      "date": "2026-11-07",
+      "timezone": "America/Los_Angeles",
+      "title": "HYROX Pro Doubles",
+      "status": "completed",
+      "duration_minutes": null,
+      "description": "Completed a full HYROX Pro Doubles workout. Actual duration not reported. Very rough illustrative energy expenditure: 700-1,100 kcal, not a measured personal burn.",
+      "details": [],
+      "notes": "Full session reported completed. No actual duration, individual station share, loads or splits reported. A standard full doubles format includes 8 km running per person and shared station work; this describes the format, not verified individual station volumes. Calorie expenditure is an estimate, not a measured result. Illustrative gross expenditure range of 700-1,100 kcal assumes roughly 70-85 kg body mass, the standard full format and substantial shared station work; current body mass and actual duration are unknown. Actual expenditure can fall outside this range. Do not subtract this estimate from food intake or treat it as active-calorie measurement."
     }
   ]
 }

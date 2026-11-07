@@ -16,6 +16,7 @@ plurals:
 # Chips have no dedicated emoji, and their type is unknown: deliberately keep a neutral plate.
 # Scone has no dedicated emoji: deliberately use a plate rather than imply a croissant or mooncake.
 emojis:
+  Waffle with whipped cream and jam: ["🧇"]
   Bread rolls with butter: ["🍞", "🧈"]
   Slice of cake: ["🍰"]
   Bun Mee Rainbow Salad: ["🥗"]
@@ -53,6 +54,7 @@ emojis:
   Wooly Pig Asian Cubano: ["🥪"]
 # Assign only completed/reported sessions; venue or sub-exercises do not create sessions.
 training_types:
+  hyrox_pro_doubles: { label: "HYROX Pro Doubles" }
   gym: { label: Gym }
   crossfit: { label: "Crossfit (Flagship)" }
   barrys: { label: "Barry's" }
@@ -62,6 +64,7 @@ training_types:
   bike: { label: Bike, exercise: Bike }
   swim: { label: Swim, exercise: Swim }
 training:
+  workout-20261107-001: { type: hyrox_pro_doubles }
   workout-20261031-001: { type: hyrox_sim }
   workout-20261024-001: { type: hyrox_sim }
   workout-20261025-001: { type: gym }
@@ -93,4 +96,3 @@ training:
   workout-20261026-001: { type: crossfit }
   workout-20261028-001: { type: crossfit }
   workout-20261029-001: { type: barrys }
-
