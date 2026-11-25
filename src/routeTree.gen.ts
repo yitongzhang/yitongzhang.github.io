@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutDothtmlRouteImport } from './routes/about[.]html'
 import { Route as FeedDotxmlRouteImport } from './routes/feed[.]xml'
 import { Route as GameDothtmlRouteImport } from './routes/game[.]html'
+import { Route as MailDothtmlRouteImport } from './routes/mail[.]html'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ThanksDothtmlRouteImport } from './routes/thanks[.]html'
 import { Route as WorkDothtmlRouteImport } from './routes/work[.]html'
@@ -37,6 +38,11 @@ const FeedDotxmlRoute = FeedDotxmlRouteImport.update({
 const GameDothtmlRoute = GameDothtmlRouteImport.update({
   id: '/game.html',
   path: '/game.html',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MailDothtmlRoute = MailDothtmlRouteImport.update({
+  id: '/mail.html',
+  path: '/mail.html',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -71,6 +77,7 @@ export interface FileRoutesByFullPath {
   '/about.html': typeof AboutDothtmlRoute
   '/feed.xml': typeof FeedDotxmlRoute
   '/game.html': typeof GameDothtmlRoute
+  '/mail.html': typeof MailDothtmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/thanks.html': typeof ThanksDothtmlRoute
   '/work.html': typeof WorkDothtmlRoute
@@ -82,6 +89,7 @@ export interface FileRoutesByTo {
   '/about.html': typeof AboutDothtmlRoute
   '/feed.xml': typeof FeedDotxmlRoute
   '/game.html': typeof GameDothtmlRoute
+  '/mail.html': typeof MailDothtmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/thanks.html': typeof ThanksDothtmlRoute
   '/work.html': typeof WorkDothtmlRoute
@@ -94,6 +102,7 @@ export interface FileRoutesById {
   '/about.html': typeof AboutDothtmlRoute
   '/feed.xml': typeof FeedDotxmlRoute
   '/game.html': typeof GameDothtmlRoute
+  '/mail.html': typeof MailDothtmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/thanks.html': typeof ThanksDothtmlRoute
   '/work.html': typeof WorkDothtmlRoute
@@ -107,6 +116,7 @@ export interface FileRouteTypes {
     | '/about.html'
     | '/feed.xml'
     | '/game.html'
+    | '/mail.html'
     | '/sitemap.xml'
     | '/thanks.html'
     | '/work.html'
@@ -118,6 +128,7 @@ export interface FileRouteTypes {
     | '/about.html'
     | '/feed.xml'
     | '/game.html'
+    | '/mail.html'
     | '/sitemap.xml'
     | '/thanks.html'
     | '/work.html'
@@ -129,6 +140,7 @@ export interface FileRouteTypes {
     | '/about.html'
     | '/feed.xml'
     | '/game.html'
+    | '/mail.html'
     | '/sitemap.xml'
     | '/thanks.html'
     | '/work.html'
@@ -141,6 +153,7 @@ export interface RootRouteChildren {
   AboutDothtmlRoute: typeof AboutDothtmlRoute
   FeedDotxmlRoute: typeof FeedDotxmlRoute
   GameDothtmlRoute: typeof GameDothtmlRoute
+  MailDothtmlRoute: typeof MailDothtmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   ThanksDothtmlRoute: typeof ThanksDothtmlRoute
   WorkDothtmlRoute: typeof WorkDothtmlRoute
@@ -176,6 +189,13 @@ declare module '@tanstack/react-router' {
       path: '/game.html'
       fullPath: '/game.html'
       preLoaderRoute: typeof GameDothtmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mail.html': {
+      id: '/mail.html'
+      path: '/mail.html'
+      fullPath: '/mail.html'
+      preLoaderRoute: typeof MailDothtmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -221,6 +241,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutDothtmlRoute: AboutDothtmlRoute,
   FeedDotxmlRoute: FeedDotxmlRoute,
   GameDothtmlRoute: GameDothtmlRoute,
+  MailDothtmlRoute: MailDothtmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   ThanksDothtmlRoute: ThanksDothtmlRoute,
   WorkDothtmlRoute: WorkDothtmlRoute,
