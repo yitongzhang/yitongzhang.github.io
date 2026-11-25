@@ -2,6 +2,7 @@
 layout: post
 title:  "We are still duds"
 date:   2022-11-13ss -0700
+permalink: /2022/11/13/duds-still.html
 location:   "Oakland, CA"
 author:   "Yitong"
 excerpt_separator: <!--more-->

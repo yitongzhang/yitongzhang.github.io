@@ -1,6 +1,6 @@
 # Public food & workout diary
 
-`_data/diary.json` on `master` is the canonical **public diary**. Jekyll renders it at
+`_data/diary.json` on `master` is the canonical **public diary**. The site renders it at
 <https://zhayitong.com/log/>. There is no backend, database, credential in the site,
 or second locally authoritative diary. Temporary local files are working copies.
 
@@ -72,8 +72,10 @@ concurrency is protected by the GitHub blob-SHA lease below, not by the local CL
    issue another write. On a timeout/uncertain outcome, read remote state and
    commit history first to determine whether it landed before any retry.
 5. Verify the returned commit is on `master` and the remote JSON equals the
-   intended merged result. Inspect the GitHub Actions `pages build and deployment`
-   run for that exact SHA until success; a commit alone is not a deployed page.
+   intended merged result. Inspect the deploy for that exact SHA until it succeeds
+   (the Cloudflare Workers build check on the commit; before the move to
+   Cloudflare, the GitHub Actions `pages build and deployment` run). A commit
+   alone is not a deployed page.
    Verify <https://zhayitong.com/log/> shows the entry, correct local date and totals.
    Report a build/publication failure rather than claiming it is live.
 
@@ -89,14 +91,14 @@ No scheduled job is needed: each authorized new diary report triggers this workf
 `_data/diary.json` remains the full canonical diary. `_data/diary_display.yml`
 contains presentation-only food emoji mappings and training classifications.
 Food emoji keys match the normalized `labels` value (or the original title).
-Supply a meaningful short label; the template exposes it as an accessible name
+Supply a meaningful short label; the page (`src/lib/diary-view.mjs`) exposes it as an accessible name
 and hover/focus/tap tooltip with the matching canonical food titles. Repeated matching labels are counted.
 Map every new food label in the same update, choosing a recognizable emoji or short
 sequence from the actual dish or its confirmed main ingredients. Prefer accuracy
 over novelty: do not invent ingredients or replace chips with fries or popcorn.
 A plate is a deliberate last resort for a mixed meal or food with no suitable emoji,
 not the default for an unmapped title. Document deliberate plate choices near the
-mapping. The template retains a neutral fallback for safety, but `node scripts/test_log.js`
+mapping. The page retains a neutral fallback for safety, but `node scripts/test_log.js`
 checks that every canonical meal has an explicit mapping so omissions cannot silently
 turn into plates. Run it for every diary update, including data-only updates. Keep
 `labels` as one-line string pairs and `emojis` as one-line JSON-compatible arrays.

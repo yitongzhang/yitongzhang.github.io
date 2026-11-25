@@ -18,7 +18,7 @@ const tips = [0, 1].map(() => {
   return Object.assign(tip, { button, panel });
 });
 document.querySelectorAll = () => tips;
-vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname, '../assets/js/log.js'), 'utf8'), { document, window, setTimeout, clearTimeout });
+vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname, '../public/assets/js/log.js'), 'utf8'), { document, window, setTimeout, clearTimeout });
 const [one, two] = tips;
 one.fire('pointerenter', { pointerType: 'mouse' }); assert.equal(one.panel.hidden, false);
 assert.equal(one.panel.style.left, '116px'); // Fits within a 390px viewport.
@@ -35,19 +35,27 @@ one.fire('pointerenter', { pointerType: 'touch' }); assert.equal(one.panel.hidde
 console.log('PASS: hover, focus, tap pin/unpin, Escape, outside dismissal, exclusive opening, viewport clamp, resize/scroll and touch handling');
 
 const path = require('node:path');
-const css = fs.readFileSync(path.join(__dirname, '../assets/css/log.css'), 'utf8');
-const template = fs.readFileSync(path.join(__dirname, '../log/index.html'), 'utf8');
+const css = fs.readFileSync(path.join(__dirname, '../public/assets/css/log.css'), 'utf8');
+// The /log/ table is rendered by src/lib/diary-view.mjs (an ES module), loaded below.
+// Assertions run against its real HTML output for small fixture diaries.
+const { renderDiaryTable, shortDate } = require('../src/lib/diary-view.mjs');
+const day = (date) => ({ date, timezone: 'America/Los_Angeles', food_log_status: 'incomplete' });
+const food = (id, date, title) => ({ id, date, title, nutrition: { calories_kcal: 100, protein_g: 10 } });
+const foodHtml = renderDiaryTable(
+  { days: [day('2026-10-26')], meals: [food('a', '2026-10-26', 'Fish & <chips>'), food('b', '2026-10-26', 'Protein shake'), food('c', '2026-10-26', 'Evening protein shake')], workouts: [] },
+  { labels: { 'Protein shake': 'protein shake', 'Evening protein shake': 'protein shake' }, emojis: { 'protein shake': ['🥤'], 'Fish & <chips>': ['🐟'] } });
 assert(!css.includes('text-decoration: underline'));
 assert(css.includes('gap: .2em;'));
 assert(css.includes('.food-tip + .food-tip { margin: 0; }'));
 assert(css.includes(':focus-visible'));
-assert(template.includes('class="training-tip food-tip"'));
-assert(template.includes('actual_names | escape'));
+assert(foodHtml.includes('class="training-tip food-tip"'));
+assert(foodHtml.includes('aria-label="Fish &amp; &lt;chips&gt;"') && !foodHtml.includes('<chips>')); // Canonical names, escaped.
+assert(foodHtml.includes('aria-label="2 entries: Protein shake, Evening protein shake"'));
 console.log('PASS: food uses shared accessible tooltip, canonical names/counts, uniform emoji spacing, no underline, visible keyboard focus');
 
-assert(template.includes('{% for occurrence in (1..count) %}'));
-assert(!template.includes('food-count'));
-assert(!template.includes('×'));
+assert.equal(foodHtml.split('<span aria-hidden="true">🥤</span>').length - 1, 2); // One emoji per entry.
+assert(!foodHtml.includes('food-count'));
+assert(!foodHtml.includes('×'));
 console.log('PASS: repeated foods use emoji repetitions, not numeric multipliers');
 
 const display = fs.readFileSync(path.join(__dirname, '../_data/diary_display.yml'), 'utf8');
@@ -84,7 +92,13 @@ assert(/hyrox_race:.*Hyrox Race/.test(display));
 assert(/hyrox_sim:.*Hyrox Sim/.test(display));
 console.log('PASS: Hyrox Race and Hyrox Sim remain distinct categories');
 
-const { summarize, explain, trainingValue } = require('../assets/js/log-chart.js');
+// log-chart.js is a browser script that also exports for tests when `module` exists.
+const chartModule = { exports: {} };
+vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../public/assets/js/log-chart.js'), 'utf8'), { module: chartModule, exports: chartModule.exports, console });
+// Results come from another VM context; copy them into this one so deepEqual compares values only.
+const plain = (fn) => (...args) => JSON.parse(JSON.stringify(fn(...args)));
+const summarize = plain(chartModule.exports.summarize), explain = plain(chartModule.exports.explain);
+const { trainingValue } = chartModule.exports;
 const meal = (date, kcal, protein) => ({ date, nutrition: { calories_kcal: kcal, protein_g: protein } });
 const months = summarize({
   workouts: [
@@ -105,7 +119,7 @@ assert.deepEqual(explain(months[5], 'training'), { head: 'June · 1.8 hours', li
 assert.deepEqual(explain(months[9], 'training').lines, ['Oct 3 — Hyrox Race · 1h 45m']);
 assert.deepEqual(explain(months[9], 'meals'), { head: 'October · 8%, 2 of 26 days', lines: ['Oct 25 — 1,760 kcal / 149 g', 'Oct 26 — 1,930 kcal / 133 g'] });
 assert.deepEqual(explain(months[5], 'meals').lines, ['No meals logged. Meal logging started Oct 25.']);
-assert(template.includes("date: '%b %-d'"));
+assert.equal(shortDate('2026-10-26'), 'Oct 26th'); assert.equal(shortDate('2026-11-01'), 'Nov 1st'); assert.equal(shortDate('2026-11-22'), 'Nov 22nd');
 console.log('PASS: monthly chart counts training by duration, meals as share of days so far, each square explains itself, and dates are short');
 
 const durationMonths = summarize({
@@ -137,7 +151,11 @@ assert.equal(trainingValue(durationMonths[7]), '0');
 assert.equal(explain(durationMonths[7], 'training').lines[0], 'Aug 2 — Gym · 0 min');
 assert.equal(trainingValue(durationMonths[10]), '0');
 assert.deepEqual(explain(durationMonths[10], 'training'), { head: 'November · 0 hours', lines: ['No training logged.'] });
-assert(template.includes("elsif workout.duration_minutes == nil and workout.status == 'completed'"));
-assert(template.includes('<span class="tip-duration">Duration unknown</span>'));
+const workout = (id, status, duration_minutes) => ({ id, date: '2026-10-31', status, duration_minutes, description: id, details: [] });
+const tipHtml = renderDiaryTable({ days: [day('2026-10-31')], meals: [], workouts: [workout('unknown', 'completed', null), workout('planned', 'planned', null), workout('zero', 'completed', 0)] }, { training: {}, training_types: { gym: { label: 'Gym' } } });
+const tip = (id) => tipHtml.match(new RegExp(`id="tip-${id}" hidden>(.*?)</span>(?:<span class="training-tip"|</td>)`))[1];
+assert(tip('unknown').includes('<span class="tip-duration">Duration unknown</span>'));
+assert(!tip('planned').includes('tip-duration')); // Planned sessions claim nothing.
+assert(tip('zero').includes('<span class="tip-duration">0 minutes total</span>'));
 console.log('PASS: unknown completed durations remain unknown in daily/monthly tooltips, partial totals are marked, and known zero/planned/no-session states stay distinct');
 

@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zhayitong-site",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // Wraps TanStack Start with GitHub Pages-compatible URL handling (see src/server.ts).
+  "main": "src/server.ts",
+  "assets": {
+    "binding": "ASSETS",
+    // Serve files exactly as named. Cloudflare's default would 307 /work.html -> /work,
+    // which changes every old URL; src/server.ts does the extensionless lookup instead.
+    "html_handling": "none",
+    "not_found_handling": "none"
+  },
+  "observability": { "enabled": true }
+}

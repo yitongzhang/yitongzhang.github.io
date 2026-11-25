@@ -2,6 +2,7 @@
 layout: post
 title:  "Bridgewater culture"
 date:   2020-01-27 -0700
+permalink: /2020/01/27/bridgewater.html
 location:   "San Francisco, CA"
 author:   "Yitong"
 excerpt_separator: <!--more-->

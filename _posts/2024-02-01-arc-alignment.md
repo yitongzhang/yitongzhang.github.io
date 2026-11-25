@@ -2,6 +2,7 @@
 layout: post
 title: "Arc browser's ambiguous user alignment"
 date: 2024-02-01ss -0700
+permalink: /2024/02/01/arc-alignment.html
 location: "Toronto, ON"
 author: "Yitong"
 excerpt_separator: <!--more-->

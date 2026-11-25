@@ -2,6 +2,7 @@
 layout: post
 title:  "Design tools and design jobs"
 date:   2020-02-25 -0700
+permalink: /2020/02/25/tools-jobs.html
 location:   "San Francisco, CA"
 author:   "Yitong"
 excerpt_separator: <!--more-->

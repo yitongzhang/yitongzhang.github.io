@@ -2,6 +2,7 @@
 layout: post
 title:  "Being negatively-driven"
 date:   2020-08-07 -0700
+permalink: /2020/08/07/negative-drive.html
 location:   "San Francisco, CA"
 author:   "Yitong"
 excerpt_separator: <!--more-->

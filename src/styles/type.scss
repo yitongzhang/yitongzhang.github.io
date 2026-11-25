@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Colfax";
+    src: url("/assets/fonts/ColfaxWebRegular.woff");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "IBMPlexMono";
+    src: url("/assets/fonts/IBMPlexMono-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "IBMPlexMono";
+    src: url("/assets/fonts/IBMPlexMono-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: "IBMPlexMono";
+    src: url("/assets/fonts/IBMPlexMono-SemiBold.ttf");
+    font-weight: 600;
+}
+
+$font-sans: "Colfax", Sans-Serif;
+$font-mono: "IBMPlexMono", monospace;
+
+
+html {
+    font-size: 62.5%;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: $font-sans;
+    color: $color-primary;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+h1{ //big title
+    font-size: 3.2rem;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+h2{ //small title
+    font-size: 1.6rem;
+    -webkit-text-stroke:0.4px;
+    letter-spacing: 0.02rem;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+h3{ //emphasis
+    -webkit-text-stroke:0.4px;
+}
+h5{ //small mono
+    font-family: $font-mono;
+    font-size:1.4rem;
+    color: $color-tertiary;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+h6, figcaption{ //small normal
+    font-size:1.4rem;
+    color: $color-tertiary;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+code{
+    padding: 2px 4px;
+    font-family: $font-mono;
+    transition: $speed-fast;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+pre{
+    padding: 16px;
+    background-color: $color-wash;
+    code{
+        color: $color-secondary;
+    }
+    transition: $speed-fast;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+code:hover, pre:hover{
+    background-color: $color-line;
+    color: $color-primary;
+}
+
+p, ul, ol{
+    margin-bottom: 12px;
+    color: $color-secondary;
+    line-height: 2.6rem;
+    a{
+        transition: $speed-fast;
+        border-bottom: 1px dashed $color-tertiary;
+    }
+    a:hover{
+        background-color: $color-accent;
+    }
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+ol{
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+ol,ul{
+    padding: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+sup{
+    position: relative;
+    top: -6px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 4px;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+em{
+    font-weight: 400;
+    color:$color-primary;
+    background-color: $color-accent;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+.pageHeader{
+    margin-bottom: 16px;
+}
+
+.footnote{
+    transition: color $speed-fast;
+    a{
+        border-bottom: 1px dashed $color-tertiary;
+        transition: border $speed-fast;
+    }
+    a:hover{
+        background-color: $color-accent;
+    }
+}
+.footnote:hover{
+    color: $color-secondary;
+}
+
+.reversefootnote{
+    font-size: 1.4rem;
+    position: relative;
+    top: 2px;
+}
+
+strong{
+    -webkit-text-stroke:0.4px;
+    color: $color-primary;
+    &::selection{
+        background-color:$color-accent;
+    }
+}
+
+.button{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-family: $font-sans;
+    color: $color-neutral;
+    padding: 10px 16px;
+    background-color: $color-primary;
+    border: 0px;
+    cursor: pointer;
+    transition: $speed-fast;
+    border: 1px solid $color-line;
+    
+}
+.button:hover{
+    color: $color-tertiary;
+}
+
+input[type=email]{
+    width: 160px;
+    padding: 10px 16px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-family: $font-sans;
+    color: $color-primary;
+    border: 1px solid $color-line;
+    transition: $speed-fast;
+}
+input[type=email]:focus{
+    outline: 0px;
+    border: 1px solid $color-tertiary;
+}
