@@ -12,5 +12,21 @@
     "html_handling": "none",
     "not_found_handling": "none"
   },
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+
+  // ---- Mailing list (src/mail/mail.ts). Setup steps: README "Mailing list".
+  "d1_databases": [
+    { "binding": "DB", "database_name": "zhayitong-mail", "database_id": "77c61474-8a10-4b57-950b-6b032c497b6b" }
+  ],
+  // Cloudflare Email Sending. Only works once zhayitong.com is onboarded as a sending domain.
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": {
+    "MAIL_FROM": "Yitong Zhang <posts@zhayitong.com>",
+    "MAIL_REPLY_TO": "zha.yitong@gmail.com"
+  },
+  // ADMIN_TOKEN is a secret: `npx wrangler secret put ADMIN_TOKEN`.
+  // Bounce and complaint events arrive on this queue once the event subscription exists.
+  "queues": {
+    "consumers": [{ "queue": "zhayitong-mail-events", "max_batch_size": 50 }]
+  }
 }

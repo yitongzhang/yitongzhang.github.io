@@ -17,7 +17,7 @@ const oldsitePages = (readdirSync('public/oldsite', { recursive: true }) as stri
   .map((f) => '/' + relative('public', `public/oldsite/${f}`).replaceAll('\\', '/'))
   .sort()
 
-const pages = ['/', '/work.html', '/about.html', '/game.html', '/thanks.html', '/log/', '/feed.xml', '/sitemap.xml', ...postPaths]
+const pages = ['/', '/work.html', '/about.html', '/game.html', '/thanks.html', '/mail.html', '/log/', '/feed.xml', '/sitemap.xml', ...postPaths]
 
 export default defineConfig({
   define: {
