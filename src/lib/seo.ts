@@ -8,7 +8,10 @@ type Seo = {
 }
 
 /** Head tags for a page: what jekyll-seo-tag and the old opengraph include produced, minus duplicates. */
-export function seo({ title, path, description, post }: Seo) {
+/** jekyll-seo-tag falls back to the site description ("Yitong") when a page has none. */
+const SITE_NAME = 'Yitong'
+
+export function seo({ title, path, description = SITE_NAME, post }: Seo) {
   const url = SITE_URL + path
   const published = post && isoMidnight(post.ymd)
   const meta: Array<Record<string, string> | false | '' | undefined | null> = [
@@ -20,6 +23,7 @@ export function seo({ title, path, description, post }: Seo) {
     { property: 'og:title', content: title },
     description && { property: 'og:description', content: description },
     { property: 'og:url', content: url },
+    { property: 'og:site_name', content: SITE_NAME },
     { property: 'og:image', content: OG_IMAGE },
     { property: 'og:image:width', content: '637' },
     { property: 'og:image:height', content: '403' },
