@@ -2,6 +2,7 @@
 layout: post
 title:  "How to get the fastest green card"
 date:   2021-10-30ss -0700
+permalink: /2021/10/30/fast-greencard.html
 location:   "New York, NY"
 author:   "Yitong"
 excerpt_separator: <!--more-->

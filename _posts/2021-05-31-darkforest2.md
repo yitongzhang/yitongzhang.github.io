@@ -2,6 +2,7 @@
 layout: post
 title:  "Dark Forest captain's log 2"
 date:   2021-05-31 -0700
+permalink: /2021/05/31/darkforest2.html
 location:   "Dark Forest"
 author:   "Yitong"
 excerpt_separator: <!--more-->

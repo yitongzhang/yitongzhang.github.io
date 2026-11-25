@@ -1,0 +1,3132 @@
+{
+ "comment": "Every URL the GitHub Pages site served on 2026-11-25, and what the new site must answer. Files copied verbatim carry a sha256. Generated from the last Jekyll build; do not regenerate from the new site.",
+ "urls": [
+  {
+   "path": "/",
+   "status": 200
+  },
+  {
+   "path": "/2020/01/27/bridgewater",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/01/27/bridgewater.html",
+   "status": 200
+  },
+  {
+   "path": "/2020/02/25/tools-jobs",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/02/25/tools-jobs.html",
+   "status": 200
+  },
+  {
+   "path": "/2020/06/03/craft-progress",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/06/03/craft-progress.html",
+   "status": 200
+  },
+  {
+   "path": "/2020/07/24/newblog1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/07/24/newblog1.html",
+   "status": 200
+  },
+  {
+   "path": "/2020/08/07/negative-drive",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/08/07/negative-drive.html",
+   "status": 200
+  },
+  {
+   "path": "/2020/08/16/curation",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2020/08/16/curation.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/02/04/grace",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/02/04/grace.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/04/15/tensions",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/04/15/tensions.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/04/22/newblog2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/04/22/newblog2.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/05/26/darkforest1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/05/26/darkforest1.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/05/31/darkforest2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/05/31/darkforest2.html",
+   "status": 200
+  },
+  {
+   "path": "/2021/10/30/fast-greencard",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2021/10/30/fast-greencard.html",
+   "status": 200
+  },
+  {
+   "path": "/2022/11/13/duds-still",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2022/11/13/duds-still.html",
+   "status": 200
+  },
+  {
+   "path": "/2022/11/13/wip",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2022/11/13/wip.html",
+   "status": 200
+  },
+  {
+   "path": "/2023/06/17/sf",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2023/06/17/sf.html",
+   "status": 200
+  },
+  {
+   "path": "/2023/10/22/sf-fauna",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2023/10/22/sf-fauna.html",
+   "status": 200
+  },
+  {
+   "path": "/2024/02/01/arc-alignment",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/2024/02/01/arc-alignment.html",
+   "status": 200
+  },
+  {
+   "path": "/CNAME",
+   "status": 404,
+   "note": "GitHub Pages domain config"
+  },
+  {
+   "path": "/DIARY.html",
+   "status": 301,
+   "location": "/log/",
+   "note": "rendered copy of DIARY.md, now points at the diary itself"
+  },
+  {
+   "path": "/DIARY.md",
+   "status": 404,
+   "note": "diary tooling docs, never meant as a page"
+  },
+  {
+   "path": "/README.md",
+   "status": 404,
+   "note": "repo readme, never meant as a page"
+  },
+  {
+   "path": "/about",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/about.html",
+   "status": 200
+  },
+  {
+   "path": "/assets/blogImg/arc/arc.png",
+   "status": 200,
+   "sha256": "fc1eca4d3a582c7db4e10fb70c44e4369e7273573c7f18dbdbe915f18cb0d297"
+  },
+  {
+   "path": "/assets/blogImg/curation/knowledgeMap.jpg",
+   "status": 200,
+   "sha256": "9c3eb0c7c52252b02d32cef94cffff429ce2d5fceb5111bed3704f5bcc70aa1d"
+  },
+  {
+   "path": "/assets/blogImg/curation/knowledgeMap.png",
+   "status": 200,
+   "sha256": "727ee7299899a43e3c0088caa6a44eae71e05844aa4c278ae00a4261a0fe34ea"
+  },
+  {
+   "path": "/assets/blogImg/curation/ossu.jpg",
+   "status": 200,
+   "sha256": "aa79aaedbb14ea02f7c541949827b64bb78063baaa196288157117318a0c495b"
+  },
+  {
+   "path": "/assets/blogImg/curation/ossu.png",
+   "status": 200,
+   "sha256": "de553c5129030b0a45b9a93286584d2175ee6a2b3973c1c8ff7492c762b47f13"
+  },
+  {
+   "path": "/assets/blogImg/newblog2/siteAfter.jpg",
+   "status": 200,
+   "sha256": "b04f37517fcb10a01c6e07794940f3833523ef514bdc5b5abacb76a0745caee1"
+  },
+  {
+   "path": "/assets/blogImg/newblog2/siteAfter.png",
+   "status": 200,
+   "sha256": "7b5c4ff317c6e4c22d87e96461892d907087924d7d5e34a4134aae4d7aec7382"
+  },
+  {
+   "path": "/assets/blogImg/newblog2/siteBefore.jpg",
+   "status": 200,
+   "sha256": "605c784007a395b5e082d3832a675a0c9e5dbfdaf538316a55a251bf44b041d9"
+  },
+  {
+   "path": "/assets/blogImg/newblog2/siteBefore.png",
+   "status": 200,
+   "sha256": "ce3cab30e9bc3696d231c41afca5d23fb4793124a12f3dbca1dd5ea73cc6e9fb"
+  },
+  {
+   "path": "/assets/blogImg/sf/bringyourown.jpg",
+   "status": 200,
+   "sha256": "479339fa94bb7786f66304cf0aec0409296302a684bafd10a5d3eb937ef59008"
+  },
+  {
+   "path": "/assets/blogImg/sf/hardtimes.jpg",
+   "status": 200,
+   "sha256": "53bc3dd512441fad1cc7d9d1bb0067b25b10477458a080956d940ee0f9c8f8a5"
+  },
+  {
+   "path": "/assets/blogImg/sf/mainsonnico.jpg",
+   "status": 200,
+   "sha256": "f885eb5831b4406d2b2f5f7527da04ae0ae125c9b90d25e296378e6e70af30bd"
+  },
+  {
+   "path": "/assets/blogImg/sf/mttam.avif",
+   "status": 200,
+   "sha256": "b389c53ed2bed8242d11d0c5e995207797402dadf0a9bb2654df824c16e906c6"
+  },
+  {
+   "path": "/assets/blogImg/sf/slides.jpg",
+   "status": 200,
+   "sha256": "c8e4ee7e06279dd1f6c3e07a46dc12ba1c0cffdef03c976f32cade5ded1687fa"
+  },
+  {
+   "path": "/assets/blogImg/sf/wojia.jpg",
+   "status": 200,
+   "sha256": "69f5a2f7e4fa02e8b1e2b218aa7ddb9e0e7b9ea6e7a4b5d8aa0fc17546cb988b"
+  },
+  {
+   "path": "/assets/blogImg/sffauna/sfthenandnow.png",
+   "status": 200,
+   "sha256": "dbd957e7f4a57902acdfe9b3145cd6385e7bb32e77d6996388b9a0f029ff8344"
+  },
+  {
+   "path": "/assets/css/default.css",
+   "status": 404,
+   "note": "site stylesheet, now fingerprinted under /_build/"
+  },
+  {
+   "path": "/assets/css/log.css",
+   "status": 200,
+   "sha256": "3a821975a7fcef23106db29771331d670bec4158d76b31e94c18438bc8d60418"
+  },
+  {
+   "path": "/assets/css/style.css",
+   "status": 404,
+   "note": "unused stylesheet from the jekyll-theme-cayman theme"
+  },
+  {
+   "path": "/assets/fonts/ColfaxWebMedium.woff",
+   "status": 200,
+   "sha256": "531eca0f07df93a7f2f987411a921912b6963ae71a859aa1576be808675552ab"
+  },
+  {
+   "path": "/assets/fonts/ColfaxWebRegular.woff",
+   "status": 200,
+   "sha256": "7430e81b39f2f937721ec998ef0e1104fd9f9c8cdbf9a75bbe9f30d9cd736107"
+  },
+  {
+   "path": "/assets/fonts/IBMPlexMono-Medium.ttf",
+   "status": 200,
+   "sha256": "fa3b0b77cde670838e4e85958a4e00b0ace08fde87a1e09324348e67a23b2d14"
+  },
+  {
+   "path": "/assets/fonts/IBMPlexMono-Regular.ttf",
+   "status": 200,
+   "sha256": "fe068226e163685a9f34b046dea8d049fc9802fdf54d3bdf9b1d3247860c7175"
+  },
+  {
+   "path": "/assets/fonts/IBMPlexMono-SemiBold.ttf",
+   "status": 200,
+   "sha256": "1b137a9e116ea3eaa51b94405391c775c7912d928c2a8607c8a9f272e2c0f3f9"
+  },
+  {
+   "path": "/assets/img/Frame 1.jpg",
+   "status": 200,
+   "sha256": "eb61b763c9d74e2a20c32c4da69e1049d7c784f054a1a104a890f7f14fefd5b7"
+  },
+  {
+   "path": "/assets/img/Frame 10.jpg",
+   "status": 200,
+   "sha256": "5baa5f53a02a269f7e69687fe0fe18375327ebe94ea2a6d339d1b62e89ec6d19"
+  },
+  {
+   "path": "/assets/img/Frame 11.jpg",
+   "status": 200,
+   "sha256": "bb62bffcae3abd2b57cfac2cdf13812d16ffb61297ece6c62783099fe05e3dc3"
+  },
+  {
+   "path": "/assets/img/Frame 12.jpg",
+   "status": 200,
+   "sha256": "ae1bf2bc4e1cb90ea059b8dc3331b4c2b594c82f9b429c06d2ed01dd81b0c68a"
+  },
+  {
+   "path": "/assets/img/Frame 13.jpg",
+   "status": 200,
+   "sha256": "04f93b3e1c4f68bc150e5baa1a5d26e9e147d21a1f471eadb01f89c53f785923"
+  },
+  {
+   "path": "/assets/img/Frame 14.jpg",
+   "status": 200,
+   "sha256": "ed6ee39504347b138c2faf068227f24d5d835b4f19e848d9a1755cac803f0abf"
+  },
+  {
+   "path": "/assets/img/Frame 15.jpg",
+   "status": 200,
+   "sha256": "7c20108e3090438117eed69969b35a5a4a39fd3425ddbd08cabc6a88f53ea3eb"
+  },
+  {
+   "path": "/assets/img/Frame 2.jpg",
+   "status": 200,
+   "sha256": "e6a14a1ce981051c90c7bfc1d65c4593661b92700081e2a70fed45e95e29a5fb"
+  },
+  {
+   "path": "/assets/img/Frame 3.jpg",
+   "status": 200,
+   "sha256": "6c19411641f28494827de2a4a6e4cb3fac5e87a843b2aad496e4cd7e0d1d2354"
+  },
+  {
+   "path": "/assets/img/Frame 4.jpg",
+   "status": 200,
+   "sha256": "fb1a684b497999c6b3c85513d86d67247abaa1b65ff2efa96607bb59ecb74364"
+  },
+  {
+   "path": "/assets/img/Frame 5.jpg",
+   "status": 200,
+   "sha256": "b0fa4d11e7920a0ed30efad9ca40dc7a0a3ab90deec73bb4c916130eb6d39bfc"
+  },
+  {
+   "path": "/assets/img/Frame 6.jpg",
+   "status": 200,
+   "sha256": "e9cf60da80255f1cce586e30b24111427e081c6badc8a7ce45bd87902865dc42"
+  },
+  {
+   "path": "/assets/img/Frame 7.jpg",
+   "status": 200,
+   "sha256": "82f4977cab313c0a40f0a6721747fa1d18c56d151f2f51e99a00055c303a64bc"
+  },
+  {
+   "path": "/assets/img/Frame 8.jpg",
+   "status": 200,
+   "sha256": "ab38e8a2927004255d628e667efd6a9bb507266dcd509e6c655c628030ed1292"
+  },
+  {
+   "path": "/assets/img/Frame 9.jpg",
+   "status": 200,
+   "sha256": "b4a3676f60cc7829447ddf6e2f6c051d6fe4853db6a875fcfa1b29681aac207e"
+  },
+  {
+   "path": "/assets/img/myface.jpg",
+   "status": 200,
+   "sha256": "db0d18eab1ac5f54585025aa7b5d64256e248dc7cc7bbf448e1d13c03863ef39"
+  },
+  {
+   "path": "/assets/img/ogImage.jpg",
+   "status": 200,
+   "sha256": "d3d9c4440fa214fa1006863afede404e3d953857e1afe77a54cffe46d8d89815"
+  },
+  {
+   "path": "/assets/img/screenshot-agora.jpg",
+   "status": 200,
+   "sha256": "e75c7878410d822c041ab8ff86d6509d706a0031ff3529da36a856780bf10910"
+  },
+  {
+   "path": "/assets/img/screenshot-autoflow.jpg",
+   "status": 200,
+   "sha256": "20324efeb21d772a20bfe90288e2979054e191d0d2d402e802684648fae60e2f"
+  },
+  {
+   "path": "/assets/img/screenshot-cbmor.jpg",
+   "status": 200,
+   "sha256": "b95ff7f328d46bba234ad8ebcd49af36d0a470a599eb8015804aad704118dd2c"
+  },
+  {
+   "path": "/assets/img/screenshot-core.jpg",
+   "status": 200,
+   "sha256": "cf54c0925d9d28ef6fef89cf1495a73104b965aec2e452ec13e7ebae5578a66e"
+  },
+  {
+   "path": "/assets/img/screenshot-demos.jpg",
+   "status": 200,
+   "sha256": "2931a7f6c0e8b66812d770665f291a2a96672c530e51561ac1cc561b45e2e215"
+  },
+  {
+   "path": "/assets/img/screenshot-ds.jpg",
+   "status": 200,
+   "sha256": "16aba42104732d36964a7a684b872e4461565b7ec1bacee4650797de42d72798"
+  },
+  {
+   "path": "/assets/img/screenshot-gh.jpg",
+   "status": 200,
+   "sha256": "58d78d50d4ea6f8cb292e530de28c78b315fd4dd0472ccbee1fa364e00e84a58"
+  },
+  {
+   "path": "/assets/img/screenshot-gwd.jpg",
+   "status": 200,
+   "sha256": "aaa414b1c0a95fa4e8b0dc77745b491d657be78e4f88147f83a082b004ba4790"
+  },
+  {
+   "path": "/assets/img/screenshot-hl.jpg",
+   "status": 200,
+   "sha256": "43bc24b6c674f42e469e80347453546dedbef679c5be1f77f7f942e21d982434"
+  },
+  {
+   "path": "/assets/img/screenshot-rn.jpg",
+   "status": 200,
+   "sha256": "eb16f0f18b4ffeceb344a4171fc7d498d983e788421a052ac3fc09c1302313a5"
+  },
+  {
+   "path": "/assets/img/screenshot-sb.jpg",
+   "status": 200,
+   "sha256": "2c5085050f9eaf11d1cedbd8d22bfa35a229463efdb7b5460007dc0cad5d650c"
+  },
+  {
+   "path": "/assets/img/screenshot-soli.jpg",
+   "status": 200,
+   "sha256": "29eb0693901bd0d5b8139a22d27a6dbcfde1a22c6fe4b31604e830ac81704538"
+  },
+  {
+   "path": "/assets/img/screenshot-vector.jpg",
+   "status": 200,
+   "sha256": "a03b2d5cdf658c62e55afda776d47c7ba4bfa5b9ef80c891b075884f4b2bc327"
+  },
+  {
+   "path": "/assets/js/log-chart.js",
+   "status": 200,
+   "sha256": "85314ab762f271dcf36456f64353941f63f7d7c2957f5ca004665e40fc9c40b9"
+  },
+  {
+   "path": "/assets/js/log.js",
+   "status": 200,
+   "sha256": "af7e742b0ec9670e2fe3bb432304c9215f81879a2d3f078bbb7bafd7d5fccb80"
+  },
+  {
+   "path": "/assets/js/modal.js",
+   "status": 200,
+   "sha256": "5bf13495000fb33bb09dae28b0a1e45d2c14c612a812af801e8bf49ccf661d70"
+  },
+  {
+   "path": "/favicon.ico",
+   "status": 200,
+   "sha256": "514004eb18a08c8bd56ff175a7c0dd87f4ed7a3a3623b621c0e6c3333c5a35d7"
+  },
+  {
+   "path": "/feed",
+   "status": 200,
+   "note": "GitHub Pages served the feed here too"
+  },
+  {
+   "path": "/feed.xml",
+   "status": 200
+  },
+  {
+   "path": "/game",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/game.html",
+   "status": 200
+  },
+  {
+   "path": "/game/game.js",
+   "status": 200,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "/img/favicon/android-chrome-192x192.png",
+   "status": 200,
+   "sha256": "d1344fe880a692f09b07fc950fdb768a03a2c4467d2e23c97fd88322bbd1db16"
+  },
+  {
+   "path": "/img/favicon/apple-touch-icon.png",
+   "status": 200,
+   "sha256": "92586594a417c500e479f4a088837be4dab6ef7a836f8f22540cb382692d31c8"
+  },
+  {
+   "path": "/img/favicon/browserconfig.xml",
+   "status": 200,
+   "sha256": "4e988a67f2d6ffd1e2ed53904e7509db05521939f4706597b21d8fe0c4f275b2"
+  },
+  {
+   "path": "/img/favicon/favicon-16x16.png",
+   "status": 200,
+   "sha256": "65bd91a999c18f00b56ab21111e2b9b8f89a3eb593630441fb6e9d577a7c9b78"
+  },
+  {
+   "path": "/img/favicon/favicon-32x32.png",
+   "status": 200,
+   "sha256": "d240b2baec58050ce91dc4f65d2787cbfbd34e2a34c61cf7a086d530983746eb"
+  },
+  {
+   "path": "/img/favicon/favicon.ico",
+   "status": 200,
+   "sha256": "514004eb18a08c8bd56ff175a7c0dd87f4ed7a3a3623b621c0e6c3333c5a35d7"
+  },
+  {
+   "path": "/img/favicon/manifest.json",
+   "status": 200,
+   "sha256": "d07f2b093bb625354557006598dff8a41ed3d06f46e5785d0727ec71cfe12e9c"
+  },
+  {
+   "path": "/img/favicon/mstile-150x150.png",
+   "status": 200,
+   "sha256": "7f2ec1db3a21dfecbb542f63baa684b51ad2218a4f4a8c11ff66c237ac15e00a"
+  },
+  {
+   "path": "/img/favicon/safari-pinned-tab.svg",
+   "status": 200,
+   "sha256": "ef6e3b53d232f8f0c22bfb5bbd64a926b7e4eb4c18458ec7e2c19431ddb2c2f5"
+  },
+  {
+   "path": "/index.html",
+   "status": 200
+  },
+  {
+   "path": "/log",
+   "status": 301,
+   "location": "/log/"
+  },
+  {
+   "path": "/log/",
+   "status": 200
+  },
+  {
+   "path": "/log/index.html",
+   "status": 200
+  },
+  {
+   "path": "/oldsite",
+   "status": 301,
+   "location": "/oldsite/"
+  },
+  {
+   "path": "/oldsite/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/about",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/about.html",
+   "status": 200,
+   "sha256": "40262545d46f23bb3430dbd23a04bb05a95d029a5a6540f26911eebd68e1e0f2"
+  },
+  {
+   "path": "/oldsite/css/case.less",
+   "status": 200,
+   "sha256": "40839532faa8e3490bcb40785043011350df085a28b48e634e09a457398d1deb"
+  },
+  {
+   "path": "/oldsite/css/main.less",
+   "status": 200,
+   "sha256": "4926066fe63a9b65e520c47bd7e49ab3c638efc0b31dd0192643fb9dd7460dea"
+  },
+  {
+   "path": "/oldsite/css/reset.css",
+   "status": 200,
+   "sha256": "c1604b001ca99ed50994eb1e8f9830ae2139e56acbb1dbd3b7504fec9f45754a"
+  },
+  {
+   "path": "/oldsite/fonts/GT-Sectra-Bold.otf",
+   "status": 200,
+   "sha256": "59dcbba237ed08222ebaf8025163ac0264f3794b9a54637aca93ffef453ac0e0"
+  },
+  {
+   "path": "/oldsite/fonts/GT-Sectra-Book.ttf",
+   "status": 200,
+   "sha256": "fbf99a3de03610314eb2341ee4c0665b5773e9d334e7999bcf660ee9df9dc07d"
+  },
+  {
+   "path": "/oldsite/fonts/GT-Sectra-Medium.otf",
+   "status": 200,
+   "sha256": "4799560f6d2cda05d06bac6b0630c307512099ef7001915b930a318b1ff85d96"
+  },
+  {
+   "path": "/oldsite/fonts/TiemposHeadlineTest-Bold.woff",
+   "status": 200,
+   "sha256": "d38d9fa1bf94af35fb3e61f7ba9a2e28a9c5ebbd687a2cb0e65690f931b3777e"
+  },
+  {
+   "path": "/oldsite/fonts/TiemposHeadlineTest-Semibold.woff",
+   "status": 200,
+   "sha256": "fe4151154d29e302b1ae711abd4aadb010932f0886f9156ef48b4c278a3ec781"
+  },
+  {
+   "path": "/oldsite/fonts/TiemposTextTest-Bold.woff",
+   "status": 200,
+   "sha256": "2abfa98824fe1b3064ae23b2a8f7f03c8c8b3a4af8f582f5a1610b58d534b724"
+  },
+  {
+   "path": "/oldsite/img/about1.png",
+   "status": 200,
+   "sha256": "86e9cef8142b70c08e22030473ee3723b8a8ac4c7dce383108cea9402558c2d7"
+  },
+  {
+   "path": "/oldsite/img/about2.png",
+   "status": 200,
+   "sha256": "24a036f0be246ab5c3654a80c15e6aab44f02c5c187de00991c6e43cd68828a8"
+  },
+  {
+   "path": "/oldsite/img/about3.png",
+   "status": 200,
+   "sha256": "1eaef94cbbb10f4ba05f300575fc21d28c2ab25511b3fbff326b94ee90488946"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK0.mp4",
+   "status": 200,
+   "sha256": "b569a25afe934a855f4a9fbb64848f6b99e05fa0414aaef0737d1e8a47d65792"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK1.mp4",
+   "status": 200,
+   "sha256": "b052d3122c17c9475c601d92340be91c3799f5cb016d48f844afaaf0b03c88e7"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK2.mp4",
+   "status": 200,
+   "sha256": "1e94d0ef9023d5776737f8d303a89c2127aaa5713f6721191c0935f5ba8b72d7"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK21.mp4",
+   "status": 200,
+   "sha256": "34900058495a4fab12fe72175024ff30d48600890867654067e07b8836485a60"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK22.mp4",
+   "status": 200,
+   "sha256": "24a12006dffaa7157a3037ad7b29ae7fd8c9d0fc0b199cf51483457be61421de"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK23.mp4",
+   "status": 200,
+   "sha256": "aa7c0acdc0bb1122ddd5254fc77d2cd17cac0166806d50c48d380175789377a5"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK24.mp4",
+   "status": 200,
+   "sha256": "a5c7a7d59bac7eceb21e288e9c49ab211c5bb3618c9a20435d8ae7a928f796e2"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK3.mp4",
+   "status": 200,
+   "sha256": "6b173478a69e4b89727daa2d136672d3f10c37b779b8e06b91bf349a2d1adfb9"
+  },
+  {
+   "path": "/oldsite/img/gh/IDEK4.mp4",
+   "status": 200,
+   "sha256": "a3e17de7567590e65965232a4ecaca2ef88da88c3f2dc2a069019c1a740b420f"
+  },
+  {
+   "path": "/oldsite/img/gh/course1.gif",
+   "status": 200,
+   "sha256": "4fb2836016973ce621a5fbf169df44a29d0984d8312642abd9f45b1392fae6ae"
+  },
+  {
+   "path": "/oldsite/img/gh/course1.png",
+   "status": 200,
+   "sha256": "8089ecede79ab456728d1afe56ad3a2a3db6e4c98b95159da690c25c3bdc7208"
+  },
+  {
+   "path": "/oldsite/img/gh/course2.png",
+   "status": 200,
+   "sha256": "12ba3fb90c74b6c6a9579c1429bb9e59416ef916076d725121dc7da14456c4ab"
+  },
+  {
+   "path": "/oldsite/img/gh/course3.png",
+   "status": 200,
+   "sha256": "61ed126ef47b4b6872bfc3ec111d30624d9ef5b6f43ba6c54058289a29897719"
+  },
+  {
+   "path": "/oldsite/img/gh/course4.png",
+   "status": 200,
+   "sha256": "6991462e7feb26f1310b0ed663633f5fa2e35f0321c910bf9a8868b1425c363c"
+  },
+  {
+   "path": "/oldsite/img/gh/framerGh.png",
+   "status": 200,
+   "sha256": "6a62dd21eb447e701130f7252ae475cf938d66ea21fec4fef171c86eb8b35f82"
+  },
+  {
+   "path": "/oldsite/img/gh/hitArea.png",
+   "status": 200,
+   "sha256": "b32ed1a8a0b6620becdfbbd8591b203b79ce7ae731089a12e9098d50af934aaa"
+  },
+  {
+   "path": "/oldsite/img/gh/keyboTabs.gif",
+   "status": 200,
+   "sha256": "091fb33b48f428208524bcc7f1b87d7c92d3ff72e65ff5d6fa92c5c804e599cc"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding1.png",
+   "status": 200,
+   "sha256": "f3733af32d1a1e99e36ec5ca453dd07d9cf541f89faa120edf39e88424c1ea15"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding10.png",
+   "status": 200,
+   "sha256": "8838b2949975463693a75163ad848cd3f02133f040a97a1a8a75137aa4c1ec58"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding2.png",
+   "status": 200,
+   "sha256": "0abdb4b9487dc227fa2683a39f96d2a014373cde7d2ae97377ad612a44bb4d27"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding3.png",
+   "status": 200,
+   "sha256": "67718e8fad571253426953f29b08a0b42a4266e1d9da74836e1277c1e12da173"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding4.png",
+   "status": 200,
+   "sha256": "8295134921f58e7cf62568288456d39d86f5102263d170b7e8f1117937bf8663"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding5.png",
+   "status": 200,
+   "sha256": "c4c0507e0ffe0300b19c1fafed16e54e62eae77fc1e76255c20b943dd4dc827d"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding6.png",
+   "status": 200,
+   "sha256": "5eb14509c16675438b157b640a6ffd4cb15ce1e0cf547876e808a224b97530d5"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding7.png",
+   "status": 200,
+   "sha256": "be9c05145a277b409b5738cf34d4de9b36801c320a7cbd18d82dbe5840eeb653"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding8.png",
+   "status": 200,
+   "sha256": "98b854efc3b5b0751b3bdc67c3414e4e6942570be0946364e8d7749be2e89f78"
+  },
+  {
+   "path": "/oldsite/img/gh/onboarding9.png",
+   "status": 200,
+   "sha256": "8b84fcc33e4251953ef205b3ad7c766a40129c9ec60805ca4400428607b68ad9"
+  },
+  {
+   "path": "/oldsite/img/gh/output1.mp4",
+   "status": 200,
+   "sha256": "756e9fd954b1bbac371d28fd1618502e625dd55ea55eada1ac116d06c37e6e36"
+  },
+  {
+   "path": "/oldsite/img/gh/output2.mp4",
+   "status": 200,
+   "sha256": "3764d2a709c2597b27abe83604cbdef207148eb32484aa2bc0a39b697678565c"
+  },
+  {
+   "path": "/oldsite/img/gh/output3.mp4",
+   "status": 200,
+   "sha256": "39aecebaa0959197aa8b66ef1f1c04cae2cb7229fa12958f7277f994116b3bf5"
+  },
+  {
+   "path": "/oldsite/img/gh/output4.mp4",
+   "status": 200,
+   "sha256": "befbbc564a70b306e5520e94c273a45c70492654825bfdc95deb14ca2f56439d"
+  },
+  {
+   "path": "/oldsite/img/gh/views1.png",
+   "status": 200,
+   "sha256": "6f2ecf155f47099f97d5dc7e3c3aaae3e882842a751b8f1a1f73f66da3835d8e"
+  },
+  {
+   "path": "/oldsite/img/gh/views2.png",
+   "status": 200,
+   "sha256": "37ae1e5003dce7bd9dc6536f8f13121f313270cfe0c009484e45e2050eaf29b7"
+  },
+  {
+   "path": "/oldsite/img/gh/views3.png",
+   "status": 200,
+   "sha256": "470abf5b93cd5647542dbc1249f134f3521a792dab13c3c04d1963ad0ca60f01"
+  },
+  {
+   "path": "/oldsite/img/gh/views4.mp4",
+   "status": 200,
+   "sha256": "6231a2faef9e3cccabe7139d792d8c82d07e3167310c09dd98449606319be96d"
+  },
+  {
+   "path": "/oldsite/img/gh/views4.png",
+   "status": 200,
+   "sha256": "2fa08032f5aef86543e945ffe27067852cb3cbb0bc5285beb180ec9c96c151a9"
+  },
+  {
+   "path": "/oldsite/img/gh10.png",
+   "status": 200,
+   "sha256": "b9dcabad552635f8f2d0a64cb01a6d8c4ac5dd9c627b14eac4d7d00e5b3970a8"
+  },
+  {
+   "path": "/oldsite/img/gh20.png",
+   "status": 200,
+   "sha256": "698423874ab84f66abeca382dd0362a18f21c852b572747219d5a2d1f98edaec"
+  },
+  {
+   "path": "/oldsite/img/gh30.png",
+   "status": 200,
+   "sha256": "b14e37c39ba261b25bed24aacd89f79ef67ca6ef72b17aeccdd4d3b92edb744f"
+  },
+  {
+   "path": "/oldsite/img/gh30vid.mp4",
+   "status": 200,
+   "sha256": "f77f01af760889e7e915507a3663ec10a2ff35d1abe868f16c1d53641ce8a8a2"
+  },
+  {
+   "path": "/oldsite/img/gh40.png",
+   "status": 200,
+   "sha256": "5a0b6ba177c234f08b8b2e00c3a2e8cf4910349a6286ada0476cbe24709b0f22"
+  },
+  {
+   "path": "/oldsite/img/gh50.png",
+   "status": 200,
+   "sha256": "7a36c20b6dbf73188007a24497ab43c25de2ecc7d3189e35249cc8451fedd2df"
+  },
+  {
+   "path": "/oldsite/img/gwd10.png",
+   "status": 200,
+   "sha256": "1e87142481ca4d0fbc206602e044683e2f862657d58bb28ba49a4bbb32f5fdb3"
+  },
+  {
+   "path": "/oldsite/img/gwd20.png",
+   "status": 200,
+   "sha256": "947d8da3fab272f75072e1479328e09f2034acd121f8bdb786b5c54262b7787f"
+  },
+  {
+   "path": "/oldsite/img/hf10.png",
+   "status": 200,
+   "sha256": "3c9124052cb2b9d26a3bbb64084a2f6899ccbdc754649efaa1c052866776cc3e"
+  },
+  {
+   "path": "/oldsite/img/hy10.png",
+   "status": 200,
+   "sha256": "b9c3a1572c74cf29c748c238f0d28374162f53f58306d8445272c92457ebb7ce"
+  },
+  {
+   "path": "/oldsite/img/hy20.png",
+   "status": 200,
+   "sha256": "44ece2178f5cbbbb6863c6fd9752a094420c4d090fbf4b7bf5338c0bf80f924b"
+  },
+  {
+   "path": "/oldsite/img/phoneAbtract.png",
+   "status": 200,
+   "sha256": "2bae66924fe0571efdbe1529c2a92855b1a73c17133301202df71b26b293fe32"
+  },
+  {
+   "path": "/oldsite/img/phoneReal.png",
+   "status": 200,
+   "sha256": "4a6c896f894b7bd3ffcea8deb96c945adfa7d20e6176e9bb0fd3997a81441fa9"
+  },
+  {
+   "path": "/oldsite/img/sb10.png",
+   "status": 200,
+   "sha256": "ee95f24dfc3c75be8187bb3aec78c86f91dd173d4dd368e549239bdad110e775"
+  },
+  {
+   "path": "/oldsite/img/sb20.png",
+   "status": 200,
+   "sha256": "9c1f4f9f077ea86044aa9f0a5a6d1303f64a54e94d837b9b8c1adb677f813ba4"
+  },
+  {
+   "path": "/oldsite/img/soli10.gif",
+   "status": 200,
+   "sha256": "e147b1acdda0464c699f1038d36c79006be13e9d12929ce8812ec73127d85485"
+  },
+  {
+   "path": "/oldsite/img/test.png",
+   "status": 200,
+   "sha256": "0f5d31ff091c6e65ecc0d85e87d3d7f1e6207468abddf201ff94df632e11f59d"
+  },
+  {
+   "path": "/oldsite/img/wt10.png",
+   "status": 200,
+   "sha256": "9d9857bc01227040fa8880757f4a38315835bde5ab3cfb986e3e286262d76bc8"
+  },
+  {
+   "path": "/oldsite/index.html",
+   "status": 200,
+   "sha256": "5899c9eaa19d9eb4d45fb8342491bd388c30e5e841c0c34434a09e99199a9466"
+  },
+  {
+   "path": "/oldsite/js/case.js",
+   "status": 200,
+   "sha256": "b8f3de138ccedc9cdf03f48d1008f36359c83a47059901bcae9e1f0d12e235ff"
+  },
+  {
+   "path": "/oldsite/js/jquery-3.2.1.min.js",
+   "status": 200,
+   "sha256": "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
+  },
+  {
+   "path": "/oldsite/js/less.min.js",
+   "status": 200,
+   "sha256": "9f387c18b1347d08c93c106271a642aec6d04bd61481909384639cb7e5ab4206"
+  },
+  {
+   "path": "/oldsite/js/main.js",
+   "status": 200,
+   "sha256": "f56e7a50ffa65633b8de458a5d266e8bed3ce0b69361beba1f0a725c91f18e27"
+  },
+  {
+   "path": "/oldsite/oldsite",
+   "status": 301,
+   "location": "/oldsite/oldsite/"
+  },
+  {
+   "path": "/oldsite/oldsite/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/Résumé.pdf",
+   "status": 200,
+   "sha256": "e119682b60e76a32965f743dbcec17221a71e9cbbc9b92f7d6aa3fbd3c9d7a93"
+  },
+  {
+   "path": "/oldsite/oldsite/case1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case1.html",
+   "status": 200,
+   "sha256": "4bc53fbd86ca5b95f1fa09dbfa8849d9260a27390c95b860ef007611ad059aaf"
+  },
+  {
+   "path": "/oldsite/oldsite/case2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case2.html",
+   "status": 200,
+   "sha256": "b618b7ad111466d991025385dbe9331eb0267fb02161086a70149bb87d8aab8d"
+  },
+  {
+   "path": "/oldsite/oldsite/case3",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case3.html",
+   "status": 200,
+   "sha256": "ae5d9b555679a15cb6bdbbe98b220cfea2204ab0475c7431925193def64bf33e"
+  },
+  {
+   "path": "/oldsite/oldsite/case4",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case4.html",
+   "status": 200,
+   "sha256": "5aebc0a9ca9e13d76221ce44458fd4d05ba521796e4d997b8080d74e5839bf52"
+  },
+  {
+   "path": "/oldsite/oldsite/case5",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case5.html",
+   "status": 200,
+   "sha256": "e25007e417675a1ef3974524a7cadd983401a0d4bcbd217d0693dead994016da"
+  },
+  {
+   "path": "/oldsite/oldsite/case6",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/case6.html",
+   "status": 200,
+   "sha256": "9185445385d45e2b2a5d7545ee790baa5e4f7c20deb5a78216a4e2e87ac8188a"
+  },
+  {
+   "path": "/oldsite/oldsite/css/main.css",
+   "status": 200,
+   "sha256": "f2874d650dcb658d39bb060c564ca5d216b500457f653a48fc6af07e80a43491"
+  },
+  {
+   "path": "/oldsite/oldsite/css/reset.css",
+   "status": 200,
+   "sha256": "c1604b001ca99ed50994eb1e8f9830ae2139e56acbb1dbd3b7504fec9f45754a"
+  },
+  {
+   "path": "/oldsite/oldsite/css/roomFix.css",
+   "status": 200,
+   "sha256": "b589d61177ced5a249c766238e9af335156546e567b6e174e329ef21bf4f3910"
+  },
+  {
+   "path": "/oldsite/oldsite/css/skeleton.css",
+   "status": 200,
+   "sha256": "df183b3e887c92f7aff421e43641de2b92a9a88fd6c28ee7c9d1fcfcf570eed4"
+  },
+  {
+   "path": "/oldsite/oldsite/css/unslider-dots.css",
+   "status": 200,
+   "sha256": "92b758fa6195848b306a834a4654683aff3f7b747cf5a65c824677e481cd137d"
+  },
+  {
+   "path": "/oldsite/oldsite/css/unslider.css",
+   "status": 200,
+   "sha256": "a0b779ad590272d25a6b625b33f3d117b71ab8b77efa8266cf2ebcd90bd76764"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2",
+   "status": 301,
+   "location": "/oldsite/oldsite/hemingly2/"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/404",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/404.html",
+   "status": 200,
+   "sha256": "fb5ff3fe7eb776473c157011323b4deb02bcd54739a31ac07d1c4efceeee8528"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/archive1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/archive1.html",
+   "status": 200,
+   "sha256": "a75cecc18764f9bd346e82ee922f11b5898b1e7a93ad069805c22ea06b2fc135"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/archive2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/archive2.html",
+   "status": 200,
+   "sha256": "a703d88188778f59c4baa9db7ab9ec919d86d540757a7df385fc2fbc45eaa940"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap-theme.css",
+   "status": 200,
+   "sha256": "00768474cf7178ebe087d5154abd5756b38958a2ffb1ba2947ef500b7d8dd094"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap-theme.css.map",
+   "status": 200,
+   "sha256": "a71436a16b533dd42ca4a1a0aa1f1c823f081f0efe35b7eba870911c597fc3c1"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap-theme.min.css",
+   "status": 200,
+   "sha256": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap.css",
+   "status": 200,
+   "sha256": "ea0cbd9d40b8900cfb1b51b5c8b0c94e3c2a937451860f90c223b20193a827f9"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap.css.map",
+   "status": 200,
+   "sha256": "5909107b92bd7cfe15e0e92df57987e2ed12f452b8fd600b31a7bf55ac782849"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/bootstrap.min.css",
+   "status": 200,
+   "sha256": "31fbd99641c212a6ad3681a2397bde13c148c0ccd98385bce6a7eb7c81417d87"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/custom.css",
+   "status": 200,
+   "sha256": "d409a00055ae7038885e4e610c6d0e04222cf5f7b500c2901d5d51422c4110bb"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/main.css",
+   "status": 200,
+   "sha256": "a1cde336207522ca384d5d6a9c29a44bd06ac0f5b852cd4117a2e6c6172fd3d6"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/normalize.css",
+   "status": 200,
+   "sha256": "f4d7e8250f8f124f8b7d087e5e260766a34b079fddc43e7b20d8c18ca1e92e51"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/oldLandingPageStyle.css",
+   "status": 200,
+   "sha256": "36ce8b03a1c008a194cbba4231b935c2ee293fcd5ab30c7d23012ed74dad766b"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/skeleton.css",
+   "status": 200,
+   "sha256": "7056d83f0e913e662ed133546fafddb0b009197220d54cb15d04aaa6f8eeebfd"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/css/task_eg.css",
+   "status": 200,
+   "sha256": "6320cf091cf373f6cb3192d463c8f81ef2c2c306bdefc457268b51a7e6ef258f"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/fonts/glyphicons-halflings-regular.eot",
+   "status": 200,
+   "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/fonts/glyphicons-halflings-regular.svg",
+   "status": 200,
+   "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/fonts/glyphicons-halflings-regular.ttf",
+   "status": 200,
+   "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/fonts/glyphicons-halflings-regular.woff",
+   "status": 200,
+   "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/fonts/glyphicons-halflings-regular.woff2",
+   "status": 200,
+   "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/admin1.png",
+   "status": 200,
+   "sha256": "c2474c13b8075966e511ea0152b4e0970962cbeee091d8e3ddaaf3e418cc33d8"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/admin2.png",
+   "status": 200,
+   "sha256": "f410d63b3f922149d4c06efe57a696109f0b65a56e75780ce64bf0e398137446"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/college.png",
+   "status": 200,
+   "sha256": "7006d7f994960f7010bd6f41d56ab026e470a57cfeb3886d81659c988f80fc60"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg1.1.png",
+   "status": 200,
+   "sha256": "0ea0ee3f54cfc058d43ebe06e066c30795c7c21c226cdaee29495754353caa0a"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg1.2.png",
+   "status": 200,
+   "sha256": "e6b0fbc9b9ac33b22aeabc251dfe1608c1fb5448dc296ed2be37c1717375c758"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg1.3.png",
+   "status": 200,
+   "sha256": "7a9dc70ed135f029c9c4785924027d6f037a4839a013869ad87c84f8dd10a6e8"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg1.4.png",
+   "status": 200,
+   "sha256": "997588a5b8b0084b71556e67a1e3a1cbd33e51f1809445e818d73f5aaa2172c4"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg2.1.png",
+   "status": 200,
+   "sha256": "b9ced094186353792353f67e3a0c39986d5ba0e01b291b8947f0da500930f9fb"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg2.2.png",
+   "status": 200,
+   "sha256": "41469e73810c6b736545670b2479a21d717c5d299df774bba0935d315b203a2c"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg2.3.png",
+   "status": 200,
+   "sha256": "e156c0ed9006ecb352e688612f5ae6b1017b145fdd3c4c62067c36378260498c"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg2.4.png",
+   "status": 200,
+   "sha256": "562dba221f2d909595bb1c9b22264114fc7c9e746813555a093a3511be71d6fb"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg3.1.png",
+   "status": 200,
+   "sha256": "f06aeb6f738bb3b99cec27dde13874e713fba40d2a279346d0af3c8f3299691e"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg3.2.png",
+   "status": 200,
+   "sha256": "6498748eefe6efd271f20c6cdf8abfda9c2aa8a287a52218e6797784786327fe"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg3.3.png",
+   "status": 200,
+   "sha256": "199ab4b861a7937631a676755fcf54f79bb2a8f0e02784371df61eaffe85379a"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/eg3.4.png",
+   "status": 200,
+   "sha256": "5e536b030dfa6b528b5a90bfa2e79494b72e0e86eec3b4927cdcdc09f6df2688"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/favicon.png",
+   "status": 200,
+   "sha256": "162c4393e711436b437a07349b0fd22d8c43da12061d1d9c590f656f26392c41"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/favicon64.ico",
+   "status": 200,
+   "sha256": "c1fe3a81aa0b2ea95a86949fa2b94381803d0feb4610c7661bc8195ec3fedf9d"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/feature1.png",
+   "status": 200,
+   "sha256": "30307d2117d7a75d908afb9348d0a4be8fb42b59972273c104bfe7eec6443f59"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/feature2.png",
+   "status": 200,
+   "sha256": "d20ec63402ee6e186f121690caf0f34cab055467b049a1e44612e2b116e424c2"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/feature3.png",
+   "status": 200,
+   "sha256": "9007759f87f253c80eb4ded9446e0ad371e2eaad9ebc3d0740b7a97a95cfc24c"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/highschool.png",
+   "status": 200,
+   "sha256": "6dbb2ae0af12037227fce5011a00156caadfd992805369883296acc986ff7cbd"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/icons/1.png",
+   "status": 200,
+   "sha256": "87328c19d9edd32b2b1fa00675046f2dc715eb9b723ea161366eac3068507cc3"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/icons/2.png",
+   "status": 200,
+   "sha256": "1e7b217e23d7755cd15a8a3449b222a2c6c603f0bc8fe169ca40860e0abd6969"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/icons/3.png",
+   "status": 200,
+   "sha256": "c80c7ed26c35fe88c7ad83c78dc4a8e41919f16516ee080b85f9c9b66f21dc57"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/icons/4.png",
+   "status": 200,
+   "sha256": "cb79e0284da83b6935e40102d02da405e82268b96869a5d13483dadff3fb5523"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/immigrant.png",
+   "status": 200,
+   "sha256": "26b318f153b0ad486f21b01a6bcc00090fdb5925a2a3a20a4e22e1be52e15d62"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/now.png",
+   "status": 200,
+   "sha256": "926668536a0395ccca4486c75117422645660a764041b871d7fe0e7b78fcb4e0"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/pattern_left.png",
+   "status": 200,
+   "sha256": "16c8db78c51b81fb14aa08450bc0b39ec28e999178c5a72d06720a959057de0f"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/pattern_right.png",
+   "status": 200,
+   "sha256": "c47001a71d72518f7dd4509851dc2297fc17b5ec77ed130133f420a32cae6ba0"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/sales1.png",
+   "status": 200,
+   "sha256": "e58d0bf34868c5bbac12f7e6f13d633ffa8dbca542670f3975821f20e0ea6c9a"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/sales2.png",
+   "status": 200,
+   "sha256": "87db9f1b4fa7b997f0ff80103cc6d26b61c1e94e78080938a4711f1ee13ff7c7"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/socialmedia1.png",
+   "status": 200,
+   "sha256": "54e1bb08606062f8aaa7d03f88cb918c4e6fe0267131fdb6999868b3cb7545aa"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/socialmedia2.png",
+   "status": 200,
+   "sha256": "46a4ef7d298a10c58fa59b084f451eaced2dbb4e0f42141fdfcb198320d376c0"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/v1.png",
+   "status": 200,
+   "sha256": "df6dcd0eb189513c5bbcb15ee6f383df3803ad0c2cb46b5ed3ce8b867448ba56"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/v1pale.png",
+   "status": 200,
+   "sha256": "c7276cfe95cc354e4af90b3466c2f753d44c29193260e8ad5f85702938088470"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/v2.png",
+   "status": 200,
+   "sha256": "b173cffa75e6bde0a3c5778ef196986ce946a61c9620812ff540bd3421e28fac"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/img/v2pale.png",
+   "status": 200,
+   "sha256": "1e43fd268719c1b63c3a9e287183090b35061015bbe59e83512504397ed008b1"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/index.html",
+   "status": 200,
+   "sha256": "30ba9202021630a397b6930a33e0fe50a48c08d12878358d63303f9b527e0ac2"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/js/bootstrap.js",
+   "status": 200,
+   "sha256": "ef43a4d502ffb688656851d788c42869d47e8840d007b4f4b66f62530171acd4"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/js/bootstrap.min.js",
+   "status": 200,
+   "sha256": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/js/npm.js",
+   "status": 200,
+   "sha256": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_1.html",
+   "status": 200,
+   "sha256": "edf0bf05304d421d047c03b14cb0da0b320922c139add27baeb26a3596ea8d54"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_2.html",
+   "status": 200,
+   "sha256": "7cdc8188f3a61c3725f4d374fcfabe376e873ddfd06d2870eeb12621bcab2b6b"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_3",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/task_eg_3.html",
+   "status": 200,
+   "sha256": "bc516f0d3d16bedfe6597882ab22781cb8ec781bc8cc7db1eaf24eb161c5d050"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_landing",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_landing.html",
+   "status": 200,
+   "sha256": "451536cbaa0f9e3901186c2f133999630065f9673f3b1a5257613ad6b17d0c0f"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform1.html",
+   "status": 200,
+   "sha256": "93390f3d2083d5a25f98f1647c54ba4c1c242c5fca2475664b48f8a881411294"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform10",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform10.html",
+   "status": 200,
+   "sha256": "3f0a7cbc7782d898dd8da2baf38b399a24d200ea8df01bcd034b695be5864f60"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform11",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform11.html",
+   "status": 200,
+   "sha256": "c51c0c1f65d8f3066f8ac45a3f890ea06a37574c4abeac2ca44408130e7866a9"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform2.html",
+   "status": 200,
+   "sha256": "462ba5a297a58ff9ba38a62fcdaf3a84421e11ca4c383dcc06c9799371121616"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform3",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform3.html",
+   "status": 200,
+   "sha256": "2dcb02bf49241cf273772f19266c32e77d1c2c2523ca13f08c7d8160fcf33b70"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform4",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform4.html",
+   "status": 200,
+   "sha256": "42715a5e8694d8a1e28a3343b0bd5d72d4e68b0f7e9e5d84b77d09baa60f3861"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform5",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform5.html",
+   "status": 200,
+   "sha256": "4aaed9f6d3ff515852af85f76fe347e94f834b21ed61bf88f879eaf2de992564"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform6",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform6.html",
+   "status": 200,
+   "sha256": "4aaed9f6d3ff515852af85f76fe347e94f834b21ed61bf88f879eaf2de992564"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform7",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform7.html",
+   "status": 200,
+   "sha256": "879a2e81482c0c626931cca6fbce28beed927f2d630552766b6ffd870288c2e8"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform8",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform8.html",
+   "status": 200,
+   "sha256": "3e903ecca76f3cd68373bf3566bbcaa10c7211fa52bbfebf74fb8ae431a1b17f"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform9",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_paymentform9.html",
+   "status": 200,
+   "sha256": "72486d22e75d9b9bc61b9ce476bd99cca892c16534082db10390fd55358b6f3e"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_signup-oops",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_signup-oops.html",
+   "status": 200,
+   "sha256": "67737db0687858a18092f9ee55d5ba41e8e152d463cb3f54e99eb4eda2ab750f"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_signup-thankyou",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/hemingly2_signup-thankyou.html",
+   "status": 200,
+   "sha256": "1e20c42c4ad8d0e9353dc6a0a53e94009ebcdcfc11fb9aed9cca7a330e1493fd"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/payment",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/unused_pages/payment.html",
+   "status": 200,
+   "sha256": "7fe5293f98a2c98747e9287c6e3b6c336df8c4f43dccbee2380728dd63fd613e"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/wufoo_payment",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/hemingly2/wufoo_payment.html",
+   "status": 200,
+   "sha256": "58d0055c4886783fd98330720545df7c2556394e55379139cdaf7a6d19362a4d"
+  },
+  {
+   "path": "/oldsite/oldsite/img/Dashboard locks Copy.png",
+   "status": 200,
+   "sha256": "2b8f3a6380a8637d636fb9a8cbc4edfe1725943fc15d6f2ec833e76a69761c9b"
+  },
+  {
+   "path": "/oldsite/oldsite/img/animation.gif",
+   "status": 200,
+   "sha256": "91a3366379780d3f46e064ecca1ce4420435be16518a231b2a10ac4ff443a5ab"
+  },
+  {
+   "path": "/oldsite/oldsite/img/aptamigoAll.png",
+   "status": 200,
+   "sha256": "8751c51cc22fbb0055ba8d156ffbeff256c89ee50a44b77d1fbad4820be37f87"
+  },
+  {
+   "path": "/oldsite/oldsite/img/booking.png",
+   "status": 200,
+   "sha256": "da8fcc15b598e5afa82d2141a0c8d32d8f69c1cec8596daa20199d01946e643d"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl0.1.png",
+   "status": 200,
+   "sha256": "867661319cb7e74ee59559802c54b850d4de9ec67dd8ea374567a072067c6cba"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl0.png",
+   "status": 200,
+   "sha256": "867661319cb7e74ee59559802c54b850d4de9ec67dd8ea374567a072067c6cba"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl1.png",
+   "status": 200,
+   "sha256": "0a326a0cd0d708d798fba23d6c4c06d7fe73f11289c005bd398d2b27a262238b"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl10.png",
+   "status": 200,
+   "sha256": "e1e3b23a0d7dd74d3e7df97167b9c5e9aba9bc90fde0ed062c07d119282cb02a"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl11.png",
+   "status": 200,
+   "sha256": "c447d58c1cdd2f4fb015ac0cde657329b86fd892db6d921aeefaff7f32b08513"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl2.png",
+   "status": 200,
+   "sha256": "603e6dd9121589b604f4aa84d4413cb5173fc2d0cf43f7556b366b30705ba887"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl3.png",
+   "status": 200,
+   "sha256": "6459518cf87545094a6b1dd6aa90a524b241a48ecafa3a4a3d369642241a86a1"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl4.png",
+   "status": 200,
+   "sha256": "b1fc31850c1cce166fbb1c4d2a205a79cbec7b01570579fc24fbe255546fc1ed"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl5.png",
+   "status": 200,
+   "sha256": "5daa8b401dee90513a1b01dff78aa2cf3aec80dadf581cf369db7b26c223c6a7"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl6.png",
+   "status": 200,
+   "sha256": "8b0f479347447166668fc5fc843eb204ce8502246b42948d31179511396c7126"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl7.png",
+   "status": 200,
+   "sha256": "66b7b3266b33c4e6c716df2d476d6a29cb5e2225e86b051b914d611a0a5c92ad"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl8.png",
+   "status": 200,
+   "sha256": "7f4edc1c434f118c06dd71a37769540c41ee1b3a6eb040b07b332c73cf6bec6e"
+  },
+  {
+   "path": "/oldsite/oldsite/img/bundl9.png",
+   "status": 200,
+   "sha256": "9663671114e6b453ca0295a7178eec97644624c6400d52be41e7a2ca3048f898"
+  },
+  {
+   "path": "/oldsite/oldsite/img/case0.png",
+   "status": 200,
+   "sha256": "24af888c1bf57b6e3eee4df864d5b168a4c0be57ad30c9a2fb2e276c2691542a"
+  },
+  {
+   "path": "/oldsite/oldsite/img/case1.png",
+   "status": 200,
+   "sha256": "48e05c370e5c187b67e25e7b755cd68818b87492a1d7b215e125b122212b7f31"
+  },
+  {
+   "path": "/oldsite/oldsite/img/case2.png",
+   "status": 200,
+   "sha256": "4cec21a23463c22c3259e5560e271eb0fc4b56108ebe697c6c214b8237fcf994"
+  },
+  {
+   "path": "/oldsite/oldsite/img/case3.png",
+   "status": 200,
+   "sha256": "31deee80a13346d1d04812615578c7be0aa7cbf42d19614456afcf4c0605aac0"
+  },
+  {
+   "path": "/oldsite/oldsite/img/case4.png",
+   "status": 200,
+   "sha256": "5d99a53a8bc4f018041cc8222c630e85584b75e6cf0818575b637ace83ee9e2a"
+  },
+  {
+   "path": "/oldsite/oldsite/img/college.png",
+   "status": 200,
+   "sha256": "67ee4613df77ae1e4b69830da5be5040aafd48a369c95fea23ba658c652e0dcd"
+  },
+  {
+   "path": "/oldsite/oldsite/img/collegepic.png",
+   "status": 200,
+   "sha256": "ce668df1035b5eb7e938a592e79f38fffdb955633a186fbaf38c96ec9904876c"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/android-chrome-192x192.png",
+   "status": 200,
+   "sha256": "faeb0f416f27e70ccd77d1e992b231997cdb44d1e8d406a404e8664f18ed9fab"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/apple-touch-icon.png",
+   "status": 200,
+   "sha256": "b82a683073abcf884b6a217cb1e13a5a2ab340ec5ab714176ea9cd8166dff479"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/browserconfig.xml",
+   "status": 200,
+   "sha256": "4e988a67f2d6ffd1e2ed53904e7509db05521939f4706597b21d8fe0c4f275b2"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/favicon-16x16.png",
+   "status": 200,
+   "sha256": "d6dcf60d8675eff54236020a2d4c5028c3a984e1e88114327dfab0107d98cc2e"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/favicon-32x32.png",
+   "status": 200,
+   "sha256": "8da78939532260b7c04495aba3f60b65956af48869eaab9fc31c95fb18f636aa"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/favicon.ico",
+   "status": 200,
+   "sha256": "42a4135c6c06e99d9109db9cb81caa898f36bcad5b79804658d9b9ac8eefe182"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/manifest.json",
+   "status": 200,
+   "sha256": "b225d6a1a337956e36b78850e8dfe18f8cb9b1572ce6c5513e2b01bb8a88d779"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/mstile-150x150.png",
+   "status": 200,
+   "sha256": "af575994b47d38a2302b1e1bbc15d6cba8c2c1866eec69fd9702642839b429f4"
+  },
+  {
+   "path": "/oldsite/oldsite/img/favicon/safari-pinned-tab.svg",
+   "status": 200,
+   "sha256": "12c7f7b9334ecf0058e9d7aabd5a004bea8e214782aab5800525ae12fa79d1a1"
+  },
+  {
+   "path": "/oldsite/oldsite/img/filters.gif",
+   "status": 200,
+   "sha256": "4fe3bc895cc853bd46f5d32d2ba7d685b853cafafac33ea830628c1b977fa606"
+  },
+  {
+   "path": "/oldsite/oldsite/img/finalshow.png",
+   "status": 200,
+   "sha256": "30aecc021816992d2ef8b1d1d5fab67480ac4b282119b234ddb8092cbed994db"
+  },
+  {
+   "path": "/oldsite/oldsite/img/finalshow2.png",
+   "status": 200,
+   "sha256": "d2eacfcc83ad8a5ea960d63de8c230b61c645bdb04ddd5630dd07557cd2ffd5f"
+  },
+  {
+   "path": "/oldsite/oldsite/img/finalshowH.1.png",
+   "status": 200,
+   "sha256": "99b082910db73c02114d5ad2f39cec72c83f491a87e80fc538b1a31554c80078"
+  },
+  {
+   "path": "/oldsite/oldsite/img/finalshowH.png",
+   "status": 200,
+   "sha256": "daa38ddd996b5931c9521bc58db118a68ed0f72906f66366a122fd7edac9bfe5"
+  },
+  {
+   "path": "/oldsite/oldsite/img/fontsearch0.1.png",
+   "status": 200,
+   "sha256": "b6f19cda9d79160f03ab3d0541285b3a3121264343398396b8361e9d46620473"
+  },
+  {
+   "path": "/oldsite/oldsite/img/fontsearch0.png",
+   "status": 200,
+   "sha256": "b6f19cda9d79160f03ab3d0541285b3a3121264343398396b8361e9d46620473"
+  },
+  {
+   "path": "/oldsite/oldsite/img/groupBooking.png",
+   "status": 200,
+   "sha256": "bf37711f9eb5c4c46c97de4f9b04efa706ec65d65e7143ab764ed104130d6fae"
+  },
+  {
+   "path": "/oldsite/oldsite/img/hemingly0.1.png",
+   "status": 200,
+   "sha256": "d415590178ded3f793128408e1f0d2e2c44341f4353a3af72ed24cb3f9ed4653"
+  },
+  {
+   "path": "/oldsite/oldsite/img/hemingly0.png",
+   "status": 200,
+   "sha256": "d415590178ded3f793128408e1f0d2e2c44341f4353a3af72ed24cb3f9ed4653"
+  },
+  {
+   "path": "/oldsite/oldsite/img/hiddenMenu.gif",
+   "status": 200,
+   "sha256": "d6a3a7278a96046691496f9cd5de92239509e96feed05ecc344ffa91ffeb0669"
+  },
+  {
+   "path": "/oldsite/oldsite/img/highschool.png",
+   "status": 200,
+   "sha256": "6fdbfc7095b735b1865a8878e1f25bf4e39c7d8d4848d6630b870c580a13eae0"
+  },
+  {
+   "path": "/oldsite/oldsite/img/highschoolpic.png",
+   "status": 200,
+   "sha256": "5f8c0075b3d8076b263506539a745005214e762a49d6b66a34e8b27056c70522"
+  },
+  {
+   "path": "/oldsite/oldsite/img/iconset.png",
+   "status": 200,
+   "sha256": "ff46568227de20eedd70affe93a5229d4c765153369cdc71df2a50a7b97e81a9"
+  },
+  {
+   "path": "/oldsite/oldsite/img/immigrant.png",
+   "status": 200,
+   "sha256": "4245ed4d82616c0ba831a1a887eab978feaab63e0b7dce7b32fe9d61aeb0ba58"
+  },
+  {
+   "path": "/oldsite/oldsite/img/morestuff.gif",
+   "status": 200,
+   "sha256": "14cc4831a8f986233e8c0c7c59d35e35d6eed0bb76ce31b72074bfd58f4935ee"
+  },
+  {
+   "path": "/oldsite/oldsite/img/nonanimation.png",
+   "status": 200,
+   "sha256": "2483d7a2093f28808f045381e3bc911a940b505375e3d99a2b19e9aa6d33fde1"
+  },
+  {
+   "path": "/oldsite/oldsite/img/now.png",
+   "status": 200,
+   "sha256": "093a4d5776966747a4d6dd22ac91987f4461dcee0e8aadf0b70403fd7acb2cdb"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r1.png",
+   "status": 200,
+   "sha256": "cb11fa6127d6e269699c2d56a3badb85c9b44da478c0669fae26fca8f25470df"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r10.png",
+   "status": 200,
+   "sha256": "0533487e3dc41fe3c7c810df580f55fdc32c3668b8a6458d4af7910a92db41b8"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r12.png",
+   "status": 200,
+   "sha256": "ecf89ce6bf195c5bbb41bf81798608e16ee396373802233bd45eb8107ebba71a"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r13.png",
+   "status": 200,
+   "sha256": "561cc60f4f1e6c2a4ab20b78382f01b9cbc26cf4581efacb74358ddb37a2ce31"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r14.png",
+   "status": 200,
+   "sha256": "21bfe0d4389a917445664c40da0fe025d6c6eea502205f3fe839c81857b626a0"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r15.png",
+   "status": 200,
+   "sha256": "fd79f4d03fc874059641ecf14cf1ff1d8cab786334ce95d4a098eb00b63828bf"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r16.png",
+   "status": 200,
+   "sha256": "61b977ee968aabd58332491e95785b2bc7f57b1381623724d8f1d12951ec1b57"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r2.png",
+   "status": 200,
+   "sha256": "24b6ae6e7619266958e985ee8008e3cb7163ecca1e21fae8f73bf8cfc8ee9f6c"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r3.png",
+   "status": 200,
+   "sha256": "79ca08e81513c66765853d83910b99fc978594af489f272dc5115003fb299b63"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r4.png",
+   "status": 200,
+   "sha256": "a259feba9ba6edde27597b0cb9feaa903c4e19edb152480bb66fb1164c22d065"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r5.png",
+   "status": 200,
+   "sha256": "157cdb8ecb5717b8b3c64f0c0312294412ac94102a46149439e6d6a143571cd9"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r6.png",
+   "status": 200,
+   "sha256": "fa4c8ba1d143a703a6c8ec032068b829706ece80583172f226c0d422eaafcd6b"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r7.png",
+   "status": 200,
+   "sha256": "afec7c3753ed16d36dc7853a68553a8bc5fa54c77aa19806f19fb61180d53b5e"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r8.png",
+   "status": 200,
+   "sha256": "178c1c11efdf43aaa87e6cb82ef102039193d116c87456cd6940161e4a8bff15"
+  },
+  {
+   "path": "/oldsite/oldsite/img/r9.png",
+   "status": 200,
+   "sha256": "bcd8c31d04a97c3d82f8f3730f6b16b809f8e8ec151cb6f723d91f68987ea674"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showFontsearch.1.png",
+   "status": 200,
+   "sha256": "6299e1b649ececcd5d2b94037afb90fb61073e53b38f7ccb19cc87d955a97f8f"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showFontsearch.png",
+   "status": 200,
+   "sha256": "8408603d2d3c46f2339ca58f4f1632ecd6e5dc16f418bc85dd441974127d2d59"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase2.1.png",
+   "status": 200,
+   "sha256": "b59ea7090012f1c7d288a806cafc13ec97e0b146c3b9341a3c3861f6cc774b9b"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase2.png",
+   "status": 200,
+   "sha256": "0ffbd912e09e9e8ded8658ba87d147588a644d37d07d2c9301601d13ae7be1c5"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase3.1.png",
+   "status": 200,
+   "sha256": "5fb111ddbe9ee7e0b4db3e03cd902458437092985184941cae1e74f723ca2bb5"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase3.png",
+   "status": 200,
+   "sha256": "d78bb6d38ccc7f762d4660ce59ac3fd74842feb4a87116ec582ea08383f1eaf7"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase4.png",
+   "status": 200,
+   "sha256": "50438af1f386593186a758af4a2a2765644aca4f6290654c8abecb8047df363c"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase5.png",
+   "status": 200,
+   "sha256": "4e6f8b23d5387f5af9adb2de00fe4aefa53447fdd858db3985f87255c5cbc0d3"
+  },
+  {
+   "path": "/oldsite/oldsite/img/showcase6.png",
+   "status": 200,
+   "sha256": "db62e1f5acabbfcd773d4cb3de2817cdc1535b1ce06f72975e4b805cb943a338"
+  },
+  {
+   "path": "/oldsite/oldsite/img/sliders.png",
+   "status": 200,
+   "sha256": "7bf4d1e2c097bfb181f34b1f416f6cc7081deee37ee3bd38f2ac599eb73dfae9"
+  },
+  {
+   "path": "/oldsite/oldsite/img/smallhemingly.png",
+   "status": 200,
+   "sha256": "a327a0d2021c7512750cd382e7c95f31e0cc6915f83e9e142334dfbe9b19e1d4"
+  },
+  {
+   "path": "/oldsite/oldsite/img/spreadsheet1.png",
+   "status": 200,
+   "sha256": "5c441c9e687070097c26389207ee2085f1c5aa40a857ce5fdf7f97df14609732"
+  },
+  {
+   "path": "/oldsite/oldsite/img/spreadsheet2.png",
+   "status": 200,
+   "sha256": "23dba93c1d9760d73c607a4fda061c036ca4c3db3dcb2647e9c68ab130af3438"
+  },
+  {
+   "path": "/oldsite/oldsite/img/spreadsheet3.png",
+   "status": 200,
+   "sha256": "efa623a9f147d10ae9eac7b82b777aa9492fd0d384908d5ad5b5883a1c807bca"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tagfonts.png",
+   "status": 200,
+   "sha256": "1b26f5d259c90f4a66ef6f1b9fc28e14743fc5109453893d42849436b2900f81"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow2.png",
+   "status": 200,
+   "sha256": "d5c70dd4d2ce0edc8f19fb86f1b820810b56a8c0a0102a0c6b28dad49f18ba75"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.1.png",
+   "status": 200,
+   "sha256": "571a3eba6d293cfcff473c5052d95680dcaa6b3c9ece407c714da692b7ca00dc"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.2.png",
+   "status": 200,
+   "sha256": "03de6768d62a5011bd62ead79d7475e5bdd3bf41b490b24d0db00a55cf0100a1"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.3.png",
+   "status": 200,
+   "sha256": "f30b79ddf52bca10ac8c943251523bd5041bee6ca4fe2b2ce314b9f21c9e7411"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.4.png",
+   "status": 200,
+   "sha256": "e0cdef1d0a1e1b4416bba5e4b60f2b6c964699cf12ee9954ac3def8a6ef95440"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.5.png",
+   "status": 200,
+   "sha256": "7624ae46a3fa284b1fe50007a1cc3824067912e4830358e7d80b8d6214a3c3f7"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow3.png",
+   "status": 200,
+   "sha256": "bc62f62f68663ca522570d18d19ea18f972f5b64a6c497512931216be9b3546d"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow4.png",
+   "status": 200,
+   "sha256": "b2153476d5fb7ed45a30e1c5e0c9c6cd072884079c56cfcd54bc807c641fc127"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow5.1.png",
+   "status": 200,
+   "sha256": "987829bd3a6a48f57eaa694010aa49bf731f502beba83c8a5c25c926c7a0aed7"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow5.2.png",
+   "status": 200,
+   "sha256": "9114b4542fb0949b4370067075200750784adb62efea6a62bf2cb23bff98f44d"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow5.3.png",
+   "status": 200,
+   "sha256": "053015c862ad09db29b20f07dea3fad09a3854b137775e1fd3a612febbdd52c4"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow5.png",
+   "status": 200,
+   "sha256": "bac0442b77ce5fcb11547c4eec51e27e857430ec4e484fc4daadae3f111a70c1"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow6.1.png",
+   "status": 200,
+   "sha256": "5152ef83f62e8a29f96b72f9a8d4469c24d48b7e148e99ace61e7e07a149a348"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow6.2.png",
+   "status": 200,
+   "sha256": "a9b5e43c915e176b5c5c579f89d4f8d5d1c5df3912fa6a997800b8555894b429"
+  },
+  {
+   "path": "/oldsite/oldsite/img/tempshow6.png",
+   "status": 200,
+   "sha256": "1cc19ced3abf0977c28f526d54583b4737a5a10cf1d8972276dfda5cdfca1f36"
+  },
+  {
+   "path": "/oldsite/oldsite/index.html",
+   "status": 200,
+   "sha256": "2887356c92a02025a8a353ba1fc1f882ab2312e4fbc3ed595fbb3a90756d9d33"
+  },
+  {
+   "path": "/oldsite/oldsite/js/case.js",
+   "status": 200,
+   "sha256": "09637e55e19609dd4af602abb906a488c405e74d2cd2e907bb50c955ba5644a4"
+  },
+  {
+   "path": "/oldsite/oldsite/js/jquery-3.0.0.min.js",
+   "status": 200,
+   "sha256": "266bcea0bb58b26aa5b16c5aee60d22ccc1ae9d67daeb21db6bad56119c3447d"
+  },
+  {
+   "path": "/oldsite/oldsite/js/main.js",
+   "status": 200,
+   "sha256": "8d9dd644bf9756be1bc5c39be6fd635cf5579858db48b8418ef4145adab42b33"
+  },
+  {
+   "path": "/oldsite/oldsite/js/unslider-min.js",
+   "status": 200,
+   "sha256": "68ccb3e710e9f83015617a055d3c3aa203cc60e872f128665869dd9a69ade0c5"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite",
+   "status": 301,
+   "location": "/oldsite/oldsite/oldsite/"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/case1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/case1.html",
+   "status": 200,
+   "sha256": "fbe6429980ec43a2a53e71c2a2a069b01d9608324866e1e7d1738a949f7471cc"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/css/main.css",
+   "status": 200,
+   "sha256": "0e92bb4105d32d765d449428be04643744281270ff252f1c09f8236a3bf963e5"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/css/reset.css",
+   "status": 200,
+   "sha256": "c1604b001ca99ed50994eb1e8f9830ae2139e56acbb1dbd3b7504fec9f45754a"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/css/skeleton.css",
+   "status": 200,
+   "sha256": "236553f9babd0efdb45d2febb558a02235cd331e25a6b6794cc93ce60eab8bbf"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/case1.gif",
+   "status": 200,
+   "sha256": "91d1a953fccd065e5c0c9679e490bc2d355b5ed1129a72223de799289246866b"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/case1.png",
+   "status": 200,
+   "sha256": "569a7c4b5707e5c5a6032d98362d6c6d0dba6eb617b1e589b217c0ce53ee9010"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/case2.png",
+   "status": 200,
+   "sha256": "704385c55cbf832015dd9b01a2ddd623d107834dce25bea5ed635a95f3687332"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/case3.gif",
+   "status": 200,
+   "sha256": "9177d506f840cc880f7befc800ad9eee893bb818fc3edecca4c9dd803071aa28"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/case3.png",
+   "status": 200,
+   "sha256": "6075cd3277168721313e5d853017ae0f773991100a781c8d4368880abc3bc02d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/showcase.png",
+   "status": 200,
+   "sha256": "c6a503aed4883e1470cd9cdc10061519d4b2f28b5b830b27422af04704b3b30d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/smallcase1.png",
+   "status": 200,
+   "sha256": "fe4598b3ac11d82185434e0744035634a507ff75e7b2a675acaf0af50d2c3299"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/img/smallcase2.png",
+   "status": 200,
+   "sha256": "f1ea98617060e70d77794ba5b86ae9ec1c79be3579e36d785c5300994f79b2c1"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/index.html",
+   "status": 200,
+   "sha256": "8b7e5289c5f24d01b84fbf1329efa8fe340da73a5a8061668be159404f9f105f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/js/jquery-3.0.0.min.js",
+   "status": 200,
+   "sha256": "266bcea0bb58b26aa5b16c5aee60d22ccc1ae9d67daeb21db6bad56119c3447d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/js/main.js",
+   "status": 200,
+   "sha256": "4b9c30cdc77b771de04c38b7aee7ef83d76f8f5081fef69cc16d0cbc8ac1f386"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite",
+   "status": 301,
+   "location": "/oldsite/oldsite/oldsite/oldoldsite/"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/CNAME",
+   "status": 200,
+   "sha256": "a87db85c5d5a2d1df3087d5fe97f149ff6e21c650e13f49df9cece695bcc89ca"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/LICENSE.md",
+   "status": 200,
+   "sha256": "bce6ade73328a204c1796f89f228a28352cc3d748cd1435684867ad821e42b4f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/README.md",
+   "status": 200,
+   "sha256": "8aceed6b1004caa3537e4c2a3b219282ae95f5f3938e49aeb1ec66eda34d3d24"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/about",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/about.html",
+   "status": 200,
+   "sha256": "40a78e639d6a5f127b511b04fdc9c43d047a20be59c1c15916bd6819e7086d31"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/aiesec",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/aiesec.html",
+   "status": 200,
+   "sha256": "06f26130db65d0bfa0e84213d0c75d583c8de3adccba980d251795fe398f93a3"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/ayearofbooks",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/ayearofbooks.html",
+   "status": 200,
+   "sha256": "fbbf61eadd3984e20f1813b7dfbfb7753fee91839c1f59c3288025b30cb285af"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/css/custom.css",
+   "status": 200,
+   "sha256": "7e819350ba964afd4efb512d2deeb2b09aefbf94b1e0254a5cb8508c72242c5a"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/css/customcase.css",
+   "status": 200,
+   "sha256": "09c65c0325c18801861a33e6d20465ef28fc4fa97c493cd5c11d328fd5e11278"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/css/normalize.css",
+   "status": 200,
+   "sha256": "f4d7e8250f8f124f8b7d087e5e260766a34b079fddc43e7b20d8c18ca1e92e51"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/css/skeleton.css",
+   "status": 200,
+   "sha256": "d72e0773572e602426f4ddad8c28cad000a88ca68b03c5d132ec4b30b1b05286"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/hemingly",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/hemingly.html",
+   "status": 200,
+   "sha256": "33928059624ea26e67bd61de171426f6845ab84e063a50c1fd6f141b9ba71bcc"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/1.png",
+   "status": 200,
+   "sha256": "a00a7a23641a81ada48e21225953f200e7b38e9257383592c7dea74fa7d37807"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/2.png",
+   "status": 200,
+   "sha256": "49778282f236df8e7f3a7f0070d1f883e223623629e08923e4f29c8203dd270e"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/3.png",
+   "status": 200,
+   "sha256": "2e6468b4419c2615154c3f37b58d51be14ac333b44585f06d9ecea208594eaad"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/4.png",
+   "status": 200,
+   "sha256": "7d1a7b7036596d98ca425f46e212c54e2e8b67e0bbd066806c510f30b2ed8582"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/5.png",
+   "status": 200,
+   "sha256": "c2a0b91d6dfa066f72b9115b7c226d62914157705105fbb2f19a05fadbfcdd3d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/6.png",
+   "status": 200,
+   "sha256": "e368b71b29ebe41b79d8f2770def708fec4cf99c1a2e536e77999024127ba847"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/7.png",
+   "status": 200,
+   "sha256": "71dde133c8ab350ac0f0d1a0e24c1b373dd72e7664d8e637f9d1d6e08694a449"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/Front.png",
+   "status": 200,
+   "sha256": "5828f3620e4c9616b24a19a103f7b9993584ae718d3154dc8ff98076195241d8"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/aiesecbg.png",
+   "status": 200,
+   "sha256": "6117c86b52d760d3d9db5edb4d2d2a93041d858039d702b8e2200e7116cd2754"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/areview1.png",
+   "status": 200,
+   "sha256": "27d8288910ea750d0b3d83b799b65f64df3530b3dbc208a82c777e9bcee42278"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/areview2.png",
+   "status": 200,
+   "sha256": "55ff8cdc14581db7f776c9e77140ef8f3a8d597be5499c4070018ce46142f07d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/areview3.png",
+   "status": 200,
+   "sha256": "42a6d64a342fd504c9aca06c71a1f3b8dc4f8135022cbc5504c6db7bf472b4df"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/ayearofbooksbg.png",
+   "status": 200,
+   "sha256": "4ff98cd7f8b5460c2d49cecdb05277ba51ebf36b951887284efcc116eea3e594"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/ayearofbookscase.png",
+   "status": 200,
+   "sha256": "bfd672fa63508bd93312ea8d1f369f4809f428d236e30362aeeecaec4131fcb6"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/back.png",
+   "status": 200,
+   "sha256": "fd53ea09ef712187875c329b6722e7f4edb9cb39e8e20893d3eea6381d9e9325"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/favicon.png",
+   "status": 200,
+   "sha256": "0afd8c5de9b4d231e7fb6c4772876ff77db3e807da3696f726107b02ee90adbd"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/heminglybg.png",
+   "status": 200,
+   "sha256": "5114bdd726a0905fe547dcc35d97c0066e2791f21f6b38fa90e1e574cafef37f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/heminglycase.png",
+   "status": 200,
+   "sha256": "4674e39a4043e2413412be8ed29894ab354ed2325bec80424ed507c27be144b6"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/me.png",
+   "status": 200,
+   "sha256": "6467b1c2850f41fcf19beae336df10a589822472cf8750160b9f2b4727d23880"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/mememe.png",
+   "status": 200,
+   "sha256": "28d3e67fb95ffd8f97df0ce712253914a3dc7952cdfe4be7b2d7db1288075998"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/mountainbg.png",
+   "status": 200,
+   "sha256": "1691b4e73aabe36debf8a666bfdee1c14ae9c38e06993e63b6e92e229f5955b1"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/prototypebg.png",
+   "status": 200,
+   "sha256": "41bc18181339f9010bddf56e207fea1db8d069b09dd39e51d41afd053f487675"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/prototypecase.png",
+   "status": 200,
+   "sha256": "6892891858d4ae8ba868b4df8359a397e9fad753a42345f4c658548d510a9ce3"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/rreview1.png",
+   "status": 200,
+   "sha256": "19ee62fc180cf550b152db28bc4228a91cfdd2174565163562214b7884dcc70d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/rreview2.png",
+   "status": 200,
+   "sha256": "931c04a4752ff0b24b1efd70d697ddbc08e6c9b81ebbe1b9bea458f37f616ce2"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/santrovelobg.png",
+   "status": 200,
+   "sha256": "7dc8e0827041e3a72aacd08b3c42c061c45b31daaedf1bc13289408c7e5df7cb"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/santrovelocase.png",
+   "status": 200,
+   "sha256": "211fe8f66b5cd4ea32a80d69f83cebca09f56b7d158173a6a0f10a4b65ef01cc"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/test1.png",
+   "status": 200,
+   "sha256": "698c2f43cfbc9a41e7debbf777f3e2649a005fd19e0ea2896c5f66d6249544a7"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/test2.png",
+   "status": 200,
+   "sha256": "d2d69a67761267151f27c53194ec76a29814a6df3f6eaa8f5b3f41fc2c227dc4"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/workflowybg.png",
+   "status": 200,
+   "sha256": "73be354037cce27425ccba078f55935030203cd40b94d1fd3aacdcceb6604a6b"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/img/workflowycase.png",
+   "status": 200,
+   "sha256": "c577cb2df3f80cadeb93f730158fea9534b827ee92fd786d24bc714261a2ac01"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/index.html",
+   "status": 200,
+   "sha256": "1b6f328a778fe474a2520a2a0662ea340fc2ce248bc194db7a7a6f1cbca97c28"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/js/jquery-1.12.1.min.js",
+   "status": 200,
+   "sha256": "2359d383bf2d4ab65ebf7923bdf74ce40e4093f6e58251b395a64034b3c39772"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/mountain",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/mountain.html",
+   "status": 200,
+   "sha256": "6034d661b1c33bf17970d36ed471d3b2ce05c5eafad18c7087da8cbe822324ce"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite",
+   "status": 301,
+   "location": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/climb",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/climb.html",
+   "status": 200,
+   "sha256": "3072967d7e931898eaab71c50da17fb7bc3a8d320c9209f05d172f07f20cb64b"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/css/custom.css",
+   "status": 200,
+   "sha256": "e93518c430afa49fccf1244efa66e0ba0b2e6e22b5b792a786d96775b126ddec"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/css/normalize.css",
+   "status": 200,
+   "sha256": "f4d7e8250f8f124f8b7d087e5e260766a34b079fddc43e7b20d8c18ca1e92e51"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/css/skeleton.css",
+   "status": 200,
+   "sha256": "f18549b3d663c19adf630ebff76ee0c547151e450f2882dea339fdc902327ac8"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2",
+   "status": 301,
+   "location": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/",
+   "status": 200
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/404",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/404.html",
+   "status": 200,
+   "sha256": "fb5ff3fe7eb776473c157011323b4deb02bcd54739a31ac07d1c4efceeee8528"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/archive1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/archive1.html",
+   "status": 200,
+   "sha256": "a75cecc18764f9bd346e82ee922f11b5898b1e7a93ad069805c22ea06b2fc135"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/archive2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/archive2.html",
+   "status": 200,
+   "sha256": "a703d88188778f59c4baa9db7ab9ec919d86d540757a7df385fc2fbc45eaa940"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap-theme.css",
+   "status": 200,
+   "sha256": "00768474cf7178ebe087d5154abd5756b38958a2ffb1ba2947ef500b7d8dd094"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap-theme.css.map",
+   "status": 200,
+   "sha256": "a71436a16b533dd42ca4a1a0aa1f1c823f081f0efe35b7eba870911c597fc3c1"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap-theme.min.css",
+   "status": 200,
+   "sha256": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap.css",
+   "status": 200,
+   "sha256": "ea0cbd9d40b8900cfb1b51b5c8b0c94e3c2a937451860f90c223b20193a827f9"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap.css.map",
+   "status": 200,
+   "sha256": "5909107b92bd7cfe15e0e92df57987e2ed12f452b8fd600b31a7bf55ac782849"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/bootstrap.min.css",
+   "status": 200,
+   "sha256": "31fbd99641c212a6ad3681a2397bde13c148c0ccd98385bce6a7eb7c81417d87"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/custom.css",
+   "status": 200,
+   "sha256": "d409a00055ae7038885e4e610c6d0e04222cf5f7b500c2901d5d51422c4110bb"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/main.css",
+   "status": 200,
+   "sha256": "a1cde336207522ca384d5d6a9c29a44bd06ac0f5b852cd4117a2e6c6172fd3d6"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/normalize.css",
+   "status": 200,
+   "sha256": "f4d7e8250f8f124f8b7d087e5e260766a34b079fddc43e7b20d8c18ca1e92e51"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/oldLandingPageStyle.css",
+   "status": 200,
+   "sha256": "36ce8b03a1c008a194cbba4231b935c2ee293fcd5ab30c7d23012ed74dad766b"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/skeleton.css",
+   "status": 200,
+   "sha256": "7056d83f0e913e662ed133546fafddb0b009197220d54cb15d04aaa6f8eeebfd"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/css/task_eg.css",
+   "status": 200,
+   "sha256": "6320cf091cf373f6cb3192d463c8f81ef2c2c306bdefc457268b51a7e6ef258f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/fonts/glyphicons-halflings-regular.eot",
+   "status": 200,
+   "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/fonts/glyphicons-halflings-regular.svg",
+   "status": 200,
+   "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/fonts/glyphicons-halflings-regular.ttf",
+   "status": 200,
+   "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/fonts/glyphicons-halflings-regular.woff",
+   "status": 200,
+   "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/fonts/glyphicons-halflings-regular.woff2",
+   "status": 200,
+   "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/admin1.png",
+   "status": 200,
+   "sha256": "c2474c13b8075966e511ea0152b4e0970962cbeee091d8e3ddaaf3e418cc33d8"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/admin2.png",
+   "status": 200,
+   "sha256": "f410d63b3f922149d4c06efe57a696109f0b65a56e75780ce64bf0e398137446"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg1.1.png",
+   "status": 200,
+   "sha256": "0ea0ee3f54cfc058d43ebe06e066c30795c7c21c226cdaee29495754353caa0a"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg1.2.png",
+   "status": 200,
+   "sha256": "e6b0fbc9b9ac33b22aeabc251dfe1608c1fb5448dc296ed2be37c1717375c758"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg1.3.png",
+   "status": 200,
+   "sha256": "7a9dc70ed135f029c9c4785924027d6f037a4839a013869ad87c84f8dd10a6e8"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg1.4.png",
+   "status": 200,
+   "sha256": "997588a5b8b0084b71556e67a1e3a1cbd33e51f1809445e818d73f5aaa2172c4"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg2.1.png",
+   "status": 200,
+   "sha256": "b9ced094186353792353f67e3a0c39986d5ba0e01b291b8947f0da500930f9fb"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg2.2.png",
+   "status": 200,
+   "sha256": "41469e73810c6b736545670b2479a21d717c5d299df774bba0935d315b203a2c"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg2.3.png",
+   "status": 200,
+   "sha256": "e156c0ed9006ecb352e688612f5ae6b1017b145fdd3c4c62067c36378260498c"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg2.4.png",
+   "status": 200,
+   "sha256": "562dba221f2d909595bb1c9b22264114fc7c9e746813555a093a3511be71d6fb"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg3.1.png",
+   "status": 200,
+   "sha256": "f06aeb6f738bb3b99cec27dde13874e713fba40d2a279346d0af3c8f3299691e"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg3.2.png",
+   "status": 200,
+   "sha256": "6498748eefe6efd271f20c6cdf8abfda9c2aa8a287a52218e6797784786327fe"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg3.3.png",
+   "status": 200,
+   "sha256": "199ab4b861a7937631a676755fcf54f79bb2a8f0e02784371df61eaffe85379a"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/eg3.4.png",
+   "status": 200,
+   "sha256": "5e536b030dfa6b528b5a90bfa2e79494b72e0e86eec3b4927cdcdc09f6df2688"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/favicon.png",
+   "status": 200,
+   "sha256": "162c4393e711436b437a07349b0fd22d8c43da12061d1d9c590f656f26392c41"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/favicon64.ico",
+   "status": 200,
+   "sha256": "c1fe3a81aa0b2ea95a86949fa2b94381803d0feb4610c7661bc8195ec3fedf9d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/feature1.png",
+   "status": 200,
+   "sha256": "30307d2117d7a75d908afb9348d0a4be8fb42b59972273c104bfe7eec6443f59"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/feature2.png",
+   "status": 200,
+   "sha256": "d20ec63402ee6e186f121690caf0f34cab055467b049a1e44612e2b116e424c2"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/feature3.png",
+   "status": 200,
+   "sha256": "9007759f87f253c80eb4ded9446e0ad371e2eaad9ebc3d0740b7a97a95cfc24c"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/icons/1.png",
+   "status": 200,
+   "sha256": "87328c19d9edd32b2b1fa00675046f2dc715eb9b723ea161366eac3068507cc3"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/icons/2.png",
+   "status": 200,
+   "sha256": "1e7b217e23d7755cd15a8a3449b222a2c6c603f0bc8fe169ca40860e0abd6969"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/icons/3.png",
+   "status": 200,
+   "sha256": "c80c7ed26c35fe88c7ad83c78dc4a8e41919f16516ee080b85f9c9b66f21dc57"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/icons/4.png",
+   "status": 200,
+   "sha256": "cb79e0284da83b6935e40102d02da405e82268b96869a5d13483dadff3fb5523"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/pattern_left.png",
+   "status": 200,
+   "sha256": "16c8db78c51b81fb14aa08450bc0b39ec28e999178c5a72d06720a959057de0f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/pattern_right.png",
+   "status": 200,
+   "sha256": "c47001a71d72518f7dd4509851dc2297fc17b5ec77ed130133f420a32cae6ba0"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/sales1.png",
+   "status": 200,
+   "sha256": "e58d0bf34868c5bbac12f7e6f13d633ffa8dbca542670f3975821f20e0ea6c9a"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/sales2.png",
+   "status": 200,
+   "sha256": "87db9f1b4fa7b997f0ff80103cc6d26b61c1e94e78080938a4711f1ee13ff7c7"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/socialmedia1.png",
+   "status": 200,
+   "sha256": "54e1bb08606062f8aaa7d03f88cb918c4e6fe0267131fdb6999868b3cb7545aa"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/socialmedia2.png",
+   "status": 200,
+   "sha256": "46a4ef7d298a10c58fa59b084f451eaced2dbb4e0f42141fdfcb198320d376c0"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/v1.png",
+   "status": 200,
+   "sha256": "df6dcd0eb189513c5bbcb15ee6f383df3803ad0c2cb46b5ed3ce8b867448ba56"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/v1pale.png",
+   "status": 200,
+   "sha256": "c7276cfe95cc354e4af90b3466c2f753d44c29193260e8ad5f85702938088470"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/v2.png",
+   "status": 200,
+   "sha256": "b173cffa75e6bde0a3c5778ef196986ce946a61c9620812ff540bd3421e28fac"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/img/v2pale.png",
+   "status": 200,
+   "sha256": "1e43fd268719c1b63c3a9e287183090b35061015bbe59e83512504397ed008b1"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/index.html",
+   "status": 200,
+   "sha256": "30ba9202021630a397b6930a33e0fe50a48c08d12878358d63303f9b527e0ac2"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/js/bootstrap.js",
+   "status": 200,
+   "sha256": "ef43a4d502ffb688656851d788c42869d47e8840d007b4f4b66f62530171acd4"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/js/bootstrap.min.js",
+   "status": 200,
+   "sha256": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/js/npm.js",
+   "status": 200,
+   "sha256": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_1.html",
+   "status": 200,
+   "sha256": "edf0bf05304d421d047c03b14cb0da0b320922c139add27baeb26a3596ea8d54"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_2.html",
+   "status": 200,
+   "sha256": "7cdc8188f3a61c3725f4d374fcfabe376e873ddfd06d2870eeb12621bcab2b6b"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_3",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/task_eg_3.html",
+   "status": 200,
+   "sha256": "bc516f0d3d16bedfe6597882ab22781cb8ec781bc8cc7db1eaf24eb161c5d050"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_landing",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_landing.html",
+   "status": 200,
+   "sha256": "451536cbaa0f9e3901186c2f133999630065f9673f3b1a5257613ad6b17d0c0f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform1",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform1.html",
+   "status": 200,
+   "sha256": "93390f3d2083d5a25f98f1647c54ba4c1c242c5fca2475664b48f8a881411294"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform10",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform10.html",
+   "status": 200,
+   "sha256": "3f0a7cbc7782d898dd8da2baf38b399a24d200ea8df01bcd034b695be5864f60"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform11",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform11.html",
+   "status": 200,
+   "sha256": "c51c0c1f65d8f3066f8ac45a3f890ea06a37574c4abeac2ca44408130e7866a9"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform2",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform2.html",
+   "status": 200,
+   "sha256": "462ba5a297a58ff9ba38a62fcdaf3a84421e11ca4c383dcc06c9799371121616"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform3",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform3.html",
+   "status": 200,
+   "sha256": "2dcb02bf49241cf273772f19266c32e77d1c2c2523ca13f08c7d8160fcf33b70"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform4",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform4.html",
+   "status": 200,
+   "sha256": "42715a5e8694d8a1e28a3343b0bd5d72d4e68b0f7e9e5d84b77d09baa60f3861"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform5",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform5.html",
+   "status": 200,
+   "sha256": "4aaed9f6d3ff515852af85f76fe347e94f834b21ed61bf88f879eaf2de992564"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform6",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform6.html",
+   "status": 200,
+   "sha256": "4aaed9f6d3ff515852af85f76fe347e94f834b21ed61bf88f879eaf2de992564"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform7",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform7.html",
+   "status": 200,
+   "sha256": "879a2e81482c0c626931cca6fbce28beed927f2d630552766b6ffd870288c2e8"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform8",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform8.html",
+   "status": 200,
+   "sha256": "3e903ecca76f3cd68373bf3566bbcaa10c7211fa52bbfebf74fb8ae431a1b17f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform9",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_paymentform9.html",
+   "status": 200,
+   "sha256": "72486d22e75d9b9bc61b9ce476bd99cca892c16534082db10390fd55358b6f3e"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_signup-oops",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_signup-oops.html",
+   "status": 200,
+   "sha256": "67737db0687858a18092f9ee55d5ba41e8e152d463cb3f54e99eb4eda2ab750f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_signup-thankyou",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/hemingly2_signup-thankyou.html",
+   "status": 200,
+   "sha256": "1e20c42c4ad8d0e9353dc6a0a53e94009ebcdcfc11fb9aed9cca7a330e1493fd"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/payment",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/unused_pages/payment.html",
+   "status": 200,
+   "sha256": "7fe5293f98a2c98747e9287c6e3b6c336df8c4f43dccbee2380728dd63fd613e"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/wufoo_payment",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/hemingly2/wufoo_payment.html",
+   "status": 200,
+   "sha256": "58d0055c4886783fd98330720545df7c2556394e55379139cdaf7a6d19362a4d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/1.png",
+   "status": 200,
+   "sha256": "34dc2d8a50ce84c564b3efb96f737d51e66ce2098d4a92de45af9171b980e74d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/2.png",
+   "status": 200,
+   "sha256": "db2d22acbaf079dbb781cf6d8638e02478ee82325d1121905356e45a59ddc62d"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/3.png",
+   "status": 200,
+   "sha256": "3ffa5230d87ba278e902ae2534fbbb09b693227e4a1541199bb530aa99a7d0ee"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/4.png",
+   "status": 200,
+   "sha256": "dd444197693543fe6b000bc397472ca1fd2f0964c6ef99f70e2bfcb7dedfe248"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/5.png",
+   "status": 200,
+   "sha256": "ded233023dfb8e3d3782645de6180a517d06de7484c0a0d973aa931035ca434f"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/6.png",
+   "status": 200,
+   "sha256": "7147cd6757c40f91664d770a08b643123e8cf1a409a30bff6e8fc4501c18a4fe"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/7.png",
+   "status": 200,
+   "sha256": "33c41801f151e67fc48803065e00690d22e151b066242c1c5fc96f44aad79a78"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/img/8.png",
+   "status": 200,
+   "sha256": "9465a33fe491f1886f2e343eeaca5f1e4bfac887c9e3d6ebca89a45a613dbbb9"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/index.html",
+   "status": 200,
+   "sha256": "c28149b6fd7ad50369dbbf5d4a18e3b1f1407f7fb09732802aa7bee48b3f7499"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/js/jquery-1.12.1.min.js",
+   "status": 200,
+   "sha256": "2359d383bf2d4ab65ebf7923bdf74ce40e4093f6e58251b395a64034b3c39772"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/oldoldoldsite/yitong-cv.pdf",
+   "status": 200,
+   "sha256": "3478334925f43f7f48ae0e9a3d4a2fc8af37d8fb8a7745f8fc9b0fe4e8cf60e6"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/prototype",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/prototype.html",
+   "status": 200,
+   "sha256": "25bace4e34dc7dc99ccb5f0cbf36766b688b11c61f8a7a009f9de0f757d1ab32"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/room",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/room.html",
+   "status": 200,
+   "sha256": "9a053ca0e009bcd693eb36f051acf68e4d855d78e8ad316781d1e4e214b7b1e5"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/santrovelo",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/santrovelo.html",
+   "status": 200,
+   "sha256": "c5392a6accced4bd02624a925abe1cd42fc893b3d35a59eac95a6692c1654a70"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/work",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/work.html",
+   "status": 200,
+   "sha256": "5afcf8ebab10bb4de57ecb55b0453b3df10de60c91229d76999a1dce3002d071"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/workflowy",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/workflowy.html",
+   "status": 200,
+   "sha256": "b735c220e516b7c7c3c52bdc062911d747edb14f76c4a4339d4215eef925a189"
+  },
+  {
+   "path": "/oldsite/oldsite/oldsite/oldoldsite/yitong-cv.pdf",
+   "status": 200,
+   "sha256": "3478334925f43f7f48ae0e9a3d4a2fc8af37d8fb8a7745f8fc9b0fe4e8cf60e6"
+  },
+  {
+   "path": "/oldsite/oldsite/people",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/people.html",
+   "status": 200,
+   "sha256": "624e68ae64e2de0e47ddb3d3af2554bedcfc324d1bcdc8e1f3ba073fa1845fdc"
+  },
+  {
+   "path": "/oldsite/oldsite/roommate",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/roommate.html",
+   "status": 200,
+   "sha256": "c63771a290552591050e0eb6b1f3e40552c9fec0f11435f19f99461b23ce74a4"
+  },
+  {
+   "path": "/oldsite/oldsite/story",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/oldsite/oldsite/story.html",
+   "status": 200,
+   "sha256": "36322889a529a3c2624b9376a2a8c07953cdc3a47bd042fdc92f36539ce3d71a"
+  },
+  {
+   "path": "/robots.txt",
+   "status": 200,
+   "sha256": "14433f63832d4524742b180aa6ed08e236fe5740059ff847259eaf5372a88996"
+  },
+  {
+   "path": "/scripts/diary.py",
+   "status": 404,
+   "note": "diary tooling, never meant as a page"
+  },
+  {
+   "path": "/scripts/test_diary.py",
+   "status": 404,
+   "note": "diary tooling, never meant as a page"
+  },
+  {
+   "path": "/scripts/test_log.js",
+   "status": 404,
+   "note": "diary tooling, never meant as a page"
+  },
+  {
+   "path": "/sitemap.xml",
+   "status": 200
+  },
+  {
+   "path": "/thanks",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/thanks.html",
+   "status": 200
+  },
+  {
+   "path": "/work",
+   "status": 200,
+   "note": "extensionless alias"
+  },
+  {
+   "path": "/work.html",
+   "status": 200
+  }
+ ]
+}

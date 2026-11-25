@@ -1,0 +1,312 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color: $color-neutral;
+}
+
+body{
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: $size-body;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:32px 0px 96px 0px;
+    .current {
+        color:$color-primary;
+    }
+    .links{
+        display: flex;
+    }
+    .links h5{
+        margin-left: 24px;
+
+    }
+    .links h5:first-child{
+        margin-left: 0px;
+    }
+    a{
+        transition: color $speed-fast;
+    }
+    a:hover{
+        color:$color-primary;
+    }
+
+}
+
+section{
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px 16px;
+    transition: background-color $speed-fast;
+    position: relative;
+    left: -16px;
+    p{
+        margin-bottom: 0px;
+    }
+}
+
+section:hover{
+    background-color: $color-wash;
+}
+
+.main-title-box{
+    display:flex;
+    margin-bottom: 8px;
+
+    h2{
+        margin-right: 12px;
+    }
+    h5{
+        position: relative;
+        top: 1px;
+    }
+}
+
+.post-title-box{
+    margin-bottom: 16px;
+}
+.postMetaData{
+    display: flex;
+    margin: 32px 0px;
+    h5{margin-right: 8px;}
+    h5:last-child{margin-right:0px}
+    .metaDataItem{transition: $speed-fast;}
+}
+.metaDataItem:hover{
+    color:$color-primary;
+}
+
+.profilePic{
+    height: 96px;
+    width: 96px;
+    border-radius: 96px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.masonry{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px;
+    padding: 0px;
+    background-color: $color-wash;
+    width: 160%;
+    margin-left: -30%;
+}
+
+.masonry-item{
+    max-width: 100%;
+    border-radius: 1px;
+}
+
+figure{
+    position:relative;
+    top: 0px;
+    margin-bottom: 16px;
+    transition: $speed-fast $timing-easeInOutCubic;
+    figcaption{
+        transition: $speed-fast $timing-easeInOutCubic;
+        color: $color-secondary;
+        padding-top:8px;
+        position: relative;
+    }
+    img{
+        transition: $speed-fast $timing-easeInOutCubic;
+        border-radius: 8px;
+        display: block;
+        max-width: 100%;
+        box-sizing: border-box;
+        border:1px solid $color-line;
+    }
+}
+figure:hover{
+    cursor: zoom-in;
+}
+
+.modalBackground{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-neutral;
+    z-index: 10;
+}
+
+.footnotes{
+    border-top: 1px solid $color-line;
+    padding-top: 32px;
+    margin-top: 32px;
+    p{
+        margin-bottom: 0px;
+    }
+    .reversefootnote{
+        border: 0px;
+        color: $color-tertiary;
+    }
+    .reversefootnote:hover{
+        color: $color-primary;
+        background-color:transparent;
+    }
+}
+
+.post{
+    h2{
+        margin-bottom: 16px;
+        margin-top: 32px;
+        font-size: 1.8rem;
+    }
+    h3{
+        margin-bottom: 8px;
+        margin-top: 4px;
+    }
+}
+
+.project-image{
+    max-width: 100%;
+    background-color: $color-wash;
+    border-radius: 16px;
+}
+.work-title-box{
+    margin-top: 16px;
+}
+
+.section-wide{
+    margin-bottom: 32px;
+}
+
+.no-hover-section:hover{
+    background-color: $color-neutral;
+}
+
+.table-row{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    width: 100%;
+    transition: background-color $speed-fast;
+    border-radius: 8px;
+    position: relative;
+    left: -12px;
+    justify-content: space-between;
+    p{
+        margin-bottom: 0px;
+        margin-right: 16px;
+    }
+    .table-metadata{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top:1px;
+    }
+    h6{
+        margin-bottom: 2px;
+    }
+    .table-location{
+        margin-right: 16px;
+    }
+    .table-date{
+        width:80px;
+        text-align: right;
+    }
+}
+
+.table-row:hover{
+    background-color: $color-wash
+}
+
+.achievements{
+    h2{
+        margin-bottom: 4px; 
+        margin-top: 32px;
+    }
+    margin-bottom: 16px;
+}
+
+footer{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.mailinglist{
+    margin: 24px 0px 16px 0px;
+    padding: 20px 24px;
+    background-color: $color-wash;
+    display: flex;
+    flex-direction: row;
+    .whySignUp {
+        p{margin-bottom: 0px;}
+        h6{color:$color-secondary;}
+        h6 a{
+            transition: $speed-fast;
+            border-bottom: 1px dashed $color-tertiary;
+        }
+        h6 a:hover{
+            background-color: $color-accent;
+        }
+    }
+    
+    #mc_embed_signup{
+        margin-left: 24px;
+        display: flex;
+        align-items: center;
+    }
+    #mc_embed_signup_scroll{
+        display: flex;
+        flex-direction: row;
+    }
+    .button{
+        position: relative;
+        left: -1px;
+    }
+
+}
+.thanks{
+    background-color: $color-wash;
+    padding: 32px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    p{
+        margin-bottom: 0px;
+    }
+    img{
+        height: 120px;
+        margin-right: 32px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.fixed-ratio {
+    display: block;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.fixed-ratio-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: inherit;
+}
+
+.fixed-ratio-1600-800 {
+    /* ratio: 800/1600 = */
+    padding-bottom: 50%;
+}

@@ -2,6 +2,7 @@
 layout: post
 title:  "The structure of progress in craft"
 date:   2020-06-03 -0700
+permalink: /2020/06/03/craft-progress.html
 location:   "San Francisco, CA"
 author:   "Yitong"
 excerpt_separator: <!--more-->

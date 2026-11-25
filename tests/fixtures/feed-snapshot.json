@@ -1,0 +1,77 @@
+{
+ "comment": "Entries of the Atom feed served by GitHub Pages (jekyll-feed) as of 2026-11-25. Readers dedupe on id; published/updated changes can re-surface posts.",
+ "id": "http://zhayitong.com/feed.xml",
+ "self": "http://zhayitong.com/feed.xml",
+ "entries": [
+  {
+   "id": "http://zhayitong.com/2024/02/01/arc-alignment",
+   "link": "http://zhayitong.com/2024/02/01/arc-alignment.html",
+   "title": "Arc browser’s ambiguous user alignment",
+   "published": "2024-02-01T00:00:00+00:00",
+   "updated": "2024-02-01T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2023/10/22/sf-fauna",
+   "link": "http://zhayitong.com/2023/10/22/sf-fauna.html",
+   "title": "A Change in SF’s Tech Fauna",
+   "published": "2023-10-22T00:00:00+00:00",
+   "updated": "2023-10-22T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2023/06/17/sf",
+   "link": "http://zhayitong.com/2023/06/17/sf.html",
+   "title": "How to enjoy SF",
+   "published": "2023-06-17T00:00:00+00:00",
+   "updated": "2023-06-17T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2022/11/13/duds-still",
+   "link": "http://zhayitong.com/2022/11/13/duds-still.html",
+   "title": "We are still duds",
+   "published": "2022-11-13T00:00:00+00:00",
+   "updated": "2022-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2022/11/13/wip",
+   "link": "http://zhayitong.com/2022/11/13/wip.html",
+   "title": "2022 WIP ideas",
+   "published": "2022-11-13T00:00:00+00:00",
+   "updated": "2022-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2021/10/30/fast-greencard",
+   "link": "http://zhayitong.com/2021/10/30/fast-greencard.html",
+   "title": "How to get the fastest green card",
+   "published": "2021-10-30T00:00:00+00:00",
+   "updated": "2021-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2021/05/31/darkforest2",
+   "link": "http://zhayitong.com/2021/05/31/darkforest2.html",
+   "title": "Dark Forest captain’s log 2",
+   "published": "2021-05-31T00:00:00+00:00",
+   "updated": "2021-05-31T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2021/05/26/darkforest1",
+   "link": "http://zhayitong.com/2021/05/26/darkforest1.html",
+   "title": "Dark Forest captain’s log 1",
+   "published": "2021-05-26T00:00:00+00:00",
+   "updated": "2021-05-26T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2021/04/22/newblog2",
+   "link": "http://zhayitong.com/2021/04/22/newblog2.html",
+   "title": "Site redesign update",
+   "published": "2021-04-22T00:00:00+00:00",
+   "updated": "2021-04-22T00:00:00+00:00"
+  },
+  {
+   "id": "http://zhayitong.com/2021/04/15/tensions",
+   "link": "http://zhayitong.com/2021/04/15/tensions.html",
+   "title": "Some interesting tensions",
+   "published": "2021-04-15T00:00:00+00:00",
+   "updated": "2021-04-15T00:00:00+00:00"
+  }
+ ]
+}
